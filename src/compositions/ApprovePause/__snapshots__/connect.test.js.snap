@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PauseArrearsCase connector mapStateToProps generates the correct props 1`] = `
+Object {
+  "activePause": Object {
+    "approvalDetail": Object {
+      "decisionDate": "2018-10-04T00:00:00Z",
+      "isApproved": true,
+      "userName": "system",
+    },
+    "cancelReason": "",
+    "createdAt": "2018-10-04T15:32:32Z",
+    "createdBy": "Stephanie Golder",
+    "endDate": "2018-10-18T00:00:00Z",
+    "furtherDetail": "This is a pause",
+    "isExtended": false,
+    "isManagerNotified": false,
+    "lastModifiedAt": "2018-10-04T15:32:35Z",
+    "lastModifiedBy": "SYSTEM",
+    "notifcationDetail": Object {
+      "notifiedUserName": "Hannah Ike",
+      "wasNotified": false,
+    },
+    "originalStartDate": "2018-10-04T00:00:00Z",
+    "owner": Object {
+      "id": "039a3660-bd18-e811-80c8-005056825b41",
+      "name": "Stephanie Golder",
+      "type": "systemuser",
+    },
+    "raisedBy": Object {
+      "id": "039a3660-bd18-e811-80c8-005056825b41",
+      "name": "Stephanie Golder",
+      "type": "systemuser",
+    },
+    "reasonId": "newbenefituc",
+    "status": "Active",
+  },
+  "arrearsId": "foo",
+  "breadcrumb": Array [
+    Object {
+      "href": "#{Dashboards.Core.CustomerBaseURL}",
+      "id": "breadcrumb-dashboard",
+      "label": "Dashboard",
+    },
+    Object {
+      "id": "breadcrumb-arrearsDashboard",
+      "label": "My arrears",
+      "to": "/",
+    },
+    Object {
+      "label": "Arrears details",
+      "to": "/arrears-details/foo",
+    },
+    Object {
+      "id": "breadcrumb-Pause request",
+      "label": "Pause request",
+    },
+  ],
+  "errorText": Object {
+    "approvePauseError": "Please either approve or reject this pause request",
+    "formError": "There has been an error processing this request. If the issue persists, contact your IT team",
+    "reasonForDenyingError": "Please give a reason for not approving this pause request",
+  },
+  "formError": undefined,
+  "heading": "Pause request details",
+  "labels": Object {
+    "approvePause": "Approve pause?",
+    "backButton": "Back",
+    "furtherDetail": "Further detail",
+    "no": "No",
+    "reasonForDenying": "Reason for not approving pause",
+    "reasonForPausing": "Reason for pausing case",
+    "requestedEndDate": "Requested end date of pause",
+    "submitButton": "Submit",
+    "yes": "Yes",
+  },
+  "loading": false,
+  "notification": Object {
+    "approvedTitle": "Arrears case pause approved",
+    "cancelledTitle": "Arrears case pause cancelled",
+    "line1": "Paused until {date}",
+    "line2": "Full details in Arrears item history below",
+  },
+  "pauseId": undefined,
+  "redirectToDetailsPage": [Function],
+  "rules": Array [
+    Object {
+      "id": "abc123",
+      "managerRule": Object {
+        "endDate": "2019-08-28T13:56:50.951Z",
+      },
+      "myRule": Object {
+        "endDate": "2019-07-27T13:56:50.951Z",
+      },
+      "title": "A reason",
+    },
+    Object {
+      "id": "def456",
+      "managerRule": Object {
+        "endDate": "2019-08-28T13:56:50.951Z",
+      },
+      "myRule": Object {
+        "endDate": "2019-07-27T13:56:50.951Z",
+      },
+      "title": "Another reason",
+    },
+  ],
+  "userId": "auth0|5a5f2614de16214961915a31",
+}
+`;
+
+exports[`PauseArrearsCase connector mergeProps generates the correct props 1`] = `
+Object {
+  "activePause": Object {
+    "approvalDetail": Object {
+      "decisionDate": "2018-10-04T00:00:00Z",
+      "isApproved": true,
+      "userName": "system",
+    },
+    "cancelReason": "",
+    "createdAt": "2018-10-04T15:32:32Z",
+    "createdBy": "Stephanie Golder",
+    "endDate": "2018-10-18T00:00:00Z",
+    "furtherDetail": "This is a pause",
+    "isExtended": false,
+    "isManagerNotified": false,
+    "lastModifiedAt": "2018-10-04T15:32:35Z",
+    "lastModifiedBy": "SYSTEM",
+    "notifcationDetail": Object {
+      "notifiedUserName": "Hannah Ike",
+      "wasNotified": false,
+    },
+    "originalStartDate": "2018-10-04T00:00:00Z",
+    "owner": Object {
+      "id": "039a3660-bd18-e811-80c8-005056825b41",
+      "name": "Stephanie Golder",
+      "type": "systemuser",
+    },
+    "raisedBy": Object {
+      "id": "039a3660-bd18-e811-80c8-005056825b41",
+      "name": "Stephanie Golder",
+      "type": "systemuser",
+    },
+    "reasonId": "newbenefituc",
+    "status": "Active",
+  },
+  "bar": "baz",
+  "errorText": Object {
+    "approvePauseError": "Please either approve or reject this pause request",
+    "formError": "There has been an error processing this request. If the issue persists, contact your IT team",
+    "reasonForDenyingError": "Please give a reason for not approving this pause request",
+  },
+  "formError": undefined,
+  "getPause": [Function],
+  "labels": Object {
+    "approvePause": "Approve pause?",
+    "backButton": "Back",
+    "furtherDetail": "Further detail",
+    "no": "No",
+    "reasonForDenying": "Reason for not approving pause",
+    "reasonForPausing": "Reason for pausing case",
+    "requestedEndDate": "Requested end date of pause",
+    "submitButton": "Submit",
+    "yes": "Yes",
+  },
+  "loading": false,
+  "match": Object {
+    "params": Object {
+      "arrearsId": "foo",
+    },
+  },
+  "onBack": [Function],
+  "onSubmit": [Function],
+  "rules": Array [
+    Object {
+      "id": "abc123",
+      "managerRule": Object {
+        "endDate": "2019-08-28T13:56:50.951Z",
+      },
+      "myRule": Object {
+        "endDate": "2019-07-27T13:56:50.951Z",
+      },
+      "title": "A reason",
+    },
+    Object {
+      "id": "def456",
+      "managerRule": Object {
+        "endDate": "2019-08-28T13:56:50.951Z",
+      },
+      "myRule": Object {
+        "endDate": "2019-07-27T13:56:50.951Z",
+      },
+      "title": "Another reason",
+    },
+  ],
+  "updatePageHeader": [Function],
+}
+`;
+
+exports[`PauseArrearsCase connector mergeProps performs the correct actions for onSubmit for approve 1`] = `
+Object {
+  "dataBddPrefix": "approvePause",
+  "icon": "success",
+  "lines": Array [
+    Object {
+      "text": "Paused until 18/10/2018",
+    },
+    Object {
+      "text": "Full details in Arrears item history below",
+    },
+  ],
+  "notificationType": "confirmation",
+  "title": "Arrears case pause approved",
+}
+`;
+
+exports[`PauseArrearsCase connector mergeProps performs the correct actions for onSubmit for deny 1`] = `
+Object {
+  "dataBddPrefix": "approvePause",
+  "icon": "success",
+  "lines": null,
+  "notificationType": "confirmation",
+  "title": "Arrears case pause cancelled",
+}
+`;

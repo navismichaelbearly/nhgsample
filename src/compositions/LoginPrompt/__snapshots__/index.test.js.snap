@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoginPrompt /> renders correctly 1`] = `<styled.div />`;
+
+exports[`<LoginPrompt /> renders correctly when user is logged in 1`] = `<styled.div />`;

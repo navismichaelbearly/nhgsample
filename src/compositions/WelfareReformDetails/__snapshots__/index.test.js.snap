@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WelfareReformDetailsComposition /> should render the page correctly 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Back"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={false}
+      formError={null}
+      formName="welfareReformDetails"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Save"
+    >
+      <div>
+        <styled.h3>
+          Welfare reform details
+        </styled.h3>
+        <styled.div
+          data-bdd="universalCredit"
+        >
+          <styled.label>
+            Universal Credit
+          </styled.label>
+          <x
+            required={false}
+          >
+            <T
+              checked={false}
+              display="inline-block"
+              error={false}
+              hasError={false}
+              onChange={[Function]}
+            >
+              Yes
+            </T>
+            <T
+              checked={true}
+              display="inline-block"
+              error={false}
+              hasError={false}
+              onChange={[Function]}
+            >
+              No
+            </T>
+          </x>
+        </styled.div>
+        <styled.div
+          data-bdd="benefitCap"
+        >
+          <styled.label>
+            Benefit cap
+          </styled.label>
+          <x
+            required={false}
+          >
+            <T
+              checked={false}
+              display="inline-block"
+              error={false}
+              hasError={false}
+              onChange={[Function]}
+            >
+              Yes
+            </T>
+            <T
+              checked={true}
+              display="inline-block"
+              error={false}
+              hasError={false}
+              onChange={[Function]}
+            >
+              No
+            </T>
+          </x>
+        </styled.div>
+        <styled.div
+          data-bdd="bedroomTax"
+        >
+          <styled.label>
+            Bedroom tax
+          </styled.label>
+          <x
+            required={false}
+          >
+            <T
+              checked={false}
+              display="inline-block"
+              error={false}
+              hasError={false}
+              onChange={[Function]}
+            >
+              Yes
+            </T>
+            <T
+              checked={true}
+              display="inline-block"
+              error={false}
+              hasError={false}
+              onChange={[Function]}
+            >
+              No
+            </T>
+          </x>
+        </styled.div>
+      </div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<WelfareReformDetailsComposition /> should render the page correctly while loading 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <p
+    isSmall={false}
+  />
+</withRouter(Connect(PageContentComposition))>
+`;

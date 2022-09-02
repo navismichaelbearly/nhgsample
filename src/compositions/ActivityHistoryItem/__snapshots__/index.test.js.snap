@@ -1,0 +1,402 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActivityHistoryItemComposition /> should render correctly when documents errors out 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <Styled(styled.div)>
+      <Styled(styled.div)>
+        <withRouter(Connect(PropertyInformationComposition)) />
+      </Styled(styled.div)>
+      <styled.div>
+        <T
+          message=""
+        >
+          <WithTheme(Button)
+            buttonType="secondary"
+            data-bdd="ActivityItem-back"
+            isFullWidth={true}
+            onClick={[Function]}
+            type="button"
+          >
+            Back
+          </WithTheme(Button)>
+          <WithTheme(Button)
+            buttonType="primary"
+            data-bdd="ActivityItem-previous"
+            disabled={false}
+            isFullWidth={true}
+            onClick={[Function]}
+            type="button"
+          >
+            previous history item
+          </WithTheme(Button)>
+          <WithTheme(Button)
+            buttonType="primary"
+            data-bdd="ActivityItem-next"
+            disabled={false}
+            isFullWidth={true}
+            onClick={[Function]}
+            type="button"
+          >
+            next history item
+          </WithTheme(Button)>
+        </T>
+      </styled.div>
+    </Styled(styled.div)>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ActivityHistoryItemComposition /> should render correctly when loading documents 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <Styled(styled.div)>
+      <Styled(styled.div)>
+        <withRouter(Connect(PropertyInformationComposition)) />
+      </Styled(styled.div)>
+      <styled.div>
+        <T
+          message=""
+        >
+          <WithTheme(Button)
+            buttonType="secondary"
+            data-bdd="ActivityItem-back"
+            isFullWidth={true}
+            onClick={[Function]}
+            type="button"
+          >
+            Back
+          </WithTheme(Button)>
+          <WithTheme(Button)
+            buttonType="primary"
+            data-bdd="ActivityItem-previous"
+            disabled={false}
+            isFullWidth={true}
+            onClick={[Function]}
+            type="button"
+          >
+            previous history item
+          </WithTheme(Button)>
+          <WithTheme(Button)
+            buttonType="primary"
+            data-bdd="ActivityItem-next"
+            disabled={false}
+            isFullWidth={true}
+            onClick={[Function]}
+            type="button"
+          >
+            next history item
+          </WithTheme(Button)>
+        </T>
+      </styled.div>
+    </Styled(styled.div)>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ActivityHistoryItemComposition /> should render correctly with an activityDetail 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <Styled(styled.div)>
+      <Styled(styled.div)>
+        <withRouter(Connect(PropertyInformationComposition)) />
+      </Styled(styled.div)>
+      <styled.div>
+        <styled.div>
+          <Referral
+            createdOn="2018-09-17T00:00:00+00:00"
+            details="test"
+            labels={
+              Object {
+                "createdOn": "Created",
+                "detail": "Detail",
+                "heading": "Referral",
+                "raisedBy": "Raised By",
+                "teamName": "Referred Team",
+              }
+            }
+            raisedBy={
+              Object {
+                "id": "string",
+                "name": "test",
+                "type": "system",
+              }
+            }
+            teamName={
+              Object {
+                "referrableTeams": Array [
+                  Object {
+                    "id": "string",
+                    "name": "string",
+                  },
+                  Object {
+                    "id": "string",
+                    "name": "string",
+                  },
+                  Object {
+                    "id": "string",
+                    "name": "string",
+                  },
+                ],
+              }
+            }
+            type="Referral"
+            values={
+              Object {
+                "inbound": "Inbound",
+                "interactionWith": "{name} ({type})",
+                "outbound": "Outbound",
+              }
+            }
+          />
+        </styled.div>
+        <T
+          message=""
+        >
+          <WithTheme(Button)
+            buttonType="secondary"
+            data-bdd="ActivityItem-back"
+            isFullWidth={true}
+            onClick={[Function]}
+            type="button"
+          >
+            Back
+          </WithTheme(Button)>
+          <WithTheme(Button)
+            buttonType="primary"
+            data-bdd="ActivityItem-previous"
+            disabled={false}
+            isFullWidth={true}
+            onClick={[Function]}
+            type="button"
+          >
+            previous history item
+          </WithTheme(Button)>
+          <WithTheme(Button)
+            buttonType="primary"
+            data-bdd="ActivityItem-next"
+            disabled={false}
+            isFullWidth={true}
+            onClick={[Function]}
+            type="button"
+          >
+            next history item
+          </WithTheme(Button)>
+        </T>
+      </styled.div>
+    </Styled(styled.div)>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ActivityHistoryItemComposition /> should render correctly with an activityError 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <Styled(styled.div)>
+      <Styled(styled.div)>
+        <withRouter(Connect(PropertyInformationComposition)) />
+      </Styled(styled.div)>
+      <styled.div>
+        <styled.div>
+          <styled.div>
+            error message
+          </styled.div>
+        </styled.div>
+        <T
+          message=""
+        >
+          <WithTheme(Button)
+            buttonType="secondary"
+            data-bdd="ActivityItem-back"
+            isFullWidth={true}
+            onClick={[Function]}
+            type="button"
+          >
+            Back
+          </WithTheme(Button)>
+          <WithTheme(Button)
+            buttonType="primary"
+            data-bdd="ActivityItem-previous"
+            disabled={false}
+            isFullWidth={true}
+            onClick={[Function]}
+            type="button"
+          >
+            previous history item
+          </WithTheme(Button)>
+          <WithTheme(Button)
+            buttonType="primary"
+            data-bdd="ActivityItem-next"
+            disabled={false}
+            isFullWidth={true}
+            onClick={[Function]}
+            type="button"
+          >
+            next history item
+          </WithTheme(Button)>
+        </T>
+      </styled.div>
+    </Styled(styled.div)>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ActivityHistoryItemComposition /> should render correctly with an activityLoading 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <Styled(styled.div)>
+      <Styled(styled.div)>
+        <withRouter(Connect(PropertyInformationComposition)) />
+      </Styled(styled.div)>
+      <styled.div>
+        <styled.div>
+          <p
+            isSmall={false}
+          />
+        </styled.div>
+        <T
+          message=""
+        >
+          <WithTheme(Button)
+            buttonType="secondary"
+            data-bdd="ActivityItem-back"
+            isFullWidth={true}
+            onClick={[Function]}
+            type="button"
+          >
+            Back
+          </WithTheme(Button)>
+          <WithTheme(Button)
+            buttonType="primary"
+            data-bdd="ActivityItem-previous"
+            disabled={false}
+            isFullWidth={true}
+            onClick={[Function]}
+            type="button"
+          >
+            previous history item
+          </WithTheme(Button)>
+          <WithTheme(Button)
+            buttonType="primary"
+            data-bdd="ActivityItem-next"
+            disabled={false}
+            isFullWidth={true}
+            onClick={[Function]}
+            type="button"
+          >
+            next history item
+          </WithTheme(Button)>
+        </T>
+      </styled.div>
+    </Styled(styled.div)>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ActivityHistoryItemComposition /> should render correctly with documents 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <Styled(styled.div)>
+      <Styled(styled.div)>
+        <withRouter(Connect(PropertyInformationComposition)) />
+      </Styled(styled.div)>
+      <styled.div>
+        <T
+          message=""
+        >
+          <WithTheme(Button)
+            buttonType="secondary"
+            data-bdd="ActivityItem-back"
+            isFullWidth={true}
+            onClick={[Function]}
+            type="button"
+          >
+            Back
+          </WithTheme(Button)>
+          <WithTheme(Button)
+            buttonType="primary"
+            data-bdd="ActivityItem-previous"
+            disabled={false}
+            isFullWidth={true}
+            onClick={[Function]}
+            type="button"
+          >
+            previous history item
+          </WithTheme(Button)>
+          <WithTheme(Button)
+            buttonType="primary"
+            data-bdd="ActivityItem-next"
+            disabled={false}
+            isFullWidth={true}
+            onClick={[Function]}
+            type="button"
+          >
+            next history item
+          </WithTheme(Button)>
+        </T>
+      </styled.div>
+    </Styled(styled.div)>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ActivityHistoryItemComposition /> should render correctly without an activityDetail 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <Styled(styled.div)>
+      <Styled(styled.div)>
+        <withRouter(Connect(PropertyInformationComposition)) />
+      </Styled(styled.div)>
+      <styled.div>
+        <T
+          message=""
+        >
+          <WithTheme(Button)
+            buttonType="secondary"
+            data-bdd="ActivityItem-back"
+            isFullWidth={true}
+            onClick={[Function]}
+            type="button"
+          >
+            Back
+          </WithTheme(Button)>
+          <WithTheme(Button)
+            buttonType="primary"
+            data-bdd="ActivityItem-previous"
+            disabled={false}
+            isFullWidth={true}
+            onClick={[Function]}
+            type="button"
+          >
+            previous history item
+          </WithTheme(Button)>
+          <WithTheme(Button)
+            buttonType="primary"
+            data-bdd="ActivityItem-next"
+            disabled={false}
+            isFullWidth={true}
+            onClick={[Function]}
+            type="button"
+          >
+            next history item
+          </WithTheme(Button)>
+        </T>
+      </styled.div>
+    </Styled(styled.div)>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;

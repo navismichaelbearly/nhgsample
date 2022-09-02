@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServeNOSPEarly connector mapStateToProps generates the correct props 1`] = `
+Object {
+  "arrearsId": "arrearsId",
+  "error": false,
+  "errorMessage": "We have encountered an issue whilst trying to retrieve this information, please try again later.",
+  "isLoading": false,
+  "labels": Object {
+    "cancel": "Cancel",
+    "submit": "Serve NOSP early",
+    "title": "Please confirm you wish to serve NOSP early",
+  },
+}
+`;
+
+exports[`ServeNOSPEarly connector mapStateToProps mergeProps generates the correct props 1`] = `
+Object {
+  "arrearsId": "arrearsId",
+  "error": false,
+  "errorMessage": "We have encountered an issue whilst trying to retrieve this information, please try again later.",
+  "isLoading": false,
+  "labels": Object {
+    "cancel": "Cancel",
+    "submit": "Serve NOSP early",
+    "title": "Please confirm you wish to serve NOSP early",
+  },
+  "onCancel": [Function],
+  "onSubmit": [Function],
+}
+`;
+
+exports[`ServeNOSPEarly connector mapStateToProps mergeProps onSubmit performs the correct actions when onSubmit fires 1`] = `
+Array [
+  Array [
+    Object {
+      "dataBddPrefix": "serveNOSP",
+      "icon": "success",
+      "notificationType": "confirmation",
+      "title": "NOSP served",
+    },
+  ],
+]
+`;

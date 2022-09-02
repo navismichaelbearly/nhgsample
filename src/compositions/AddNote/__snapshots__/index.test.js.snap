@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddNoteComposition /> should render the page 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <Styled(styled.div)>
+      <Styled(styled.div)>
+        <withRouter(Connect(PropertyInformationComposition)) />
+      </Styled(styled.div)>
+      <styled.div>
+        <styled.p>
+          warning
+           
+          <Styled(WithTheme(Button))
+            data-bdd="AddInteraction-link"
+            isText={true}
+            to="/arrears-details/foo/interaction/create"
+          >
+            addInteraction
+          </Styled(WithTheme(Button))>
+        </styled.p>
+        <t
+          charactersLimitReachedMessage="You cannot exceed 2000 characters for a note.  Try attaching your text as a separate document or reduce the character count."
+          data-state-key="CharacterCountTextbox"
+          dataBdd="Description"
+          disabled={false}
+          error={null}
+          id="CharacterCountTextbox"
+          isFullWidth={true}
+          labelText="Note"
+          maxLength={2000}
+          name="CountTextbox"
+          onChange={[Function]}
+          remainingCharactersLabel="Remaining characters:"
+          required={true}
+          value=""
+        />
+        <p
+          checked={false}
+          data-bdd="addNoteForm-attachFiles"
+          data-state-key="attachFiles"
+          display="inline-block"
+          error={false}
+          hasError={false}
+          onChange={[Function]}
+          required={false}
+        >
+          attachFile
+        </p>
+        <T
+          message=""
+        >
+          <WithTheme(Button)
+            buttonType="secondary"
+            data-bdd="CharacterCountTextbox-back"
+            isFullWidth={true}
+            onClick={[Function]}
+            type="button"
+          >
+            Back
+          </WithTheme(Button)>
+          <WithTheme(Button)
+            data-bdd="CharacterCountTextbox-submit"
+            disabled={true}
+            isFullWidth={true}
+            onClick={[Function]}
+          >
+            Add note
+          </WithTheme(Button)>
+        </T>
+      </styled.div>
+    </Styled(styled.div)>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<AddNoteComposition /> should render the page correctly when there is an error 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <Styled(styled.div)>
+      <Styled(styled.div)>
+        <withRouter(Connect(PropertyInformationComposition)) />
+      </Styled(styled.div)>
+      <styled.div>
+        <styled.p>
+          warning
+           
+          <Styled(WithTheme(Button))
+            data-bdd="AddInteraction-link"
+            isText={true}
+            to="/arrears-details/foo/interaction/create"
+          >
+            addInteraction
+          </Styled(WithTheme(Button))>
+        </styled.p>
+        <styled.div
+          data-bdd="AddNote-error"
+        >
+          <t
+            description="formError"
+            hideCloseButton={true}
+            icon="warning"
+            onCloseNotification={[Function]}
+            show={true}
+          />
+        </styled.div>
+        <t
+          charactersLimitReachedMessage="You cannot exceed 2000 characters for a note.  Try attaching your text as a separate document or reduce the character count."
+          data-state-key="CharacterCountTextbox"
+          dataBdd="Description"
+          disabled={false}
+          error={null}
+          id="CharacterCountTextbox"
+          isFullWidth={true}
+          labelText="Note"
+          maxLength={2000}
+          name="CountTextbox"
+          onChange={[Function]}
+          remainingCharactersLabel="Remaining characters:"
+          required={true}
+          value=""
+        />
+        <p
+          checked={false}
+          data-bdd="addNoteForm-attachFiles"
+          data-state-key="attachFiles"
+          display="inline-block"
+          error={false}
+          hasError={false}
+          onChange={[Function]}
+          required={false}
+        >
+          attachFile
+        </p>
+        <T
+          message=""
+        >
+          <WithTheme(Button)
+            buttonType="secondary"
+            data-bdd="CharacterCountTextbox-back"
+            isFullWidth={true}
+            onClick={[Function]}
+            type="button"
+          >
+            Back
+          </WithTheme(Button)>
+          <WithTheme(Button)
+            data-bdd="CharacterCountTextbox-submit"
+            disabled={true}
+            isFullWidth={true}
+            onClick={[Function]}
+          >
+            Add note
+          </WithTheme(Button)>
+        </T>
+      </styled.div>
+    </Styled(styled.div)>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<AddNoteComposition /> should render the page correctly when there is loading 1`] = `
+<p
+  isSmall={false}
+/>
+`;

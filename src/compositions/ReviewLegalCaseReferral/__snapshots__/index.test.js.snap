@@ -1,0 +1,1002 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReviewLegalCaseReferralComposition /> should render the page 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Cancel"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={true}
+      formError={null}
+      formName="reviewLegalCaseReferral"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={true}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Submit to manager for review"
+    >
+      <div>
+        <styled.h2>
+          Review legal case
+        </styled.h2>
+        <styled.p>
+          This process could take several minutes. Closing this page and returning later will not lose your progress.
+        </styled.p>
+        <styled.div>
+          <styled.h4>
+            Legal referral form 
+          </styled.h4>
+          <c
+            dataBdd="legalReferralForm"
+            loading={true}
+            loadingText="Generating Legal referral form ... This could take several minutes"
+            name="Legal referral form (PDF)"
+            onClick={[Function]}
+            target="_blank"
+          />
+          <styled.p>
+            This contains the completed request for legal action form and a list of all the attachments that will comprise the legal referral pack.
+          </styled.p>
+        </styled.div>
+        <styled.div>
+          <styled.h4>
+            Legal referral pack 
+          </styled.h4>
+          <c
+            dataBdd="legalReferralPack"
+            loading={true}
+            loadingText="Generating Legal referral pack ... This could take several minutes"
+            name="Legal referral pack (link to SharePoint folder)"
+            onClick={[Function]}
+            target="_blank"
+          />
+        </styled.div>
+      </div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ReviewLegalCaseReferralComposition /> should render the page correctly when all submit conditions are met 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Cancel"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={false}
+      formError={null}
+      formName="reviewLegalCaseReferral"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={true}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Submit to manager for review"
+    >
+      <div>
+        <styled.h2>
+          Review legal case
+        </styled.h2>
+        <styled.p>
+          This process could take several minutes. Closing this page and returning later will not lose your progress.
+        </styled.p>
+        <styled.div>
+          <styled.h4>
+            Legal referral form 
+          </styled.h4>
+          <c
+            dataBdd="legalReferralForm"
+            href="http://www.google.co.uk"
+            loading={false}
+            loadingText="Generating Legal referral form ... This could take several minutes"
+            name="Legal referral form (PDF)"
+            onClick={[Function]}
+            target="_blank"
+          />
+          <styled.p>
+            This contains the completed request for legal action form and a list of all the attachments that will comprise the legal referral pack.
+          </styled.p>
+        </styled.div>
+        <styled.div>
+          <styled.h4>
+            Legal referral pack 
+          </styled.h4>
+          <c
+            dataBdd="legalReferralPack"
+            href="http://www.google.co.uk"
+            loading={false}
+            loadingText="Generating Legal referral pack ... This could take several minutes"
+            name="Legal referral pack (link to SharePoint folder)"
+            onClick={[Function]}
+            target="_blank"
+          />
+        </styled.div>
+        <div>
+          <styled.div>
+            <p
+              checked={true}
+              data-bdd="pauseArrearsCase-notifyManager"
+              disabled={false}
+              display="inline-block"
+              error={false}
+              hasError={false}
+              onChange={[Function]}
+              required={true}
+            >
+              I have reviewed the legal referral pack
+            </p>
+          </styled.div>
+          <styled.div>
+            <styled.p>
+              You must review the legal referral pack, linked above, to proceed
+            </styled.p>
+          </styled.div>
+        </div>
+      </div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ReviewLegalCaseReferralComposition /> should render the page correctly when error is true 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Cancel"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={true}
+      formError="Form error message"
+      formName="reviewLegalCaseReferral"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={true}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Submit to manager for review"
+    />
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ReviewLegalCaseReferralComposition /> should render the page correctly when hasClickedReferralForm is true 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Cancel"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={true}
+      formError={null}
+      formName="reviewLegalCaseReferral"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={true}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Submit to manager for review"
+    >
+      <div>
+        <styled.h2>
+          Review legal case
+        </styled.h2>
+        <styled.p>
+          This process could take several minutes. Closing this page and returning later will not lose your progress.
+        </styled.p>
+        <styled.div>
+          <styled.h4>
+            Legal referral form 
+          </styled.h4>
+          <c
+            dataBdd="legalReferralForm"
+            href="http://www.google.co.uk"
+            loading={false}
+            loadingText="Generating Legal referral form ... This could take several minutes"
+            name="Legal referral form (PDF)"
+            onClick={[Function]}
+            target="_blank"
+          />
+          <styled.p>
+            This contains the completed request for legal action form and a list of all the attachments that will comprise the legal referral pack.
+          </styled.p>
+        </styled.div>
+        <styled.div>
+          <styled.h4>
+            Legal referral pack 
+          </styled.h4>
+          <c
+            dataBdd="legalReferralPack"
+            href="http://www.google.co.uk"
+            loading={false}
+            loadingText="Generating Legal referral pack ... This could take several minutes"
+            name="Legal referral pack (link to SharePoint folder)"
+            onClick={[Function]}
+            target="_blank"
+          />
+        </styled.div>
+        <div>
+          <styled.div>
+            <p
+              checked={false}
+              data-bdd="pauseArrearsCase-notifyManager"
+              disabled={true}
+              display="inline-block"
+              error={false}
+              hasError={false}
+              onChange={[Function]}
+              required={true}
+            >
+              I have reviewed the legal referral pack
+            </p>
+          </styled.div>
+          <styled.div>
+            <styled.p>
+              You must review the legal referral pack, linked above, to proceed
+            </styled.p>
+          </styled.div>
+        </div>
+      </div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ReviewLegalCaseReferralComposition /> should render the page correctly when hasClickedReferralPack is true 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Cancel"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={true}
+      formError={null}
+      formName="reviewLegalCaseReferral"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={true}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Submit to manager for review"
+    >
+      <div>
+        <styled.h2>
+          Review legal case
+        </styled.h2>
+        <styled.p>
+          This process could take several minutes. Closing this page and returning later will not lose your progress.
+        </styled.p>
+        <styled.div>
+          <styled.h4>
+            Legal referral form 
+          </styled.h4>
+          <c
+            dataBdd="legalReferralForm"
+            href="http://www.google.co.uk"
+            loading={false}
+            loadingText="Generating Legal referral form ... This could take several minutes"
+            name="Legal referral form (PDF)"
+            onClick={[Function]}
+            target="_blank"
+          />
+          <styled.p>
+            This contains the completed request for legal action form and a list of all the attachments that will comprise the legal referral pack.
+          </styled.p>
+        </styled.div>
+        <styled.div>
+          <styled.h4>
+            Legal referral pack 
+          </styled.h4>
+          <c
+            dataBdd="legalReferralPack"
+            href="http://www.google.co.uk"
+            loading={false}
+            loadingText="Generating Legal referral pack ... This could take several minutes"
+            name="Legal referral pack (link to SharePoint folder)"
+            onClick={[Function]}
+            target="_blank"
+          />
+        </styled.div>
+        <div>
+          <styled.div>
+            <p
+              checked={false}
+              data-bdd="pauseArrearsCase-notifyManager"
+              disabled={true}
+              display="inline-block"
+              error={false}
+              hasError={false}
+              onChange={[Function]}
+              required={true}
+            >
+              I have reviewed the legal referral pack
+            </p>
+          </styled.div>
+          <styled.div>
+            <styled.p>
+              You must review the legal referral pack, linked above, to proceed
+            </styled.p>
+          </styled.div>
+        </div>
+      </div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ReviewLegalCaseReferralComposition /> should render the page correctly when isChecked is true 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Cancel"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={true}
+      formError={null}
+      formName="reviewLegalCaseReferral"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={true}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Submit to manager for review"
+    >
+      <div>
+        <styled.h2>
+          Review legal case
+        </styled.h2>
+        <styled.p>
+          This process could take several minutes. Closing this page and returning later will not lose your progress.
+        </styled.p>
+        <styled.div>
+          <styled.h4>
+            Legal referral form 
+          </styled.h4>
+          <c
+            dataBdd="legalReferralForm"
+            href="http://www.google.co.uk"
+            loading={false}
+            loadingText="Generating Legal referral form ... This could take several minutes"
+            name="Legal referral form (PDF)"
+            onClick={[Function]}
+            target="_blank"
+          />
+          <styled.p>
+            This contains the completed request for legal action form and a list of all the attachments that will comprise the legal referral pack.
+          </styled.p>
+        </styled.div>
+        <styled.div>
+          <styled.h4>
+            Legal referral pack 
+          </styled.h4>
+          <c
+            dataBdd="legalReferralPack"
+            href="http://www.google.co.uk"
+            loading={false}
+            loadingText="Generating Legal referral pack ... This could take several minutes"
+            name="Legal referral pack (link to SharePoint folder)"
+            onClick={[Function]}
+            target="_blank"
+          />
+        </styled.div>
+        <div>
+          <styled.div>
+            <p
+              checked={true}
+              data-bdd="pauseArrearsCase-notifyManager"
+              disabled={true}
+              display="inline-block"
+              error={false}
+              hasError={false}
+              onChange={[Function]}
+              required={true}
+            >
+              I have reviewed the legal referral pack
+            </p>
+          </styled.div>
+          <styled.div>
+            <styled.p>
+              You must review the legal referral pack, linked above, to proceed
+            </styled.p>
+          </styled.div>
+        </div>
+      </div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ReviewLegalCaseReferralComposition /> should render the page correctly when legalReferralForm is complete and legalReferralPack is being generated 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Cancel"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={true}
+      formError={null}
+      formName="reviewLegalCaseReferral"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={true}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Submit to manager for review"
+    >
+      <div>
+        <styled.h2>
+          Review legal case
+        </styled.h2>
+        <styled.p>
+          This process could take several minutes. Closing this page and returning later will not lose your progress.
+        </styled.p>
+        <styled.div>
+          <styled.h4>
+            Legal referral form 
+          </styled.h4>
+          <c
+            dataBdd="legalReferralForm"
+            href="http://www.google.co.uk"
+            loading={false}
+            loadingText="Generating Legal referral form ... This could take several minutes"
+            name="Legal referral form (PDF)"
+            onClick={[Function]}
+            target="_blank"
+          />
+          <styled.p>
+            This contains the completed request for legal action form and a list of all the attachments that will comprise the legal referral pack.
+          </styled.p>
+        </styled.div>
+        <styled.div>
+          <styled.h4>
+            Legal referral pack 
+          </styled.h4>
+          <c
+            dataBdd="legalReferralPack"
+            loading={true}
+            loadingText="Generating Legal referral pack ... This could take several minutes"
+            name="Legal referral pack (link to SharePoint folder)"
+            onClick={[Function]}
+            target="_blank"
+          />
+        </styled.div>
+      </div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ReviewLegalCaseReferralComposition /> should render the page correctly when legalReferralForm is complete and legalReferralPack is complete 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Cancel"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={true}
+      formError={null}
+      formName="reviewLegalCaseReferral"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={true}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Submit to manager for review"
+    >
+      <div>
+        <styled.h2>
+          Review legal case
+        </styled.h2>
+        <styled.p>
+          This process could take several minutes. Closing this page and returning later will not lose your progress.
+        </styled.p>
+        <styled.div>
+          <styled.h4>
+            Legal referral form 
+          </styled.h4>
+          <c
+            dataBdd="legalReferralForm"
+            href="http://www.google.co.uk"
+            loading={false}
+            loadingText="Generating Legal referral form ... This could take several minutes"
+            name="Legal referral form (PDF)"
+            onClick={[Function]}
+            target="_blank"
+          />
+          <styled.p>
+            This contains the completed request for legal action form and a list of all the attachments that will comprise the legal referral pack.
+          </styled.p>
+        </styled.div>
+        <styled.div>
+          <styled.h4>
+            Legal referral pack 
+          </styled.h4>
+          <c
+            dataBdd="legalReferralPack"
+            href="http://www.google.co.uk"
+            loading={false}
+            loadingText="Generating Legal referral pack ... This could take several minutes"
+            name="Legal referral pack (link to SharePoint folder)"
+            onClick={[Function]}
+            target="_blank"
+          />
+        </styled.div>
+        <div>
+          <styled.div>
+            <p
+              checked={false}
+              data-bdd="pauseArrearsCase-notifyManager"
+              disabled={true}
+              display="inline-block"
+              error={false}
+              hasError={false}
+              onChange={[Function]}
+              required={true}
+            >
+              I have reviewed the legal referral pack
+            </p>
+          </styled.div>
+          <styled.div>
+            <styled.p>
+              You must review the legal referral pack, linked above, to proceed
+            </styled.p>
+          </styled.div>
+        </div>
+      </div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ReviewLegalCaseReferralComposition /> should render the page correctly with generation errors 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Cancel"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={true}
+      formError={null}
+      formName="reviewLegalCaseReferral"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={true}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Submit to manager for review"
+    >
+      <div>
+        <styled.h2>
+          Review legal case
+        </styled.h2>
+        <styled.p>
+          This process could take several minutes. Closing this page and returning later will not lose your progress.
+        </styled.p>
+        <styled.div>
+          <styled.h4>
+            Legal referral form 
+          </styled.h4>
+          <c
+            dataBdd="legalReferralForm"
+            loading={true}
+            loadingText="Generating Legal referral form ... This could take several minutes"
+            name="Legal referral form (PDF)"
+            onClick={[Function]}
+            target="_blank"
+          />
+          <styled.p>
+            This contains the completed request for legal action form and a list of all the attachments that will comprise the legal referral pack.
+          </styled.p>
+        </styled.div>
+        <styled.div>
+          <styled.h4>
+            Legal referral pack 
+          </styled.h4>
+          <c
+            dataBdd="legalReferralPack"
+            loading={true}
+            loadingText="Generating Legal referral pack ... This could take several minutes"
+            name="Legal referral pack (link to SharePoint folder)"
+            onClick={[Function]}
+            target="_blank"
+          />
+        </styled.div>
+      </div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ReviewLegalCaseReferralComposition /> should render the page when requiresApproval is false 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Cancel"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={true}
+      formError={null}
+      formName="reviewLegalCaseReferral"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={true}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Submit"
+    >
+      <div>
+        <styled.h2>
+          Review legal case
+        </styled.h2>
+        <styled.p>
+          This process could take several minutes. Closing this page and returning later will not lose your progress.
+        </styled.p>
+        <styled.div>
+          <styled.h4>
+            Legal referral form 
+          </styled.h4>
+          <c
+            dataBdd="legalReferralForm"
+            loading={true}
+            loadingText="Generating Legal referral form ... This could take several minutes"
+            name="Legal referral form (PDF)"
+            onClick={[Function]}
+            target="_blank"
+          />
+          <styled.p>
+            This contains the completed request for legal action form and a list of all the attachments that will comprise the legal referral pack.
+          </styled.p>
+        </styled.div>
+        <styled.div>
+          <styled.h4>
+            Legal referral pack 
+          </styled.h4>
+          <c
+            dataBdd="legalReferralPack"
+            loading={true}
+            loadingText="Generating Legal referral pack ... This could take several minutes"
+            name="Legal referral pack (link to SharePoint folder)"
+            onClick={[Function]}
+            target="_blank"
+          />
+        </styled.div>
+      </div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ReviewLegalCaseReferralComposition /> should stop calling getLegalReferral when both documents are generated 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Cancel"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={true}
+      formError={null}
+      formName="reviewLegalCaseReferral"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={true}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Submit to manager for review"
+    >
+      <div>
+        <styled.h2>
+          Review legal case
+        </styled.h2>
+        <styled.p>
+          This process could take several minutes. Closing this page and returning later will not lose your progress.
+        </styled.p>
+        <styled.div>
+          <styled.h4>
+            Legal referral form 
+          </styled.h4>
+          <c
+            dataBdd="legalReferralForm"
+            href="http://www.google.co.uk"
+            loading={false}
+            loadingText="Generating Legal referral form ... This could take several minutes"
+            name="Legal referral form (PDF)"
+            onClick={[Function]}
+            target="_blank"
+          />
+          <styled.p>
+            This contains the completed request for legal action form and a list of all the attachments that will comprise the legal referral pack.
+          </styled.p>
+        </styled.div>
+        <styled.div>
+          <styled.h4>
+            Legal referral pack 
+          </styled.h4>
+          <c
+            dataBdd="legalReferralPack"
+            href="http://www.google.co.uk"
+            loading={false}
+            loadingText="Generating Legal referral pack ... This could take several minutes"
+            name="Legal referral pack (link to SharePoint folder)"
+            onClick={[Function]}
+            target="_blank"
+          />
+        </styled.div>
+        <div>
+          <styled.div>
+            <p
+              checked={false}
+              data-bdd="pauseArrearsCase-notifyManager"
+              disabled={true}
+              display="inline-block"
+              error={false}
+              hasError={false}
+              onChange={[Function]}
+              required={true}
+            >
+              I have reviewed the legal referral pack
+            </p>
+          </styled.div>
+          <styled.div>
+            <styled.p>
+              You must review the legal referral pack, linked above, to proceed
+            </styled.p>
+          </styled.div>
+        </div>
+      </div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ReviewLegalCaseReferralComposition /> should stop calling getLegalReferral when legalReferralForm status is FailedFatal 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Cancel"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={true}
+      formError={null}
+      formName="reviewLegalCaseReferral"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={true}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Submit to manager for review"
+    >
+      <div>
+        <styled.h2>
+          Review legal case
+        </styled.h2>
+        <styled.p>
+          This process could take several minutes. Closing this page and returning later will not lose your progress.
+        </styled.p>
+        <styled.div>
+          <styled.h4>
+            Legal referral form 
+          </styled.h4>
+          <c
+            dataBdd="legalReferralForm"
+            href="http://www.google.co.uk"
+            loading={true}
+            loadingText="Generating Legal referral form ... This could take several minutes"
+            name="Legal referral form (PDF)"
+            onClick={[Function]}
+            target="_blank"
+          />
+          <styled.p>
+            This contains the completed request for legal action form and a list of all the attachments that will comprise the legal referral pack.
+          </styled.p>
+        </styled.div>
+        <styled.div>
+          <styled.h4>
+            Legal referral pack 
+          </styled.h4>
+          <c
+            dataBdd="legalReferralPack"
+            href="http://www.google.co.uk"
+            loading={false}
+            loadingText="Generating Legal referral pack ... This could take several minutes"
+            name="Legal referral pack (link to SharePoint folder)"
+            onClick={[Function]}
+            target="_blank"
+          />
+        </styled.div>
+        <div>
+          <styled.div>
+            <p
+              checked={false}
+              data-bdd="pauseArrearsCase-notifyManager"
+              disabled={true}
+              display="inline-block"
+              error={false}
+              hasError={false}
+              onChange={[Function]}
+              required={true}
+            >
+              I have reviewed the legal referral pack
+            </p>
+          </styled.div>
+          <styled.div>
+            <styled.p>
+              You must review the legal referral pack, linked above, to proceed
+            </styled.p>
+          </styled.div>
+        </div>
+      </div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ReviewLegalCaseReferralComposition /> should stop calling getLegalReferral when legalReferralPack status is FailedFatal 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Cancel"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={true}
+      formError={null}
+      formName="reviewLegalCaseReferral"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={true}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Submit to manager for review"
+    >
+      <div>
+        <styled.h2>
+          Review legal case
+        </styled.h2>
+        <styled.p>
+          This process could take several minutes. Closing this page and returning later will not lose your progress.
+        </styled.p>
+        <styled.div>
+          <styled.h4>
+            Legal referral form 
+          </styled.h4>
+          <c
+            dataBdd="legalReferralForm"
+            href="http://www.google.co.uk"
+            loading={false}
+            loadingText="Generating Legal referral form ... This could take several minutes"
+            name="Legal referral form (PDF)"
+            onClick={[Function]}
+            target="_blank"
+          />
+          <styled.p>
+            This contains the completed request for legal action form and a list of all the attachments that will comprise the legal referral pack.
+          </styled.p>
+        </styled.div>
+        <styled.div>
+          <styled.h4>
+            Legal referral pack 
+          </styled.h4>
+          <c
+            dataBdd="legalReferralPack"
+            href="http://www.google.co.uk"
+            loading={true}
+            loadingText="Generating Legal referral pack ... This could take several minutes"
+            name="Legal referral pack (link to SharePoint folder)"
+            onClick={[Function]}
+            target="_blank"
+          />
+        </styled.div>
+        <div>
+          <styled.div>
+            <p
+              checked={false}
+              data-bdd="pauseArrearsCase-notifyManager"
+              disabled={true}
+              display="inline-block"
+              error={false}
+              hasError={false}
+              onChange={[Function]}
+              required={true}
+            >
+              I have reviewed the legal referral pack
+            </p>
+          </styled.div>
+          <styled.div>
+            <styled.p>
+              You must review the legal referral pack, linked above, to proceed
+            </styled.p>
+          </styled.div>
+        </div>
+      </div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ReviewLegalCaseReferralComposition /> should stop calling getLegalReferral, clearInterval and set errorState if a 404 is being returned at the 6th attempt 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Cancel"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={true}
+      formError="Form error message"
+      formName="reviewLegalCaseReferral"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={true}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Submit to manager for review"
+    />
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ReviewLegalCaseReferralComposition /> should stop calling getLegalReferral, clearInterval and set errorState if a 500 is being returned at the 6th attempt 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Cancel"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={true}
+      formError="Form error message"
+      formName="reviewLegalCaseReferral"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={true}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Submit to manager for review"
+    />
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;

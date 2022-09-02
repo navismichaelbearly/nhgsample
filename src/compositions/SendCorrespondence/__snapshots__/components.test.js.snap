@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SendCorrespondence components should render <ButtonRow /> correctly 1`] = `
+.c0 {
+  text-align: center;
+}
+
+.c0 > button {
+  width: 50%;
+  min-width: 150px;
+  margin-bottom: 50px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`SendCorrespondence components should render <Img /> correctly 1`] = `
+.c0 {
+  max-width: 1730px;
+  width: 100%;
+}
+
+<img
+  className="c0"
+/>
+`;

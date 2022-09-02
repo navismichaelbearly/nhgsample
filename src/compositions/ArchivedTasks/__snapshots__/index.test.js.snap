@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ArchivedTasksComposition /> should render the page 1`] = `
+<withRouter(Connect(PageContentComposition))
+  ignoreArrearFetch={true}
+>
+  <div
+    className="col-lg-9"
+  >
+    <Styled(styled.div)>
+      <WithTheme(withRouter(Connect(ArrearsDetailTasksComposition)))
+        archived={true}
+      />
+    </Styled(styled.div)>
+  </div>
+  <aside
+    className="col-lg-3"
+  >
+    <WithTheme(Button)
+      data-bdd="ArchivedTasks-arrearsDetailLink"
+      href="/arrears-details/123"
+      isFullWidth={true}
+      to="/arrears-details/123"
+    >
+      Arrears Details
+    </WithTheme(Button)>
+  </aside>
+</withRouter(Connect(PageContentComposition))>
+`;

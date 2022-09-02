@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateInteraction connector mapStateToProps generates the correct props 1`] = `
+Object {
+  "activityKinds": Array [
+    "Outbound",
+    "Inbound",
+  ],
+  "activityTypes": Array [],
+  "addInteractionHeading": "Add interaction",
+  "arrearsId": "foo",
+  "breadcrumb": Array [
+    Object {
+      "href": "#{Dashboards.Core.CustomerBaseURL}",
+      "id": "breadcrumb-dashboard",
+      "label": "Dashboard",
+    },
+    Object {
+      "id": "breadcrumb-arrearsDashboard",
+      "label": "My arrears",
+      "to": "/",
+    },
+    Object {
+      "label": "Arrears details",
+      "to": "/arrears-details/foo",
+    },
+    Object {
+      "id": "breadcrumb-Add interaction",
+      "label": "Add interaction",
+    },
+  ],
+  "error": false,
+  "errorText": Object {
+    "activityKind": "Please select the activity kind",
+    "description": "Please enter a description",
+    "formError": "There was a problem, please try again.",
+    "interactingParty": "Please select the party you interacted with",
+    "interactionDate": "Please select the interaction date",
+    "interactionDateOrTime": "Please select an interaction date and time",
+    "interactionTime": "Please select the interaction time",
+    "interactionType": "Please select the type of interaction",
+  },
+  "formError": "There was a problem, please try again.",
+  "fromPartyId": "auth0|5a5f2614de16214961915a31",
+  "fromPartyType": 2,
+  "isLoading": false,
+  "labels": Object {
+    "attachMedia": "Attach documents",
+    "backButton": "Back",
+    "description": "Description",
+    "interactingParty": "Party the interaction was with",
+    "interactionDateAndTime": "Date / time of interaction",
+    "interactionType": "Type of interaction",
+    "submitAndCreateTaskButton": "Save interaction and add Task",
+    "submitButton": "Save interaction",
+  },
+  "notification": Object {
+    "createInteractionTitle": "Interaction added",
+    "line1": "{type}, {kind}, {date},  {time}",
+  },
+  "redirectToDetailsPage": [Function],
+  "redirectToMediaPage": [Function],
+  "redirectToPage": [Function],
+  "tenancyId": "ABC123",
+  "tenants": Array [
+    Object {
+      "id": "ABC123",
+      "name": "Joe Bloggs",
+    },
+    Object {
+      "id": "DEF456",
+      "name": "Jane Doe",
+    },
+  ],
+  "thirdParty": Object {
+    "thirdParties": undefined,
+    "thirdPartiesError": false,
+    "thirdPartyErrorText": "Unable to connect to third party contact. Please use another recipient type.",
+    "thirdPartyLabel": "THIRD PARTY",
+  },
+  "timeSlots": Array [],
+  "toPartyType": 1,
+}
+`;
+
+exports[`CreateInteraction connector mapStateToProps mergeProps generates the correct props 1`] = `
+Object {
+  "activityKinds": Array [
+    "Outbound",
+    "Inbound",
+  ],
+  "activityTypes": Array [],
+  "clearError": [Function],
+  "error": false,
+  "errorText": Object {
+    "activityKind": "Please select the activity kind",
+    "description": "Please enter a description",
+    "formError": "There was a problem, please try again.",
+    "interactingParty": "Please select the party you interacted with",
+    "interactionDate": "Please select the interaction date",
+    "interactionDateOrTime": "Please select an interaction date and time",
+    "interactionTime": "Please select the interaction time",
+    "interactionType": "Please select the type of interaction",
+  },
+  "formError": "There was a problem, please try again.",
+  "getActivityTypes": [Function],
+  "getTenantDetails": [Function],
+  "history": Object {
+    "push": [Function],
+  },
+  "isLoading": false,
+  "labels": Object {
+    "attachMedia": "Attach documents",
+    "backButton": "Back",
+    "description": "Description",
+    "interactingParty": "Party the interaction was with",
+    "interactionDateAndTime": "Date / time of interaction",
+    "interactionType": "Type of interaction",
+    "submitAndCreateTaskButton": "Save interaction and add Task",
+    "submitButton": "Save interaction",
+  },
+  "match": Object {
+    "params": Object {
+      "arrearsId": "foo",
+    },
+  },
+  "onBack": [Function],
+  "onSubmit": [Function],
+  "tenants": Array [
+    Object {
+      "id": "ABC123",
+      "name": "Joe Bloggs",
+    },
+    Object {
+      "id": "DEF456",
+      "name": "Jane Doe",
+    },
+  ],
+  "thirdParty": Object {
+    "getThirdParties": [Function],
+    "thirdParties": undefined,
+    "thirdPartiesError": false,
+    "thirdPartyErrorText": "Unable to connect to third party contact. Please use another recipient type.",
+    "thirdPartyLabel": "THIRD PARTY",
+  },
+  "timeSlots": Array [],
+  "updatePageHeader": [Function],
+}
+`;
+
+exports[`CreateInteraction connector mapStateToProps mergeProps onSubmit performs the correct actions for onSubmit 1`] = `
+Object {
+  "dataBddPrefix": "createInteraction",
+  "hideCloseButton": true,
+  "icon": "success",
+  "lines": Array [
+    Object {
+      "dataBdd": "interactionArrangement",
+      "text": "Email, Outbound, 01/02/2018,  09:30",
+    },
+  ],
+  "notificationType": "confirmation",
+  "title": "Interaction added",
+}
+`;

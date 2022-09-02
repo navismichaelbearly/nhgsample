@@ -1,0 +1,14 @@
+**/node_modules/**
+**/coverage/**
+**/release/**
+**/public/**
+**/karma/**
+**/.idea/**
+**/.git/**
+**/__tests__/**
+**/bin/**
+**/tmp/**
+**/test/**
+**/config/**
+**/build/**
+**/scripts/**

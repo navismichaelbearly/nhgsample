@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateLegalCaseReferral connector mapStateToProps generates the correct props 1`] = `
+Object {
+  "arrearsId": "foo",
+  "breadcrumb": Array [
+    Object {
+      "href": "#{Dashboards.Core.CustomerBaseURL}",
+      "id": "breadcrumb-dashboard",
+      "label": "Dashboard",
+    },
+    Object {
+      "id": "breadcrumb-arrearsDashboard",
+      "label": "My arrears",
+      "to": "/",
+    },
+    Object {
+      "label": "Arrears details",
+      "to": "/arrears-details/foo",
+    },
+    Object {
+      "id": "breadcrumb-Legal case referral",
+      "label": "Legal case referral",
+    },
+  ],
+  "error": false,
+  "formError": "There was a problem submitting the form, please try again.",
+  "formProps": Object {
+    "buttonLabels": Object {
+      "cancel": "Cancel",
+      "continue": "Next",
+      "next": "Next",
+      "previous": "Back",
+      "submit": "Next",
+    },
+  },
+  "formRendered": undefined,
+  "heading": "Legal case referral",
+  "lastSubmissionId": "DEF456",
+  "loading": false,
+  "newLegalReferralId": "hi-im-a-uuid",
+  "redirectToDetailsPage": [Function],
+  "redirectToReviewPage": [Function],
+  "referralFormName": "legalReferralCaseFormName",
+  "submissionId": "732e2ea4-ee21-488b-b863-2f17dfa9539d",
+  "systemUserId": "auth0|5a5f2614de16214961915a31",
+}
+`;
+
+exports[`CreateLegalCaseReferral connector mergeProps generates the correct props 1`] = `
+Object {
+  "arrearsId": "foo",
+  "bar": "baz",
+  "clearSubmissions": [Function],
+  "createSubmission": [Function],
+  "error": false,
+  "formError": "There was a problem submitting the form, please try again.",
+  "formProps": Object {
+    "buttonLabels": Object {
+      "cancel": "Cancel",
+      "continue": "Next",
+      "next": "Next",
+      "previous": "Back",
+      "submit": "Next",
+    },
+    "onCancel": [Function],
+    "onSuccessfulSubmit": [Function],
+  },
+  "formRendered": undefined,
+  "generateNewSubmissionId": [Function],
+  "lastSubmissionId": "DEF456",
+  "loading": false,
+  "match": Object {
+    "params": Object {
+      "arrearsId": "foo",
+    },
+  },
+  "newLegalReferralId": "hi-im-a-uuid",
+  "referralFormName": "legalReferralCaseFormName",
+  "setFormRendered": [Function],
+  "submissionId": "732e2ea4-ee21-488b-b863-2f17dfa9539d",
+  "systemUserId": "auth0|5a5f2614de16214961915a31",
+  "updatePageHeader": [Function],
+}
+`;

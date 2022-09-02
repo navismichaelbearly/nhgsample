@@ -1,0 +1,1041 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pause /> with approval detail renders correctly with status = Active, isManagerNotified = false 1`] = `
+<div>
+  <Styled(styled.h3)>
+    Pause
+  </Styled(styled.h3)>
+  <f
+    addExtraTd={false}
+    addExtraTh={true}
+    data={
+      Array [
+        Array [
+          <styled.span>
+            Created on
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-createdOn"
+      >
+            10/08/2018 - 8:52pm
+             - 
+            <styled.span>
+                   
+                  By
+                  : 
+            </styled.span>
+            Stephanie Golder
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Current state
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-status"
+      >
+            Active 
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Reason
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-reason"
+      >
+            newbenefituc
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Start Date
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-startDate"
+      >
+            10/08/2018 - 8:52pm
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Details
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-details"
+      >
+            <styled.div>
+                  This is a pause
+            </styled.div>
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Last modified on
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-modifiedOn"
+      >
+            10/08/2018 - 8:52pm
+             - 
+            <styled.span>
+                  By
+                  : 
+            </styled.span>
+             
+            SYSTEM
+            
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Approved
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-isApproved"
+      >
+            10/08/2018 - 8:52pm
+             - 
+            <styled.span>
+                  By
+                  : 
+            </styled.span>
+             
+            system
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            End Date
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-endDate"
+      >
+            10/08/2018 - 8:52pm
+      </span>,
+        ],
+      ]
+    }
+    data-bdd="ActivityHistoryItemTable"
+    headerData={null}
+    striped={true}
+    tdWrap={true}
+    topAlign={true}
+  />
+</div>
+`;
+
+exports[`<Pause /> with approval detail renders correctly with status = Active, isManagerNotified = true 1`] = `
+<div>
+  <Styled(styled.h3)>
+    Pause
+  </Styled(styled.h3)>
+  <f
+    addExtraTd={false}
+    addExtraTh={true}
+    data={
+      Array [
+        Array [
+          <styled.span>
+            Created on
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-createdOn"
+      >
+            10/08/2018 - 8:52pm
+             - 
+            <styled.span>
+                   
+                  By
+                  : 
+            </styled.span>
+            Stephanie Golder
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Current state
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-status"
+      >
+            Active 
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Reason
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-reason"
+      >
+            newbenefituc
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Start Date
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-startDate"
+      >
+            10/08/2018 - 8:52pm
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Details
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-details"
+      >
+            <styled.div>
+                  This is a pause
+            </styled.div>
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Last modified on
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-modifiedOn"
+      >
+            10/08/2018 - 8:52pm
+             - 
+            <styled.span>
+                  By
+                  : 
+            </styled.span>
+             
+            SYSTEM
+            
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Approved
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-isApproved"
+      >
+            10/08/2018 - 8:52pm
+             - 
+            <styled.span>
+                  By
+                  : 
+            </styled.span>
+             
+            system
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Notification sent to
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-notified"
+      >
+            Hannah Ike
+             - 
+            <styled.span>
+                  On
+                  :
+            </styled.span>
+             
+            10/08/2018 - 8:52pm
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            End Date
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-endDate"
+      >
+            10/08/2018 - 8:52pm
+      </span>,
+        ],
+      ]
+    }
+    data-bdd="ActivityHistoryItemTable"
+    headerData={null}
+    striped={true}
+    tdWrap={true}
+    topAlign={true}
+  />
+</div>
+`;
+
+exports[`<Pause /> with approval detail renders correctly with status = Draft, isManagerNotified = false 1`] = `
+<div>
+  <Styled(styled.h3)>
+    Pause
+  </Styled(styled.h3)>
+  <f
+    addExtraTd={false}
+    addExtraTh={true}
+    data={
+      Array [
+        Array [
+          <styled.span>
+            Created on
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-createdOn"
+      >
+            10/08/2018 - 8:52pm
+             - 
+            <styled.span>
+                   
+                  By
+                  : 
+            </styled.span>
+            Stephanie Golder
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Current state
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-status"
+      >
+            Draft 
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Reason
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-reason"
+      >
+            newbenefituc
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Start Date
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-startDate"
+      >
+            10/08/2018 - 8:52pm
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Details
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-details"
+      >
+            <styled.div>
+                  This is a pause
+            </styled.div>
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Last modified on
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-modifiedOn"
+      >
+            10/08/2018 - 8:52pm
+             - 
+            <styled.span>
+                  By
+                  : 
+            </styled.span>
+             
+            SYSTEM
+            
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Assigned to
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-owner"
+      >
+            Stephanie Golder
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            End Date
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-endDate"
+      >
+            10/08/2018 - 8:52pm
+      </span>,
+        ],
+      ]
+    }
+    data-bdd="ActivityHistoryItemTable"
+    headerData={null}
+    striped={true}
+    tdWrap={true}
+    topAlign={true}
+  />
+</div>
+`;
+
+exports[`<Pause /> with approval detail renders correctly with status = Draft, isManagerNotified = true 1`] = `
+<div>
+  <Styled(styled.h3)>
+    Pause
+  </Styled(styled.h3)>
+  <f
+    addExtraTd={false}
+    addExtraTh={true}
+    data={
+      Array [
+        Array [
+          <styled.span>
+            Created on
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-createdOn"
+      >
+            10/08/2018 - 8:52pm
+             - 
+            <styled.span>
+                   
+                  By
+                  : 
+            </styled.span>
+            Stephanie Golder
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Current state
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-status"
+      >
+            Draft 
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Reason
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-reason"
+      >
+            newbenefituc
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Start Date
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-startDate"
+      >
+            10/08/2018 - 8:52pm
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Details
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-details"
+      >
+            <styled.div>
+                  This is a pause
+            </styled.div>
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Last modified on
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-modifiedOn"
+      >
+            10/08/2018 - 8:52pm
+             - 
+            <styled.span>
+                  By
+                  : 
+            </styled.span>
+             
+            SYSTEM
+            
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Assigned to
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-owner"
+      >
+            Stephanie Golder
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Notification sent to
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-notified"
+      >
+            Hannah Ike
+             - 
+            <styled.span>
+                  On
+                  :
+            </styled.span>
+             
+            10/08/2018 - 8:52pm
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            End Date
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-endDate"
+      >
+            10/08/2018 - 8:52pm
+      </span>,
+        ],
+      ]
+    }
+    data-bdd="ActivityHistoryItemTable"
+    headerData={null}
+    striped={true}
+    tdWrap={true}
+    topAlign={true}
+  />
+</div>
+`;
+
+exports[`<Pause /> without approval detail renders correctly with status = Active, isManagerNotified = false 1`] = `
+<div>
+  <Styled(styled.h3)>
+    Pause
+  </Styled(styled.h3)>
+  <f
+    addExtraTd={false}
+    addExtraTh={true}
+    data={
+      Array [
+        Array [
+          <styled.span>
+            Created on
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-createdOn"
+      >
+            10/08/2018 - 8:52pm
+             - 
+            <styled.span>
+                   
+                  By
+                  : 
+            </styled.span>
+            Stephanie Golder
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Current state
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-status"
+      >
+            Active 
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Reason
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-reason"
+      >
+            newbenefituc
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Start Date
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-startDate"
+      >
+            10/08/2018 - 8:52pm
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Details
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-details"
+      >
+            <styled.div>
+                  This is a pause
+            </styled.div>
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Last modified on
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-modifiedOn"
+      >
+            10/08/2018 - 8:52pm
+             - 
+            <styled.span>
+                  By
+                  : 
+            </styled.span>
+             
+            SYSTEM
+            
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Approved
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-isApproved"
+      >
+            10/08/2018 - 8:52pm
+             - 
+            <styled.span>
+                  By
+                  : 
+            </styled.span>
+             
+            system
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            End Date
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-endDate"
+      >
+            10/08/2018 - 8:52pm
+      </span>,
+        ],
+      ]
+    }
+    data-bdd="ActivityHistoryItemTable"
+    headerData={null}
+    striped={true}
+    tdWrap={true}
+    topAlign={true}
+  />
+</div>
+`;
+
+exports[`<Pause /> without approval detail renders correctly with status = Active, isManagerNotified = true 1`] = `
+<div>
+  <Styled(styled.h3)>
+    Pause
+  </Styled(styled.h3)>
+  <f
+    addExtraTd={false}
+    addExtraTh={true}
+    data={
+      Array [
+        Array [
+          <styled.span>
+            Created on
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-createdOn"
+      >
+            10/08/2018 - 8:52pm
+             - 
+            <styled.span>
+                   
+                  By
+                  : 
+            </styled.span>
+            Stephanie Golder
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Current state
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-status"
+      >
+            Active 
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Reason
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-reason"
+      >
+            newbenefituc
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Start Date
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-startDate"
+      >
+            10/08/2018 - 8:52pm
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Details
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-details"
+      >
+            <styled.div>
+                  This is a pause
+            </styled.div>
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Last modified on
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-modifiedOn"
+      >
+            10/08/2018 - 8:52pm
+             - 
+            <styled.span>
+                  By
+                  : 
+            </styled.span>
+             
+            SYSTEM
+            
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Approved
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-isApproved"
+      >
+            10/08/2018 - 8:52pm
+             - 
+            <styled.span>
+                  By
+                  : 
+            </styled.span>
+             
+            system
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Notification sent to
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-notified"
+      >
+            Hannah Ike
+             - 
+            <styled.span>
+                  On
+                  :
+            </styled.span>
+             
+            10/08/2018 - 8:52pm
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            End Date
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-endDate"
+      >
+            10/08/2018 - 8:52pm
+      </span>,
+        ],
+      ]
+    }
+    data-bdd="ActivityHistoryItemTable"
+    headerData={null}
+    striped={true}
+    tdWrap={true}
+    topAlign={true}
+  />
+</div>
+`;
+
+exports[`<Pause /> without approval detail renders correctly with status = Draft, isManagerNotified = false 1`] = `
+<div>
+  <Styled(styled.h3)>
+    Pause
+  </Styled(styled.h3)>
+  <f
+    addExtraTd={false}
+    addExtraTh={true}
+    data={
+      Array [
+        Array [
+          <styled.span>
+            Created on
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-createdOn"
+      >
+            10/08/2018 - 8:52pm
+             - 
+            <styled.span>
+                   
+                  By
+                  : 
+            </styled.span>
+            Stephanie Golder
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Current state
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-status"
+      >
+            Draft 
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Reason
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-reason"
+      >
+            newbenefituc
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Start Date
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-startDate"
+      >
+            10/08/2018 - 8:52pm
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Details
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-details"
+      >
+            <styled.div>
+                  This is a pause
+            </styled.div>
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Last modified on
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-modifiedOn"
+      >
+            10/08/2018 - 8:52pm
+             - 
+            <styled.span>
+                  By
+                  : 
+            </styled.span>
+             
+            SYSTEM
+            
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Assigned to
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-owner"
+      >
+            Stephanie Golder
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            End Date
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-endDate"
+      >
+            10/08/2018 - 8:52pm
+      </span>,
+        ],
+      ]
+    }
+    data-bdd="ActivityHistoryItemTable"
+    headerData={null}
+    striped={true}
+    tdWrap={true}
+    topAlign={true}
+  />
+</div>
+`;
+
+exports[`<Pause /> without approval detail renders correctly with status = Draft, isManagerNotified = true 1`] = `
+<div>
+  <Styled(styled.h3)>
+    Pause
+  </Styled(styled.h3)>
+  <f
+    addExtraTd={false}
+    addExtraTh={true}
+    data={
+      Array [
+        Array [
+          <styled.span>
+            Created on
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-createdOn"
+      >
+            10/08/2018 - 8:52pm
+             - 
+            <styled.span>
+                   
+                  By
+                  : 
+            </styled.span>
+            Stephanie Golder
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Current state
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-status"
+      >
+            Draft 
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Reason
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-reason"
+      >
+            newbenefituc
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Start Date
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-startDate"
+      >
+            10/08/2018 - 8:52pm
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Details
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-details"
+      >
+            <styled.div>
+                  This is a pause
+            </styled.div>
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Last modified on
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-modifiedOn"
+      >
+            10/08/2018 - 8:52pm
+             - 
+            <styled.span>
+                  By
+                  : 
+            </styled.span>
+             
+            SYSTEM
+            
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Assigned to
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-owner"
+      >
+            Stephanie Golder
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Notification sent to
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-notified"
+      >
+            Hannah Ike
+             - 
+            <styled.span>
+                  On
+                  :
+            </styled.span>
+             
+            10/08/2018 - 8:52pm
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            End Date
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-endDate"
+      >
+            10/08/2018 - 8:52pm
+      </span>,
+        ],
+      ]
+    }
+    data-bdd="ActivityHistoryItemTable"
+    headerData={null}
+    striped={true}
+    tdWrap={true}
+    topAlign={true}
+  />
+</div>
+`;

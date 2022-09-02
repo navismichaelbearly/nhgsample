@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PatchSelect /> should render correctly if not a housing officer 1`] = `""`;
+
+exports[`<PatchSelect /> should render correctly when not visible 1`] = `
+<Component
+  applyDefaultPatch={true}
+  myPatch={
+    Object {
+      "fullName": "John S",
+      "id": "1234",
+      "patchName": "ABC",
+    }
+  }
+  onChange={[Function]}
+  onClose={[Function]}
+  onSearch={[Function]}
+  open={false}
+  searchResults={Array []}
+  teamMembers={
+    Array [
+      Object {
+        "fullName": "Leon",
+        "id": "47",
+        "patchName": "ABC123",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<PatchSelect /> should render correctly when visible 1`] = `
+<Component
+  applyDefaultPatch={true}
+  myPatch={
+    Object {
+      "fullName": "John S",
+      "id": "1234",
+      "patchName": "ABC",
+    }
+  }
+  onChange={[Function]}
+  onClose={[Function]}
+  onSearch={[Function]}
+  open={true}
+  searchResults={Array []}
+  teamMembers={
+    Array [
+      Object {
+        "fullName": "Leon",
+        "id": "47",
+        "patchName": "ABC123",
+      },
+    ]
+  }
+/>
+`;

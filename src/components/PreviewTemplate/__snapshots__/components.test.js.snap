@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PreviewTemplate components should render <Img /> correctly 1`] = `
+.c0 {
+  max-width: 1730px;
+  width: 100%;
+}
+
+<img
+  className="c0"
+/>
+`;
+
+exports[`PreviewTemplate components should render <MainButton /> correctly 1`] = `
+.c0 {
+  min-width: 12.5rem;
+  max-width: 20%;
+}
+
+<WithTheme(Button)
+  className="c0"
+/>
+`;

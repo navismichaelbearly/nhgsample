@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PropertyInformationComposition /> renders correctly with full props 1`] = `
+<C
+  address={
+    Object {
+      "city": "City",
+      "line1": "Line 1",
+      "line2": "Line 2",
+      "postcode": "ABC 123",
+    }
+  }
+  dataBdd="PropertyInformation"
+  disableGlobalEdit={false}
+  getTenantDetails={[Function]}
+  heading="heading"
+  labels={
+    Object {
+      "address": "labels.address",
+      "coTenant": "labels.coTenant",
+      "editButton": "labels.editButton",
+      "emailAddress": "labels.emailAddress",
+      "mainTenant": "labels.mainTenant",
+      "telephoneNumber": "labels.telephoneNumber",
+    }
+  }
+  onEditClick={[Function]}
+  showTenantLabels={true}
+  tenants={
+    Array [
+      Object {
+        "emailAddress": "joe.bloggs@test.com",
+        "fullName": "Joe Bloggs",
+        "id": "ABC",
+        "telephoneNumber": "123456",
+        "vulnerabilityFlag": true,
+      },
+      Object {
+        "emailAddress": "jane.doe@test.com",
+        "fullName": "Jane Doe",
+        "id": "123",
+        "telephoneNumber": "123456",
+      },
+    ]
+  }
+  theme={
+    Object {
+      "colors": Object {
+        "support": Object {
+          "two": "red",
+        },
+      },
+    }
+  }
+/>
+`;
+
+exports[`<PropertyInformationComposition /> renders correctly with no tenants 1`] = `
+<C
+  address={
+    Object {
+      "city": "City",
+      "line1": "Line 1",
+      "line2": "Line 2",
+      "postcode": "ABC 123",
+    }
+  }
+  dataBdd="PropertyInformation"
+  disableGlobalEdit={false}
+  getTenantDetails={[Function]}
+  heading="heading"
+  labels={
+    Object {
+      "address": "labels.address",
+      "coTenant": "labels.coTenant",
+      "editButton": "labels.editButton",
+      "emailAddress": "labels.emailAddress",
+      "mainTenant": "labels.mainTenant",
+      "telephoneNumber": "labels.telephoneNumber",
+    }
+  }
+  onEditClick={[Function]}
+  showTenantLabels={true}
+  tenants={null}
+  theme={
+    Object {
+      "colors": Object {
+        "support": Object {
+          "two": "red",
+        },
+      },
+    }
+  }
+/>
+`;

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PreviewTemplate should render a div with dangerouslySetInnerHTML attribute when type is html 1`] = `
+<div
+  data-bdd="dataBdd-template"
+>
+  <styled.div
+    isCenter={true}
+  >
+    <Styled(WithTheme(Button))
+      data-bdd="dataBdd-template-close"
+      data-state-key="template-close"
+      onClick={[Function]}
+    >
+      Select correspondence template
+    </Styled(WithTheme(Button))>
+  </styled.div>
+  <div
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<p>this is some html</p>",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`PreviewTemplate should render an error when no content is specified 1`] = `
+<div
+  data-bdd="dataBdd-template"
+>
+  <styled.div
+    isCenter={true}
+  >
+    <Styled(WithTheme(Button))
+      data-bdd="dataBdd-template-close"
+      data-state-key="template-close"
+      onClick={[Function]}
+    >
+      Select correspondence template
+    </Styled(WithTheme(Button))>
+  </styled.div>
+  <styled.p
+    data-bdd="dataBdd-template-notFound"
+  >
+    No template found, please contact your IT help desk
+  </styled.p>
+</div>
+`;

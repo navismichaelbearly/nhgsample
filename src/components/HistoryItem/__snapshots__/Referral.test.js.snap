@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Referral /> renders correctly 1`] = `
+<div>
+  <Styled(styled.h3)>
+    Referral
+  </Styled(styled.h3)>
+  <f
+    addExtraTd={false}
+    addExtraTh={true}
+    data={
+      Array [
+        Array [
+          <styled.span>
+            Created
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-createdOn"
+      >
+            10/08/2018 - 8:52pm
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Detail
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-details"
+      >
+            test
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Raised By
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-raisedBy"
+      >
+            test
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Referred Team
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-teamName"
+      >
+            <f
+                  addExtraTd={false}
+                  addExtraTh={true}
+                  data={
+                        Array [
+                              Array [
+                                "string",
+                                "string",
+                                "string",
+                              ],
+                            ]
+                  }
+                  data-bdd="ActivityHistoryItemTable-teamName-items"
+                  headerData={null}
+                  striped={false}
+                  tdWrap={true}
+                  topAlign={true}
+            />
+      </span>,
+        ],
+      ]
+    }
+    data-bdd="ActivityHistoryItemTable"
+    headerData={null}
+    striped={true}
+    tdWrap={true}
+    topAlign={true}
+  />
+</div>
+`;

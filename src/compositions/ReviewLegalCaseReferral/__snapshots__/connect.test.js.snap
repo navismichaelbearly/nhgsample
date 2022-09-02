@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReviewLegalCaseReferral connector mapStateToProps generates the correct props 1`] = `
+Object {
+  "breadcrumb": Array [
+    Object {
+      "href": "customerDashboard",
+      "id": "breadcrumb-dashboard",
+      "label": "Dashboard",
+    },
+    Object {
+      "id": "breadcrumb-arrearsDashboard",
+      "label": "My arrears",
+      "to": "/",
+    },
+    Object {
+      "label": "Arrears details",
+      "to": "/arrears-details/foo",
+    },
+    Object {
+      "id": "breadcrumb-Legal case referral",
+      "label": "Legal case referral",
+    },
+  ],
+  "errorStatus": undefined,
+  "formError": "There was a problem submitting the form, please try again.",
+  "heading": "Legal case referral",
+  "loading": undefined,
+  "notification": Object {
+    "cancelledLine1": "Any fields you've completed before cancelling will be saved and populated into the form if you start another legal case referral",
+    "cancelledText": "Legal referral cancelled",
+    "submittedNonApprovalText": "Section 21 request made",
+    "submittedText": "Legal case referral sent to manager for approval",
+  },
+  "notificationSubmittedText": "Legal case referral sent to manager for approval",
+  "redirectToDetailsPage": [Function],
+  "referralPack": undefined,
+  "requiresApproval": true,
+  "submissionId": "abc123",
+  "text": Object {
+    "cancel": "Cancel",
+    "generatingItem": "Generating {item}... This could take several minutes",
+    "generationFailed": "Document generation failed. please retry",
+    "legalReferralForm": "Legal referral form {type}",
+    "legalReferralFormText": "This contains the completed request for legal action form and a list of all the attachments that will comprise the legal referral pack.",
+    "legalReferralPack": "Legal referral pack {type}",
+    "legalReferralPackConfirm": "I have reviewed the legal referral pack",
+    "legalReferralPackConfirmMessage": "You must review the legal referral pack, linked above, to proceed",
+    "linkToSharepoint": "(link to SharePoint folder)",
+    "notification": Object {
+      "cancelledLine1": "Any fields you've completed before cancelling will be saved and populated into the form if you start another legal case referral",
+      "cancelledText": "Legal referral cancelled",
+      "submittedNonApprovalText": "Section 21 request made",
+      "submittedText": "Legal case referral sent to manager for approval",
+    },
+    "pdf": "(PDF)",
+    "reviewLegalCase": "Review legal case",
+    "reviewText": "This process could take several minutes. Closing this page and returning later will not lose your progress.",
+    "submit": "Submit",
+    "submitForReview": "Submit to manager for review",
+  },
+}
+`;
+
+exports[`ReviewLegalCaseReferral connector mapStateToProps generates the correct props when approval not required 1`] = `
+Object {
+  "breadcrumb": Array [
+    Object {
+      "href": "customerDashboard",
+      "id": "breadcrumb-dashboard",
+      "label": "Dashboard",
+    },
+    Object {
+      "id": "breadcrumb-arrearsDashboard",
+      "label": "My arrears",
+      "to": "/",
+    },
+    Object {
+      "label": "Arrears details",
+      "to": "/arrears-details/foo",
+    },
+    Object {
+      "id": "breadcrumb-Legal case referral",
+      "label": "Legal case referral",
+    },
+  ],
+  "errorStatus": undefined,
+  "formError": "There was a problem submitting the form, please try again.",
+  "heading": "Legal case referral",
+  "loading": undefined,
+  "notification": Object {
+    "cancelledLine1": "Any fields you've completed before cancelling will be saved and populated into the form if you start another legal case referral",
+    "cancelledText": "Legal referral cancelled",
+    "submittedNonApprovalText": "Section 21 request made",
+    "submittedText": "Legal case referral sent to manager for approval",
+  },
+  "notificationSubmittedText": "Section 21 request made",
+  "redirectToDetailsPage": [Function],
+  "referralPack": undefined,
+  "requiresApproval": false,
+  "submissionId": "abc123",
+  "text": Object {
+    "cancel": "Cancel",
+    "generatingItem": "Generating {item}... This could take several minutes",
+    "generationFailed": "Document generation failed. please retry",
+    "legalReferralForm": "Legal referral form {type}",
+    "legalReferralFormText": "This contains the completed request for legal action form and a list of all the attachments that will comprise the legal referral pack.",
+    "legalReferralPack": "Legal referral pack {type}",
+    "legalReferralPackConfirm": "I have reviewed the legal referral pack",
+    "legalReferralPackConfirmMessage": "You must review the legal referral pack, linked above, to proceed",
+    "linkToSharepoint": "(link to SharePoint folder)",
+    "notification": Object {
+      "cancelledLine1": "Any fields you've completed before cancelling will be saved and populated into the form if you start another legal case referral",
+      "cancelledText": "Legal referral cancelled",
+      "submittedNonApprovalText": "Section 21 request made",
+      "submittedText": "Legal case referral sent to manager for approval",
+    },
+    "pdf": "(PDF)",
+    "reviewLegalCase": "Review legal case",
+    "reviewText": "This process could take several minutes. Closing this page and returning later will not lose your progress.",
+    "submit": "Submit",
+    "submitForReview": "Submit to manager for review",
+  },
+}
+`;
+
+exports[`ReviewLegalCaseReferral connector mergeProps generates the correct props 1`] = `
+Object {
+  "bar": "baz",
+  "downloadFile": [Function],
+  "errorStatus": undefined,
+  "formError": "There was a problem submitting the form, please try again.",
+  "getLegalReferral": [Function],
+  "invalidateLegalReferralState": [Function],
+  "loading": undefined,
+  "match": Object {
+    "params": Object {
+      "arrearsId": "foo",
+      "submissionId": "abc123",
+    },
+  },
+  "onCancel": [Function],
+  "onSubmit": [Function],
+  "referralPack": undefined,
+  "requiresApproval": true,
+  "text": Object {
+    "cancel": "Cancel",
+    "generatingItem": "Generating {item}... This could take several minutes",
+    "generationFailed": "Document generation failed. please retry",
+    "legalReferralForm": "Legal referral form {type}",
+    "legalReferralFormText": "This contains the completed request for legal action form and a list of all the attachments that will comprise the legal referral pack.",
+    "legalReferralPack": "Legal referral pack {type}",
+    "legalReferralPackConfirm": "I have reviewed the legal referral pack",
+    "legalReferralPackConfirmMessage": "You must review the legal referral pack, linked above, to proceed",
+    "linkToSharepoint": "(link to SharePoint folder)",
+    "notification": Object {
+      "cancelledLine1": "Any fields you've completed before cancelling will be saved and populated into the form if you start another legal case referral",
+      "cancelledText": "Legal referral cancelled",
+      "submittedNonApprovalText": "Section 21 request made",
+      "submittedText": "Legal case referral sent to manager for approval",
+    },
+    "pdf": "(PDF)",
+    "reviewLegalCase": "Review legal case",
+    "reviewText": "This process could take several minutes. Closing this page and returning later will not lose your progress.",
+    "submit": "Submit",
+    "submitForReview": "Submit to manager for review",
+  },
+  "updatePageHeader": [Function],
+}
+`;
+
+exports[`ReviewLegalCaseReferral connector mergeProps performs the correct actions for onCancel 1`] = `
+Object {
+  "dataBddPrefix": "cancelLegalCaseReferral",
+  "icon": "success",
+  "lines": Array [
+    Object {
+      "text": "Any fields you've completed before cancelling will be saved and populated into the form if you start another legal case referral",
+    },
+  ],
+  "notificationType": "confirmation",
+  "title": "Legal referral cancelled",
+}
+`;
+
+exports[`ReviewLegalCaseReferral connector mergeProps performs the correct actions for onSubmit 1`] = `
+Object {
+  "dataBddPrefix": "submitLegalCaseReferral",
+  "icon": "success",
+  "lines": undefined,
+  "notificationType": "confirmation",
+  "title": "Legal case referral sent to manager for approval",
+}
+`;

@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArrearsDetails selectors getPauseDetails renders correctly when draft 1`] = `
+<Unknown>
+  Requested from 15/07/2018 to 23/04/2017
+</Unknown>
+`;
+
+exports[`ArrearsDetails selectors getPauseDetails renders correctly when extended 1`] = `
+<Unknown>
+  Paused from 15/07/2018 to 23/04/2017
+  <styled.span>
+     undefined
+  </styled.span>
+</Unknown>
+`;
+
+exports[`ArrearsDetails selectors getPauseDetails renders correctly when not draft 1`] = `
+<Unknown>
+  Paused from 15/07/2018 to 23/04/2017
+</Unknown>
+`;
+
+exports[`ArrearsDetails selectors getPaymentPlanDetails renders correctly 1`] = `
+<Unknown>
+  <styled.span>
+    Start date:
+  </styled.span>
+   
+  15/07/2018
+  <br />
+  <styled.span>
+    End date:
+  </styled.span>
+   
+  23/04/2017
+  <br />
+  <styled.span />
+   
+  £12.00 Every 1 Week(s)
+  <br />
+  <styled.span>
+    Type:
+  </styled.span>
+   
+  Fred
+</Unknown>
+`;
+
+exports[`ArrearsDetails selectors getUniversalCreditDetails renders correctly 1`] = `
+<Unknown>
+  <styled.span>
+    Universal credit:
+  </styled.span>
+   
+  Yes
+  <br />
+  <Unknown>
+    <Unknown>
+      <styled.span>
+        Claim start date:
+      </styled.span>
+       
+      23/12/2018
+      <br />
+    </Unknown>
+    <Unknown>
+      <styled.span>
+        Payment day:
+      </styled.span>
+       
+      10
+      <br />
+    </Unknown>
+    
+    
+  </Unknown>
+  <styled.span>
+    Benefit cap:
+  </styled.span>
+   
+  Yes
+  <br />
+  <styled.span>
+    Bedroom tax:
+  </styled.span>
+   
+  Yes
+  <br />
+</Unknown>
+`;

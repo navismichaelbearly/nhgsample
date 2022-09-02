@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Attachments /> should not render when correspondence has not been generated yet 1`] = `""`;
+
+exports[`<Attachments /> should render correctly when correspondence has been generated 1`] = `
+<Fragment>
+  <styled.div>
+    <t
+      accept=".doc,.docx,.xls,.xlsx,.ppt,.pptx,.pdf,.txt,.jpg,.png"
+      attachCaseFile="attachCaseFileSample"
+      files={Array []}
+      genericErrorMessage="Some awesome error"
+      labelText="labelTextSample"
+      mandatoryAttachment="This is mandatory"
+      mandatoryAttachmentLabel="Mandatory label"
+      mandatoryAttachmentParagraph="This paragraph is cool"
+      maxFileSize={20971520}
+      maxFiles={10}
+      multiple={true}
+      onChange={[Function]}
+      onRemove={[Function]}
+      onRetry={[Function]}
+      previewsRenderer={[Function]}
+      removeButtonLabel="remove this"
+      removeCaseFile="removeCaseFileSample"
+      retryButtonLabel="retry this"
+      text="textSample"
+      uploadSuccessMessage="well done"
+    />
+  </styled.div>
+</Fragment>
+`;

@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageContent connector mapStateToProps generates the correct props 1`] = `
+Object {
+  "arrearsId": "foo",
+  "errorMessage": "Something has gone wrong!",
+  "heading": "My arrears",
+  "loading": false,
+  "patches": Array [
+    Object {
+      "fullname": "Test_1 HO",
+      "name": "Test_1 HO",
+      "patchName": "PTCPRH01",
+      "src": "https://url.to/profile/image.jpg",
+    },
+  ],
+  "ribbon": Object {
+    "breadcrumb": Array [
+      Object {
+        "label": "Dashboard",
+        "path": "/",
+      },
+    ],
+    "dashboardButtonText": "Dashboard",
+    "dashboardUrl": "/",
+    "showDashboardIcon": true,
+    "title": "Dashboard",
+  },
+}
+`;
+
+exports[`PageContent connector mergeProps generates the correct props 1`] = `
+Object {
+  "bar": "baz",
+  "errorMessage": "Something has gone wrong!",
+  "getArrearsDetail": [Function],
+  "heading": "My arrears",
+  "loading": false,
+  "match": Object {
+    "params": Object {
+      "arrearsId": "foo",
+    },
+  },
+  "ribbon": Object {
+    "breadcrumb": Array [
+      Object {
+        "label": "Dashboard",
+        "path": "/",
+      },
+    ],
+    "dashboardButtonText": "Dashboard",
+    "dashboardUrl": "/",
+    "showDashboardIcon": true,
+    "title": "Dashboard",
+  },
+}
+`;

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sendCorrespondence should set resetData state 1`] = `
+Object {
+  "cancelError": null,
+  "chosenTemplateName": "",
+  "correspondenceDocuments": Array [],
+  "error": false,
+  "generatePreviewError": false,
+  "generatePreviewLoading": false,
+  "loading": false,
+  "loadingSubstitutions": false,
+  "loadingTemplates": false,
+  "mandatoryAttachments": Array [],
+  "printerOptions": Array [],
+  "recipient": "",
+  "sendingMethod": "",
+  "submitted": false,
+  "substitutionFields": Array [],
+  "template": Object {},
+  "templatePreviewImage": undefined,
+  "templates": Array [],
+  "templatesError": false,
+}
+`;

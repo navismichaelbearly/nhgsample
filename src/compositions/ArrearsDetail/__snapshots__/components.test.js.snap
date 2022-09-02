@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CustomerDetailsContainer /> should render correctly 1`] = `
+<styled.div
+  className="sc-cEvuZC idKFJq"
+/>
+`;
+
+exports[`<LinkedItems /> should render correctly 1`] = `
+<div
+  className="sc-kXeGPI hEvzKQ"
+/>
+`;
+
+exports[`<Wrapper /> should render correctly 1`] = `
+<styled.div
+  className="sc-fHxwqH eHTHOx"
+/>
+`;

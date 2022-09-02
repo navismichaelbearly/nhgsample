@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServeNOSPEarly components should render <Title /> correctly 1`] = `
+.c0 {
+  margin-bottom: 1.875rem;
+}
+
+<styled.h3
+  className="c0"
+/>
+`;

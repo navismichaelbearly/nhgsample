@@ -1,0 +1,429 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArrearsDetail connector mapStateToProps Hide pause actions generates the correct props when status is SYSTEM_PAUSED 1`] = `
+Object {
+  "actions": Array [
+    Object {
+      "dataBdd": "addInteraction",
+      "link": "/arrears-details/foo/interaction/create",
+      "text": "Add interaction",
+    },
+    Object {
+      "dataBdd": "sendCorrespondence",
+      "link": "/arrears-details/foo/send-correspondence/create",
+      "text": "Send correspondence",
+    },
+    Object {
+      "dataBdd": "takePayment",
+      "href": "#{Payments.Core.BaseURL}/setup-payment?tenancyId=ABC123&arrearsId=foo",
+      "text": "New payment",
+    },
+    Object {
+      "dataBdd": "paymentPlan",
+      "link": "/arrears-details/foo/payment-plan/create",
+      "text": "New payment plan",
+    },
+    Object {
+      "dataBdd": "tenancySustainmentReferral",
+      "link": "/arrears-details/foo/refer-arrears-case/create",
+      "text": "Tenancy sustainment referral",
+    },
+    Object {
+      "dataBdd": "addTask",
+      "link": "/arrears-details/foo/task/create",
+      "text": "Add Task",
+    },
+    Object {
+      "dataBdd": "addNote",
+      "link": "/arrears-details/foo/note/create",
+      "text": "Add note",
+    },
+  ],
+}
+`;
+
+exports[`ArrearsDetail connector mapStateToProps Legal referral action generates the correct props when there is a legal referring waiting for manager approval 1`] = `
+Object {
+  "actions": Array [
+    Object {
+      "dataBdd": "addInteraction",
+      "link": "/arrears-details/foo/interaction/create",
+      "text": "Add interaction",
+    },
+    Object {
+      "dataBdd": "sendCorrespondence",
+      "link": "/arrears-details/foo/send-correspondence/create",
+      "text": "Send correspondence",
+    },
+    Object {
+      "dataBdd": "takePayment",
+      "href": "#{Payments.Core.BaseURL}/setup-payment?tenancyId=ABC123&arrearsId=foo",
+      "text": "New payment",
+    },
+    Object {
+      "dataBdd": "paymentPlan",
+      "link": "/arrears-details/foo/payment-plan/create",
+      "text": "New payment plan",
+    },
+    Object {
+      "dataBdd": "tenancySustainmentReferral",
+      "link": "/arrears-details/foo/refer-arrears-case/create",
+      "text": "Tenancy sustainment referral",
+    },
+    Object {
+      "dataBdd": "addTask",
+      "link": "/arrears-details/foo/task/create",
+      "text": "Add Task",
+    },
+    Object {
+      "dataBdd": "addNote",
+      "link": "/arrears-details/foo/note/create",
+      "text": "Add note",
+    },
+    Object {
+      "dataBdd": "pauseArrearsCase",
+      "link": "/arrears-details/foo/pause-arrears-case/create",
+      "text": "Pause arrears case",
+    },
+    Object {
+      "dataBdd": "legalCaseReferral",
+      "link": "/arrears-details/foo/legal-case-referral/case id/approve",
+      "text": "Review Friendly Form Name",
+    },
+  ],
+}
+`;
+
+exports[`ArrearsDetail connector mapStateToProps Legal referral action generates the correct props when there is a legal referring waiting for submission 1`] = `
+Object {
+  "actions": Array [
+    Object {
+      "dataBdd": "addInteraction",
+      "link": "/arrears-details/foo/interaction/create",
+      "text": "Add interaction",
+    },
+    Object {
+      "dataBdd": "sendCorrespondence",
+      "link": "/arrears-details/foo/send-correspondence/create",
+      "text": "Send correspondence",
+    },
+    Object {
+      "dataBdd": "takePayment",
+      "href": "#{Payments.Core.BaseURL}/setup-payment?tenancyId=ABC123&arrearsId=foo",
+      "text": "New payment",
+    },
+    Object {
+      "dataBdd": "paymentPlan",
+      "link": "/arrears-details/foo/payment-plan/create",
+      "text": "New payment plan",
+    },
+    Object {
+      "dataBdd": "tenancySustainmentReferral",
+      "link": "/arrears-details/foo/refer-arrears-case/create",
+      "text": "Tenancy sustainment referral",
+    },
+    Object {
+      "dataBdd": "addTask",
+      "link": "/arrears-details/foo/task/create",
+      "text": "Add Task",
+    },
+    Object {
+      "dataBdd": "addNote",
+      "link": "/arrears-details/foo/note/create",
+      "text": "Add note",
+    },
+    Object {
+      "dataBdd": "pauseArrearsCase",
+      "link": "/arrears-details/foo/pause-arrears-case/create",
+      "text": "Pause arrears case",
+    },
+    Object {
+      "dataBdd": "legalCaseReferral",
+      "link": "/arrears-details/foo/legal-case-referral/create",
+      "text": "Friendly Form Name",
+    },
+  ],
+}
+`;
+
+exports[`ArrearsDetail connector mapStateToProps Payment Plan generates the correct props when a payment plan exists 1`] = `
+Object {
+  "actions": Array [
+    Object {
+      "dataBdd": "addInteraction",
+      "link": "/arrears-details/foo/interaction/create",
+      "text": "Add interaction",
+    },
+    Object {
+      "dataBdd": "sendCorrespondence",
+      "link": "/arrears-details/foo/send-correspondence/create",
+      "text": "Send correspondence",
+    },
+    Object {
+      "dataBdd": "takePayment",
+      "href": "#{Payments.Core.BaseURL}/setup-payment?tenancyId=ABC123&arrearsId=foo",
+      "text": "New payment",
+    },
+    Object {
+      "dataBdd": "paymentPlan",
+      "link": "/arrears-details/foo/payment-plan/abc123",
+      "text": "View payment plan",
+    },
+    Object {
+      "dataBdd": "tenancySustainmentReferral",
+      "link": "/arrears-details/foo/refer-arrears-case/create",
+      "text": "Tenancy sustainment referral",
+    },
+    Object {
+      "dataBdd": "addTask",
+      "link": "/arrears-details/foo/task/create",
+      "text": "Add Task",
+    },
+    Object {
+      "dataBdd": "addNote",
+      "link": "/arrears-details/foo/note/create",
+      "text": "Add note",
+    },
+    Object {
+      "dataBdd": "pauseArrearsCase",
+      "link": "/arrears-details/foo/pause-arrears-case/create",
+      "text": "Pause arrears case",
+    },
+  ],
+}
+`;
+
+exports[`ArrearsDetail connector mapStateToProps create pause generates the correct props when there is a pause awaiting approval and user is an HM 1`] = `
+Object {
+  "actions": Array [
+    Object {
+      "dataBdd": "addInteraction",
+      "link": "/arrears-details/foo/interaction/create",
+      "text": "Add interaction",
+    },
+    Object {
+      "dataBdd": "sendCorrespondence",
+      "link": "/arrears-details/foo/send-correspondence/create",
+      "text": "Send correspondence",
+    },
+    Object {
+      "dataBdd": "takePayment",
+      "href": "#{Payments.Core.BaseURL}/setup-payment?tenancyId=ABC123&arrearsId=foo",
+      "text": "New payment",
+    },
+    Object {
+      "dataBdd": "paymentPlan",
+      "link": "/arrears-details/foo/payment-plan/create",
+      "text": "New payment plan",
+    },
+    Object {
+      "dataBdd": "tenancySustainmentReferral",
+      "link": "/arrears-details/foo/refer-arrears-case/create",
+      "text": "Tenancy sustainment referral",
+    },
+    Object {
+      "dataBdd": "addTask",
+      "link": "/arrears-details/foo/task/create",
+      "text": "Add Task",
+    },
+    Object {
+      "dataBdd": "addNote",
+      "link": "/arrears-details/foo/note/create",
+      "text": "Add note",
+    },
+    Object {
+      "dataBdd": "pauseArrearsCase",
+      "link": "/arrears-details/foo/pause-arrears-case/ghi789/update",
+      "text": "Update/cancel pause",
+    },
+  ],
+}
+`;
+
+exports[`ArrearsDetail connector mapStateToProps create pause generates the correct props when there is a pause awaiting approval and user is an HO 1`] = `
+Object {
+  "actions": Array [
+    Object {
+      "dataBdd": "addInteraction",
+      "link": "/arrears-details/foo/interaction/create",
+      "text": "Add interaction",
+    },
+    Object {
+      "dataBdd": "sendCorrespondence",
+      "link": "/arrears-details/foo/send-correspondence/create",
+      "text": "Send correspondence",
+    },
+    Object {
+      "dataBdd": "takePayment",
+      "href": "#{Payments.Core.BaseURL}/setup-payment?tenancyId=ABC123&arrearsId=foo",
+      "text": "New payment",
+    },
+    Object {
+      "dataBdd": "paymentPlan",
+      "link": "/arrears-details/foo/payment-plan/create",
+      "text": "New payment plan",
+    },
+    Object {
+      "dataBdd": "tenancySustainmentReferral",
+      "link": "/arrears-details/foo/refer-arrears-case/create",
+      "text": "Tenancy sustainment referral",
+    },
+    Object {
+      "dataBdd": "addTask",
+      "link": "/arrears-details/foo/task/create",
+      "text": "Add Task",
+    },
+    Object {
+      "dataBdd": "addNote",
+      "link": "/arrears-details/foo/note/create",
+      "text": "Add note",
+    },
+    Object {
+      "dataBdd": "pauseArrearsCase",
+      "link": "/arrears-details/foo/pause-arrears-case/def456/update",
+      "text": "Update/cancel pause",
+    },
+  ],
+}
+`;
+
+exports[`ArrearsDetail connector mapStateToProps create pause generates the correct props when there is an active pause 1`] = `
+Object {
+  "actions": Array [
+    Object {
+      "dataBdd": "addInteraction",
+      "link": "/arrears-details/foo/interaction/create",
+      "text": "Add interaction",
+    },
+    Object {
+      "dataBdd": "sendCorrespondence",
+      "link": "/arrears-details/foo/send-correspondence/create",
+      "text": "Send correspondence",
+    },
+    Object {
+      "dataBdd": "takePayment",
+      "href": "#{Payments.Core.BaseURL}/setup-payment?tenancyId=ABC123&arrearsId=foo",
+      "text": "New payment",
+    },
+    Object {
+      "dataBdd": "paymentPlan",
+      "link": "/arrears-details/foo/payment-plan/create",
+      "text": "New payment plan",
+    },
+    Object {
+      "dataBdd": "tenancySustainmentReferral",
+      "link": "/arrears-details/foo/refer-arrears-case/create",
+      "text": "Tenancy sustainment referral",
+    },
+    Object {
+      "dataBdd": "addTask",
+      "link": "/arrears-details/foo/task/create",
+      "text": "Add Task",
+    },
+    Object {
+      "dataBdd": "addNote",
+      "link": "/arrears-details/foo/note/create",
+      "text": "Add note",
+    },
+    Object {
+      "dataBdd": "pauseArrearsCase",
+      "link": "/arrears-details/foo/pause-arrears-case/abc123/update",
+      "text": "Update/cancel pause",
+    },
+  ],
+}
+`;
+
+exports[`ArrearsDetail connector mapStateToProps generates the correct props 1`] = `
+Object {
+  "actions": Array [
+    Object {
+      "dataBdd": "addInteraction",
+      "link": "/arrears-details/foo/interaction/create",
+      "text": "Add interaction",
+    },
+    Object {
+      "dataBdd": "sendCorrespondence",
+      "link": "/arrears-details/foo/send-correspondence/create",
+      "text": "Send correspondence",
+    },
+    Object {
+      "dataBdd": "takePayment",
+      "href": "#{Payments.Core.BaseURL}/setup-payment?tenancyId=ABC123&arrearsId=foo",
+      "text": "New payment",
+    },
+    Object {
+      "dataBdd": "paymentPlan",
+      "link": "/arrears-details/foo/payment-plan/create",
+      "text": "New payment plan",
+    },
+    Object {
+      "dataBdd": "tenancySustainmentReferral",
+      "link": "/arrears-details/foo/refer-arrears-case/create",
+      "text": "Tenancy sustainment referral",
+    },
+    Object {
+      "dataBdd": "addTask",
+      "link": "/arrears-details/foo/task/create",
+      "text": "Add Task",
+    },
+    Object {
+      "dataBdd": "addNote",
+      "link": "/arrears-details/foo/note/create",
+      "text": "Add note",
+    },
+    Object {
+      "dataBdd": "pauseArrearsCase",
+      "link": "/arrears-details/foo/pause-arrears-case/create",
+      "text": "Pause arrears case",
+    },
+  ],
+}
+`;
+
+exports[`ArrearsDetail connector mapStateToProps serve NOSP generates the correct props when canServeNosp is enabled 1`] = `
+Object {
+  "actions": Array [
+    Object {
+      "dataBdd": "addInteraction",
+      "link": "/arrears-details/foo/interaction/create",
+      "text": "Add interaction",
+    },
+    Object {
+      "dataBdd": "sendCorrespondence",
+      "link": "/arrears-details/foo/send-correspondence/create",
+      "text": "Send correspondence",
+    },
+    Object {
+      "dataBdd": "takePayment",
+      "href": "#{Payments.Core.BaseURL}/setup-payment?tenancyId=ABC123&arrearsId=foo",
+      "text": "New payment",
+    },
+    Object {
+      "dataBdd": "paymentPlan",
+      "link": "/arrears-details/foo/payment-plan/create",
+      "text": "New payment plan",
+    },
+    Object {
+      "dataBdd": "tenancySustainmentReferral",
+      "link": "/arrears-details/foo/refer-arrears-case/create",
+      "text": "Tenancy sustainment referral",
+    },
+    Object {
+      "dataBdd": "addTask",
+      "link": "/arrears-details/foo/task/create",
+      "text": "Add Task",
+    },
+    Object {
+      "dataBdd": "addNote",
+      "link": "/arrears-details/foo/note/create",
+      "text": "Add note",
+    },
+    Object {
+      "dataBdd": "pauseArrearsCase",
+      "link": "/arrears-details/foo/pause-arrears-case/create",
+      "text": "Pause arrears case",
+    },
+  ],
+}
+`;

@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ArrearsFiltersComposition /> should render the page 1`] = `
+<Fragment>
+  <div
+    className="row"
+  >
+    <styled.div
+      data-bdd="ArrearsFilters-ArrearsFilters"
+    >
+      <t
+        autocomplete={false}
+        dataBdd=""
+        disabled={false}
+        hasError={false}
+        hideLabel={false}
+        inline={true}
+        inputValue="Arrears - All (11)"
+        isFullWidth={true}
+        itemToString={[Function]}
+        items={
+          Array [
+            Object {
+              "id": "myTasks",
+              "label": "undefined (0)",
+              "value": "myTasks",
+            },
+            Object {
+              "id": "Tasks",
+              "label": "Tasks ",
+              "value": "Tasks",
+            },
+            Object {
+              "id": "selectedUserTasks",
+              "label": "undefined ",
+              "value": "selectedUserTasks",
+            },
+            Object {
+              "count": 11,
+              "label": "Arrears - All (11)",
+              "name": "All",
+              "value": null,
+            },
+            Object {
+              "count": 10,
+              "label": "Arrears - In Progress (10)",
+              "name": "In Progress",
+              "value": 1,
+            },
+            Object {
+              "count": 1,
+              "label": "Arrears - Manually Paused (1)",
+              "name": "Manually Paused",
+              "value": 857920000,
+            },
+          ]
+        }
+        labelText="Show"
+        onChange={[Function]}
+        placeholder=""
+      />
+    </styled.div>
+    <t
+      autocomplete={false}
+      dataBdd=""
+      disabled={false}
+      hasError={false}
+      hideLabel={false}
+      inline={true}
+      inputValue="Priority"
+      isFullWidth={true}
+      itemToString={[Function]}
+      items={
+        Array [
+          Object {
+            "id": "priority",
+            "label": "Priority",
+            "value": "priority",
+          },
+          Object {
+            "id": "currentBalance",
+            "label": "Current Balance",
+            "value": "currentBalance",
+          },
+          Object {
+            "id": "daysInArrears",
+            "label": "Days in Arrears",
+            "value": "daysInArrears",
+          },
+        ]
+      }
+      labelText="Sort By"
+      onChange={[Function]}
+      placeholder=""
+    />
+  </div>
+  <div
+    className="row"
+  >
+    <styled.div
+      data-bdd="ArrearsFilters-StageFilter"
+    >
+      <t
+        autocomplete={false}
+        dataBdd=""
+        disabled={false}
+        hasError={false}
+        hideLabel={false}
+        inline={true}
+        inputValue=""
+        isFullWidth={true}
+        itemToString={[Function]}
+        items={Array []}
+        labelText="Stage"
+        onChange={[Function]}
+        placeholder="Select a Stage"
+      />
+    </styled.div>
+  </div>
+</Fragment>
+`;

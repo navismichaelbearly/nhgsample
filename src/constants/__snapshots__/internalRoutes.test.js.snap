@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`internalRoutes generates the correct routes when a payment plan exists 1`] = `
+Object {
+  "addNote": "/arrears-details/abc123/note/create",
+  "addTask": "/arrears-details/abc123/task/create",
+  "arrearsDetailNOSPModal": "/arrears-details/abc123?modal=serveNOSP",
+  "interaction": "/arrears-details/abc123/interaction/create",
+  "legalReferral": "/arrears-details/abc123/legal-case-referral/create",
+  "pause": "/arrears-details/abc123/pause-arrears-case/create",
+  "paymentPlan": "/arrears-details/abc123/payment-plan/def456",
+  "sendCorrespondence": "/arrears-details/abc123/send-correspondence/create",
+  "tenancySustainmentReferral": "/arrears-details/abc123/refer-arrears-case/create",
+  "welfareReformDetails": "/arrears-details/abc123/welfare-reform-details",
+}
+`;
+
+exports[`internalRoutes generates the correct routes when there is a pause awaiting approval and user is an HM 1`] = `
+Object {
+  "addNote": "/arrears-details/abc123/note/create",
+  "addTask": "/arrears-details/abc123/task/create",
+  "arrearsDetailNOSPModal": "/arrears-details/abc123?modal=serveNOSP",
+  "interaction": "/arrears-details/abc123/interaction/create",
+  "legalReferral": "/arrears-details/abc123/legal-case-referral/create",
+  "pause": "/arrears-details/abc123/pause-arrears-case/def456/approve",
+  "paymentPlan": "/arrears-details/abc123/payment-plan/create",
+  "sendCorrespondence": "/arrears-details/abc123/send-correspondence/create",
+  "tenancySustainmentReferral": "/arrears-details/abc123/refer-arrears-case/create",
+  "welfareReformDetails": "/arrears-details/abc123/welfare-reform-details",
+}
+`;
+
+exports[`internalRoutes generates the correct routes when there is a pause awaiting approval and user is an HO 1`] = `
+Object {
+  "addNote": "/arrears-details/abc123/note/create",
+  "addTask": "/arrears-details/abc123/task/create",
+  "arrearsDetailNOSPModal": "/arrears-details/abc123?modal=serveNOSP",
+  "interaction": "/arrears-details/abc123/interaction/create",
+  "legalReferral": "/arrears-details/abc123/legal-case-referral/create",
+  "pause": "/arrears-details/abc123/pause-arrears-case/def456/update",
+  "paymentPlan": "/arrears-details/abc123/payment-plan/create",
+  "sendCorrespondence": "/arrears-details/abc123/send-correspondence/create",
+  "tenancySustainmentReferral": "/arrears-details/abc123/refer-arrears-case/create",
+  "welfareReformDetails": "/arrears-details/abc123/welfare-reform-details",
+}
+`;
+
+exports[`internalRoutes generates the correct routes when there is an active pause 1`] = `
+Object {
+  "addNote": "/arrears-details/abc123/note/create",
+  "addTask": "/arrears-details/abc123/task/create",
+  "arrearsDetailNOSPModal": "/arrears-details/abc123?modal=serveNOSP",
+  "interaction": "/arrears-details/abc123/interaction/create",
+  "legalReferral": "/arrears-details/abc123/legal-case-referral/create",
+  "pause": "/arrears-details/abc123/pause-arrears-case/def456/update",
+  "paymentPlan": "/arrears-details/abc123/payment-plan/create",
+  "sendCorrespondence": "/arrears-details/abc123/send-correspondence/create",
+  "tenancySustainmentReferral": "/arrears-details/abc123/refer-arrears-case/create",
+  "welfareReformDetails": "/arrears-details/abc123/welfare-reform-details",
+}
+`;
+
+exports[`internalRoutes generates the correct routes when there is an active pause and a draft pause 1`] = `
+Object {
+  "addNote": "/arrears-details/abc123/note/create",
+  "addTask": "/arrears-details/abc123/task/create",
+  "arrearsDetailNOSPModal": "/arrears-details/abc123?modal=serveNOSP",
+  "interaction": "/arrears-details/abc123/interaction/create",
+  "legalReferral": "/arrears-details/abc123/legal-case-referral/create",
+  "pause": "/arrears-details/abc123/pause-arrears-case/def456/update",
+  "paymentPlan": "/arrears-details/abc123/payment-plan/create",
+  "sendCorrespondence": "/arrears-details/abc123/send-correspondence/create",
+  "tenancySustainmentReferral": "/arrears-details/abc123/refer-arrears-case/create",
+  "welfareReformDetails": "/arrears-details/abc123/welfare-reform-details",
+}
+`;

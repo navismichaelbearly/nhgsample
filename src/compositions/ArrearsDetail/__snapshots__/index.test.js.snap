@@ -1,0 +1,1344 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ArrearsDetailComposition /> Display modals should call passed in openTemplate with serveNOSP template when the correct props are passed in 1`] = `
+<withRouter(Connect(Component))
+  arrearsId="foo"
+/>
+`;
+
+exports[`<ArrearsDetailComposition /> phase indicator should render the page correctly when there are no active phases 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <Styled(styled.div)>
+      <Styled(styled.div)>
+        <withRouter(Connect(PropertyInformationComposition)) />
+      </Styled(styled.div)>
+      <ArrearsDetails
+        allDetails={true}
+        arrearsLength={5}
+        createdOn="2018-07-15T13:12:07.193Z"
+        heading="informationHeading"
+        labels={
+          Object {
+            "lengthOfArrears": "Length of arrears",
+            "lengthOfArrearsValue": "{days} days (case started on {date})",
+            "none": "None",
+            "patchOwner": "Patch owner",
+            "pauses": Object {
+              "active": "(active)",
+              "draftLabel": "Draft pauses",
+              "draftPausePeriod": "Requested from {from} to {to}",
+              "label": "Pauses",
+              "pausePeriod": "Paused from {from} to {to}",
+              "pendingApproval": "(pending approval)",
+            },
+            "paymentPlan": Object {
+              "endDate": "End date:",
+              "frequency": "Frequency:",
+              "instalmentAmount": "Instalment amount:",
+              "label": "Payment plan",
+              "period": "Period:",
+              "startDate": "Start date:",
+              "type": "Type:",
+            },
+            "referralStatus": Object {
+              "label": "Referrals",
+              "value": "{team}, {date}",
+            },
+            "status": "Arrears status",
+            "workwiseReference": "Workwise reference",
+          }
+        }
+        legalReferral={
+          Object {
+            "createdOn": "2018-07-15T13:12:07.193Z",
+            "title": "legalReferral",
+          }
+        }
+        owner={
+          Object {
+            "name": "Fred",
+          }
+        }
+        pauseSummary={
+          Array [
+            Object {
+              "expiryDate": "2017-04-23T13:12:07.193Z",
+              "startDate": "2018-07-15T13:12:07.193Z",
+              "status": "Active",
+            },
+          ]
+        }
+        paymentPlan={
+          Object {
+            "endDate": "2017-04-23T13:12:07.193Z",
+            "installment": Object {
+              "amount": 50,
+              "period": 2,
+              "schedule": "Weekly",
+            },
+            "startDate": "2018-07-15T13:12:07.193Z",
+            "type": "Foo",
+          }
+        }
+        phases={
+          Array [
+            Object {
+              "name": "Phase 1",
+            },
+            Object {
+              "name": "Phase 2",
+            },
+          ]
+        }
+        primaryLegalAction={
+          Object {
+            "createdOn": "2017-04-23T13:12:07.193Z",
+            "title": "primaryLegalAction",
+          }
+        }
+        referralSummaries={
+          Array [
+            Object {
+              "createdOn": "2018-07-15T13:12:07.193Z",
+              "teamName": "Jim",
+            },
+            Object {
+              "createdOn": "2017-04-23T13:12:07.193Z",
+              "teamName": "Bob",
+            },
+          ]
+        }
+        refferalPack={
+          Object {
+            "legalReferralPack": Object {
+              "link": "/alink",
+            },
+          }
+        }
+        rentDetail={null}
+        status="Active"
+        welfareReform={Object {}}
+        workwiseReferenceNumber="12345"
+      />
+      <LegalActions
+        expiringSoon="expiringSoon"
+        expiryDate="expiryDate"
+        heading="legalActions heading"
+        headingExpiring="headingExpiring"
+        labels={
+          Object {
+            "createdOn": "labels createdOn",
+            "expires": "labels expires",
+            "owner": "labels owner",
+            "status": "labels status",
+          }
+        }
+        legalReferral={
+          Object {
+            "createdOn": "2018-07-15T13:12:07.193Z",
+            "referralPack": undefined,
+            "title": "legalReferral",
+          }
+        }
+        primaryLegalAction={
+          Object {
+            "createdOn": "2017-04-23T13:12:07.193Z",
+            "title": "primaryLegalAction",
+          }
+        }
+      />
+      <WithTheme(withRouter(Connect(ArrearsDetailTasksComposition))) />
+      <withRouter(Connect(TenancyTransactions)) />
+      <br />
+      <p
+        isSmall={false}
+      />
+      <withRouter(Connect(ActivityHistoryComposition)) />
+      <NoteList
+        notes={
+          Array [
+            Object {
+              "caseId": "00000000-0000-0000-0000-000000000000",
+              "created": Object {
+                "by": null,
+                "on": "2018-10-31T14:41:31+00:00",
+              },
+              "id": "a143b7a5-0f6e-4eeb-9398-a897c3d2cec7",
+              "modified": Object {
+                "by": null,
+                "on": "2018-10-31T14:41:31+00:00",
+              },
+              "subject": "Note added via Arrears",
+              "text": "this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note ",
+            },
+          ]
+        }
+        text={
+          Object {
+            "heading": "Notes ({count})",
+            "labels": Object {
+              "date": "Date",
+              "fileUploadStatus": "FileUploadStatus",
+              "filename": "Filename",
+              "name": "Name",
+            },
+          }
+        }
+      />
+    </Styled(styled.div)>
+  </div>
+  <aside
+    className="col-lg-3"
+  >
+    <v
+      activePhaseIndex={-1}
+      dataBdd={null}
+      phases={
+        Array [
+          Object {
+            "name": "Phase 1",
+          },
+          Object {
+            "name": "Phase 2",
+          },
+        ]
+      }
+      size={25}
+      title="phasesHeading"
+    />
+    <withRouter(Connect(Component)) />
+  </aside>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ArrearsDetailComposition /> phase indicator should render the page correctly when there are no phases 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <Styled(styled.div)>
+      <Styled(styled.div)>
+        <withRouter(Connect(PropertyInformationComposition)) />
+      </Styled(styled.div)>
+      <ArrearsDetails
+        allDetails={true}
+        arrearsLength={5}
+        createdOn="2018-07-15T13:12:07.193Z"
+        heading="informationHeading"
+        labels={
+          Object {
+            "lengthOfArrears": "Length of arrears",
+            "lengthOfArrearsValue": "{days} days (case started on {date})",
+            "none": "None",
+            "patchOwner": "Patch owner",
+            "pauses": Object {
+              "active": "(active)",
+              "draftLabel": "Draft pauses",
+              "draftPausePeriod": "Requested from {from} to {to}",
+              "label": "Pauses",
+              "pausePeriod": "Paused from {from} to {to}",
+              "pendingApproval": "(pending approval)",
+            },
+            "paymentPlan": Object {
+              "endDate": "End date:",
+              "frequency": "Frequency:",
+              "instalmentAmount": "Instalment amount:",
+              "label": "Payment plan",
+              "period": "Period:",
+              "startDate": "Start date:",
+              "type": "Type:",
+            },
+            "referralStatus": Object {
+              "label": "Referrals",
+              "value": "{team}, {date}",
+            },
+            "status": "Arrears status",
+            "workwiseReference": "Workwise reference",
+          }
+        }
+        legalReferral={
+          Object {
+            "createdOn": "2018-07-15T13:12:07.193Z",
+            "title": "legalReferral",
+          }
+        }
+        owner={
+          Object {
+            "name": "Fred",
+          }
+        }
+        pauseSummary={
+          Array [
+            Object {
+              "expiryDate": "2017-04-23T13:12:07.193Z",
+              "startDate": "2018-07-15T13:12:07.193Z",
+              "status": "Active",
+            },
+          ]
+        }
+        paymentPlan={
+          Object {
+            "endDate": "2017-04-23T13:12:07.193Z",
+            "installment": Object {
+              "amount": 50,
+              "period": 2,
+              "schedule": "Weekly",
+            },
+            "startDate": "2018-07-15T13:12:07.193Z",
+            "type": "Foo",
+          }
+        }
+        phases={Array []}
+        primaryLegalAction={
+          Object {
+            "createdOn": "2017-04-23T13:12:07.193Z",
+            "title": "primaryLegalAction",
+          }
+        }
+        referralSummaries={
+          Array [
+            Object {
+              "createdOn": "2018-07-15T13:12:07.193Z",
+              "teamName": "Jim",
+            },
+            Object {
+              "createdOn": "2017-04-23T13:12:07.193Z",
+              "teamName": "Bob",
+            },
+          ]
+        }
+        refferalPack={
+          Object {
+            "legalReferralPack": Object {
+              "link": "/alink",
+            },
+          }
+        }
+        rentDetail={null}
+        status="Active"
+        welfareReform={Object {}}
+        workwiseReferenceNumber="12345"
+      />
+      <LegalActions
+        expiringSoon="expiringSoon"
+        expiryDate="expiryDate"
+        heading="legalActions heading"
+        headingExpiring="headingExpiring"
+        labels={
+          Object {
+            "createdOn": "labels createdOn",
+            "expires": "labels expires",
+            "owner": "labels owner",
+            "status": "labels status",
+          }
+        }
+        legalReferral={
+          Object {
+            "createdOn": "2018-07-15T13:12:07.193Z",
+            "referralPack": undefined,
+            "title": "legalReferral",
+          }
+        }
+        primaryLegalAction={
+          Object {
+            "createdOn": "2017-04-23T13:12:07.193Z",
+            "title": "primaryLegalAction",
+          }
+        }
+      />
+      <WithTheme(withRouter(Connect(ArrearsDetailTasksComposition))) />
+      <withRouter(Connect(TenancyTransactions)) />
+      <br />
+      <p
+        isSmall={false}
+      />
+      <withRouter(Connect(ActivityHistoryComposition)) />
+      <NoteList
+        notes={
+          Array [
+            Object {
+              "caseId": "00000000-0000-0000-0000-000000000000",
+              "created": Object {
+                "by": null,
+                "on": "2018-10-31T14:41:31+00:00",
+              },
+              "id": "a143b7a5-0f6e-4eeb-9398-a897c3d2cec7",
+              "modified": Object {
+                "by": null,
+                "on": "2018-10-31T14:41:31+00:00",
+              },
+              "subject": "Note added via Arrears",
+              "text": "this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note ",
+            },
+          ]
+        }
+        text={
+          Object {
+            "heading": "Notes ({count})",
+            "labels": Object {
+              "date": "Date",
+              "fileUploadStatus": "FileUploadStatus",
+              "filename": "Filename",
+              "name": "Name",
+            },
+          }
+        }
+      />
+    </Styled(styled.div)>
+  </div>
+  <aside
+    className="col-lg-3"
+  >
+    <withRouter(Connect(Component)) />
+  </aside>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ArrearsDetailComposition /> phase indicator should render the page correctly with an active phase 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <Styled(styled.div)>
+      <Styled(styled.div)>
+        <withRouter(Connect(PropertyInformationComposition)) />
+      </Styled(styled.div)>
+      <ArrearsDetails
+        allDetails={true}
+        arrearsLength={5}
+        createdOn="2018-07-15T13:12:07.193Z"
+        heading="informationHeading"
+        labels={
+          Object {
+            "lengthOfArrears": "Length of arrears",
+            "lengthOfArrearsValue": "{days} days (case started on {date})",
+            "none": "None",
+            "patchOwner": "Patch owner",
+            "pauses": Object {
+              "active": "(active)",
+              "draftLabel": "Draft pauses",
+              "draftPausePeriod": "Requested from {from} to {to}",
+              "label": "Pauses",
+              "pausePeriod": "Paused from {from} to {to}",
+              "pendingApproval": "(pending approval)",
+            },
+            "paymentPlan": Object {
+              "endDate": "End date:",
+              "frequency": "Frequency:",
+              "instalmentAmount": "Instalment amount:",
+              "label": "Payment plan",
+              "period": "Period:",
+              "startDate": "Start date:",
+              "type": "Type:",
+            },
+            "referralStatus": Object {
+              "label": "Referrals",
+              "value": "{team}, {date}",
+            },
+            "status": "Arrears status",
+            "workwiseReference": "Workwise reference",
+          }
+        }
+        legalReferral={
+          Object {
+            "createdOn": "2018-07-15T13:12:07.193Z",
+            "title": "legalReferral",
+          }
+        }
+        owner={
+          Object {
+            "name": "Fred",
+          }
+        }
+        pauseSummary={
+          Array [
+            Object {
+              "expiryDate": "2017-04-23T13:12:07.193Z",
+              "startDate": "2018-07-15T13:12:07.193Z",
+              "status": "Active",
+            },
+          ]
+        }
+        paymentPlan={
+          Object {
+            "endDate": "2017-04-23T13:12:07.193Z",
+            "installment": Object {
+              "amount": 50,
+              "period": 2,
+              "schedule": "Weekly",
+            },
+            "startDate": "2018-07-15T13:12:07.193Z",
+            "type": "Foo",
+          }
+        }
+        phases={
+          Array [
+            Object {
+              "active": true,
+              "name": "Phase 1",
+            },
+            Object {
+              "name": "Phase 2",
+            },
+          ]
+        }
+        primaryLegalAction={
+          Object {
+            "createdOn": "2017-04-23T13:12:07.193Z",
+            "title": "primaryLegalAction",
+          }
+        }
+        referralSummaries={
+          Array [
+            Object {
+              "createdOn": "2018-07-15T13:12:07.193Z",
+              "teamName": "Jim",
+            },
+            Object {
+              "createdOn": "2017-04-23T13:12:07.193Z",
+              "teamName": "Bob",
+            },
+          ]
+        }
+        refferalPack={
+          Object {
+            "legalReferralPack": Object {
+              "link": "/alink",
+            },
+          }
+        }
+        rentDetail={null}
+        status="Active"
+        welfareReform={Object {}}
+        workwiseReferenceNumber="12345"
+      />
+      <LegalActions
+        expiringSoon="expiringSoon"
+        expiryDate="expiryDate"
+        heading="legalActions heading"
+        headingExpiring="headingExpiring"
+        labels={
+          Object {
+            "createdOn": "labels createdOn",
+            "expires": "labels expires",
+            "owner": "labels owner",
+            "status": "labels status",
+          }
+        }
+        legalReferral={
+          Object {
+            "createdOn": "2018-07-15T13:12:07.193Z",
+            "referralPack": undefined,
+            "title": "legalReferral",
+          }
+        }
+        primaryLegalAction={
+          Object {
+            "createdOn": "2017-04-23T13:12:07.193Z",
+            "title": "primaryLegalAction",
+          }
+        }
+      />
+      <WithTheme(withRouter(Connect(ArrearsDetailTasksComposition))) />
+      <withRouter(Connect(TenancyTransactions)) />
+      <br />
+      <p
+        isSmall={false}
+      />
+      <withRouter(Connect(ActivityHistoryComposition)) />
+      <NoteList
+        notes={
+          Array [
+            Object {
+              "caseId": "00000000-0000-0000-0000-000000000000",
+              "created": Object {
+                "by": null,
+                "on": "2018-10-31T14:41:31+00:00",
+              },
+              "id": "a143b7a5-0f6e-4eeb-9398-a897c3d2cec7",
+              "modified": Object {
+                "by": null,
+                "on": "2018-10-31T14:41:31+00:00",
+              },
+              "subject": "Note added via Arrears",
+              "text": "this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note ",
+            },
+          ]
+        }
+        text={
+          Object {
+            "heading": "Notes ({count})",
+            "labels": Object {
+              "date": "Date",
+              "fileUploadStatus": "FileUploadStatus",
+              "filename": "Filename",
+              "name": "Name",
+            },
+          }
+        }
+      />
+    </Styled(styled.div)>
+  </div>
+  <aside
+    className="col-lg-3"
+  >
+    <v
+      activePhaseIndex={-1}
+      dataBdd={null}
+      phases={
+        Array [
+          Object {
+            "active": true,
+            "name": "Phase 1",
+          },
+          Object {
+            "name": "Phase 2",
+          },
+        ]
+      }
+      size={25}
+      title="phasesHeading"
+    />
+    <withRouter(Connect(Component)) />
+  </aside>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ArrearsDetailComposition /> should call addNotification if primaryLegalAction.notifyOfPendingExpiry is true 1`] = `
+Array [
+  Array [
+    Object {
+      "dataBddPrefix": "legalActionNotification",
+      "icon": "warning",
+      "lines": Array [
+        Object {
+          "dataBdd": "expirydate",
+          "text": "primaryLegalAction",
+        },
+        Object {
+          "dataBdd": "expiresOn",
+          "text": "labels expires expiryDate",
+        },
+      ],
+      "notificationType": "legal",
+      "title": "headingExpiring",
+    },
+  ],
+]
+`;
+
+exports[`<ArrearsDetailComposition /> should render the page 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <Styled(styled.div)>
+      <Styled(styled.div)>
+        <withRouter(Connect(PropertyInformationComposition)) />
+      </Styled(styled.div)>
+      <ArrearsDetails
+        allDetails={true}
+        arrearsLength={5}
+        createdOn="2018-07-15T13:12:07.193Z"
+        heading="informationHeading"
+        labels={
+          Object {
+            "lengthOfArrears": "Length of arrears",
+            "lengthOfArrearsValue": "{days} days (case started on {date})",
+            "none": "None",
+            "patchOwner": "Patch owner",
+            "pauses": Object {
+              "active": "(active)",
+              "draftLabel": "Draft pauses",
+              "draftPausePeriod": "Requested from {from} to {to}",
+              "label": "Pauses",
+              "pausePeriod": "Paused from {from} to {to}",
+              "pendingApproval": "(pending approval)",
+            },
+            "paymentPlan": Object {
+              "endDate": "End date:",
+              "frequency": "Frequency:",
+              "instalmentAmount": "Instalment amount:",
+              "label": "Payment plan",
+              "period": "Period:",
+              "startDate": "Start date:",
+              "type": "Type:",
+            },
+            "referralStatus": Object {
+              "label": "Referrals",
+              "value": "{team}, {date}",
+            },
+            "status": "Arrears status",
+            "workwiseReference": "Workwise reference",
+          }
+        }
+        legalReferral={
+          Object {
+            "createdOn": "2018-07-15T13:12:07.193Z",
+            "title": "legalReferral",
+          }
+        }
+        owner={
+          Object {
+            "name": "Fred",
+          }
+        }
+        pauseSummary={
+          Array [
+            Object {
+              "expiryDate": "2017-04-23T13:12:07.193Z",
+              "startDate": "2018-07-15T13:12:07.193Z",
+              "status": "Active",
+            },
+          ]
+        }
+        paymentPlan={
+          Object {
+            "endDate": "2017-04-23T13:12:07.193Z",
+            "installment": Object {
+              "amount": 50,
+              "period": 2,
+              "schedule": "Weekly",
+            },
+            "startDate": "2018-07-15T13:12:07.193Z",
+            "type": "Foo",
+          }
+        }
+        primaryLegalAction={
+          Object {
+            "createdOn": "2017-04-23T13:12:07.193Z",
+            "title": "primaryLegalAction",
+          }
+        }
+        referralSummaries={
+          Array [
+            Object {
+              "createdOn": "2018-07-15T13:12:07.193Z",
+              "teamName": "Jim",
+            },
+            Object {
+              "createdOn": "2017-04-23T13:12:07.193Z",
+              "teamName": "Bob",
+            },
+          ]
+        }
+        refferalPack={
+          Object {
+            "legalReferralPack": Object {
+              "link": "/alink",
+            },
+          }
+        }
+        rentDetail={null}
+        status="Active"
+        welfareReform={Object {}}
+        workwiseReferenceNumber="12345"
+      />
+      <LegalActions
+        expiringSoon="expiringSoon"
+        expiryDate="expiryDate"
+        heading="legalActions heading"
+        headingExpiring="headingExpiring"
+        labels={
+          Object {
+            "createdOn": "labels createdOn",
+            "expires": "labels expires",
+            "owner": "labels owner",
+            "status": "labels status",
+          }
+        }
+        legalReferral={
+          Object {
+            "createdOn": "2018-07-15T13:12:07.193Z",
+            "referralPack": undefined,
+            "title": "legalReferral",
+          }
+        }
+        primaryLegalAction={
+          Object {
+            "createdOn": "2017-04-23T13:12:07.193Z",
+            "title": "primaryLegalAction",
+          }
+        }
+      />
+      <WithTheme(withRouter(Connect(ArrearsDetailTasksComposition))) />
+      <withRouter(Connect(TenancyTransactions)) />
+      <br />
+      <p
+        isSmall={false}
+      />
+      <withRouter(Connect(ActivityHistoryComposition)) />
+      <NoteList
+        notes={
+          Array [
+            Object {
+              "caseId": "00000000-0000-0000-0000-000000000000",
+              "created": Object {
+                "by": null,
+                "on": "2018-10-31T14:41:31+00:00",
+              },
+              "id": "a143b7a5-0f6e-4eeb-9398-a897c3d2cec7",
+              "modified": Object {
+                "by": null,
+                "on": "2018-10-31T14:41:31+00:00",
+              },
+              "subject": "Note added via Arrears",
+              "text": "this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note ",
+            },
+          ]
+        }
+        text={
+          Object {
+            "heading": "Notes ({count})",
+            "labels": Object {
+              "date": "Date",
+              "fileUploadStatus": "FileUploadStatus",
+              "filename": "Filename",
+              "name": "Name",
+            },
+          }
+        }
+      />
+    </Styled(styled.div)>
+  </div>
+  <aside
+    className="col-lg-3"
+  >
+    <withRouter(Connect(Component)) />
+  </aside>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ArrearsDetailComposition /> should render the page correctly while arrears is being populated 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <p
+    isSmall={false}
+  />
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ArrearsDetailComposition /> should render the page correctly without legalReferral 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <Styled(styled.div)>
+      <Styled(styled.div)>
+        <withRouter(Connect(PropertyInformationComposition)) />
+      </Styled(styled.div)>
+      <ArrearsDetails
+        allDetails={true}
+        arrearsLength={5}
+        createdOn="2018-07-15T13:12:07.193Z"
+        heading="informationHeading"
+        labels={
+          Object {
+            "lengthOfArrears": "Length of arrears",
+            "lengthOfArrearsValue": "{days} days (case started on {date})",
+            "none": "None",
+            "patchOwner": "Patch owner",
+            "pauses": Object {
+              "active": "(active)",
+              "draftLabel": "Draft pauses",
+              "draftPausePeriod": "Requested from {from} to {to}",
+              "label": "Pauses",
+              "pausePeriod": "Paused from {from} to {to}",
+              "pendingApproval": "(pending approval)",
+            },
+            "paymentPlan": Object {
+              "endDate": "End date:",
+              "frequency": "Frequency:",
+              "instalmentAmount": "Instalment amount:",
+              "label": "Payment plan",
+              "period": "Period:",
+              "startDate": "Start date:",
+              "type": "Type:",
+            },
+            "referralStatus": Object {
+              "label": "Referrals",
+              "value": "{team}, {date}",
+            },
+            "status": "Arrears status",
+            "workwiseReference": "Workwise reference",
+          }
+        }
+        owner={
+          Object {
+            "name": "Fred",
+          }
+        }
+        pauseSummary={
+          Array [
+            Object {
+              "expiryDate": "2017-04-23T13:12:07.193Z",
+              "startDate": "2018-07-15T13:12:07.193Z",
+              "status": "Active",
+            },
+          ]
+        }
+        paymentPlan={
+          Object {
+            "endDate": "2017-04-23T13:12:07.193Z",
+            "installment": Object {
+              "amount": 50,
+              "period": 2,
+              "schedule": "Weekly",
+            },
+            "startDate": "2018-07-15T13:12:07.193Z",
+            "type": "Foo",
+          }
+        }
+        primaryLegalAction={
+          Object {
+            "createdOn": "2017-04-23T13:12:07.193Z",
+            "title": "primaryLegalAction",
+          }
+        }
+        referralSummaries={
+          Array [
+            Object {
+              "createdOn": "2018-07-15T13:12:07.193Z",
+              "teamName": "Jim",
+            },
+            Object {
+              "createdOn": "2017-04-23T13:12:07.193Z",
+              "teamName": "Bob",
+            },
+          ]
+        }
+        refferalPack={
+          Object {
+            "legalReferralPack": Object {
+              "link": "/alink",
+            },
+          }
+        }
+        rentDetail={null}
+        status="Active"
+        welfareReform={Object {}}
+        workwiseReferenceNumber="12345"
+      />
+      <LegalActions
+        expiringSoon="expiringSoon"
+        expiryDate="expiryDate"
+        heading="legalActions heading"
+        headingExpiring="headingExpiring"
+        labels={
+          Object {
+            "createdOn": "labels createdOn",
+            "expires": "labels expires",
+            "owner": "labels owner",
+            "status": "labels status",
+          }
+        }
+        legalReferral={null}
+        primaryLegalAction={
+          Object {
+            "createdOn": "2017-04-23T13:12:07.193Z",
+            "title": "primaryLegalAction",
+          }
+        }
+      />
+      <WithTheme(withRouter(Connect(ArrearsDetailTasksComposition))) />
+      <withRouter(Connect(TenancyTransactions)) />
+      <br />
+      <p
+        isSmall={false}
+      />
+      <withRouter(Connect(ActivityHistoryComposition)) />
+      <NoteList
+        notes={
+          Array [
+            Object {
+              "caseId": "00000000-0000-0000-0000-000000000000",
+              "created": Object {
+                "by": null,
+                "on": "2018-10-31T14:41:31+00:00",
+              },
+              "id": "a143b7a5-0f6e-4eeb-9398-a897c3d2cec7",
+              "modified": Object {
+                "by": null,
+                "on": "2018-10-31T14:41:31+00:00",
+              },
+              "subject": "Note added via Arrears",
+              "text": "this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note ",
+            },
+          ]
+        }
+        text={
+          Object {
+            "heading": "Notes ({count})",
+            "labels": Object {
+              "date": "Date",
+              "fileUploadStatus": "FileUploadStatus",
+              "filename": "Filename",
+              "name": "Name",
+            },
+          }
+        }
+      />
+    </Styled(styled.div)>
+  </div>
+  <aside
+    className="col-lg-3"
+  >
+    <withRouter(Connect(Component)) />
+  </aside>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ArrearsDetailComposition /> should render the page correctly without primaryLegalAction 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <Styled(styled.div)>
+      <Styled(styled.div)>
+        <withRouter(Connect(PropertyInformationComposition)) />
+      </Styled(styled.div)>
+      <ArrearsDetails
+        allDetails={true}
+        arrearsLength={5}
+        createdOn="2018-07-15T13:12:07.193Z"
+        heading="informationHeading"
+        labels={
+          Object {
+            "lengthOfArrears": "Length of arrears",
+            "lengthOfArrearsValue": "{days} days (case started on {date})",
+            "none": "None",
+            "patchOwner": "Patch owner",
+            "pauses": Object {
+              "active": "(active)",
+              "draftLabel": "Draft pauses",
+              "draftPausePeriod": "Requested from {from} to {to}",
+              "label": "Pauses",
+              "pausePeriod": "Paused from {from} to {to}",
+              "pendingApproval": "(pending approval)",
+            },
+            "paymentPlan": Object {
+              "endDate": "End date:",
+              "frequency": "Frequency:",
+              "instalmentAmount": "Instalment amount:",
+              "label": "Payment plan",
+              "period": "Period:",
+              "startDate": "Start date:",
+              "type": "Type:",
+            },
+            "referralStatus": Object {
+              "label": "Referrals",
+              "value": "{team}, {date}",
+            },
+            "status": "Arrears status",
+            "workwiseReference": "Workwise reference",
+          }
+        }
+        legalReferral={
+          Object {
+            "createdOn": "2018-07-15T13:12:07.193Z",
+            "title": "legalReferral",
+          }
+        }
+        owner={
+          Object {
+            "name": "Fred",
+          }
+        }
+        pauseSummary={
+          Array [
+            Object {
+              "expiryDate": "2017-04-23T13:12:07.193Z",
+              "startDate": "2018-07-15T13:12:07.193Z",
+              "status": "Active",
+            },
+          ]
+        }
+        paymentPlan={
+          Object {
+            "endDate": "2017-04-23T13:12:07.193Z",
+            "installment": Object {
+              "amount": 50,
+              "period": 2,
+              "schedule": "Weekly",
+            },
+            "startDate": "2018-07-15T13:12:07.193Z",
+            "type": "Foo",
+          }
+        }
+        referralSummaries={
+          Array [
+            Object {
+              "createdOn": "2018-07-15T13:12:07.193Z",
+              "teamName": "Jim",
+            },
+            Object {
+              "createdOn": "2017-04-23T13:12:07.193Z",
+              "teamName": "Bob",
+            },
+          ]
+        }
+        refferalPack={
+          Object {
+            "legalReferralPack": Object {
+              "link": "/alink",
+            },
+          }
+        }
+        rentDetail={null}
+        status="Active"
+        welfareReform={Object {}}
+        workwiseReferenceNumber="12345"
+      />
+      <LegalActions
+        expiringSoon="expiringSoon"
+        expiryDate="expiryDate"
+        heading="legalActions heading"
+        headingExpiring="headingExpiring"
+        labels={
+          Object {
+            "createdOn": "labels createdOn",
+            "expires": "labels expires",
+            "owner": "labels owner",
+            "status": "labels status",
+          }
+        }
+        legalReferral={
+          Object {
+            "createdOn": "2018-07-15T13:12:07.193Z",
+            "referralPack": undefined,
+            "title": "legalReferral",
+          }
+        }
+        primaryLegalAction={null}
+      />
+      <WithTheme(withRouter(Connect(ArrearsDetailTasksComposition))) />
+      <withRouter(Connect(TenancyTransactions)) />
+      <br />
+      <p
+        isSmall={false}
+      />
+      <withRouter(Connect(ActivityHistoryComposition)) />
+      <NoteList
+        notes={
+          Array [
+            Object {
+              "caseId": "00000000-0000-0000-0000-000000000000",
+              "created": Object {
+                "by": null,
+                "on": "2018-10-31T14:41:31+00:00",
+              },
+              "id": "a143b7a5-0f6e-4eeb-9398-a897c3d2cec7",
+              "modified": Object {
+                "by": null,
+                "on": "2018-10-31T14:41:31+00:00",
+              },
+              "subject": "Note added via Arrears",
+              "text": "this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note ",
+            },
+          ]
+        }
+        text={
+          Object {
+            "heading": "Notes ({count})",
+            "labels": Object {
+              "date": "Date",
+              "fileUploadStatus": "FileUploadStatus",
+              "filename": "Filename",
+              "name": "Name",
+            },
+          }
+        }
+      />
+    </Styled(styled.div)>
+  </div>
+  <aside
+    className="col-lg-3"
+  >
+    <withRouter(Connect(Component)) />
+  </aside>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ArrearsDetailComposition /> should render when notes are loading 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <Styled(styled.div)>
+      <Styled(styled.div)>
+        <withRouter(Connect(PropertyInformationComposition)) />
+      </Styled(styled.div)>
+      <ArrearsDetails
+        allDetails={true}
+        arrearsLength={5}
+        createdOn="2018-07-15T13:12:07.193Z"
+        heading="informationHeading"
+        labels={
+          Object {
+            "lengthOfArrears": "Length of arrears",
+            "lengthOfArrearsValue": "{days} days (case started on {date})",
+            "none": "None",
+            "patchOwner": "Patch owner",
+            "pauses": Object {
+              "active": "(active)",
+              "draftLabel": "Draft pauses",
+              "draftPausePeriod": "Requested from {from} to {to}",
+              "label": "Pauses",
+              "pausePeriod": "Paused from {from} to {to}",
+              "pendingApproval": "(pending approval)",
+            },
+            "paymentPlan": Object {
+              "endDate": "End date:",
+              "frequency": "Frequency:",
+              "instalmentAmount": "Instalment amount:",
+              "label": "Payment plan",
+              "period": "Period:",
+              "startDate": "Start date:",
+              "type": "Type:",
+            },
+            "referralStatus": Object {
+              "label": "Referrals",
+              "value": "{team}, {date}",
+            },
+            "status": "Arrears status",
+            "workwiseReference": "Workwise reference",
+          }
+        }
+        legalReferral={
+          Object {
+            "createdOn": "2018-07-15T13:12:07.193Z",
+            "title": "legalReferral",
+          }
+        }
+        owner={
+          Object {
+            "name": "Fred",
+          }
+        }
+        pauseSummary={
+          Array [
+            Object {
+              "expiryDate": "2017-04-23T13:12:07.193Z",
+              "startDate": "2018-07-15T13:12:07.193Z",
+              "status": "Active",
+            },
+          ]
+        }
+        paymentPlan={
+          Object {
+            "endDate": "2017-04-23T13:12:07.193Z",
+            "installment": Object {
+              "amount": 50,
+              "period": 2,
+              "schedule": "Weekly",
+            },
+            "startDate": "2018-07-15T13:12:07.193Z",
+            "type": "Foo",
+          }
+        }
+        primaryLegalAction={
+          Object {
+            "createdOn": "2017-04-23T13:12:07.193Z",
+            "title": "primaryLegalAction",
+          }
+        }
+        referralSummaries={
+          Array [
+            Object {
+              "createdOn": "2018-07-15T13:12:07.193Z",
+              "teamName": "Jim",
+            },
+            Object {
+              "createdOn": "2017-04-23T13:12:07.193Z",
+              "teamName": "Bob",
+            },
+          ]
+        }
+        refferalPack={
+          Object {
+            "legalReferralPack": Object {
+              "link": "/alink",
+            },
+          }
+        }
+        rentDetail={null}
+        status="Active"
+        welfareReform={Object {}}
+        workwiseReferenceNumber="12345"
+      />
+      <LegalActions
+        expiringSoon="expiringSoon"
+        expiryDate="expiryDate"
+        heading="legalActions heading"
+        headingExpiring="headingExpiring"
+        labels={
+          Object {
+            "createdOn": "labels createdOn",
+            "expires": "labels expires",
+            "owner": "labels owner",
+            "status": "labels status",
+          }
+        }
+        legalReferral={
+          Object {
+            "createdOn": "2018-07-15T13:12:07.193Z",
+            "referralPack": undefined,
+            "title": "legalReferral",
+          }
+        }
+        primaryLegalAction={
+          Object {
+            "createdOn": "2017-04-23T13:12:07.193Z",
+            "title": "primaryLegalAction",
+          }
+        }
+      />
+      <WithTheme(withRouter(Connect(ArrearsDetailTasksComposition))) />
+      <withRouter(Connect(TenancyTransactions)) />
+      <br />
+      <p
+        isSmall={false}
+      />
+      <withRouter(Connect(ActivityHistoryComposition)) />
+      <NoteList
+        notes={
+          Array [
+            Object {
+              "caseId": "00000000-0000-0000-0000-000000000000",
+              "created": Object {
+                "by": null,
+                "on": "2018-10-31T14:41:31+00:00",
+              },
+              "id": "a143b7a5-0f6e-4eeb-9398-a897c3d2cec7",
+              "modified": Object {
+                "by": null,
+                "on": "2018-10-31T14:41:31+00:00",
+              },
+              "subject": "Note added via Arrears",
+              "text": "this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note this is a very long note ",
+            },
+          ]
+        }
+        text={
+          Object {
+            "heading": "Notes ({count})",
+            "labels": Object {
+              "date": "Date",
+              "fileUploadStatus": "FileUploadStatus",
+              "filename": "Filename",
+              "name": "Name",
+            },
+          }
+        }
+      />
+    </Styled(styled.div)>
+  </div>
+  <aside
+    className="col-lg-3"
+  >
+    <withRouter(Connect(Component)) />
+  </aside>
+</withRouter(Connect(PageContentComposition))>
+`;

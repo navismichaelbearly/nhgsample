@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActivityHistoryComposition /> should not render with no activities 1`] = `""`;
+
+exports[`<ActivityHistoryComposition /> should render a Loader when loading 1`] = `
+<p
+  isSmall={false}
+/>
+`;
+
+exports[`<ActivityHistoryComposition /> should render with activities 1`] = `
+<styled.div
+  data-bdd="ActivityHistory"
+>
+  <Styled(styled.h3)>
+    A heading
+  </Styled(styled.h3)>
+  <l
+    items={
+      Array [
+        Object {
+          "createdBy": Object {
+            "displayName": "Fred",
+          },
+          "id": "abc123",
+          "modifiedAt": "2018-08-31T20:52:35+00:00",
+          "summary": "A summary",
+          "type": "Email",
+        },
+        Object {
+          "createdBy": Object {
+            "displayName": "Fred",
+          },
+          "id": "def456",
+          "modifiedAt": "2018-08-31T20:52:35+00:00",
+          "summary": "A summary",
+          "type": "Email",
+        },
+      ]
+    }
+    pageSize={5}
+    render={[Function]}
+  />
+</styled.div>
+`;
+
+exports[`<ActivityHistoryComposition /> sorting activity history by created date 1`] = `
+<styled.div
+  data-bdd="ActivityHistory"
+>
+  <Styled(styled.h3)>
+    A heading
+  </Styled(styled.h3)>
+  <l
+    items={
+      Array [
+        Object {
+          "baseType": "Activity",
+          "createdAt": "2021-02-24T09:38:40+00:00",
+          "createdBy": Object {
+            "displayName": "Navis Michael",
+            "id": "d907cefc-3b45-eb11-80f8-005056825b41",
+            "type": "employee",
+          },
+          "id": "f31eed47-8dbf-4c62-8647-221c04f6f2ff",
+          "modifiedAt": "2021-02-24T09:38:41+00:00",
+          "type": "Phone Call",
+        },
+        Object {
+          "baseType": "Activity",
+          "createdAt": "2021-02-24T09:38:01+00:00",
+          "createdBy": Object {
+            "displayName": "Navis Michael",
+            "id": "d907cefc-3b45-eb11-80f8-005056825b41",
+            "type": "employee",
+          },
+          "id": "c72a6a32-1723-48c9-bbd2-0fd7bc6f96ec",
+          "modifiedAt": "2021-02-24T09:38:02+00:00",
+          "type": "Letter",
+        },
+        Object {
+          "baseType": "Activity",
+          "createdAt": "2021-02-23T09:18:19+00:00",
+          "createdBy": Object {
+            "displayName": "Yadwinder Hunjan",
+            "id": "6ee5be56-3c45-eb11-80f8-005056825b41",
+            "type": "employee",
+          },
+          "id": "e0e61311-b875-eb11-80fb-005056825b41",
+          "modifiedAt": "2021-02-23T09:21:45+00:00",
+          "type": "Pause",
+        },
+      ]
+    }
+    pageSize={5}
+    render={[Function]}
+  />
+</styled.div>
+`;

@@ -1,0 +1,456 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ApproveLegalCaseReferral connector generates the correct props for a senior manager when legalReferral is waiting for HM approval 1`] = `
+Object {
+  "activePause": Object {
+    "approvalDetail": Object {
+      "decisionDate": "2018-10-04T00:00:00Z",
+      "isApproved": true,
+      "userName": "system",
+    },
+    "cancelReason": "",
+    "createdAt": "2018-10-04T15:32:32Z",
+    "createdBy": "Stephanie Golder",
+    "endDate": "2018-10-18T00:00:00Z",
+    "furtherDetail": "This is a pause",
+    "isExtended": false,
+    "isManagerNotified": false,
+    "lastModifiedAt": "2018-10-04T15:32:35Z",
+    "lastModifiedBy": "SYSTEM",
+    "notifcationDetail": Object {
+      "notifiedUserName": "Hannah Ike",
+      "wasNotified": false,
+    },
+    "originalStartDate": "2018-10-04T00:00:00Z",
+    "owner": Object {
+      "id": "039a3660-bd18-e811-80c8-005056825b41",
+      "name": "Stephanie Golder",
+      "type": "systemuser",
+    },
+    "raisedBy": Object {
+      "id": "039a3660-bd18-e811-80c8-005056825b41",
+      "name": "Stephanie Golder",
+      "type": "systemuser",
+    },
+    "reasonId": "newbenefituc",
+    "status": "Active",
+  },
+  "arrearsId": "foo",
+  "breadcrumb": Array [
+    Object {
+      "href": "#{Dashboards.Core.CustomerBaseURL}",
+      "id": "breadcrumb-dashboard",
+      "label": "Dashboard",
+    },
+    Object {
+      "id": "breadcrumb-arrearsDashboard",
+      "label": "My arrears",
+      "to": "/",
+    },
+    Object {
+      "label": "Arrears details",
+      "to": "/arrears-details/foo",
+    },
+    Object {
+      "id": "breadcrumb-Review legal case referral",
+      "label": "Review legal case referral",
+    },
+  ],
+  "errorText": Object {
+    "approveReferralError": "Please either approve or reject this legal referral",
+    "formError": "There was a problem approving this legal referral, please try again.",
+    "reasonForDenyingError": "Please give a reason for not approving this legal referral",
+  },
+  "formError": undefined,
+  "heading": "Review legal case referral",
+  "labels": Object {
+    "approveReferral": "Approve legal referral?",
+    "approveReferralSubtitle": "You must review the legal referral pack, linked above, before you can answer this question",
+    "backButton": "Back",
+    "no": "No",
+    "reasonForDenying": "Reason for not approving referral",
+    "referralFormLink": "Legal referral form",
+    "referralPackLink": "Legal referral pack",
+    "submitButton": "Submit",
+    "yes": "Yes",
+  },
+  "loading": undefined,
+  "notification": Object {
+    "approvedTitle": "Legal case referral approved",
+    "cancelledTitle": "Legal case referral cancelled",
+  },
+  "redirectToDetailsPage": [Function],
+  "referralPack": undefined,
+  "requiresNonCreatorApproval": "Legal Referrals cannot be approved by the creator. Please ensure the approval task is assigned to another manager",
+  "showReadOnlyView": true,
+  "showReadOnlyViewNotification": false,
+  "submissionId": "abc123",
+  "subtitle": "Legal case awaiting manager approval",
+}
+`;
+
+exports[`ApproveLegalCaseReferral connector mapStateToProps generates the correct props 1`] = `
+Object {
+  "activePause": Object {
+    "approvalDetail": Object {
+      "decisionDate": "2018-10-04T00:00:00Z",
+      "isApproved": true,
+      "userName": "system",
+    },
+    "cancelReason": "",
+    "createdAt": "2018-10-04T15:32:32Z",
+    "createdBy": "Stephanie Golder",
+    "endDate": "2018-10-18T00:00:00Z",
+    "furtherDetail": "This is a pause",
+    "isExtended": false,
+    "isManagerNotified": false,
+    "lastModifiedAt": "2018-10-04T15:32:35Z",
+    "lastModifiedBy": "SYSTEM",
+    "notifcationDetail": Object {
+      "notifiedUserName": "Hannah Ike",
+      "wasNotified": false,
+    },
+    "originalStartDate": "2018-10-04T00:00:00Z",
+    "owner": Object {
+      "id": "039a3660-bd18-e811-80c8-005056825b41",
+      "name": "Stephanie Golder",
+      "type": "systemuser",
+    },
+    "raisedBy": Object {
+      "id": "039a3660-bd18-e811-80c8-005056825b41",
+      "name": "Stephanie Golder",
+      "type": "systemuser",
+    },
+    "reasonId": "newbenefituc",
+    "status": "Active",
+  },
+  "arrearsId": "foo",
+  "breadcrumb": Array [
+    Object {
+      "href": "#{Dashboards.Core.CustomerBaseURL}",
+      "id": "breadcrumb-dashboard",
+      "label": "Dashboard",
+    },
+    Object {
+      "id": "breadcrumb-arrearsDashboard",
+      "label": "My arrears",
+      "to": "/",
+    },
+    Object {
+      "label": "Arrears details",
+      "to": "/arrears-details/foo",
+    },
+    Object {
+      "id": "breadcrumb-Review legal case referral",
+      "label": "Review legal case referral",
+    },
+  ],
+  "errorText": Object {
+    "approveReferralError": "Please either approve or reject this legal referral",
+    "formError": "There was a problem approving this legal referral, please try again.",
+    "reasonForDenyingError": "Please give a reason for not approving this legal referral",
+  },
+  "formError": undefined,
+  "heading": "Review legal case referral",
+  "labels": Object {
+    "approveReferral": "Approve legal referral?",
+    "approveReferralSubtitle": "You must review the legal referral pack, linked above, before you can answer this question",
+    "backButton": "Back",
+    "no": "No",
+    "reasonForDenying": "Reason for not approving referral",
+    "referralFormLink": "Legal referral form",
+    "referralPackLink": "Legal referral pack",
+    "submitButton": "Submit",
+    "yes": "Yes",
+  },
+  "loading": undefined,
+  "notification": Object {
+    "approvedTitle": "Legal case referral approved",
+    "cancelledTitle": "Legal case referral cancelled",
+  },
+  "redirectToDetailsPage": [Function],
+  "referralPack": Object {
+    "randomReferralPackProp": "randomReferralPackPropSample",
+  },
+  "requiresNonCreatorApproval": "Legal Referrals cannot be approved by the creator. Please ensure the approval task is assigned to another manager",
+  "showReadOnlyView": true,
+  "showReadOnlyViewNotification": false,
+  "submissionId": "abc123",
+  "subtitle": "Legal case awaiting manager approval",
+}
+`;
+
+exports[`ApproveLegalCaseReferral connector mapStateToProps generates the correct props for a housing manager 1`] = `
+Object {
+  "activePause": Object {
+    "approvalDetail": Object {
+      "decisionDate": "2018-10-04T00:00:00Z",
+      "isApproved": true,
+      "userName": "system",
+    },
+    "cancelReason": "",
+    "createdAt": "2018-10-04T15:32:32Z",
+    "createdBy": "Stephanie Golder",
+    "endDate": "2018-10-18T00:00:00Z",
+    "furtherDetail": "This is a pause",
+    "isExtended": false,
+    "isManagerNotified": false,
+    "lastModifiedAt": "2018-10-04T15:32:35Z",
+    "lastModifiedBy": "SYSTEM",
+    "notifcationDetail": Object {
+      "notifiedUserName": "Hannah Ike",
+      "wasNotified": false,
+    },
+    "originalStartDate": "2018-10-04T00:00:00Z",
+    "owner": Object {
+      "id": "039a3660-bd18-e811-80c8-005056825b41",
+      "name": "Stephanie Golder",
+      "type": "systemuser",
+    },
+    "raisedBy": Object {
+      "id": "039a3660-bd18-e811-80c8-005056825b41",
+      "name": "Stephanie Golder",
+      "type": "systemuser",
+    },
+    "reasonId": "newbenefituc",
+    "status": "Active",
+  },
+  "arrearsId": "foo",
+  "breadcrumb": Array [
+    Object {
+      "href": "#{Dashboards.Core.CustomerBaseURL}",
+      "id": "breadcrumb-dashboard",
+      "label": "Dashboard",
+    },
+    Object {
+      "id": "breadcrumb-arrearsDashboard",
+      "label": "My arrears",
+      "to": "/",
+    },
+    Object {
+      "label": "Arrears details",
+      "to": "/arrears-details/foo",
+    },
+    Object {
+      "id": "breadcrumb-Review legal case referral",
+      "label": "Review legal case referral",
+    },
+  ],
+  "errorText": Object {
+    "approveReferralError": "Please either approve or reject this legal referral",
+    "formError": "There was a problem approving this legal referral, please try again.",
+    "reasonForDenyingError": "Please give a reason for not approving this legal referral",
+  },
+  "formError": undefined,
+  "heading": "Review legal case referral",
+  "labels": Object {
+    "approveReferral": "Approve legal referral?",
+    "approveReferralSubtitle": "You must review the legal referral pack, linked above, before you can answer this question",
+    "backButton": "Back",
+    "no": "No",
+    "reasonForDenying": "Reason for not approving referral",
+    "referralFormLink": "Legal referral form",
+    "referralPackLink": "Legal referral pack",
+    "submitButton": "Submit",
+    "yes": "Yes",
+  },
+  "loading": undefined,
+  "notification": Object {
+    "approvedTitle": "Legal case referral approved",
+    "cancelledTitle": "Legal case referral cancelled",
+  },
+  "redirectToDetailsPage": [Function],
+  "referralPack": Object {
+    "randomReferralPackProp": "randomReferralPackPropSample",
+  },
+  "requiresNonCreatorApproval": "Legal Referrals cannot be approved by the creator. Please ensure the approval task is assigned to another manager",
+  "showReadOnlyView": false,
+  "showReadOnlyViewNotification": false,
+  "submissionId": "abc123",
+  "subtitle": "Legal case awaiting manager approval",
+}
+`;
+
+exports[`ApproveLegalCaseReferral connector mapStateToProps generates the correct props for a housing manager who created the legal referral 1`] = `
+Object {
+  "activePause": Object {
+    "approvalDetail": Object {
+      "decisionDate": "2018-10-04T00:00:00Z",
+      "isApproved": true,
+      "userName": "system",
+    },
+    "cancelReason": "",
+    "createdAt": "2018-10-04T15:32:32Z",
+    "createdBy": "Stephanie Golder",
+    "endDate": "2018-10-18T00:00:00Z",
+    "furtherDetail": "This is a pause",
+    "isExtended": false,
+    "isManagerNotified": false,
+    "lastModifiedAt": "2018-10-04T15:32:35Z",
+    "lastModifiedBy": "SYSTEM",
+    "notifcationDetail": Object {
+      "notifiedUserName": "Hannah Ike",
+      "wasNotified": false,
+    },
+    "originalStartDate": "2018-10-04T00:00:00Z",
+    "owner": Object {
+      "id": "039a3660-bd18-e811-80c8-005056825b41",
+      "name": "Stephanie Golder",
+      "type": "systemuser",
+    },
+    "raisedBy": Object {
+      "id": "039a3660-bd18-e811-80c8-005056825b41",
+      "name": "Stephanie Golder",
+      "type": "systemuser",
+    },
+    "reasonId": "newbenefituc",
+    "status": "Active",
+  },
+  "arrearsId": "foo",
+  "breadcrumb": Array [
+    Object {
+      "href": "#{Dashboards.Core.CustomerBaseURL}",
+      "id": "breadcrumb-dashboard",
+      "label": "Dashboard",
+    },
+    Object {
+      "id": "breadcrumb-arrearsDashboard",
+      "label": "My arrears",
+      "to": "/",
+    },
+    Object {
+      "label": "Arrears details",
+      "to": "/arrears-details/foo",
+    },
+    Object {
+      "id": "breadcrumb-Review legal case referral",
+      "label": "Review legal case referral",
+    },
+  ],
+  "errorText": Object {
+    "approveReferralError": "Please either approve or reject this legal referral",
+    "formError": "There was a problem approving this legal referral, please try again.",
+    "reasonForDenyingError": "Please give a reason for not approving this legal referral",
+  },
+  "formError": undefined,
+  "heading": "Review legal case referral",
+  "labels": Object {
+    "approveReferral": "Approve legal referral?",
+    "approveReferralSubtitle": "You must review the legal referral pack, linked above, before you can answer this question",
+    "backButton": "Back",
+    "no": "No",
+    "reasonForDenying": "Reason for not approving referral",
+    "referralFormLink": "Legal referral form",
+    "referralPackLink": "Legal referral pack",
+    "submitButton": "Submit",
+    "yes": "Yes",
+  },
+  "loading": undefined,
+  "notification": Object {
+    "approvedTitle": "Legal case referral approved",
+    "cancelledTitle": "Legal case referral cancelled",
+  },
+  "redirectToDetailsPage": [Function],
+  "referralPack": undefined,
+  "requiresNonCreatorApproval": "Legal Referrals cannot be approved by the creator. Please ensure the approval task is assigned to another manager",
+  "showReadOnlyView": true,
+  "showReadOnlyViewNotification": true,
+  "submissionId": "abc123",
+  "subtitle": "Legal case awaiting manager approval",
+}
+`;
+
+exports[`ApproveLegalCaseReferral connector mergeProps generates the correct props 1`] = `
+Object {
+  "activePause": Object {
+    "approvalDetail": Object {
+      "decisionDate": "2018-10-04T00:00:00Z",
+      "isApproved": true,
+      "userName": "system",
+    },
+    "cancelReason": "",
+    "createdAt": "2018-10-04T15:32:32Z",
+    "createdBy": "Stephanie Golder",
+    "endDate": "2018-10-18T00:00:00Z",
+    "furtherDetail": "This is a pause",
+    "isExtended": false,
+    "isManagerNotified": false,
+    "lastModifiedAt": "2018-10-04T15:32:35Z",
+    "lastModifiedBy": "SYSTEM",
+    "notifcationDetail": Object {
+      "notifiedUserName": "Hannah Ike",
+      "wasNotified": false,
+    },
+    "originalStartDate": "2018-10-04T00:00:00Z",
+    "owner": Object {
+      "id": "039a3660-bd18-e811-80c8-005056825b41",
+      "name": "Stephanie Golder",
+      "type": "systemuser",
+    },
+    "raisedBy": Object {
+      "id": "039a3660-bd18-e811-80c8-005056825b41",
+      "name": "Stephanie Golder",
+      "type": "systemuser",
+    },
+    "reasonId": "newbenefituc",
+    "status": "Active",
+  },
+  "arrearsId": "foo",
+  "bar": "baz",
+  "downloadFile": [Function],
+  "errorText": Object {
+    "approveReferralError": "Please either approve or reject this legal referral",
+    "formError": "There was a problem approving this legal referral, please try again.",
+    "reasonForDenyingError": "Please give a reason for not approving this legal referral",
+  },
+  "formError": undefined,
+  "getLegalReferral": [Function],
+  "heading": "Review legal case referral",
+  "labels": Object {
+    "approveReferral": "Approve legal referral?",
+    "approveReferralSubtitle": "You must review the legal referral pack, linked above, before you can answer this question",
+    "backButton": "Back",
+    "no": "No",
+    "reasonForDenying": "Reason for not approving referral",
+    "referralFormLink": "Legal referral form",
+    "referralPackLink": "Legal referral pack",
+    "submitButton": "Submit",
+    "yes": "Yes",
+  },
+  "loading": undefined,
+  "match": Object {
+    "params": Object {
+      "arrearsId": "foo",
+      "submissionId": "abc123",
+    },
+  },
+  "onBack": [Function],
+  "onSubmit": [Function],
+  "referralPack": Object {
+    "randomReferralPackProp": "randomReferralPackPropSample",
+  },
+  "requiresNonCreatorApproval": "Legal Referrals cannot be approved by the creator. Please ensure the approval task is assigned to another manager",
+  "showReadOnlyView": true,
+  "showReadOnlyViewNotification": false,
+  "subtitle": "Legal case awaiting manager approval",
+  "updatePageHeader": [Function],
+}
+`;
+
+exports[`ApproveLegalCaseReferral connector mergeProps onSubmit performs the correct actions for an approval 1`] = `
+Object {
+  "dataBddPrefix": "approveLegalReferral",
+  "icon": "success",
+  "notificationType": "confirmation",
+  "title": "Legal case referral approved",
+}
+`;
+
+exports[`ApproveLegalCaseReferral connector mergeProps onSubmit performs the correct actions for onCancel 1`] = `
+Object {
+  "dataBddPrefix": "approveLegalReferral",
+  "icon": "success",
+  "notificationType": "confirmation",
+  "title": "Legal case referral cancelled",
+}
+`;

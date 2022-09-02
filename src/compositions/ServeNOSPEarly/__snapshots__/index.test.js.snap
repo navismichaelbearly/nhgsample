@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ServeNOSPEarly /> should render the page 1`] = `
+<div
+  data-bdd="serveNOSPEarly-template"
+>
+  <Styled(styled.h3)>
+    Please confirm you wish to serve NOSP early
+  </Styled(styled.h3)>
+  <form
+    onSubmit={[Function]}
+  >
+    <styled.div>
+      <WithTheme(Button)
+        buttonType="secondary"
+        data-bdd="serveNOSPEarly-cancel"
+        isFullWidth={true}
+        onClick={[Function]}
+        type="button"
+      >
+        Cancel
+      </WithTheme(Button)>
+      <WithTheme(Button)
+        data-bdd="serveNOSPEarly-submit"
+        isFullWidth={true}
+      >
+        Serve NOSP early
+      </WithTheme(Button)>
+    </styled.div>
+  </form>
+</div>
+`;
+
+exports[`<ServeNOSPEarly /> should render the page when loading 1`] = `
+<div
+  data-bdd="serveNOSPEarly-template"
+>
+  <Styled(styled.h3)>
+    Please confirm you wish to serve NOSP early
+  </Styled(styled.h3)>
+  <form
+    onSubmit={[Function]}
+  >
+    <p
+      isSmall={false}
+    />
+  </form>
+</div>
+`;

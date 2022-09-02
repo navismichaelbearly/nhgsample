@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <script src="//cdn.auth0.com/js/auth0/9.2.3/auth0.min.js"></script>
+  <script>
+    var rootUrl = window.location.origin || (
+      window.location.protocol + '//' + window.location.hostname + (window.location.port ? ':' + window.location.port : '')
+    )
+
+    var callback = function (config) {
+      var webAuth = new auth0.WebAuth({
+        configurationBaseUrl: 'https://cdn.eu.auth0.com',
+        overrides: {
+          __tenant: devElse('nhh-dev', '#{Auth0.Core.TenantName}'),
+          __token_issuer: devElse(
+            'https://login-dev.workwise.london/',
+            'https://{Auth0.Core.Authority}/'),
+        },
+        domain: '<%= htmlWebpackPlugin.options.domain %>',
+        clientID: '<%= htmlWebpackPlugin.options.clientID %>'
+      });
+      webAuth.parseHash(window.location.hash, function (err, response) {
+        parent.postMessage(err || response, rootUrl);
+      });
+    }
+  </script>
+</head>
+
+<body></body>
+
+</html>

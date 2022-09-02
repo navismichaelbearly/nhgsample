@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ArrearsActionsComposition /> should render the page 1`] = `
+<styled.div>
+  <styled.div
+    data-bdd="SideBar"
+  >
+    <styled.div>
+      <styled.div
+        key="someText"
+      >
+        <WithTheme(Button)
+          data-bdd="SideBar-someText"
+          href={null}
+          isFullWidth={true}
+          to="/alink"
+        >
+          Some text
+        </WithTheme(Button)>
+      </styled.div>
+      <styled.div
+        key="someMoreText"
+      >
+        <WithTheme(Button)
+          data-bdd="SideBar-someMoreText"
+          href={null}
+          isFullWidth={true}
+          to="/anotherlink"
+        >
+          Some more text
+        </WithTheme(Button)>
+      </styled.div>
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`<ArrearsActionsComposition /> should render the page with no actions 1`] = `
+<styled.div>
+  <styled.div
+    data-bdd="SideBar"
+  >
+    <styled.div />
+  </styled.div>
+</styled.div>
+`;

@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LegalActions /> renders correctly with a legalReferral 1`] = `
+<Fragment>
+  <styled.h3>
+    heading
+  </styled.h3>
+  <styled.div>
+    <WithTheme(E)
+      dataBdd="primaryLegalAction"
+      href="/alink"
+      title="A Referral"
+    >
+      <Styled(styled.p)>
+        <styled.span>
+          createdOn
+        </styled.span>
+         
+        <span
+          data-bdd="primaryLegalAction-created-on"
+        >
+          15/07/2018
+        </span>
+        <br />
+        <styled.span>
+          status
+        </styled.span>
+         
+        <span
+          data-bdd="primaryLegalAction-status"
+        >
+          Active
+        </span>
+        <br />
+        <styled.span>
+          owner
+        </styled.span>
+         
+        <span
+          data-bdd="primaryLegalAction-owner"
+        >
+          Fred
+        </span>
+        <br />
+      </Styled(styled.p)>
+    </WithTheme(E)>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`<LegalActions /> renders correctly with a primaryLegalAction 1`] = `
+<Fragment>
+  <styled.h3>
+    heading
+  </styled.h3>
+  <styled.div>
+    <WithTheme(E)
+      alert={true}
+      dataBdd="primaryLegalAction"
+      title="A NOSP"
+    >
+      <Styled(styled.p)>
+        <WithTheme(styled.span)
+          isExpiring={true}
+        >
+          <styled.span>
+            expires
+          </styled.span>
+           
+          <span
+            data-bdd="primaryLegalAction-expiry-date"
+          >
+            expiryDate
+          </span>
+        </WithTheme(styled.span)>
+        <br />
+        <styled.span>
+          createdOn
+        </styled.span>
+         
+        <span
+          data-bdd="primaryLegalAction-created-on"
+        >
+          15/07/2018
+        </span>
+        <br />
+      </Styled(styled.p)>
+    </WithTheme(E)>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`<LegalActions /> renders correctly with no legal actions 1`] = `
+<Fragment>
+  <styled.h3>
+    heading
+  </styled.h3>
+  <styled.div />
+</Fragment>
+`;

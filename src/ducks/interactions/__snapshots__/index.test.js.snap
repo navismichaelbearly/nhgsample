@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`interactions reducer should set the correct state for clearInteractionError 1`] = `
+Object {
+  "activity": Object {},
+  "activityTypes": Array [],
+  "error": false,
+  "loading": false,
+  "thirdParties": undefined,
+  "thirdPartiesError": false,
+}
+`;
+
+exports[`interactions reducer should set the correct state for interactionError 1`] = `
+Object {
+  "activity": Object {},
+  "activityTypes": Array [],
+  "error": true,
+  "loading": false,
+  "thirdParties": undefined,
+  "thirdPartiesError": false,
+}
+`;
+
+exports[`interactions reducer should set the correct state for interactionLoading 1`] = `
+Object {
+  "activity": Object {},
+  "activityTypes": Array [],
+  "error": false,
+  "loading": true,
+  "thirdParties": undefined,
+  "thirdPartiesError": false,
+}
+`;
+
+exports[`interactions reducer should set the correct state for setActivityTypes 1`] = `
+Object {
+  "activity": Object {},
+  "activityTypes": Array [
+    Object {
+      "id": 0,
+      "name": "Email",
+    },
+    Object {
+      "id": 1,
+      "name": "In Person",
+    },
+    Object {
+      "id": 2,
+      "name": "Letter",
+    },
+    Object {
+      "id": 3,
+      "name": "Messaging",
+    },
+    Object {
+      "id": 4,
+      "name": "Phone Call",
+    },
+    Object {
+      "id": 5,
+      "name": "Voicemail",
+    },
+  ],
+  "error": false,
+  "loading": false,
+  "thirdParties": undefined,
+  "thirdPartiesError": false,
+}
+`;
+
+exports[`interactions reducer should set the correct state for setInteraction 1`] = `
+Object {
+  "activity": Object {},
+  "activityTypes": Array [],
+  "error": false,
+  "loading": false,
+  "payload": Object {
+    "a": "b",
+  },
+  "thirdParties": undefined,
+  "thirdPartiesError": false,
+}
+`;

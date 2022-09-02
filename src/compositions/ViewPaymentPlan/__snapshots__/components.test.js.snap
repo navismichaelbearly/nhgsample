@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`View Payment Plan components should render <Section /> correctly 1`] = `
+.c0 {
+  margin-bottom: 1.875rem;
+}
+
+<section
+  className="c0"
+/>
+`;
+
+exports[`View Payment Plan components should render <SectionTitle /> correctly 1`] = `
+.c0 {
+  margin-bottom: 0;
+}
+
+<styled.h4
+  className="c0"
+/>
+`;
+
+exports[`View Payment Plan components should render <TextBlock /> correctly 1`] = `
+.c0 {
+  margin-bottom: 0.3125rem;
+}
+
+.c0 span {
+  display: block;
+}
+
+<styled.p
+  className="c0"
+/>
+`;

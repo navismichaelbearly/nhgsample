@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ArrearsSummaryCardsComponent /> renders correctly when loading 1`] = `
+<div>
+  <l
+    items={
+      Array [
+        Object {
+          "createdOn": "2018-07-16T13:47:18.778Z",
+          "currentBalance": 100,
+          "openTaskCount": 12,
+          "ownerOutputModel": Object {
+            "id": "ABC123",
+            "name": "Fred Bloggs",
+          },
+          "tenancy": Object {
+            "address": "A Road, Anywhere",
+            "name": "Fred",
+          },
+        },
+        Object {
+          "createdOn": "2018-04-10T13:47:18.778Z",
+          "currentBalance": 50,
+          "openTaskCount": 2,
+          "ownerOutputModel": Object {
+            "id": "DEF456",
+            "name": "Jim Bob",
+          },
+          "tenancy": Object {
+            "address": "Another Road, Anywhere Else",
+            "name": "Jim",
+          },
+        },
+      ]
+    }
+    key="filterLabel"
+    loading={true}
+    onNextPage={[Function]}
+    pageSize={6}
+    render={[Function]}
+    totalNumberOfItems={10}
+  />
+  <p
+    isSmall={false}
+  />
+</div>
+`;
+
+exports[`<ArrearsSummaryCardsComponent /> renders correctly when there is no data and it is not loading 1`] = `
+<div>
+  <NoDataMessage
+    message="there is no data sorry"
+  />
+</div>
+`;
+
+exports[`<ArrearsSummaryCardsComponent /> renders correctly with arrears 1`] = `
+<div>
+  <l
+    items={
+      Array [
+        Object {
+          "createdOn": "2018-07-16T13:47:18.778Z",
+          "currentBalance": 100,
+          "openTaskCount": 12,
+          "ownerOutputModel": Object {
+            "id": "ABC123",
+            "name": "Fred Bloggs",
+          },
+          "tenancy": Object {
+            "address": "A Road, Anywhere",
+            "name": "Fred",
+          },
+        },
+        Object {
+          "createdOn": "2018-04-10T13:47:18.778Z",
+          "currentBalance": 50,
+          "openTaskCount": 2,
+          "ownerOutputModel": Object {
+            "id": "DEF456",
+            "name": "Jim Bob",
+          },
+          "tenancy": Object {
+            "address": "Another Road, Anywhere Else",
+            "name": "Jim",
+          },
+        },
+      ]
+    }
+    key="filterLabel"
+    loading={false}
+    onNextPage={[Function]}
+    pageSize={6}
+    render={[Function]}
+    totalNumberOfItems={10}
+  />
+</div>
+`;
+
+exports[`<ArrearsSummaryCardsComponent /> renders correctly with no balance 1`] = `
+<div>
+  <l
+    items={
+      Array [
+        Object {
+          "createdOn": "2018-07-16T13:47:18.778Z",
+          "openTaskCount": 12,
+          "ownerOutputModel": Object {
+            "id": "ABC123",
+            "name": "Fred Bloggs",
+          },
+          "tenancy": Object {
+            "address": "A Road, Anywhere",
+            "name": "Fred",
+          },
+        },
+        Object {
+          "createdOn": "2018-04-10T13:47:18.778Z",
+          "currentBalance": 50,
+          "openTaskCount": 2,
+          "ownerOutputModel": Object {
+            "id": "DEF456",
+            "name": "Jim Bob",
+          },
+          "tenancy": Object {
+            "address": "Another Road, Anywhere Else",
+            "name": "Jim",
+          },
+        },
+      ]
+    }
+    key="filterLabel"
+    loading={false}
+    onNextPage={[Function]}
+    pageSize={6}
+    render={[Function]}
+    totalNumberOfItems={10}
+  />
+</div>
+`;
+
+exports[`<ArrearsSummaryCardsComponent /> renders correctly with no tennant details 1`] = `
+<div>
+  <l
+    items={
+      Array [
+        Object {
+          "createdOn": "2018-07-16T13:47:18.778Z",
+          "currentBalance": 100,
+          "openTaskCount": 12,
+          "ownerOutputModel": Object {
+            "id": "ABC123",
+            "name": "Fred Bloggs",
+          },
+        },
+        Object {
+          "createdOn": "2018-04-10T13:47:18.778Z",
+          "currentBalance": 50,
+          "openTaskCount": 2,
+          "ownerOutputModel": Object {
+            "id": "DEF456",
+            "name": "Jim Bob",
+          },
+          "tenancy": Object {
+            "address": "Another Road, Anywhere Else",
+            "name": "Jim",
+          },
+        },
+      ]
+    }
+    key="filterLabel"
+    loading={false}
+    onNextPage={[Function]}
+    pageSize={6}
+    render={[Function]}
+    totalNumberOfItems={10}
+  />
+</div>
+`;

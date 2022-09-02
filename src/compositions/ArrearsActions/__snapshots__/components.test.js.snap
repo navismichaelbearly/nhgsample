@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArrearsActions components should render <MenuItemsWrapper /> correctly 1`] = `
+.c0 {
+  padding: 1.25rem;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`ArrearsActions components should render <MenuItemsWrapper /> correctly 2`] = `
+.c0 {
+  margin-bottom: 0.625rem;
+}
+
+.c0:last-of-type {
+  margin-bottom: 0;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`ArrearsActions components should render <Wrapper /> correctly 1`] = `
+.c0 {
+  margin-top: 1.875rem;
+}
+
+<div
+  className="c0"
+/>
+`;

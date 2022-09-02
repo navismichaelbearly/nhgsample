@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActivityHistory components should render <Activity /> correctly 1`] = `
+.c0 {
+  margin-bottom: 1rem;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`ActivityHistory components should render <ActivityBody /> correctly 1`] = `
+<div
+  className=""
+/>
+`;
+
+exports[`ActivityHistory components should render <ActivityDescription /> correctly 1`] = `
+.c0 {
+  word-break: break-word;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`ActivityHistory components should render <ActivityLabel /> correctly 1`] = `
+.c0 {
+  font-weight: 700;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`ActivityHistory components should render <ActivityLink /> correctly 1`] = `
+.c0 {
+  font-size: inherit;
+}
+
+<WithTheme(Button)
+  className="c0"
+/>
+`;
+
+exports[`ActivityHistory components should render <H3 /> correctly 1`] = `
+.c0 {
+  margin-bottom: 30px;
+}
+
+<styled.h3
+  className="c0"
+/>
+`;
+
+exports[`ActivityHistory components should render <Wrapper /> correctly 1`] = `
+.c0 {
+  clear: both;
+  margin-bottom: 1.5rem;
+  padding-top: 1rem;
+}
+
+<div
+  className="c0"
+/>
+`;

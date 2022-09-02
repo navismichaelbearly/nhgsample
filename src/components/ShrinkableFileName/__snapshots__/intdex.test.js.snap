@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AttachmentsTableFileName /> should render correctly with a name 1`] = `
+<styled.span>
+  <styled.span>
+    <span
+      className="d-none d-lg-block"
+    >
+      Hello world
+    </span>
+    <span
+      className="d-lg-none"
+    >
+      Hello world
+    </span>
+  </styled.span>
+</styled.span>
+`;

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page components should render <Content /> correctly 1`] = `
+<div
+  className=""
+/>
+`;

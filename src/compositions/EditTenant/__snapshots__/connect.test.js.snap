@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArrearsDetail connector mapStateToProps generates the correct props 1`] = `
+Object {
+  "errorMessages": Object {
+    "emailAddressError": "Please enter a valid email address",
+    "phoneNumberError": "Please enter a valid phone number",
+    "submitError": "There was a problem updating your details, please try again.",
+  },
+  "heading": "Update tenant details",
+  "isLoading": false,
+  "labels": Object {
+    "address": "Address",
+    "cancelButtonText": "Cancel",
+    "closeButtonText": "Close",
+    "coTenant": "(Co tenant)",
+    "confirmationText": "Contact details updated",
+    "editButton": "Edit contact details",
+    "emailAddress": "Email:",
+    "emailAddressLabel": "Email address",
+    "errorText": "There was a problem updating your details, please try again.",
+    "fullNameLabel": "Name",
+    "mainTenant": "(Main tenant)",
+    "notAvailable": "N/A",
+    "phoneNumberLabel": "Contact number",
+    "telephoneNumber": "Phone:",
+    "tenancyType": "Tenancy Type",
+    "updateButtonText": "Update contact details",
+  },
+  "subheading": "These are the details we will use to contact the tenant, so please make sure they’re correct.",
+  "tenantUpdateStatus": undefined,
+}
+`;
+
+exports[`ArrearsDetail connector mergeProps generates the correct props 1`] = `
+Object {
+  "errorMessages": Object {
+    "emailAddressError": "Please enter a valid email address",
+    "phoneNumberError": "Please enter a valid phone number",
+    "submitError": "There was a problem updating your details, please try again.",
+  },
+  "heading": "Update tenant details",
+  "isLoading": false,
+  "labels": Object {
+    "address": "Address",
+    "cancelButtonText": "Cancel",
+    "closeButtonText": "Close",
+    "coTenant": "(Co tenant)",
+    "confirmationText": "Contact details updated",
+    "editButton": "Edit contact details",
+    "emailAddress": "Email:",
+    "emailAddressLabel": "Email address",
+    "errorText": "There was a problem updating your details, please try again.",
+    "fullNameLabel": "Name",
+    "mainTenant": "(Main tenant)",
+    "notAvailable": "N/A",
+    "phoneNumberLabel": "Contact number",
+    "telephoneNumber": "Phone:",
+    "tenancyType": "Tenancy Type",
+    "updateButtonText": "Update contact details",
+  },
+  "onCancel": [Function],
+  "onSubmit": [Function],
+  "onUnmount": [Function],
+  "subheading": "These are the details we will use to contact the tenant, so please make sure they’re correct.",
+  "tenant": Object {
+    "foo": "bar",
+  },
+  "tenantUpdateStatus": undefined,
+}
+`;

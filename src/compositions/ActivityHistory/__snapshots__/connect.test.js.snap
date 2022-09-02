@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActivityHistory connector mapStateToProps generates the correct props 1`] = `
+Object {
+  "activityHistory": Array [
+    Object {
+      "baseType": "Activity",
+      "createdAt": "2018-09-17T10:34:22+00:00",
+      "createdBy": Object {
+        "displayName": "DynamicsAATest Test",
+        "id": "9e0dca1e-0538-e811-80c9-005056825b41",
+        "type": "employee",
+      },
+      "description": "test",
+      "id": "DEF456",
+      "link": Object {
+        "path": "/api/v1/interactions/506669c7-80c9-4b4f-9b5b-c9f19502f23f",
+        "service": "interactions/web",
+      },
+      "modifiedAt": "2018-09-17T10:34:23+00:00",
+      "summary": "Arrears Interaction",
+      "type": "Email",
+    },
+    Object {
+      "baseType": "Activity",
+      "createdAt": "2018-09-17T10:34:22+00:00",
+      "createdBy": Object {
+        "displayName": "DynamicsAATest Test",
+        "id": "9e0dca1e-0538-e811-80c9-005056825b41",
+        "type": "employee",
+      },
+      "description": "new test",
+      "id": "UE21sa",
+      "link": Object {
+        "path": "/api/v1/interactions/506669c7-80c9-4b4f-9b5b-c9f19502f23f",
+        "service": "interactions/web",
+      },
+      "modifiedAt": "2018-09-17T10:34:23+00:00",
+      "summary": "Arrears Interaction",
+      "type": "Email",
+    },
+  ],
+  "heading": "Activity history ({count})",
+  "labels": Object {
+    "back": "Back",
+    "createdOn": "Created on",
+    "date": "Date:",
+    "description": "Description",
+    "detail": "Details:",
+    "interactionTime": "Date/time of interaction",
+    "interactionWith": "Interaction with",
+    "modified": "Last modified",
+    "name": "Contact Name:",
+    "next": "next history item",
+    "previous": "previous history item",
+    "raisedBy": "Raised by",
+  },
+  "loading": false,
+}
+`;
+
+exports[`ActivityHistory connector mergeProps generates the correct props 1`] = `
+Object {
+  "activityHistory": Array [
+    Object {
+      "baseType": "Activity",
+      "createdAt": "2018-09-17T10:34:22+00:00",
+      "createdBy": Object {
+        "displayName": "DynamicsAATest Test",
+        "id": "9e0dca1e-0538-e811-80c9-005056825b41",
+        "type": "employee",
+      },
+      "description": "test",
+      "id": "DEF456",
+      "link": Object {
+        "path": "/api/v1/interactions/506669c7-80c9-4b4f-9b5b-c9f19502f23f",
+        "service": "interactions/web",
+      },
+      "modifiedAt": "2018-09-17T10:34:23+00:00",
+      "summary": "Arrears Interaction",
+      "type": "Email",
+    },
+    Object {
+      "baseType": "Activity",
+      "createdAt": "2018-09-17T10:34:22+00:00",
+      "createdBy": Object {
+        "displayName": "DynamicsAATest Test",
+        "id": "9e0dca1e-0538-e811-80c9-005056825b41",
+        "type": "employee",
+      },
+      "description": "new test",
+      "id": "UE21sa",
+      "link": Object {
+        "path": "/api/v1/interactions/506669c7-80c9-4b4f-9b5b-c9f19502f23f",
+        "service": "interactions/web",
+      },
+      "modifiedAt": "2018-09-17T10:34:23+00:00",
+      "summary": "Arrears Interaction",
+      "type": "Email",
+    },
+  ],
+  "arrearsId": "ABC123",
+  "bar": "baz",
+  "getActivityHistory": [Function],
+  "heading": "Activity history ({count})",
+  "invalidateActivityHistory": [Function],
+  "labels": Object {
+    "back": "Back",
+    "createdOn": "Created on",
+    "date": "Date:",
+    "description": "Description",
+    "detail": "Details:",
+    "interactionTime": "Date/time of interaction",
+    "interactionWith": "Interaction with",
+    "modified": "Last modified",
+    "name": "Contact Name:",
+    "next": "next history item",
+    "previous": "previous history item",
+    "raisedBy": "Raised by",
+  },
+  "loading": false,
+  "match": Object {
+    "params": Object {
+      "arrearsId": "ABC123",
+    },
+  },
+}
+`;

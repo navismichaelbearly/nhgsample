@@ -1,0 +1,266 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormWrapper /> Back button renders correctly 1`] = `
+<styled.div>
+  <styled.div>
+    <withRouter(Connect(PropertyInformationComposition))
+      disableGlobalEdit={false}
+    />
+  </styled.div>
+  <form
+    data-bdd="aForm-form"
+    onSubmit={[Function]}
+  >
+    Hello
+    <T
+      message=""
+    >
+      <WithTheme(Button)
+        buttonType="secondary"
+        data-bdd="aForm-back"
+        disabled={false}
+        isFullWidth={true}
+        onClick={[Function]}
+        type="button"
+      >
+        Back
+      </WithTheme(Button)>
+      <WithTheme(Button)
+        data-bdd="aForm-submit"
+        disabled={false}
+        isFullWidth={true}
+        onClick={[Function]}
+      >
+        Submit
+      </WithTheme(Button)>
+    </T>
+  </form>
+</styled.div>
+`;
+
+exports[`<FormWrapper /> renders correctly 1`] = `
+<styled.div>
+  <styled.div>
+    <withRouter(Connect(PropertyInformationComposition))
+      disableGlobalEdit={false}
+    />
+  </styled.div>
+  <form
+    data-bdd="aForm-form"
+    onSubmit={[Function]}
+  >
+    Hello
+    <T
+      message=""
+    >
+      <WithTheme(Button)
+        data-bdd="aForm-submit"
+        disabled={false}
+        isFullWidth={true}
+        onClick={[Function]}
+      >
+        Submit
+      </WithTheme(Button)>
+    </T>
+  </form>
+</styled.div>
+`;
+
+exports[`<FormWrapper /> renders correctly when loading 1`] = `
+<styled.div>
+  <styled.div>
+    <withRouter(Connect(PropertyInformationComposition))
+      disableGlobalEdit={false}
+    />
+  </styled.div>
+  <form
+    data-bdd="aForm-form"
+    onSubmit={[Function]}
+  >
+    Hello
+    <p
+      isSmall={false}
+    />
+  </form>
+</styled.div>
+`;
+
+exports[`<FormWrapper /> renders correctly with additional actions 1`] = `
+<styled.div>
+  <styled.div>
+    <withRouter(Connect(PropertyInformationComposition))
+      disableGlobalEdit={false}
+    />
+  </styled.div>
+  <form
+    data-bdd="aForm-form"
+    onSubmit={[Function]}
+  >
+    Hello
+    <T
+      message=""
+    >
+      <WithTheme(Button)
+        data-bdd="aForm-submit"
+        disabled={false}
+        isFullWidth={true}
+        onClick={[Function]}
+      >
+        Submit
+      </WithTheme(Button)>
+      <WithTheme(Button)>
+        Another button
+      </WithTheme(Button)>
+    </T>
+  </form>
+</styled.div>
+`;
+
+exports[`<FormWrapper /> renders correctly with additional actions 2`] = `
+<styled.div>
+  <styled.div>
+    <withRouter(Connect(PropertyInformationComposition))
+      disableGlobalEdit={false}
+    />
+  </styled.div>
+  <form
+    data-bdd="aForm-form"
+    onSubmit={[Function]}
+  >
+    Hello
+    <T
+      message=""
+    >
+      <WithTheme(Button)>
+        Another button on the left
+      </WithTheme(Button)>
+      <WithTheme(Button)
+        data-bdd="aForm-submit"
+        disabled={false}
+        isFullWidth={true}
+        onClick={[Function]}
+      >
+        Submit
+      </WithTheme(Button)>
+    </T>
+  </form>
+</styled.div>
+`;
+
+exports[`<FormWrapper /> renders correctly with an error 1`] = `
+<styled.div>
+  <styled.div>
+    <withRouter(Connect(PropertyInformationComposition))
+      disableGlobalEdit={false}
+    />
+  </styled.div>
+  <form
+    data-bdd="aForm-form"
+    onSubmit={[Function]}
+  >
+    <styled.div
+      data-bdd="aForm-error"
+    >
+      <t
+        description="An error!"
+        hideCloseButton={true}
+        icon="warning"
+        onCloseNotification={[Function]}
+        show={true}
+      />
+    </styled.div>
+    Hello
+    <T
+      message=""
+    >
+      <WithTheme(Button)
+        data-bdd="aForm-submit"
+        disabled={false}
+        isFullWidth={true}
+        onClick={[Function]}
+      >
+        Submit
+      </WithTheme(Button)>
+    </T>
+  </form>
+</styled.div>
+`;
+
+exports[`<FormWrapper /> renders correctly with disabled back 1`] = `
+<styled.div>
+  <styled.div>
+    <withRouter(Connect(PropertyInformationComposition))
+      disableGlobalEdit={false}
+    />
+  </styled.div>
+  <form
+    data-bdd="aForm-form"
+    onSubmit={[Function]}
+  >
+    Hello
+    <T
+      message=""
+    >
+      <WithTheme(Button)
+        data-bdd="aForm-submit"
+        disabled={false}
+        isFullWidth={true}
+        onClick={[Function]}
+      >
+        Submit
+      </WithTheme(Button)>
+    </T>
+  </form>
+</styled.div>
+`;
+
+exports[`<FormWrapper /> renders correctly with disabled submit 1`] = `
+<styled.div>
+  <styled.div>
+    <withRouter(Connect(PropertyInformationComposition))
+      disableGlobalEdit={false}
+    />
+  </styled.div>
+  <form
+    data-bdd="aForm-form"
+    onSubmit={[Function]}
+  >
+    Hello
+    <T
+      message=""
+    >
+      <WithTheme(Button)
+        data-bdd="aForm-submit"
+        disabled={true}
+        isFullWidth={true}
+        onClick={[Function]}
+      >
+        Submit
+      </WithTheme(Button)>
+    </T>
+  </form>
+</styled.div>
+`;
+
+exports[`<FormWrapper /> renders correctly without PropertyInformation 1`] = `
+<styled.div>
+  <form
+    data-bdd="aForm-form"
+    onSubmit={[Function]}
+  >
+    Hello
+    <T
+      message=""
+    >
+      <WithTheme(Button)
+        data-bdd="aForm-submit"
+        disabled={false}
+        isFullWidth={true}
+        onClick={[Function]}
+      >
+        Submit
+      </WithTheme(Button)>
+    </T>
+  </form>
+</styled.div>
+`;

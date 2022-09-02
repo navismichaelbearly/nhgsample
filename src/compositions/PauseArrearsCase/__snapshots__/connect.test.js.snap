@@ -1,0 +1,333 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PauseArrearsCase connector mapStateToProps generates the correct props 1`] = `
+Object {
+  "activePause": Object {
+    "approvalDetail": Object {
+      "decisionDate": "2018-10-04T00:00:00Z",
+      "isApproved": true,
+      "userName": "system",
+    },
+    "cancelReason": "",
+    "createdAt": "2018-10-04T15:32:32Z",
+    "createdBy": "Stephanie Golder",
+    "endDate": "2018-10-18T00:00:00Z",
+    "furtherDetail": "This is a pause",
+    "isExtended": false,
+    "isManagerNotified": false,
+    "lastModifiedAt": "2018-10-04T15:32:35Z",
+    "lastModifiedBy": "SYSTEM",
+    "notifcationDetail": Object {
+      "notifiedUserName": "Hannah Ike",
+      "wasNotified": false,
+    },
+    "originalStartDate": "2018-10-04T00:00:00Z",
+    "owner": Object {
+      "id": "039a3660-bd18-e811-80c8-005056825b41",
+      "name": "Stephanie Golder",
+      "type": "systemuser",
+    },
+    "raisedBy": Object {
+      "id": "039a3660-bd18-e811-80c8-005056825b41",
+      "name": "Stephanie Golder",
+      "type": "systemuser",
+    },
+    "reasonId": "newbenefituc",
+    "status": "Active",
+  },
+  "arrearsId": "foo",
+  "breadcrumb": Array [
+    Object {
+      "href": "#{Dashboards.Core.CustomerBaseURL}",
+      "id": "breadcrumb-dashboard",
+      "label": "Dashboard",
+    },
+    Object {
+      "id": "breadcrumb-arrearsDashboard",
+      "label": "My arrears",
+      "to": "/",
+    },
+    Object {
+      "label": "Arrears details",
+      "to": "/arrears-details/foo",
+    },
+    Object {
+      "id": "breadcrumb-Pause arrears case",
+      "label": "Pause arrears case",
+    },
+  ],
+  "cancelPauseRequestMessage": "Mark Brownie cancelled pause request",
+  "declinePauseRequestMessage": "Mark Brownie declined pause request",
+  "errorText": Object {
+    "endDateError": "Please select a pause end date",
+    "extendedEndDateError": "Please select date within the allowed period",
+    "formError": "There was a problem creating this pause, please try again.",
+    "furtherDetailError": "Please enter some details",
+    "notifyManagerError": "You must request approval for this pause from the relevant manager",
+    "outsideManagerPause": "The relevant manager can only pause this case until {date}. Please enter an end-pause date within this period.",
+    "outsideMyPause": "You can only pause this arrears case until {date}. If you need to pause it for longer, confirm you want the relevant manager to approve this pause, then submit the form.",
+    "outsideSeniorManagerPause": "You can only pause this arrears case until {date}",
+    "reasonForPausingError": "Please select a reason",
+  },
+  "formError": undefined,
+  "heading": "Pause arrears case",
+  "labels": Object {
+    "awaitingApproval": "This pause is awaiting manager approval.",
+    "backButton": "Back",
+    "cancelButton": "Cancel arrears case pause",
+    "endDate": "End date of pause",
+    "furtherDetail": "Further details",
+    "furtherDetailAdd": "Add to further details",
+    "managerPause": "Your manager can pause until {date}",
+    "myPause": "You can pause until {date}",
+    "notifyManager": "Notify manager",
+    "notifyManagerExtended": "Are you sure you want the relevant manager to approve this pause?",
+    "pleaseNote": "Please note, you can only review the latest pause action against an arrears case. You will not be able to access an active pause if there is a draft pause awaiting approval.",
+    "reasonForPausing": "Reason for pausing case",
+    "submitButton": "Submit",
+    "updateButton": "Update case pause",
+  },
+  "loading": false,
+  "notification": Object {
+    "cancelTitle": "Arrears case pause cancelled",
+    "createTitle": "Arrears case paused",
+    "createTitleApprove": "Manager approval needed",
+    "fullDetails": "Full details in Arrears item history below",
+    "pauseDetails": "Reason for pause: {reason}. Paused until {date}",
+    "requiresApproval": "Your requested pause needs to be approved by your manager, who has been notified",
+    "updateTitle": "Arrears case pause updated",
+    "updateTitleApprove": "Pause update: Manager approval needed",
+  },
+  "pauseId": undefined,
+  "pauseStatus": "Active",
+  "redirectToDetailsPage": [Function],
+  "roles": Object {
+    "isSeniorManager": false,
+  },
+  "rules": Array [
+    Object {
+      "id": "abc123",
+      "managerRule": Object {
+        "endDate": "2019-08-28T13:56:50.951Z",
+      },
+      "myRule": Object {
+        "endDate": "2019-07-27T13:56:50.951Z",
+      },
+      "title": "A reason",
+    },
+    Object {
+      "id": "def456",
+      "managerRule": Object {
+        "endDate": "2019-08-28T13:56:50.951Z",
+      },
+      "myRule": Object {
+        "endDate": "2019-07-27T13:56:50.951Z",
+      },
+      "title": "Another reason",
+    },
+  ],
+  "userId": "auth0|5a5f2614de16214961915a31",
+}
+`;
+
+exports[`PauseArrearsCase connector mergeProps generates the correct props 1`] = `
+Object {
+  "activePause": Object {
+    "approvalDetail": Object {
+      "decisionDate": "2018-10-04T00:00:00Z",
+      "isApproved": true,
+      "userName": "system",
+    },
+    "cancelReason": "",
+    "createdAt": "2018-10-04T15:32:32Z",
+    "createdBy": "Stephanie Golder",
+    "endDate": "2018-10-18T00:00:00Z",
+    "furtherDetail": "This is a pause",
+    "isExtended": false,
+    "isManagerNotified": false,
+    "lastModifiedAt": "2018-10-04T15:32:35Z",
+    "lastModifiedBy": "SYSTEM",
+    "notifcationDetail": Object {
+      "notifiedUserName": "Hannah Ike",
+      "wasNotified": false,
+    },
+    "originalStartDate": "2018-10-04T00:00:00Z",
+    "owner": Object {
+      "id": "039a3660-bd18-e811-80c8-005056825b41",
+      "name": "Stephanie Golder",
+      "type": "systemuser",
+    },
+    "raisedBy": Object {
+      "id": "039a3660-bd18-e811-80c8-005056825b41",
+      "name": "Stephanie Golder",
+      "type": "systemuser",
+    },
+    "reasonId": "newbenefituc",
+    "status": "Active",
+  },
+  "bar": "baz",
+  "clearError": [Function],
+  "errorText": Object {
+    "endDateError": "Please select a pause end date",
+    "extendedEndDateError": "Please select date within the allowed period",
+    "formError": "There was a problem creating this pause, please try again.",
+    "furtherDetailError": "Please enter some details",
+    "notifyManagerError": "You must request approval for this pause from the relevant manager",
+    "outsideManagerPause": "The relevant manager can only pause this case until {date}. Please enter an end-pause date within this period.",
+    "outsideMyPause": "You can only pause this arrears case until {date}. If you need to pause it for longer, confirm you want the relevant manager to approve this pause, then submit the form.",
+    "outsideSeniorManagerPause": "You can only pause this arrears case until {date}",
+    "reasonForPausingError": "Please select a reason",
+  },
+  "formError": undefined,
+  "getPause": [Function],
+  "labels": Object {
+    "awaitingApproval": "This pause is awaiting manager approval.",
+    "backButton": "Back",
+    "cancelButton": "Cancel arrears case pause",
+    "endDate": "End date of pause",
+    "furtherDetail": "Further details",
+    "furtherDetailAdd": "Add to further details",
+    "managerPause": "Your manager can pause until {date}",
+    "myPause": "You can pause until {date}",
+    "notifyManager": "Notify manager",
+    "notifyManagerExtended": "Are you sure you want the relevant manager to approve this pause?",
+    "pleaseNote": "Please note, you can only review the latest pause action against an arrears case. You will not be able to access an active pause if there is a draft pause awaiting approval.",
+    "reasonForPausing": "Reason for pausing case",
+    "submitButton": "Submit",
+    "updateButton": "Update case pause",
+  },
+  "loading": false,
+  "match": Object {
+    "params": Object {
+      "arrearsId": "foo",
+    },
+  },
+  "onBack": [Function],
+  "onCancel": [Function],
+  "onSubmit": [Function],
+  "roles": Object {
+    "isSeniorManager": false,
+  },
+  "rules": Array [
+    Object {
+      "id": "abc123",
+      "managerRule": Object {
+        "endDate": "2019-08-28T13:56:50.951Z",
+      },
+      "myRule": Object {
+        "endDate": "2019-07-27T13:56:50.951Z",
+      },
+      "title": "A reason",
+    },
+    Object {
+      "id": "def456",
+      "managerRule": Object {
+        "endDate": "2019-08-28T13:56:50.951Z",
+      },
+      "myRule": Object {
+        "endDate": "2019-07-27T13:56:50.951Z",
+      },
+      "title": "Another reason",
+    },
+  ],
+  "updatePageHeader": [Function],
+}
+`;
+
+exports[`PauseArrearsCase connector mergeProps performs the correct actions for onCancel when Active 1`] = `
+Object {
+  "dataBddPrefix": "cancelPauseArrearsCase",
+  "icon": "success",
+  "lines": Array [],
+  "notificationType": "confirmation",
+  "title": "Arrears case pause cancelled",
+}
+`;
+
+exports[`PauseArrearsCase connector mergeProps performs the correct actions for onCancel when Draft 1`] = `
+Object {
+  "dataBddPrefix": "cancelPauseArrearsCase",
+  "icon": "success",
+  "lines": Array [],
+  "notificationType": "confirmation",
+  "title": "Arrears case pause cancelled",
+}
+`;
+
+exports[`PauseArrearsCase connector mergeProps performs the correct actions for onSubmit for create 1`] = `
+Object {
+  "dataBddPrefix": "pauseArrearsCase",
+  "icon": "success",
+  "lines": Array [
+    Object {
+      "dataBdd": "pauseReason",
+      "text": "Reason for pause: A reason. Paused until 27/06/2019",
+    },
+    Object {
+      "text": "Full details in Arrears item history below",
+    },
+  ],
+  "notificationType": "confirmation",
+  "title": "Arrears case paused",
+}
+`;
+
+exports[`PauseArrearsCase connector mergeProps performs the correct actions for onSubmit for create with approval required 1`] = `
+Object {
+  "dataBddPrefix": "pauseArrearsCase",
+  "icon": "success",
+  "lines": Array [
+    Object {
+      "text": "Your requested pause needs to be approved by your manager, who has been notified",
+    },
+    Object {
+      "dataBdd": "pauseReason",
+      "text": "Reason for pause: A reason. Paused until 27/06/2019",
+    },
+    Object {
+      "text": "Full details in Arrears item history below",
+    },
+  ],
+  "notificationType": "confirmation",
+  "title": "Manager approval needed",
+}
+`;
+
+exports[`PauseArrearsCase connector mergeProps performs the correct actions for onSubmit for patch 1`] = `
+Object {
+  "dataBddPrefix": "pauseArrearsCase",
+  "icon": "success",
+  "lines": Array [
+    Object {
+      "dataBdd": "pauseReason",
+      "text": "Reason for pause: A reason. Paused until 27/06/2019",
+    },
+    Object {
+      "text": "Full details in Arrears item history below",
+    },
+  ],
+  "notificationType": "confirmation",
+  "title": "Arrears case pause updated",
+}
+`;
+
+exports[`PauseArrearsCase connector mergeProps performs the correct actions for onSubmit for patch with approval required 1`] = `
+Object {
+  "dataBddPrefix": "pauseArrearsCase",
+  "icon": "success",
+  "lines": Array [
+    Object {
+      "text": "Your requested pause needs to be approved by your manager, who has been notified",
+    },
+    Object {
+      "dataBdd": "pauseReason",
+      "text": "Reason for pause: A reason. Paused until 27/06/2019",
+    },
+    Object {
+      "text": "Full details in Arrears item history below",
+    },
+  ],
+  "notificationType": "confirmation",
+  "title": "Pause update: Manager approval needed",
+}
+`;

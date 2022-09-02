@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`split a string  passing a null splitter will return the same string wrapped in the passed node 1`] = `
+Array [
+  <styled.div>
+    this is a string that include spaces
+</styled.div>,
+]
+`;
+
+exports[`split a string  passing a space as splitter will wrap each element with a div 1`] = `
+Array [
+  <styled.div>
+    this
+</styled.div>,
+  <styled.div>
+    is
+</styled.div>,
+  <styled.div>
+    a
+</styled.div>,
+  <styled.div>
+    string
+</styled.div>,
+  <styled.div>
+    that
+</styled.div>,
+  <styled.div>
+    include
+</styled.div>,
+  <styled.div>
+    spaces
+</styled.div>,
+]
+`;

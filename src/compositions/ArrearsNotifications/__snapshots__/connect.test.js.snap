@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArrearsNotifications connector mapStateToProps generates the correct props 1`] = `
+Object {
+  "notifications": Array [
+    Object {
+      "description": "some notification",
+      "notificationType": "confirmation",
+      "title": "notification title",
+    },
+  ],
+}
+`;

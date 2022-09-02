@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PatchStatistics connector mapStateToProps generates the correct props 1`] = `
+Object {
+  "arrearsStats": Object {},
+  "errorText": Object {
+    "multiplePatchesNotAllowed": "Patch stats not available when multiple patches selected",
+    "noPatch": "Patch stats not available when no patch added",
+  },
+  "heading": "My patch stats",
+  "labels": Object {
+    "NOSPs": "{NOSPs} NOSPs to be served",
+    "accountsInArrears": "Across {accounts} active Arrears cases",
+    "accountsWithHBUCSuspended": "{accounts} accounts with HB/UC suspended",
+    "appointmentsToBeMade": "{appointments} appointments to be made",
+    "liveReferralsToWBTeam": "{referrals} live referrals to W&B team",
+    "openTenancyReferrals": "{referrals} open tenancy support referrals",
+    "outstandingLegalReferrals": "{legalReferrals} legal referrals outstanding",
+    "percentageOfRentCharged": "{percentage}% of accounts on your patch have an active Arrears case",
+    "totalArrears": "Cash value of arrears",
+  },
+  "loading": false,
+  "patches": Array [
+    Object {
+      "fullname": "Test_1 HO",
+      "name": "Test_1 HO",
+      "patchName": "PTCPRH01",
+      "src": "https://url.to/profile/image.jpg",
+    },
+  ],
+}
+`;
+
+exports[`PatchStatistics connector mapStateToProps mergeProps generates the correct props 1`] = `
+Object {
+  "arrearsStats": Object {},
+  "errorText": Object {
+    "multiplePatchesNotAllowed": "Patch stats not available when multiple patches selected",
+    "noPatch": "Patch stats not available when no patch added",
+  },
+  "getArrearsStatistics": [Function],
+  "heading": "My patch stats",
+  "labels": Object {
+    "NOSPs": "{NOSPs} NOSPs to be served",
+    "accountsInArrears": "Across {accounts} active Arrears cases",
+    "accountsWithHBUCSuspended": "{accounts} accounts with HB/UC suspended",
+    "appointmentsToBeMade": "{appointments} appointments to be made",
+    "liveReferralsToWBTeam": "{referrals} live referrals to W&B team",
+    "openTenancyReferrals": "{referrals} open tenancy support referrals",
+    "outstandingLegalReferrals": "{legalReferrals} legal referrals outstanding",
+    "percentageOfRentCharged": "{percentage}% of accounts on your patch have an active Arrears case",
+    "totalArrears": "Cash value of arrears",
+  },
+  "loading": false,
+  "patches": Array [
+    Object {
+      "fullname": "Test_1 HO",
+      "name": "Test_1 HO",
+      "patchName": "PTCPRH01",
+      "src": "https://url.to/profile/image.jpg",
+    },
+  ],
+}
+`;

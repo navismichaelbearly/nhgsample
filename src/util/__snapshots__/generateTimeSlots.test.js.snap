@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`generateTimeSlots return an array of time slots between the two given time inputs, 5 minutes apart 1`] = `
+Array [
+  "09:00",
+  "09:05",
+  "09:10",
+  "09:15",
+  "09:20",
+  "09:25",
+  "09:30",
+  "09:35",
+  "09:40",
+  "09:45",
+  "09:50",
+  "09:55",
+  "10:00",
+]
+`;

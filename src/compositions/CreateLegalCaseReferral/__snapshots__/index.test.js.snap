@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CreateLegalCaseReferralComposition /> should render the page correctly 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <NoTouching>
+      <div
+        id="forms-sdk-container"
+      />
+    </NoTouching>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<CreateLegalCaseReferralComposition /> should render the page correctly while loading 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <p
+    isSmall={false}
+  />
+  <div
+    className="col-lg-9"
+  >
+    <NoTouching>
+      <div
+        id="forms-sdk-container"
+      />
+    </NoTouching>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<CreateLegalCaseReferralComposition /> should render the page correctly with a lastSubmissionId 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <NoTouching>
+      <div
+        id="forms-sdk-container"
+      />
+    </NoTouching>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<CreateLegalCaseReferralComposition /> should render the page correctly with an error 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <t
+    description="Form error"
+    hideCloseButton={true}
+    icon="warning"
+    onCloseNotification={[Function]}
+    show={true}
+  />
+  <div
+    className="col-lg-9"
+  >
+    <NoTouching>
+      <div
+        id="forms-sdk-container"
+      />
+    </NoTouching>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;

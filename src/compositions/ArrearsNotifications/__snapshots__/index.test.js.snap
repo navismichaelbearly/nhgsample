@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ArrearsNotifications /> should render the page 1`] = `
+<Fragment>
+  <styled.div
+    data-bdd="prefix"
+    key="abc123"
+  >
+    <NotificationPanel
+      icon="warning"
+      show={true}
+      title="notificatin title"
+    >
+      <P
+        key="lines"
+      >
+        <span
+          data-bdd="prefix-lines"
+        >
+          first line
+        </span>
+      </P>
+      <P
+        key="second line"
+      >
+        <span>
+          second line
+        </span>
+      </P>
+    </NotificationPanel>
+  </styled.div>
+</Fragment>
+`;

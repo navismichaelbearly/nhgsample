@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArrearsDashboard connector mapStateToProps generates the correct props 1`] = `
+Object {
+  "arrearStatuses": undefined,
+  "arrearsDashboardLabels": Object {
+    "currentBalance": "Current Balance",
+    "customerHeading": "My arrears",
+    "daysInArrears": "Days in Arrears",
+    "filters": Object {
+      "allStages": "All Stages",
+      "arrears": "Arrears - {status} ({count})",
+      "arrearsByStage": "    {stage} ({count})",
+    },
+    "housingOfficerHeading": "Arrears",
+    "myTasks": "Tasks - My Tasks",
+    "priority": "Priority",
+    "selectAStage": "Select a Stage",
+    "selectedUserTasks": "Tasks - Selected Users",
+    "show": "Show",
+    "sortBy": "Sort By",
+    "stage": "Stage",
+    "tasks": "Tasks - Patches",
+  },
+  "filterLabels": Object {
+    "allStages": "All Stages",
+    "arrears": "Arrears - {status} ({count})",
+    "arrearsByStage": "    {stage} ({count})",
+  },
+  "heading": "My arrears",
+  "loadingArrears": false,
+  "loadingTasks": false,
+  "mySummaryItemsCount": 0,
+  "myTasks": Array [
+    Object {
+      "dueDate": "2018-08-27T15:08:44+00:00",
+      "id": "foo",
+      "owner": Object {
+        "id": "9e0dca1e-0538-e811-80c9-005056825b41",
+        "name": "DynamicsAATest Test",
+        "type": "systemusers",
+      },
+      "regardingObjectModel": Object {
+        "id": "bar",
+        "type": "Arrears",
+      },
+      "status": "Open",
+      "title": "this is a title",
+      "type": "manual",
+    },
+  ],
+  "myTasksStats": undefined,
+  "patches": Array [
+    Object {
+      "fullname": "Test_1 HO",
+      "name": "Test_1 HO",
+      "patchName": "PTCPRH01",
+      "src": "https://url.to/profile/image.jpg",
+    },
+  ],
+  "profile": Object {
+    "createdAt": "2018-01-17T10:31:48.209Z",
+    "emailAddress": "mbrownie@test.com",
+    "fullname": "Mark Brownie",
+    "id": "auth0|5a5f2614de16214961915a31",
+    "lastLoginAt": "2018-03-26T11:04:23.262Z",
+    "name": "Mark Brownie",
+    "patchName": "ABC123",
+    "pictureUrl": "https://s.gravatar.com/avatar/b4711b09c3f253d6999f146c91c7d057?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fmb.png",
+    "updatedAt": "2018-03-26T11:04:23.262Z",
+    "userIdentities": Object {
+      "hasAtLeastOneEmailIdentity": true,
+      "hasOnlyEmailIdentities": true,
+      "identities": Array [
+        Object {
+          "connection": "Username-Password-Authentication",
+          "isSocial": false,
+          "provider": "auth0",
+          "userId": "5a5f2614de16214961915a31",
+        },
+      ],
+    },
+    "userProfile": Object {
+      "assetPartyId": "12345",
+      "crmContactId": "71f86a99-03f6-e711-80c5-005056825b41",
+      "dateOfBirth": "1995-02-01T00:00:00Z",
+      "firstName": "Mark",
+      "gender": null,
+      "lastName": "Brownie",
+    },
+  },
+  "selectedUserTasksCount": 0,
+  "taskStatuses": Object {
+    "Arrears": Object {
+      "Open": Object {
+        "count": 10,
+      },
+    },
+  },
+  "youText": undefined,
+}
+`;
+
+exports[`ArrearsDashboard connector mergeProps generates the correct props 1`] = `
+Object {
+  "arrearStatuses": undefined,
+  "arrearsDashboardLabels": Object {
+    "currentBalance": "Current Balance",
+    "customerHeading": "My arrears",
+    "daysInArrears": "Days in Arrears",
+    "filters": Object {
+      "allStages": "All Stages",
+      "arrears": "Arrears - {status} ({count})",
+      "arrearsByStage": "    {stage} ({count})",
+    },
+    "housingOfficerHeading": "Arrears",
+    "myTasks": "Tasks - My Tasks",
+    "priority": "Priority",
+    "selectAStage": "Select a Stage",
+    "selectedUserTasks": "Tasks - Selected Users",
+    "show": "Show",
+    "sortBy": "Sort By",
+    "stage": "Stage",
+    "tasks": "Tasks - Patches",
+  },
+  "bar": "baz",
+  "filterLabels": Object {
+    "allStages": "All Stages",
+    "arrears": "Arrears - {status} ({count})",
+    "arrearsByStage": "    {stage} ({count})",
+  },
+  "getArrearStatuses": [Function],
+  "getArrearsSummary": [Function],
+  "getMyTasksStats": [Function],
+  "getMyTasksSummary": [Function],
+  "getSelectedUserTasks": [Function],
+  "getSummaryTasks": [Function],
+  "getTaskStatuses": [Function],
+  "getTasksSummary": [Function],
+  "loadingArrears": false,
+  "loadingTasks": false,
+  "mySummaryItemsCount": 0,
+  "myTasks": Array [
+    Object {
+      "dueDate": "2018-08-27T15:08:44+00:00",
+      "id": "foo",
+      "owner": Object {
+        "id": "9e0dca1e-0538-e811-80c9-005056825b41",
+        "name": "DynamicsAATest Test",
+        "type": "systemusers",
+      },
+      "regardingObjectModel": Object {
+        "id": "bar",
+        "type": "Arrears",
+      },
+      "status": "Open",
+      "title": "this is a title",
+      "type": "manual",
+    },
+  ],
+  "myTasksStats": undefined,
+  "patches": Array [
+    Object {
+      "fullname": "Test_1 HO",
+      "name": "Test_1 HO",
+      "patchName": "PTCPRH01",
+      "src": "https://url.to/profile/image.jpg",
+    },
+  ],
+  "profile": Object {
+    "createdAt": "2018-01-17T10:31:48.209Z",
+    "emailAddress": "mbrownie@test.com",
+    "fullname": "Mark Brownie",
+    "id": "auth0|5a5f2614de16214961915a31",
+    "lastLoginAt": "2018-03-26T11:04:23.262Z",
+    "name": "Mark Brownie",
+    "patchName": "ABC123",
+    "pictureUrl": "https://s.gravatar.com/avatar/b4711b09c3f253d6999f146c91c7d057?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fmb.png",
+    "updatedAt": "2018-03-26T11:04:23.262Z",
+    "userIdentities": Object {
+      "hasAtLeastOneEmailIdentity": true,
+      "hasOnlyEmailIdentities": true,
+      "identities": Array [
+        Object {
+          "connection": "Username-Password-Authentication",
+          "isSocial": false,
+          "provider": "auth0",
+          "userId": "5a5f2614de16214961915a31",
+        },
+      ],
+    },
+    "userProfile": Object {
+      "assetPartyId": "12345",
+      "crmContactId": "71f86a99-03f6-e711-80c5-005056825b41",
+      "dateOfBirth": "1995-02-01T00:00:00Z",
+      "firstName": "Mark",
+      "gender": null,
+      "lastName": "Brownie",
+    },
+  },
+  "selectedUserTasksCount": 0,
+  "taskStatuses": Object {
+    "Arrears": Object {
+      "Open": Object {
+        "count": 10,
+      },
+    },
+  },
+  "youText": undefined,
+}
+`;

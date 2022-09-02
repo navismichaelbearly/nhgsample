@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TasksSummaryCards components should render <OverdueLabel /> correctly 1`] = `
+.c0 {
+  font-weight: bold;
+  font-style: italic;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`TasksSummaryCards components should render <Wrapper /> correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.c0 > a {
+  color: inherit;
+  margin-bottom: 16px;
+  margin-right: 1%;
+  width: 32%;
+}
+
+.c0 > a:hover {
+  color: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+@media (max-width:767px) {
+  .c0 > a {
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
+@media (min-width:768px) and (max-width:1000px) {
+  .c0 > a {
+    width: 49%;
+  }
+}
+
+<div
+  className="c0"
+/>
+`;

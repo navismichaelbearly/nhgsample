@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ClosePaymentPlanCompositions /> should render the page 1`] = `
+<Fragment>
+  <styled.h3>
+    closePaymentPlan
+  </styled.h3>
+  <styled.p>
+    Are you sure you want to close this payment plan?
+  </styled.p>
+  <styled.div>
+    <t
+      data-bdd="closePaymentPlan-disclaimer"
+      description="Closing this payment plan will not automatically terminate the financial arrangement. Separate action required"
+      hideCloseButton={true}
+      icon="warning"
+      onCloseNotification={[Function]}
+      show={true}
+    />
+  </styled.div>
+  <styled.div>
+    <t
+      autocomplete={false}
+      data-bdd="closePaymentPlan-select-reason"
+      dataBdd=""
+      defaultInputValue="Please select a reason..."
+      disabled={false}
+      error=""
+      hasError={false}
+      hideLabel={false}
+      id="reason"
+      inline={false}
+      isFullWidth={true}
+      items={
+        Array [
+          "Tenant Default Option",
+          "New Arrangement Option",
+        ]
+      }
+      labelText="Select reason"
+      onSelect={[Function]}
+      placeholder=""
+      required={true}
+    />
+  </styled.div>
+  <styled.div>
+    <Textarea
+      data-bdd="closePaymentPlan-note"
+      dataBdd=""
+      disabled={false}
+      display="inline-block"
+      hasError={false}
+      height="150px"
+      id="note"
+      isFullWidth={true}
+      labelText="reason text"
+      onChange={[Function]}
+      value=""
+      width="250px"
+    />
+  </styled.div>
+  <styled.div>
+    <WithTheme(Button)
+      buttonType="secondary"
+      data-bdd="closePaymentPlan-no"
+      isFullWidth={true}
+      onClick={[Function]}
+    >
+      No
+    </WithTheme(Button)>
+    <WithTheme(Button)
+      data-bdd="closePaymentPlan-yes"
+      isFullWidth={true}
+      onClick={[Function]}
+    >
+      Yes, Close the plan
+    </WithTheme(Button)>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`<ClosePaymentPlanCompositions /> should update state when loading 1`] = `
+<Fragment>
+  <styled.h3>
+    closePaymentPlan
+  </styled.h3>
+  <styled.p>
+    Are you sure you want to close this payment plan?
+  </styled.p>
+  <styled.div>
+    <t
+      data-bdd="closePaymentPlan-disclaimer"
+      description="Closing this payment plan will not automatically terminate the financial arrangement. Separate action required"
+      hideCloseButton={true}
+      icon="warning"
+      onCloseNotification={[Function]}
+      show={true}
+    />
+  </styled.div>
+  <styled.div>
+    <t
+      autocomplete={false}
+      data-bdd="closePaymentPlan-select-reason"
+      dataBdd=""
+      defaultInputValue="Please select a reason..."
+      disabled={true}
+      error=""
+      hasError={false}
+      hideLabel={false}
+      id="reason"
+      inline={false}
+      isFullWidth={true}
+      items={
+        Array [
+          "Tenant Default Option",
+          "New Arrangement Option",
+        ]
+      }
+      labelText="Select reason"
+      onSelect={[Function]}
+      placeholder=""
+      required={true}
+    />
+  </styled.div>
+  <styled.div>
+    <Textarea
+      data-bdd="closePaymentPlan-note"
+      dataBdd=""
+      disabled={true}
+      display="inline-block"
+      hasError={false}
+      height="150px"
+      id="note"
+      isFullWidth={true}
+      labelText="reason text"
+      onChange={[Function]}
+      value=""
+      width="250px"
+    />
+  </styled.div>
+  <p
+    isSmall={false}
+  />
+</Fragment>
+`;

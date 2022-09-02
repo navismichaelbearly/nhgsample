@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`mapStateToprops mapStateToProps mergeProps should render correct props 1`] = `
+Object {
+  "isHousingOfficer": undefined,
+  "myPatch": Object {
+    "createdAt": "2018-01-17T10:31:48.209Z",
+    "emailAddress": "mbrownie@test.com",
+    "fullname": "Mark Brownie",
+    "id": "auth0|5a5f2614de16214961915a31",
+    "lastLoginAt": "2018-03-26T11:04:23.262Z",
+    "name": "Mark Brownie",
+    "patchName": "ABC123",
+    "pictureUrl": "https://s.gravatar.com/avatar/b4711b09c3f253d6999f146c91c7d057?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fmb.png",
+    "updatedAt": "2018-03-26T11:04:23.262Z",
+    "userIdentities": Object {
+      "hasAtLeastOneEmailIdentity": true,
+      "hasOnlyEmailIdentities": true,
+      "identities": Array [
+        Object {
+          "connection": "Username-Password-Authentication",
+          "isSocial": false,
+          "provider": "auth0",
+          "userId": "5a5f2614de16214961915a31",
+        },
+      ],
+    },
+    "userProfile": Object {
+      "assetPartyId": "12345",
+      "crmContactId": "71f86a99-03f6-e711-80c5-005056825b41",
+      "dateOfBirth": "1995-02-01T00:00:00Z",
+      "firstName": "Mark",
+      "gender": null,
+      "lastName": "Brownie",
+    },
+  },
+  "onChange": [Function],
+  "onClose": [Function],
+  "onSearch": [Function],
+  "teamMembers": Array [
+    Object {
+      "fullName": "Test_1 HO",
+      "fullname": "Test_1 HO",
+      "name": "Test_1 HO",
+      "patchName": "PTCPRH01",
+      "src": "https://url.to/profile/image.jpg",
+    },
+  ],
+  "visible": undefined,
+}
+`;
+
+exports[`mapStateToprops mapStateToProps should render correct props 1`] = `
+Object {
+  "isHousingOfficer": undefined,
+  "myPatch": Object {
+    "createdAt": "2018-01-17T10:31:48.209Z",
+    "emailAddress": "mbrownie@test.com",
+    "fullname": "Mark Brownie",
+    "id": "auth0|5a5f2614de16214961915a31",
+    "lastLoginAt": "2018-03-26T11:04:23.262Z",
+    "name": "Mark Brownie",
+    "patchName": "ABC123",
+    "pictureUrl": "https://s.gravatar.com/avatar/b4711b09c3f253d6999f146c91c7d057?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fmb.png",
+    "updatedAt": "2018-03-26T11:04:23.262Z",
+    "userIdentities": Object {
+      "hasAtLeastOneEmailIdentity": true,
+      "hasOnlyEmailIdentities": true,
+      "identities": Array [
+        Object {
+          "connection": "Username-Password-Authentication",
+          "isSocial": false,
+          "provider": "auth0",
+          "userId": "5a5f2614de16214961915a31",
+        },
+      ],
+    },
+    "userProfile": Object {
+      "assetPartyId": "12345",
+      "crmContactId": "71f86a99-03f6-e711-80c5-005056825b41",
+      "dateOfBirth": "1995-02-01T00:00:00Z",
+      "firstName": "Mark",
+      "gender": null,
+      "lastName": "Brownie",
+    },
+  },
+  "teamMembers": Array [
+    Object {
+      "fullName": "Test_1 HO",
+      "fullname": "Test_1 HO",
+      "name": "Test_1 HO",
+      "patchName": "PTCPRH01",
+      "src": "https://url.to/profile/image.jpg",
+    },
+  ],
+  "visible": undefined,
+}
+`;

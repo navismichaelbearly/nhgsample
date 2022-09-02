@@ -1,0 +1,950 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CreateInteractionCompositions /> Form state changes should update state when thirdParties api returns an error 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Back"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={false}
+      formError={null}
+      formName="createInteraction"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={
+        <WithTheme(Button)
+          data-bdd="createInteraction-submit-and-create-task"
+          onClick={[Function]}
+        >
+          Save interaction and add Task
+        </WithTheme(Button)>
+      }
+      otherActionsLeft={null}
+      submitButtonText="Save interaction"
+    >
+      <styled.div>
+        <t
+          autocomplete={false}
+          data-state-key="interactionType"
+          dataBdd="addInteraction-interactionType"
+          disabled={false}
+          hasError={false}
+          hideLabel={false}
+          inline={false}
+          inputValue=""
+          isFullWidth={true}
+          itemToString={[Function]}
+          items={
+            Array [
+              Object {
+                "id": 0,
+                "name": "Email",
+              },
+              Object {
+                "id": 1,
+                "name": "In Person",
+              },
+              Object {
+                "id": 2,
+                "name": "Letter",
+              },
+              Object {
+                "id": 3,
+                "name": "Messaging",
+              },
+              Object {
+                "id": 4,
+                "name": "Phone Call",
+              },
+              Object {
+                "id": 5,
+                "name": "Voicemail",
+              },
+            ]
+          }
+          labelText="Type of interaction"
+          onChange={[Function]}
+          placeholder=""
+          required={true}
+        />
+      </styled.div>
+      <styled.div>
+        <x
+          name="activityKind"
+          required={true}
+        >
+          <T
+            checked={false}
+            data-bdd="addInteraction-activityKind-Outbound"
+            data-state-key="activityKind"
+            disabled={false}
+            display="inline-block"
+            error={false}
+            hasError={false}
+            id="Outbound"
+            key="Outbound"
+            onChange={[Function]}
+          >
+            Outbound
+          </T>
+          <T
+            checked={false}
+            data-bdd="addInteraction-activityKind-Inbound"
+            data-state-key="activityKind"
+            disabled={false}
+            display="inline-block"
+            error={false}
+            hasError={false}
+            id="Inbound"
+            key="Inbound"
+            onChange={[Function]}
+          >
+            Inbound
+          </T>
+        </x>
+      </styled.div>
+      <c
+        required={true}
+        showLabel={true}
+      >
+        Party the interaction was with
+      </c>
+      <styled.div>
+        <styled.div />
+        <x
+          name="interactingParty"
+          required={true}
+        >
+          <T
+            checked={false}
+            data-bdd="addInteraction-interactingParty-123123123"
+            data-state-key="interactingParty"
+            disabled={false}
+            display="block"
+            error={false}
+            hasError={false}
+            id="123123123"
+            key="123123123"
+            onChange={[Function]}
+          >
+            tenant1
+          </T>
+          <T
+            checked={false}
+            data-bdd="addInteraction-interactingParty-7171711"
+            data-state-key="interactingParty"
+            disabled={false}
+            display="block"
+            error={false}
+            hasError={false}
+            id="7171711"
+            key="7171711"
+            onChange={[Function]}
+          >
+            tenant2
+          </T>
+        </x>
+      </styled.div>
+      <c
+        required={true}
+        showLabel={true}
+      >
+        Date / time of interaction
+      </c>
+      <styled.div
+        data-bdd="addInteraction-interactionDate"
+      >
+        <styled.div>
+          <t
+            data-state-key="interactionDate"
+            disabled={false}
+            hasError={false}
+            hideLabel={false}
+            isFullWidth={true}
+            labelText=""
+            maxDate={2018-08-01T00:00:00.000Z}
+            onChange={[Function]}
+            onDateSelected={[Function]}
+            placeholder=""
+            required={true}
+          />
+          <t
+            data-state-key="interactionTime"
+            dataBdd="addInteraction-interactionTime"
+            disabled={false}
+            end="00:00"
+            hasError={false}
+            hideLabel={false}
+            interval={60}
+            items={
+              Array [
+                "21:30",
+                "21:35",
+              ]
+            }
+            labelText=""
+            onChange={[Function]}
+            placeholder="Time"
+            start="00:00"
+            value=""
+          />
+        </styled.div>
+      </styled.div>
+      <styled.div>
+        <Textarea
+          data-bdd="addInteraction-description"
+          data-state-key="description"
+          dataBdd=""
+          disabled={false}
+          display="inline-block"
+          hasError={false}
+          height="150px"
+          id="description"
+          isFullWidth={true}
+          labelText="Description"
+          onChange={[Function]}
+          required={true}
+          value=""
+          width="250px"
+        />
+      </styled.div>
+      <styled.div>
+        <p
+          checked={false}
+          data-bdd="addInteractionForm-attachMedia"
+          data-state-key="attachMedia"
+          disabled={false}
+          display="inline-block"
+          error={false}
+          hasError={false}
+          onChange={[Function]}
+          required={false}
+        >
+          Attach
+        </p>
+      </styled.div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<CreateInteractionCompositions /> Form state changes should update state when thirdParties is defined 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Back"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={false}
+      formError={null}
+      formName="createInteraction"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={
+        <WithTheme(Button)
+          data-bdd="createInteraction-submit-and-create-task"
+          onClick={[Function]}
+        >
+          Save interaction and add Task
+        </WithTheme(Button)>
+      }
+      otherActionsLeft={null}
+      submitButtonText="Save interaction"
+    >
+      <styled.div>
+        <t
+          autocomplete={false}
+          data-state-key="interactionType"
+          dataBdd="addInteraction-interactionType"
+          disabled={false}
+          hasError={false}
+          hideLabel={false}
+          inline={false}
+          inputValue=""
+          isFullWidth={true}
+          itemToString={[Function]}
+          items={
+            Array [
+              Object {
+                "id": 0,
+                "name": "Email",
+              },
+              Object {
+                "id": 1,
+                "name": "In Person",
+              },
+              Object {
+                "id": 2,
+                "name": "Letter",
+              },
+              Object {
+                "id": 3,
+                "name": "Messaging",
+              },
+              Object {
+                "id": 4,
+                "name": "Phone Call",
+              },
+              Object {
+                "id": 5,
+                "name": "Voicemail",
+              },
+            ]
+          }
+          labelText="Type of interaction"
+          onChange={[Function]}
+          placeholder=""
+          required={true}
+        />
+      </styled.div>
+      <styled.div>
+        <x
+          name="activityKind"
+          required={true}
+        >
+          <T
+            checked={false}
+            data-bdd="addInteraction-activityKind-Outbound"
+            data-state-key="activityKind"
+            disabled={false}
+            display="inline-block"
+            error={false}
+            hasError={false}
+            id="Outbound"
+            key="Outbound"
+            onChange={[Function]}
+          >
+            Outbound
+          </T>
+          <T
+            checked={false}
+            data-bdd="addInteraction-activityKind-Inbound"
+            data-state-key="activityKind"
+            disabled={false}
+            display="inline-block"
+            error={false}
+            hasError={false}
+            id="Inbound"
+            key="Inbound"
+            onChange={[Function]}
+          >
+            Inbound
+          </T>
+        </x>
+      </styled.div>
+      <c
+        required={true}
+        showLabel={true}
+      >
+        Party the interaction was with
+      </c>
+      <styled.div>
+        <x
+          name="interactingParty"
+          required={true}
+        >
+          <T
+            checked={false}
+            data-bdd="addInteraction-interactingParty-123123123"
+            data-state-key="interactingParty"
+            disabled={false}
+            display="block"
+            error={false}
+            hasError={false}
+            id="123123123"
+            key="123123123"
+            onChange={[Function]}
+          >
+            tenant1
+          </T>
+          <T
+            checked={false}
+            data-bdd="addInteraction-interactingParty-7171711"
+            data-state-key="interactingParty"
+            disabled={false}
+            display="block"
+            error={false}
+            hasError={false}
+            id="7171711"
+            key="7171711"
+            onChange={[Function]}
+          >
+            tenant2
+          </T>
+          <T
+            checked={false}
+            data-bdd="addInteraction-interactingParty-this is the same as the contact id"
+            data-state-key="interactingParty"
+            disabled={false}
+            display="block"
+            error={false}
+            hasError={false}
+            id="this is the same as the contact id"
+            key="this is the same as the contact id"
+            onChange={[Function]}
+          />
+        </x>
+      </styled.div>
+      <c
+        required={true}
+        showLabel={true}
+      >
+        Date / time of interaction
+      </c>
+      <styled.div
+        data-bdd="addInteraction-interactionDate"
+      >
+        <styled.div>
+          <t
+            data-state-key="interactionDate"
+            disabled={false}
+            hasError={false}
+            hideLabel={false}
+            isFullWidth={true}
+            labelText=""
+            maxDate={2018-08-01T00:00:00.000Z}
+            onChange={[Function]}
+            onDateSelected={[Function]}
+            placeholder=""
+            required={true}
+          />
+          <t
+            data-state-key="interactionTime"
+            dataBdd="addInteraction-interactionTime"
+            disabled={false}
+            end="00:00"
+            hasError={false}
+            hideLabel={false}
+            interval={60}
+            items={
+              Array [
+                "21:30",
+                "21:35",
+              ]
+            }
+            labelText=""
+            onChange={[Function]}
+            placeholder="Time"
+            start="00:00"
+            value=""
+          />
+        </styled.div>
+      </styled.div>
+      <styled.div>
+        <Textarea
+          data-bdd="addInteraction-description"
+          data-state-key="description"
+          dataBdd=""
+          disabled={false}
+          display="inline-block"
+          hasError={false}
+          height="150px"
+          id="description"
+          isFullWidth={true}
+          labelText="Description"
+          onChange={[Function]}
+          required={true}
+          value=""
+          width="250px"
+        />
+      </styled.div>
+      <styled.div>
+        <p
+          checked={false}
+          data-bdd="addInteractionForm-attachMedia"
+          data-state-key="attachMedia"
+          disabled={false}
+          display="inline-block"
+          error={false}
+          hasError={false}
+          onChange={[Function]}
+          required={false}
+        >
+          Attach
+        </p>
+      </styled.div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<CreateInteractionCompositions /> Form validations Activity Kind should set the correct error when activity kind is not provided 1`] = `"Please select the activity kind"`;
+
+exports[`<CreateInteractionCompositions /> Form validations Interacting Party should set the correct error when interacting party is not provided 1`] = `"Please select the party you interacted with"`;
+
+exports[`<CreateInteractionCompositions /> Form validations Interaction type should set the correct error when interaction type is not selected 1`] = `"Please select the type of interaction"`;
+
+exports[`<CreateInteractionCompositions /> Form validations description should set the correct error when description is not selected 1`] = `"Please enter a description"`;
+
+exports[`<CreateInteractionCompositions /> should render correctly when isLoading 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Back"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={false}
+      formError={null}
+      formName="createInteraction"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={true}
+      otherActions={
+        <WithTheme(Button)
+          data-bdd="createInteraction-submit-and-create-task"
+          onClick={[Function]}
+        >
+          Save interaction and add Task
+        </WithTheme(Button)>
+      }
+      otherActionsLeft={null}
+      submitButtonText="Save interaction"
+    >
+      <styled.div>
+        <t
+          autocomplete={false}
+          data-state-key="interactionType"
+          dataBdd="addInteraction-interactionType"
+          disabled={true}
+          hasError={false}
+          hideLabel={false}
+          inline={false}
+          inputValue=""
+          isFullWidth={true}
+          itemToString={[Function]}
+          items={
+            Array [
+              Object {
+                "id": 0,
+                "name": "Email",
+              },
+              Object {
+                "id": 1,
+                "name": "In Person",
+              },
+              Object {
+                "id": 2,
+                "name": "Letter",
+              },
+              Object {
+                "id": 3,
+                "name": "Messaging",
+              },
+              Object {
+                "id": 4,
+                "name": "Phone Call",
+              },
+              Object {
+                "id": 5,
+                "name": "Voicemail",
+              },
+            ]
+          }
+          labelText="Type of interaction"
+          onChange={[Function]}
+          placeholder=""
+          required={true}
+        />
+      </styled.div>
+      <styled.div>
+        <x
+          name="activityKind"
+          required={true}
+        >
+          <T
+            checked={false}
+            data-bdd="addInteraction-activityKind-Outbound"
+            data-state-key="activityKind"
+            disabled={true}
+            display="inline-block"
+            error={false}
+            hasError={false}
+            id="Outbound"
+            key="Outbound"
+            onChange={[Function]}
+          >
+            Outbound
+          </T>
+          <T
+            checked={false}
+            data-bdd="addInteraction-activityKind-Inbound"
+            data-state-key="activityKind"
+            disabled={true}
+            display="inline-block"
+            error={false}
+            hasError={false}
+            id="Inbound"
+            key="Inbound"
+            onChange={[Function]}
+          >
+            Inbound
+          </T>
+        </x>
+      </styled.div>
+      <c
+        required={true}
+        showLabel={true}
+      >
+        Party the interaction was with
+      </c>
+      <styled.div>
+        <x
+          name="interactingParty"
+          required={true}
+        >
+          <T
+            checked={false}
+            data-bdd="addInteraction-interactingParty-123123123"
+            data-state-key="interactingParty"
+            disabled={true}
+            display="block"
+            error={false}
+            hasError={false}
+            id="123123123"
+            key="123123123"
+            onChange={[Function]}
+          >
+            tenant1
+          </T>
+          <T
+            checked={false}
+            data-bdd="addInteraction-interactingParty-7171711"
+            data-state-key="interactingParty"
+            disabled={true}
+            display="block"
+            error={false}
+            hasError={false}
+            id="7171711"
+            key="7171711"
+            onChange={[Function]}
+          >
+            tenant2
+          </T>
+        </x>
+      </styled.div>
+      <c
+        required={true}
+        showLabel={true}
+      >
+        Date / time of interaction
+      </c>
+      <styled.div
+        data-bdd="addInteraction-interactionDate"
+      >
+        <styled.div>
+          <t
+            data-state-key="interactionDate"
+            disabled={true}
+            hasError={false}
+            hideLabel={false}
+            isFullWidth={true}
+            labelText=""
+            maxDate={2018-08-01T00:00:00.000Z}
+            onChange={[Function]}
+            onDateSelected={[Function]}
+            placeholder=""
+            required={true}
+          />
+          <t
+            data-state-key="interactionTime"
+            dataBdd="addInteraction-interactionTime"
+            disabled={true}
+            end="00:00"
+            hasError={false}
+            hideLabel={false}
+            interval={60}
+            items={
+              Array [
+                "21:30",
+                "21:35",
+              ]
+            }
+            labelText=""
+            onChange={[Function]}
+            placeholder="Time"
+            start="00:00"
+            value=""
+          />
+        </styled.div>
+      </styled.div>
+      <styled.div>
+        <Textarea
+          data-bdd="addInteraction-description"
+          data-state-key="description"
+          dataBdd=""
+          disabled={true}
+          display="inline-block"
+          hasError={false}
+          height="150px"
+          id="description"
+          isFullWidth={true}
+          labelText="Description"
+          onChange={[Function]}
+          required={true}
+          value=""
+          width="250px"
+        />
+      </styled.div>
+      <styled.div>
+        <p
+          checked={false}
+          data-bdd="addInteractionForm-attachMedia"
+          data-state-key="attachMedia"
+          disabled={true}
+          display="inline-block"
+          error={false}
+          hasError={false}
+          onChange={[Function]}
+          required={false}
+        >
+          Attach
+        </p>
+      </styled.div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<CreateInteractionCompositions /> should render the page 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Back"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={false}
+      formError={null}
+      formName="createInteraction"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={
+        <WithTheme(Button)
+          data-bdd="createInteraction-submit-and-create-task"
+          onClick={[Function]}
+        >
+          Save interaction and add Task
+        </WithTheme(Button)>
+      }
+      otherActionsLeft={null}
+      submitButtonText="Save interaction"
+    >
+      <styled.div>
+        <t
+          autocomplete={false}
+          data-state-key="interactionType"
+          dataBdd="addInteraction-interactionType"
+          disabled={false}
+          hasError={false}
+          hideLabel={false}
+          inline={false}
+          inputValue=""
+          isFullWidth={true}
+          itemToString={[Function]}
+          items={
+            Array [
+              Object {
+                "id": 0,
+                "name": "Email",
+              },
+              Object {
+                "id": 1,
+                "name": "In Person",
+              },
+              Object {
+                "id": 2,
+                "name": "Letter",
+              },
+              Object {
+                "id": 3,
+                "name": "Messaging",
+              },
+              Object {
+                "id": 4,
+                "name": "Phone Call",
+              },
+              Object {
+                "id": 5,
+                "name": "Voicemail",
+              },
+            ]
+          }
+          labelText="Type of interaction"
+          onChange={[Function]}
+          placeholder=""
+          required={true}
+        />
+      </styled.div>
+      <styled.div>
+        <x
+          name="activityKind"
+          required={true}
+        >
+          <T
+            checked={false}
+            data-bdd="addInteraction-activityKind-Outbound"
+            data-state-key="activityKind"
+            disabled={false}
+            display="inline-block"
+            error={false}
+            hasError={false}
+            id="Outbound"
+            key="Outbound"
+            onChange={[Function]}
+          >
+            Outbound
+          </T>
+          <T
+            checked={false}
+            data-bdd="addInteraction-activityKind-Inbound"
+            data-state-key="activityKind"
+            disabled={false}
+            display="inline-block"
+            error={false}
+            hasError={false}
+            id="Inbound"
+            key="Inbound"
+            onChange={[Function]}
+          >
+            Inbound
+          </T>
+        </x>
+      </styled.div>
+      <c
+        required={true}
+        showLabel={true}
+      >
+        Party the interaction was with
+      </c>
+      <styled.div>
+        <x
+          name="interactingParty"
+          required={true}
+        >
+          <T
+            checked={false}
+            data-bdd="addInteraction-interactingParty-123123123"
+            data-state-key="interactingParty"
+            disabled={false}
+            display="block"
+            error={false}
+            hasError={false}
+            id="123123123"
+            key="123123123"
+            onChange={[Function]}
+          >
+            tenant1
+          </T>
+          <T
+            checked={false}
+            data-bdd="addInteraction-interactingParty-7171711"
+            data-state-key="interactingParty"
+            disabled={false}
+            display="block"
+            error={false}
+            hasError={false}
+            id="7171711"
+            key="7171711"
+            onChange={[Function]}
+          >
+            tenant2
+          </T>
+        </x>
+      </styled.div>
+      <c
+        required={true}
+        showLabel={true}
+      >
+        Date / time of interaction
+      </c>
+      <styled.div
+        data-bdd="addInteraction-interactionDate"
+      >
+        <styled.div>
+          <t
+            data-state-key="interactionDate"
+            disabled={false}
+            hasError={false}
+            hideLabel={false}
+            isFullWidth={true}
+            labelText=""
+            maxDate={2018-08-01T00:00:00.000Z}
+            onChange={[Function]}
+            onDateSelected={[Function]}
+            placeholder=""
+            required={true}
+          />
+          <t
+            data-state-key="interactionTime"
+            dataBdd="addInteraction-interactionTime"
+            disabled={false}
+            end="00:00"
+            hasError={false}
+            hideLabel={false}
+            interval={60}
+            items={
+              Array [
+                "21:30",
+                "21:35",
+              ]
+            }
+            labelText=""
+            onChange={[Function]}
+            placeholder="Time"
+            start="00:00"
+            value=""
+          />
+        </styled.div>
+      </styled.div>
+      <styled.div>
+        <Textarea
+          data-bdd="addInteraction-description"
+          data-state-key="description"
+          dataBdd=""
+          disabled={false}
+          display="inline-block"
+          hasError={false}
+          height="150px"
+          id="description"
+          isFullWidth={true}
+          labelText="Description"
+          onChange={[Function]}
+          required={true}
+          value=""
+          width="250px"
+        />
+      </styled.div>
+      <styled.div>
+        <p
+          checked={false}
+          data-bdd="addInteractionForm-attachMedia"
+          data-state-key="attachMedia"
+          disabled={false}
+          display="inline-block"
+          error={false}
+          hasError={false}
+          onChange={[Function]}
+          required={false}
+        >
+          Attach
+        </p>
+      </styled.div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;

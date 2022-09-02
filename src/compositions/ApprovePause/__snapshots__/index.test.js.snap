@@ -1,0 +1,828 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ApprovePauseComposition /> Form interaction should display reason field if approval is no 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="backButton"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={false}
+      formError=""
+      formName="approvePause"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="submitButton"
+    >
+      <styled.div>
+        <styled.label
+          data-bdd="approvePause-reasonForPausing-label"
+        >
+          reasonForPausing
+        </styled.label>
+        <styled.p
+          data-bdd="approvePause-reasonForPausing-value"
+        >
+          Another reason
+        </styled.p>
+      </styled.div>
+      <styled.div>
+        <styled.label
+          data-bdd="approvePause-requestedEndDate-label"
+        >
+          requestedEndDate
+        </styled.label>
+        <styled.p
+          data-bdd="approvePause-requestedEndDate-value"
+        >
+          23/07/2019
+        </styled.p>
+      </styled.div>
+      <styled.div>
+        <styled.label
+          data-bdd="approvePause-furtherDetail-label"
+        >
+          furtherDetail
+        </styled.label>
+        <styled.p
+          key="further de-0"
+        >
+          further detail
+        </styled.p>
+      </styled.div>
+      <styled.div>
+        <x
+          labelText="approvePause"
+          required={true}
+        >
+          <T
+            checked={false}
+            data-bdd="approvePause-radioGroup-yes"
+            display="block"
+            error={false}
+            hasError={false}
+            id="yes"
+            name="approvePauseGroup"
+            onChange={[Function]}
+          >
+            yes
+          </T>
+          <T
+            checked={true}
+            data-bdd="approvePause-radioGroup-no"
+            display="block"
+            error={false}
+            hasError={false}
+            id="no"
+            name="approvePauseGroup"
+            onChange={[Function]}
+          >
+            no
+          </T>
+        </x>
+      </styled.div>
+      <styled.div>
+        <Textarea
+          data-bdd="approvePause-reasonForDenying"
+          dataBdd=""
+          display="inline-block"
+          hasError={false}
+          height="150px"
+          id="reasonForDenying"
+          isFullWidth={true}
+          labelText="reasonForDenying"
+          onChange={[Function]}
+          required={true}
+          value=""
+          width="250px"
+        />
+      </styled.div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ApprovePauseComposition /> Form interaction should not display reason field if approval is yes 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="backButton"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={false}
+      formError=""
+      formName="approvePause"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="submitButton"
+    >
+      <styled.div>
+        <styled.label
+          data-bdd="approvePause-reasonForPausing-label"
+        >
+          reasonForPausing
+        </styled.label>
+        <styled.p
+          data-bdd="approvePause-reasonForPausing-value"
+        >
+          Another reason
+        </styled.p>
+      </styled.div>
+      <styled.div>
+        <styled.label
+          data-bdd="approvePause-requestedEndDate-label"
+        >
+          requestedEndDate
+        </styled.label>
+        <styled.p
+          data-bdd="approvePause-requestedEndDate-value"
+        >
+          23/07/2019
+        </styled.p>
+      </styled.div>
+      <styled.div>
+        <styled.label
+          data-bdd="approvePause-furtherDetail-label"
+        >
+          furtherDetail
+        </styled.label>
+        <styled.p
+          key="further de-0"
+        >
+          further detail
+        </styled.p>
+      </styled.div>
+      <styled.div>
+        <x
+          labelText="approvePause"
+          required={true}
+        >
+          <T
+            checked={true}
+            data-bdd="approvePause-radioGroup-yes"
+            display="block"
+            error={false}
+            hasError={false}
+            id="yes"
+            name="approvePauseGroup"
+            onChange={[Function]}
+          >
+            yes
+          </T>
+          <T
+            checked={false}
+            data-bdd="approvePause-radioGroup-no"
+            display="block"
+            error={false}
+            hasError={false}
+            id="no"
+            name="approvePauseGroup"
+            onChange={[Function]}
+          >
+            no
+          </T>
+        </x>
+      </styled.div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ApprovePauseComposition /> Form interaction should not validate the reasonForDenying field if approvePause === no and reason field is clean 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="backButton"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={false}
+      formError=""
+      formName="approvePause"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="submitButton"
+    >
+      <styled.div>
+        <styled.label
+          data-bdd="approvePause-reasonForPausing-label"
+        >
+          reasonForPausing
+        </styled.label>
+        <styled.p
+          data-bdd="approvePause-reasonForPausing-value"
+        >
+          Another reason
+        </styled.p>
+      </styled.div>
+      <styled.div>
+        <styled.label
+          data-bdd="approvePause-requestedEndDate-label"
+        >
+          requestedEndDate
+        </styled.label>
+        <styled.p
+          data-bdd="approvePause-requestedEndDate-value"
+        >
+          23/07/2019
+        </styled.p>
+      </styled.div>
+      <styled.div>
+        <styled.label
+          data-bdd="approvePause-furtherDetail-label"
+        >
+          furtherDetail
+        </styled.label>
+        <styled.p
+          key="further de-0"
+        >
+          further detail
+        </styled.p>
+      </styled.div>
+      <styled.div>
+        <x
+          error=""
+          labelText="approvePause"
+          required={true}
+        >
+          <T
+            checked={false}
+            data-bdd="approvePause-radioGroup-yes"
+            display="block"
+            error={false}
+            hasError={false}
+            id="yes"
+            name="approvePauseGroup"
+            onChange={[Function]}
+          >
+            yes
+          </T>
+          <T
+            checked={true}
+            data-bdd="approvePause-radioGroup-no"
+            display="block"
+            error={false}
+            hasError={false}
+            id="no"
+            name="approvePauseGroup"
+            onChange={[Function]}
+          >
+            no
+          </T>
+        </x>
+      </styled.div>
+      <styled.div>
+        <Textarea
+          data-bdd="approvePause-reasonForDenying"
+          dataBdd=""
+          display="inline-block"
+          error=""
+          hasError={false}
+          height="150px"
+          id="reasonForDenying"
+          isFullWidth={true}
+          labelText="reasonForDenying"
+          onChange={[Function]}
+          required={true}
+          value=""
+          width="250px"
+        />
+      </styled.div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ApprovePauseComposition /> Form interaction should not validate the reasonForDenying field if approvePause === no and reason field is clean 2`] = `
+Object {
+  "approvePause": "no",
+  "errors": Object {
+    "approvePause": "",
+    "reasonForDenying": "",
+  },
+  "formError": false,
+  "isDirty": Object {
+    "approvePause": true,
+  },
+  "reasonForDenying": "",
+}
+`;
+
+exports[`<ApprovePauseComposition /> Form interaction should not validate the reasonForDenying field if approvePause === yes 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="backButton"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={false}
+      formError=""
+      formName="approvePause"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="submitButton"
+    >
+      <styled.div>
+        <styled.label
+          data-bdd="approvePause-reasonForPausing-label"
+        >
+          reasonForPausing
+        </styled.label>
+        <styled.p
+          data-bdd="approvePause-reasonForPausing-value"
+        >
+          Another reason
+        </styled.p>
+      </styled.div>
+      <styled.div>
+        <styled.label
+          data-bdd="approvePause-requestedEndDate-label"
+        >
+          requestedEndDate
+        </styled.label>
+        <styled.p
+          data-bdd="approvePause-requestedEndDate-value"
+        >
+          23/07/2019
+        </styled.p>
+      </styled.div>
+      <styled.div>
+        <styled.label
+          data-bdd="approvePause-furtherDetail-label"
+        >
+          furtherDetail
+        </styled.label>
+        <styled.p
+          key="further de-0"
+        >
+          further detail
+        </styled.p>
+      </styled.div>
+      <styled.div>
+        <x
+          error=""
+          labelText="approvePause"
+          required={true}
+        >
+          <T
+            checked={true}
+            data-bdd="approvePause-radioGroup-yes"
+            display="block"
+            error={false}
+            hasError={false}
+            id="yes"
+            name="approvePauseGroup"
+            onChange={[Function]}
+          >
+            yes
+          </T>
+          <T
+            checked={false}
+            data-bdd="approvePause-radioGroup-no"
+            display="block"
+            error={false}
+            hasError={false}
+            id="no"
+            name="approvePauseGroup"
+            onChange={[Function]}
+          >
+            no
+          </T>
+        </x>
+      </styled.div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ApprovePauseComposition /> Form interaction should not validate the reasonForDenying field if approvePause === yes 2`] = `
+Object {
+  "approvePause": "yes",
+  "errors": Object {
+    "approvePause": "",
+    "reasonForDenying": "",
+  },
+  "formError": false,
+  "isDirty": Object {
+    "approvePause": true,
+  },
+  "reasonForDenying": "",
+}
+`;
+
+exports[`<ApprovePauseComposition /> Form interaction should reset the form and call onBack when handleBackClick fires 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="backButton"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={false}
+      formError=""
+      formName="approvePause"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="submitButton"
+    >
+      <styled.div>
+        <styled.label
+          data-bdd="approvePause-reasonForPausing-label"
+        >
+          reasonForPausing
+        </styled.label>
+        <styled.p
+          data-bdd="approvePause-reasonForPausing-value"
+        >
+          Another reason
+        </styled.p>
+      </styled.div>
+      <styled.div>
+        <styled.label
+          data-bdd="approvePause-requestedEndDate-label"
+        >
+          requestedEndDate
+        </styled.label>
+        <styled.p
+          data-bdd="approvePause-requestedEndDate-value"
+        >
+          23/07/2019
+        </styled.p>
+      </styled.div>
+      <styled.div>
+        <styled.label
+          data-bdd="approvePause-furtherDetail-label"
+        >
+          furtherDetail
+        </styled.label>
+        <styled.p
+          key="further de-0"
+        >
+          further detail
+        </styled.p>
+      </styled.div>
+      <styled.div>
+        <x
+          labelText="approvePause"
+          required={true}
+        >
+          <T
+            checked={false}
+            data-bdd="approvePause-radioGroup-yes"
+            display="block"
+            error={false}
+            hasError={false}
+            id="yes"
+            name="approvePauseGroup"
+            onChange={[Function]}
+          >
+            yes
+          </T>
+          <T
+            checked={false}
+            data-bdd="approvePause-radioGroup-no"
+            display="block"
+            error={false}
+            hasError={false}
+            id="no"
+            name="approvePauseGroup"
+            onChange={[Function]}
+          >
+            no
+          </T>
+        </x>
+      </styled.div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ApprovePauseComposition /> Form interaction should validate the reasonForDenying field if approvePause === no and reason field is dirty 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="backButton"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={false}
+      formError=""
+      formName="approvePause"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="submitButton"
+    >
+      <styled.div>
+        <styled.label
+          data-bdd="approvePause-reasonForPausing-label"
+        >
+          reasonForPausing
+        </styled.label>
+        <styled.p
+          data-bdd="approvePause-reasonForPausing-value"
+        >
+          Another reason
+        </styled.p>
+      </styled.div>
+      <styled.div>
+        <styled.label
+          data-bdd="approvePause-requestedEndDate-label"
+        >
+          requestedEndDate
+        </styled.label>
+        <styled.p
+          data-bdd="approvePause-requestedEndDate-value"
+        >
+          23/07/2019
+        </styled.p>
+      </styled.div>
+      <styled.div>
+        <styled.label
+          data-bdd="approvePause-furtherDetail-label"
+        >
+          furtherDetail
+        </styled.label>
+        <styled.p
+          key="further de-0"
+        >
+          further detail
+        </styled.p>
+      </styled.div>
+      <styled.div>
+        <x
+          error=""
+          labelText="approvePause"
+          required={true}
+        >
+          <T
+            checked={false}
+            data-bdd="approvePause-radioGroup-yes"
+            display="block"
+            error={false}
+            hasError={false}
+            id="yes"
+            name="approvePauseGroup"
+            onChange={[Function]}
+          >
+            yes
+          </T>
+          <T
+            checked={true}
+            data-bdd="approvePause-radioGroup-no"
+            display="block"
+            error={false}
+            hasError={false}
+            id="no"
+            name="approvePauseGroup"
+            onChange={[Function]}
+          >
+            no
+          </T>
+        </x>
+      </styled.div>
+      <styled.div>
+        <Textarea
+          data-bdd="approvePause-reasonForDenying"
+          dataBdd=""
+          display="inline-block"
+          error="reasonForDenyingError"
+          hasError={false}
+          height="150px"
+          id="reasonForDenying"
+          isFullWidth={true}
+          labelText="reasonForDenying"
+          onChange={[Function]}
+          required={true}
+          value=""
+          width="250px"
+        />
+      </styled.div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ApprovePauseComposition /> should render the page correctly 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="backButton"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={false}
+      formError=""
+      formName="approvePause"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="submitButton"
+    >
+      <styled.div>
+        <styled.label
+          data-bdd="approvePause-reasonForPausing-label"
+        >
+          reasonForPausing
+        </styled.label>
+        <styled.p
+          data-bdd="approvePause-reasonForPausing-value"
+        >
+          Another reason
+        </styled.p>
+      </styled.div>
+      <styled.div>
+        <styled.label
+          data-bdd="approvePause-requestedEndDate-label"
+        >
+          requestedEndDate
+        </styled.label>
+        <styled.p
+          data-bdd="approvePause-requestedEndDate-value"
+        >
+          23/07/2019
+        </styled.p>
+      </styled.div>
+      <styled.div>
+        <styled.label
+          data-bdd="approvePause-furtherDetail-label"
+        >
+          furtherDetail
+        </styled.label>
+        <styled.p
+          key="further de-0"
+        >
+          further detail
+        </styled.p>
+      </styled.div>
+      <styled.div>
+        <x
+          labelText="approvePause"
+          required={true}
+        >
+          <T
+            checked={false}
+            data-bdd="approvePause-radioGroup-yes"
+            display="block"
+            error={false}
+            hasError={false}
+            id="yes"
+            name="approvePauseGroup"
+            onChange={[Function]}
+          >
+            yes
+          </T>
+          <T
+            checked={false}
+            data-bdd="approvePause-radioGroup-no"
+            display="block"
+            error={false}
+            hasError={false}
+            id="no"
+            name="approvePauseGroup"
+            onChange={[Function]}
+          >
+            no
+          </T>
+        </x>
+      </styled.div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ApprovePauseComposition /> should render the page correctly while loading 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <p
+    isSmall={false}
+  />
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ApprovePauseComposition /> should render the page correctly with an error 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="backButton"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={false}
+      formError=""
+      formName="approvePause"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="submitButton"
+    >
+      <styled.div>
+        <styled.label
+          data-bdd="approvePause-reasonForPausing-label"
+        >
+          reasonForPausing
+        </styled.label>
+        <styled.p
+          data-bdd="approvePause-reasonForPausing-value"
+        >
+          Another reason
+        </styled.p>
+      </styled.div>
+      <styled.div>
+        <styled.label
+          data-bdd="approvePause-requestedEndDate-label"
+        >
+          requestedEndDate
+        </styled.label>
+        <styled.p
+          data-bdd="approvePause-requestedEndDate-value"
+        >
+          23/07/2019
+        </styled.p>
+      </styled.div>
+      <styled.div>
+        <styled.label
+          data-bdd="approvePause-furtherDetail-label"
+        >
+          furtherDetail
+        </styled.label>
+        <styled.p
+          key="further de-0"
+        >
+          further detail
+        </styled.p>
+      </styled.div>
+      <styled.div>
+        <x
+          labelText="approvePause"
+          required={true}
+        >
+          <T
+            checked={false}
+            data-bdd="approvePause-radioGroup-yes"
+            display="block"
+            error={false}
+            hasError={false}
+            id="yes"
+            name="approvePauseGroup"
+            onChange={[Function]}
+          >
+            yes
+          </T>
+          <T
+            checked={false}
+            data-bdd="approvePause-radioGroup-no"
+            display="block"
+            error={false}
+            hasError={false}
+            id="no"
+            name="approvePauseGroup"
+            onChange={[Function]}
+          >
+            no
+          </T>
+        </x>
+      </styled.div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;

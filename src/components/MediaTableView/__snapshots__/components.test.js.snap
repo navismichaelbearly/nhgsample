@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ErrorText /> should render correctly 1`] = `
+<div
+  className="sc-kXeGPI bwIBGr"
+/>
+`;
+
+exports[`<ErrorWrapper /> should render correctly 1`] = `
+<div
+  className="sc-cEvuZC jUlBsg"
+/>
+`;
+
+exports[`<LabelWrapper /> should render correctly 1`] = `
+<span
+  className="sc-fyjhYU iDodXI"
+/>
+`;
+
+exports[`<SuccessMessage /> should render correctly 1`] = `
+<div
+  className="sc-fHxwqH csLprL"
+/>
+`;
+
+exports[`<TableWrapper /> should render correctly 1`] = `
+<div
+  className="sc-ugnQR jCFjUL"
+/>
+`;

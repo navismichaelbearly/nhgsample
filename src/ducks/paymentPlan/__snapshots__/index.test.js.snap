@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Payment Plan reducer should set the correct state for clearPlanError 1`] = `
+Object {
+  "error": false,
+  "loading": false,
+  "plan": Object {},
+}
+`;
+
+exports[`Payment Plan reducer should set the correct state for planError 1`] = `
+Object {
+  "error": true,
+  "loading": false,
+  "plan": Object {},
+}
+`;
+
+exports[`Payment Plan reducer should set the correct state for planLoading 1`] = `
+Object {
+  "error": false,
+  "loading": true,
+  "plan": Object {},
+}
+`;
+
+exports[`Payment Plan reducer should set the correct state for setPlan 1`] = `
+Object {
+  "error": false,
+  "loading": false,
+  "plan": Object {
+    "a": "b",
+  },
+}
+`;

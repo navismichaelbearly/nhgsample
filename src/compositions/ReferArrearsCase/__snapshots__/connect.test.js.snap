@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReferArrearsCase connector mapStateToProps generates the correct props 1`] = `
+Object {
+  "arrearsId": "providedArrearsId",
+  "breadcrumb": Array [
+    Object {
+      "href": "#{Dashboards.Core.CustomerBaseURL}",
+      "id": "breadcrumb-dashboard",
+      "label": "Dashboard",
+    },
+    Object {
+      "id": "breadcrumb-arrearsDashboard",
+      "label": "My arrears",
+      "to": "/",
+    },
+    Object {
+      "label": "Arrears details",
+      "to": "/arrears-details/providedArrearsId",
+    },
+    Object {
+      "id": "breadcrumb-Refer arrears case",
+      "label": "Refer arrears case",
+    },
+  ],
+  "errorMessage": "Something has gone wrong!",
+  "fullDetailsInHistory": "Full details in Arrears item history below",
+  "heading": "Refer arrears case",
+  "isLoading": false,
+  "redirectToDetailsPage": [Function],
+  "referralError": false,
+  "referralTeams": Array [
+    Object {
+      "id": "rt-1",
+      "name": "Benefits advice",
+    },
+    Object {
+      "id": "rt-2",
+      "name": "Tenancy support",
+    },
+  ],
+  "referredFor": "Referred for",
+  "submitText": "Refer arrears case",
+  "successMessage": "Arrears case referred",
+  "text": Object {
+    "back": "back",
+    "detailsError": "Please enter some details",
+    "fullDetailsInHistory": "Full details in Arrears item history below",
+    "heading1": "Refer arrears case",
+    "heading2": "Tenancy sustainment referral",
+    "referDetailsLabel": "Details",
+    "referTeamError": "Please select an option",
+    "referTo": "Refer to",
+    "referredFor": "Referred for",
+    "submit": "Refer arrears case",
+    "successMessage": "Arrears case referred",
+  },
+}
+`;
+
+exports[`ReferArrearsCase connector mapStateToProps mergeProps generates the correct props 1`] = `
+Object {
+  "errorMessage": "Something has gone wrong!",
+  "getReferralTeams": [Function],
+  "isLoading": false,
+  "onBack": [Function],
+  "onSubmit": [Function],
+  "referralError": false,
+  "referralTeams": Array [
+    Object {
+      "id": "rt-1",
+      "name": "Benefits advice",
+    },
+    Object {
+      "id": "rt-2",
+      "name": "Tenancy support",
+    },
+  ],
+  "text": Object {
+    "back": "back",
+    "detailsError": "Please enter some details",
+    "fullDetailsInHistory": "Full details in Arrears item history below",
+    "heading1": "Refer arrears case",
+    "heading2": "Tenancy sustainment referral",
+    "referDetailsLabel": "Details",
+    "referTeamError": "Please select an option",
+    "referTo": "Refer to",
+    "referredFor": "Referred for",
+    "submit": "Refer arrears case",
+    "successMessage": "Arrears case referred",
+  },
+  "updatePageHeader": [Function],
+}
+`;
+
+exports[`ReferArrearsCase connector mapStateToProps mergeProps onSubmit performs the correct actions when onSubmit fires 1`] = `
+Array [
+  Array [
+    "/arrears-details/providedArrearsId",
+  ],
+]
+`;
+
+exports[`ReferArrearsCase connector mapStateToProps mergeProps onSubmit performs the correct actions when onSubmit fires 2`] = `
+Array [
+  Array [
+    Object {
+      "dataBddPrefix": "referArrearsCase",
+      "hideCloseButton": true,
+      "icon": "success",
+      "lines": Array [
+        Object {
+          "dataBdd": "name",
+          "text": "Referred for: teamName",
+        },
+        Object {
+          "text": "Full details in Arrears item history below",
+        },
+      ],
+      "notificationType": "confirmation",
+      "title": "Arrears case referred",
+    },
+  ],
+]
+`;
+
+exports[`ReferArrearsCase connector mapStateToProps mergeProps performs the correct actions when updatePageHeader fires 1`] = `
+Array [
+  Array [
+    Object {
+      "breadcrumb": Array [
+        Object {
+          "href": "#{Dashboards.Core.CustomerBaseURL}",
+          "id": "breadcrumb-dashboard",
+          "label": "Dashboard",
+        },
+        Object {
+          "id": "breadcrumb-arrearsDashboard",
+          "label": "My arrears",
+          "to": "/",
+        },
+        Object {
+          "label": "Arrears details",
+          "to": "/arrears-details/providedArrearsId",
+        },
+        Object {
+          "id": "breadcrumb-Refer arrears case",
+          "label": "Refer arrears case",
+        },
+      ],
+      "title": "Refer arrears case",
+    },
+  ],
+]
+`;

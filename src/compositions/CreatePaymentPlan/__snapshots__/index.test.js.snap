@@ -1,0 +1,381 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CreatePaymentPlanCompositions /> Form state changes should update state when loading 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Back"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={false}
+      formError={null}
+      formName="createPaymentPlan"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={true}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Create Payment Plan"
+    >
+      <styled.div>
+        <x
+          labelText="Payment plan type"
+          name="planType"
+          required={true}
+        >
+          <T
+            checked={false}
+            data-bdd="createPaymentPlan-paymentPlanType-Personal"
+            data-state-key="planType"
+            disabled={true}
+            display="block"
+            error={false}
+            hasError={false}
+            id="Personal"
+            key="Personal"
+            onChange={[Function]}
+          >
+            Personal Payment Plan
+          </T>
+          <T
+            checked={false}
+            data-bdd="createPaymentPlan-paymentPlanType-CourtOrdered"
+            data-state-key="planType"
+            disabled={true}
+            display="block"
+            error={false}
+            hasError={false}
+            id="CourtOrdered"
+            key="CourtOrdered"
+            onChange={[Function]}
+          >
+            Court Order
+          </T>
+        </x>
+      </styled.div>
+      <styled.div>
+        <t
+          data-bdd="createPaymentPlan-instalmentAmount"
+          data-state-key="installmentAmount"
+          disabled={true}
+          error={null}
+          extendStyle={null}
+          hasError={false}
+          id="installmentAmount"
+          isFullWidth={true}
+          labelText="Instalment amount (£)"
+          maxLength={null}
+          name="installmentAmount"
+          onChange={[Function]}
+          required={true}
+          showLabel={true}
+          value=""
+        />
+      </styled.div>
+      <styled.div>
+        <t
+          autocomplete={false}
+          data-state-key="installmentPeriod"
+          dataBdd="createPaymentPlan-instalmentPeriod"
+          disabled={true}
+          hasError={false}
+          hideLabel={false}
+          inline={false}
+          inputValue=""
+          isFullWidth={true}
+          itemToString={[Function]}
+          items={
+            Array [
+              Object {
+                "id": "Weekly",
+                "value": "Weekly",
+              },
+              Object {
+                "id": "Monthly",
+                "value": "Monthly",
+              },
+            ]
+          }
+          labelText="Instalment period"
+          onChange={[Function]}
+          placeholder=""
+          required={true}
+        />
+      </styled.div>
+      <styled.div>
+        <t
+          autocomplete={false}
+          data-state-key="installmentFrequency"
+          dataBdd="createPaymentPlan-instalmentFrequency"
+          disabled={true}
+          hasError={false}
+          hideLabel={false}
+          inline={false}
+          inputValue=""
+          isFullWidth={true}
+          itemToString={[Function]}
+          items={
+            Array [
+              "1",
+              "2",
+              "3",
+              "4",
+            ]
+          }
+          labelText="Instalment frequency"
+          onChange={[Function]}
+          placeholder=""
+          required={true}
+        />
+      </styled.div>
+      <styled.div
+        data-bdd="createPaymentPlan-startDate"
+      >
+        <t
+          data-state-key="startDate"
+          disabled={true}
+          hasError={false}
+          hideLabel={false}
+          isFullWidth={true}
+          labelText="Start date"
+          minDate={2018-08-01T00:00:00.000Z}
+          onChange={[Function]}
+          onDateSelected={[Function]}
+          placeholder=""
+          required={true}
+        />
+      </styled.div>
+      <styled.div>
+        <Textarea
+          data-bdd="createPaymentPlan-note"
+          data-state-key="note"
+          dataBdd=""
+          disabled={true}
+          display="inline-block"
+          hasError={false}
+          height="150px"
+          id="note"
+          isFullWidth={true}
+          labelText="note"
+          onChange={[Function]}
+          value=""
+          width="250px"
+        />
+      </styled.div>
+      <styled.div>
+        <p
+          checked={false}
+          data-bdd="addNoteForm-attachFiles"
+          data-state-key="attachFiles"
+          display="inline-block"
+          error={false}
+          hasError={false}
+          onChange={[Function]}
+          required={false}
+        >
+          Attach documents
+        </p>
+      </styled.div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<CreatePaymentPlanCompositions /> Form validations Installment Period should set the correct error when installment period is not selected 1`] = `"Please select an installment period"`;
+
+exports[`<CreatePaymentPlanCompositions /> Form validations Installment amount should set the correct error when installment amount is not a number 1`] = `"Please provide a number"`;
+
+exports[`<CreatePaymentPlanCompositions /> Form validations Installment amount should set the correct error when installment amount is not provided 1`] = `"Please enter an installment amount"`;
+
+exports[`<CreatePaymentPlanCompositions /> Form validations Installment frequency should set the correct error when installment frequency is not selected 1`] = `"Please select an installment frequency"`;
+
+exports[`<CreatePaymentPlanCompositions /> Form validations Plan type should set the correct error when plan type is not selected 1`] = `"Please select a plan type"`;
+
+exports[`<CreatePaymentPlanCompositions /> Form validations Start date should set the correct error when start date is not selected 1`] = `"Please enter a start date"`;
+
+exports[`<CreatePaymentPlanCompositions /> should render the page 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Back"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={false}
+      formError={null}
+      formName="createPaymentPlan"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Create Payment Plan"
+    >
+      <styled.div>
+        <x
+          labelText="Payment plan type"
+          name="planType"
+          required={true}
+        >
+          <T
+            checked={false}
+            data-bdd="createPaymentPlan-paymentPlanType-Personal"
+            data-state-key="planType"
+            disabled={false}
+            display="block"
+            error={false}
+            hasError={false}
+            id="Personal"
+            key="Personal"
+            onChange={[Function]}
+          >
+            Personal Payment Plan
+          </T>
+          <T
+            checked={false}
+            data-bdd="createPaymentPlan-paymentPlanType-CourtOrdered"
+            data-state-key="planType"
+            disabled={false}
+            display="block"
+            error={false}
+            hasError={false}
+            id="CourtOrdered"
+            key="CourtOrdered"
+            onChange={[Function]}
+          >
+            Court Order
+          </T>
+        </x>
+      </styled.div>
+      <styled.div>
+        <t
+          data-bdd="createPaymentPlan-instalmentAmount"
+          data-state-key="installmentAmount"
+          disabled={false}
+          error={null}
+          extendStyle={null}
+          hasError={false}
+          id="installmentAmount"
+          isFullWidth={true}
+          labelText="Instalment amount (£)"
+          maxLength={null}
+          name="installmentAmount"
+          onChange={[Function]}
+          required={true}
+          showLabel={true}
+          value=""
+        />
+      </styled.div>
+      <styled.div>
+        <t
+          autocomplete={false}
+          data-state-key="installmentPeriod"
+          dataBdd="createPaymentPlan-instalmentPeriod"
+          disabled={false}
+          hasError={false}
+          hideLabel={false}
+          inline={false}
+          inputValue=""
+          isFullWidth={true}
+          itemToString={[Function]}
+          items={
+            Array [
+              Object {
+                "id": "Weekly",
+                "value": "Weekly",
+              },
+              Object {
+                "id": "Monthly",
+                "value": "Monthly",
+              },
+            ]
+          }
+          labelText="Instalment period"
+          onChange={[Function]}
+          placeholder=""
+          required={true}
+        />
+      </styled.div>
+      <styled.div>
+        <t
+          autocomplete={false}
+          data-state-key="installmentFrequency"
+          dataBdd="createPaymentPlan-instalmentFrequency"
+          disabled={false}
+          hasError={false}
+          hideLabel={false}
+          inline={false}
+          inputValue=""
+          isFullWidth={true}
+          itemToString={[Function]}
+          items={
+            Array [
+              "1",
+              "2",
+              "3",
+              "4",
+            ]
+          }
+          labelText="Instalment frequency"
+          onChange={[Function]}
+          placeholder=""
+          required={true}
+        />
+      </styled.div>
+      <styled.div
+        data-bdd="createPaymentPlan-startDate"
+      >
+        <t
+          data-state-key="startDate"
+          disabled={false}
+          hasError={false}
+          hideLabel={false}
+          isFullWidth={true}
+          labelText="Start date"
+          minDate={2018-08-01T00:00:00.000Z}
+          onChange={[Function]}
+          onDateSelected={[Function]}
+          placeholder=""
+          required={true}
+        />
+      </styled.div>
+      <styled.div>
+        <Textarea
+          data-bdd="createPaymentPlan-note"
+          data-state-key="note"
+          dataBdd=""
+          disabled={false}
+          display="inline-block"
+          hasError={false}
+          height="150px"
+          id="note"
+          isFullWidth={true}
+          labelText="note"
+          onChange={[Function]}
+          value=""
+          width="250px"
+        />
+      </styled.div>
+      <styled.div>
+        <p
+          checked={false}
+          data-bdd="addNoteForm-attachFiles"
+          data-state-key="attachFiles"
+          display="inline-block"
+          error={false}
+          hasError={false}
+          onChange={[Function]}
+          required={false}
+        >
+          Attach documents
+        </p>
+      </styled.div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;

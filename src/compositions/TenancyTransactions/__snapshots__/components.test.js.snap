@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TenancyTransactions components should render <H3 /> correctly 1`] = `
+.c0 {
+  margin-bottom: 1.5rem;
+}
+
+<styled.h3
+  className="c0"
+/>
+`;
+
+exports[`TenancyTransactions components should render <P /> correctly 1`] = `
+.c0 {
+  margin-bottom: 1.5rem;
+}
+
+<styled.p
+  className="c0"
+/>
+`;
+
+exports[`TenancyTransactions components should render <Wrapper /> correctly 1`] = `
+.c0 {
+  margin-bottom: 1.5rem;
+}
+
+.c0:last-child {
+  margin-bottom: 1.875rem;
+}
+
+<div
+  className="c0"
+/>
+`;

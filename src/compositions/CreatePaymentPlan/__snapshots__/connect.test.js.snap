@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreatePaymentPlan connector mapStateToProps generates the correct props 1`] = `
+Object {
+  "arrearsId": "providedArrearsId",
+  "breadcrumb": Array [
+    Object {
+      "href": "#{Dashboards.Core.CustomerBaseURL}",
+      "id": "breadcrumb-dashboard",
+      "label": "Dashboard",
+    },
+    Object {
+      "id": "breadcrumb-arrearsDashboard",
+      "label": "My arrears",
+      "to": "/",
+    },
+    Object {
+      "label": "Arrears details",
+      "to": "/arrears-details/providedArrearsId",
+    },
+    Object {
+      "id": "breadcrumb-New payment plan",
+      "label": "New payment plan",
+    },
+  ],
+  "createPaymentPlanHeading": "New payment plan",
+  "currencySymbol": "£",
+  "error": false,
+  "errorText": Object {
+    "closePlan": "The payment plan can't be cancelled at the moment. Please try again and report the issue to IT Service Desk if the problem persists.",
+    "closePlanSelectRequired": "Please select a reason",
+    "formError": "The payment plan can't be created at the moment. Please ensure that there is not an existing arrangement on Northgate. If the problem persists please report the issue to IT Service Desk.",
+    "installmentAmount": "Please enter an instalment amount",
+    "installmentAmountNotNumber": "Please provide a number",
+    "installmentFrequency": "Please select an instalment frequency",
+    "installmentPeriod": "Please select an instalment period",
+    "note": "Please enter some notes",
+    "planType": "Please select a plan type",
+    "startDate": "Please enter a start date",
+  },
+  "formError": "The payment plan can't be created at the moment. Please ensure that there is not an existing arrangement on Northgate. If the problem persists please report the issue to IT Service Desk.",
+  "installmentPeriods": Array [
+    Object {
+      "id": "Weekly",
+      "short": "Week",
+      "value": "Weekly",
+    },
+    Object {
+      "id": "Monthly",
+      "short": "Month",
+      "value": "Monthly",
+    },
+  ],
+  "isLoading": false,
+  "labels": Object {
+    "attachFile": "Attach documents",
+    "backButton": "Back",
+    "closeButton": "Close Payment Plan",
+    "closePlanDescription": "Are you sure you want to close this payment plan?",
+    "closePlanDisclaimer": "Closing this payment plan will not automatically terminate the financial arrangement. Separate action required",
+    "closePlanNo": "No",
+    "closePlanYes": "Yes, Close the plan",
+    "contactName": "Contact Name",
+    "description": "Note",
+    "detail": "Payment Plan type",
+    "endDate": "End date",
+    "endedBy": "Ended By",
+    "every": "Every",
+    "heading": "Payment Plan",
+    "installment": "Instalment",
+    "installmentAmount": "Instalment amount",
+    "installmentFrequency": "Instalment frequency",
+    "installmentPeriod": "Instalment period",
+    "lastModifiedAt": "Last modified",
+    "lastModifiedBy": "By",
+    "newArrangementOption": "New Arrangement",
+    "note": "Note",
+    "paymentPlanType": "Payment plan type",
+    "pleaseSelectAReason": "Please select a reason...",
+    "raisedBy": "Raised by",
+    "reasonSelect": "Select reason",
+    "reasonText": "Enter a description",
+    "startDate": "Start date",
+    "status": "Status",
+    "submitButton": "Create Payment Plan",
+    "tenantDefaultOption": "Tenant Default",
+  },
+  "notification": Object {
+    "closePaymentPlanLine2": "Customer notified by email, SMS and my account notification",
+    "closePaymentPlanTitle": "Personal payment plan closed",
+    "createPaymentPlanLine1": "{amount} Every {period} {schedule}(s) from {startDate}",
+    "createPaymentPlanLine2": "Customer notified",
+    "createPaymentPlanTitle": "Personal payment plan set up",
+  },
+  "planFrequency": 4,
+  "planTypes": Array [
+    Object {
+      "id": "PersonalPaymentPlan",
+      "value": "Personal Payment Plan",
+    },
+    Object {
+      "id": "CourtAgreement",
+      "value": "Court Agreement",
+    },
+  ],
+  "redirectToAttachmentsPage": [Function],
+  "redirectToDetailsPage": [Function],
+}
+`;
+
+exports[`CreatePaymentPlan connector mapStateToProps mergeProps generates the correct props 1`] = `
+Object {
+  "clearError": [Function],
+  "currencySymbol": "£",
+  "error": false,
+  "errorText": Object {
+    "closePlan": "The payment plan can't be cancelled at the moment. Please try again and report the issue to IT Service Desk if the problem persists.",
+    "closePlanSelectRequired": "Please select a reason",
+    "formError": "The payment plan can't be created at the moment. Please ensure that there is not an existing arrangement on Northgate. If the problem persists please report the issue to IT Service Desk.",
+    "installmentAmount": "Please enter an instalment amount",
+    "installmentAmountNotNumber": "Please provide a number",
+    "installmentFrequency": "Please select an instalment frequency",
+    "installmentPeriod": "Please select an instalment period",
+    "note": "Please enter some notes",
+    "planType": "Please select a plan type",
+    "startDate": "Please enter a start date",
+  },
+  "formError": "The payment plan can't be created at the moment. Please ensure that there is not an existing arrangement on Northgate. If the problem persists please report the issue to IT Service Desk.",
+  "history": Object {
+    "push": [Function],
+  },
+  "installmentPeriods": Array [
+    Object {
+      "id": "Weekly",
+      "short": "Week",
+      "value": "Weekly",
+    },
+    Object {
+      "id": "Monthly",
+      "short": "Month",
+      "value": "Monthly",
+    },
+  ],
+  "isLoading": false,
+  "labels": Object {
+    "attachFile": "Attach documents",
+    "backButton": "Back",
+    "closeButton": "Close Payment Plan",
+    "closePlanDescription": "Are you sure you want to close this payment plan?",
+    "closePlanDisclaimer": "Closing this payment plan will not automatically terminate the financial arrangement. Separate action required",
+    "closePlanNo": "No",
+    "closePlanYes": "Yes, Close the plan",
+    "contactName": "Contact Name",
+    "description": "Note",
+    "detail": "Payment Plan type",
+    "endDate": "End date",
+    "endedBy": "Ended By",
+    "every": "Every",
+    "heading": "Payment Plan",
+    "installment": "Instalment",
+    "installmentAmount": "Instalment amount",
+    "installmentFrequency": "Instalment frequency",
+    "installmentPeriod": "Instalment period",
+    "lastModifiedAt": "Last modified",
+    "lastModifiedBy": "By",
+    "newArrangementOption": "New Arrangement",
+    "note": "Note",
+    "paymentPlanType": "Payment plan type",
+    "pleaseSelectAReason": "Please select a reason...",
+    "raisedBy": "Raised by",
+    "reasonSelect": "Select reason",
+    "reasonText": "Enter a description",
+    "startDate": "Start date",
+    "status": "Status",
+    "submitButton": "Create Payment Plan",
+    "tenantDefaultOption": "Tenant Default",
+  },
+  "match": Object {
+    "params": Object {
+      "arrearsId": "providedArrearsId",
+    },
+  },
+  "onBack": [Function],
+  "onSubmit": [Function],
+  "planFrequency": 4,
+  "planTypes": Array [
+    Object {
+      "id": "PersonalPaymentPlan",
+      "value": "Personal Payment Plan",
+    },
+    Object {
+      "id": "CourtAgreement",
+      "value": "Court Agreement",
+    },
+  ],
+  "updatePageHeader": [Function],
+}
+`;
+
+exports[`CreatePaymentPlan connector mapStateToProps mergeProps performs the correct actions for onSubmit 1`] = `
+Object {
+  "dataBddPrefix": "createPaymentPlan",
+  "hideCloseButton": true,
+  "icon": "success",
+  "lines": Array [
+    Object {
+      "dataBdd": "instalmentAmount",
+      "text": "£230.00 Every 1 Week(s) from 01/02/2018",
+    },
+    Object {
+      "text": "Customer notified",
+    },
+  ],
+  "notificationType": "confirmation",
+  "title": "Personal payment plan set up",
+}
+`;

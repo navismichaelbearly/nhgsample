@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ContentBlock /> renders correctly 1`] = `
+<styled.div
+  className="container-fluid"
+>
+  <styled.div
+    className="container"
+  >
+    Hello
+  </styled.div>
+</styled.div>
+`;

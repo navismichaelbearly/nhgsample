@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ViewPaymentPlanCompositions /> should render the page 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <styled.div>
+      <Styled(styled.h3)>
+        View payment plan
+      </Styled(styled.h3)>
+      <styled.section>
+        <Styled(styled.h4)>
+          Payment plan type
+        </Styled(styled.h4)>
+        <Styled(styled.p)
+          data-bdd="viewPaymentPlan-type"
+        >
+          Personal
+        </Styled(styled.p)>
+      </styled.section>
+      <styled.section>
+        <Styled(styled.h4)>
+          Installment
+        </Styled(styled.h4)>
+        <Styled(styled.p)
+          data-bdd="viewPaymentPlan-installment"
+        >
+          £40 every week from 23/07/2018
+        </Styled(styled.p)>
+      </styled.section>
+      <styled.section>
+        <Styled(styled.h4)>
+          Start date
+        </Styled(styled.h4)>
+        <Styled(styled.p)
+          data-bdd="viewPaymentPlan-startDate"
+        >
+          23/07/2018
+        </Styled(styled.p)>
+      </styled.section>
+      <styled.section>
+        <Styled(styled.h4) />
+        <Styled(styled.p)
+          data-bdd="viewPaymentPlan-endDate"
+        >
+          23/12/2018
+        </Styled(styled.p)>
+      </styled.section>
+      <styled.section>
+        <Styled(styled.h4)>
+          Raised by
+        </Styled(styled.h4)>
+        <Styled(styled.p)
+          data-bdd="viewPaymentPlan-raisedBy"
+        >
+          Mabelle Ortega
+        </Styled(styled.p)>
+      </styled.section>
+      <styled.section>
+        <Styled(styled.h4)>
+          Note
+        </Styled(styled.h4)>
+        <Styled(styled.p)
+          data-bdd="viewPaymentPlan-description"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
+        </Styled(styled.p)>
+      </styled.section>
+      <T
+        message=""
+      >
+        <WithTheme(Button)
+          buttonType="secondary"
+          data-bdd="viewPaymentPlan-back"
+          isFullWidth={true}
+          onClick={[Function]}
+        >
+          Back
+        </WithTheme(Button)>
+        <WithTheme(Button)
+          data-bdd="viewPaymentPlan-close"
+          isFullWidth={true}
+          onClick={[Function]}
+        >
+          Close Payment Plan
+        </WithTheme(Button)>
+      </T>
+    </styled.div>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ViewPaymentPlanCompositions /> should render the page with an error message 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <styled.div>
+      <styled.div
+        data-bdd="viewPaymentPlan-error"
+      >
+        <t
+          description="There was a problem closing this payment plan, please try again."
+          hideCloseButton={true}
+          icon="warning"
+          onCloseNotification={[Function]}
+          show={true}
+        />
+      </styled.div>
+      <Styled(styled.h3)>
+        View payment plan
+      </Styled(styled.h3)>
+      <styled.section>
+        <Styled(styled.h4)>
+          Payment plan type
+        </Styled(styled.h4)>
+        <Styled(styled.p)
+          data-bdd="viewPaymentPlan-type"
+        >
+          Personal
+        </Styled(styled.p)>
+      </styled.section>
+      <styled.section>
+        <Styled(styled.h4)>
+          Installment
+        </Styled(styled.h4)>
+        <Styled(styled.p)
+          data-bdd="viewPaymentPlan-installment"
+        >
+          £40 every week from 23/07/2018
+        </Styled(styled.p)>
+      </styled.section>
+      <styled.section>
+        <Styled(styled.h4)>
+          Start date
+        </Styled(styled.h4)>
+        <Styled(styled.p)
+          data-bdd="viewPaymentPlan-startDate"
+        >
+          23/07/2018
+        </Styled(styled.p)>
+      </styled.section>
+      <styled.section>
+        <Styled(styled.h4) />
+        <Styled(styled.p)
+          data-bdd="viewPaymentPlan-endDate"
+        >
+          23/12/2018
+        </Styled(styled.p)>
+      </styled.section>
+      <styled.section>
+        <Styled(styled.h4)>
+          Raised by
+        </Styled(styled.h4)>
+        <Styled(styled.p)
+          data-bdd="viewPaymentPlan-raisedBy"
+        >
+          Mabelle Ortega
+        </Styled(styled.p)>
+      </styled.section>
+      <styled.section>
+        <Styled(styled.h4)>
+          Note
+        </Styled(styled.h4)>
+        <Styled(styled.p)
+          data-bdd="viewPaymentPlan-description"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.
+        </Styled(styled.p)>
+      </styled.section>
+      <T
+        message=""
+      >
+        <WithTheme(Button)
+          buttonType="secondary"
+          data-bdd="viewPaymentPlan-back"
+          isFullWidth={true}
+          onClick={[Function]}
+        >
+          Back
+        </WithTheme(Button)>
+        <WithTheme(Button)
+          data-bdd="viewPaymentPlan-close"
+          isFullWidth={true}
+          onClick={[Function]}
+        >
+          Close Payment Plan
+        </WithTheme(Button)>
+      </T>
+    </styled.div>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconContainer should render correctly 1`] = `
+.c0 {
+  height: 14rem;
+  margin: auto;
+  padding-top: 5rem;
+  padding-bottom: 0.2rem;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`TextContainer should render correctly 1`] = `
+.c0 {
+  text-align: center;
+  margin-bottom: 5rem;
+  padding-top: 1.5rem;
+}
+
+<div
+  className="c0"
+/>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NoTouching /> Does not re-render on props change 1`] = `
+<div
+  foo="bar"
+>
+  Hello
+</div>
+`;
+
+exports[`<NoTouching /> passes on props correctly 1`] = `
+<div
+  foo="bar"
+>
+  Hello
+</div>
+`;
+
+exports[`<NoTouching /> renders correctly 1`] = `
+<div>
+  Hello
+</div>
+`;

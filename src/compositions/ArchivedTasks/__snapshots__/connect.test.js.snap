@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArchivedTasks connector mapStateToProps generates the correct props 1`] = `
+Object {
+  "arrearsDetailHeading": "Arrears details",
+  "arrearsDetailsLabels": Object {
+    "lengthOfArrears": "Length of arrears",
+    "lengthOfArrearsValue": "{days} days (case started on {date})",
+    "linkedCases": "Linked cases",
+    "none": "None",
+    "patchOwner": "Patch owner",
+    "pauses": Object {
+      "active": "(active)",
+      "draftLabel": "Draft pauses",
+      "draftPausePeriod": "Requested from {from} to {to}",
+      "isExtended": "(extended)",
+      "label": "Pauses",
+      "pausePeriod": "Paused from {from} to {to}",
+      "pendingApproval": "(pending approval)",
+    },
+    "paymentPlan": Object {
+      "endDate": "End date:",
+      "frequency": "Frequency:",
+      "installment": "Instalment:",
+      "instalmentAmount": "Instalment amount:",
+      "label": "Payment plan",
+      "period": "Period:",
+      "startDate": "Start date:",
+      "type": "Type:",
+    },
+    "referralStatus": Object {
+      "label": "Latest referral",
+      "value": "{team}, {date}",
+    },
+    "rentDetails": Object {
+      "arrearsBalance": "Current balance",
+      "collectionRate": Object {
+        "label": "Collection rate {value}",
+        "value": "{value}%",
+        "value4m": "(4M)",
+        "value5w": "(5W)",
+      },
+      "debitFrequency": "Debit frequency",
+      "directDebit": "direct debit",
+      "grossRent": Object {
+        "label": "Gross rent",
+      },
+      "lastPaymentMethod": "Last payment method",
+      "monthly": "MONTHLY",
+      "parkingCharge": "Parking charge",
+      "paymentFrequency": "Debit frequency",
+      "paymentReferenceNumber": "Payment reference number",
+      "recurringCardPayment": "recurring card payment",
+      "serviceCharge": Object {
+        "label": "Service charge",
+      },
+      "universalCredit": "Universal credit",
+    },
+    "status": "Arrears status",
+    "welfareReform": Object {
+      "apaStatus": "APA status:",
+      "bedroomTax": "Bedroom tax:",
+      "benefitCap": "Benefit cap:",
+      "claimStartDate": "Claim start date:",
+      "label": "Welfare reform",
+      "paymentDay": "Payment day:",
+      "ucArrearsPaymentStatus": "UC arrears payment status:",
+      "universalCredit": "Universal credit:",
+    },
+    "workwiseReference": "Workwise reference",
+  },
+  "arrearsId": "foo",
+  "breadcrumb": Array [
+    Object {
+      "href": "#{Dashboards.Core.CustomerBaseURL}",
+      "id": "breadcrumb-dashboard",
+      "label": "Dashboard",
+    },
+    Object {
+      "id": "breadcrumb-arrearsDashboard",
+      "label": "My arrears",
+      "to": "/",
+    },
+    Object {
+      "label": "Arrears details",
+      "to": "/arrears-details/foo",
+    },
+    Object {
+      "id": "breadcrumb-Closed and cancelled tasks",
+      "label": "Closed and cancelled tasks",
+    },
+  ],
+  "pageTitle": "Closed and cancelled tasks",
+}
+`;
+
+exports[`ArchivedTasks connector mergeProps generates the correct props 1`] = `
+Object {
+  "arrearsDetailHeading": "Arrears details",
+  "arrearsDetailsLabels": Object {
+    "lengthOfArrears": "Length of arrears",
+    "lengthOfArrearsValue": "{days} days (case started on {date})",
+    "linkedCases": "Linked cases",
+    "none": "None",
+    "patchOwner": "Patch owner",
+    "pauses": Object {
+      "active": "(active)",
+      "draftLabel": "Draft pauses",
+      "draftPausePeriod": "Requested from {from} to {to}",
+      "isExtended": "(extended)",
+      "label": "Pauses",
+      "pausePeriod": "Paused from {from} to {to}",
+      "pendingApproval": "(pending approval)",
+    },
+    "paymentPlan": Object {
+      "endDate": "End date:",
+      "frequency": "Frequency:",
+      "installment": "Instalment:",
+      "instalmentAmount": "Instalment amount:",
+      "label": "Payment plan",
+      "period": "Period:",
+      "startDate": "Start date:",
+      "type": "Type:",
+    },
+    "referralStatus": Object {
+      "label": "Latest referral",
+      "value": "{team}, {date}",
+    },
+    "rentDetails": Object {
+      "arrearsBalance": "Current balance",
+      "collectionRate": Object {
+        "label": "Collection rate {value}",
+        "value": "{value}%",
+        "value4m": "(4M)",
+        "value5w": "(5W)",
+      },
+      "debitFrequency": "Debit frequency",
+      "directDebit": "direct debit",
+      "grossRent": Object {
+        "label": "Gross rent",
+      },
+      "lastPaymentMethod": "Last payment method",
+      "monthly": "MONTHLY",
+      "parkingCharge": "Parking charge",
+      "paymentFrequency": "Debit frequency",
+      "paymentReferenceNumber": "Payment reference number",
+      "recurringCardPayment": "recurring card payment",
+      "serviceCharge": Object {
+        "label": "Service charge",
+      },
+      "universalCredit": "Universal credit",
+    },
+    "status": "Arrears status",
+    "welfareReform": Object {
+      "apaStatus": "APA status:",
+      "bedroomTax": "Bedroom tax:",
+      "benefitCap": "Benefit cap:",
+      "claimStartDate": "Claim start date:",
+      "label": "Welfare reform",
+      "paymentDay": "Payment day:",
+      "ucArrearsPaymentStatus": "UC arrears payment status:",
+      "universalCredit": "Universal credit:",
+    },
+    "workwiseReference": "Workwise reference",
+  },
+  "arrearsId": "foo",
+  "bar": "baz",
+  "match": Object {
+    "params": Object {
+      "arrearsId": "foo",
+    },
+  },
+  "updatePageHeader": [Function],
+}
+`;

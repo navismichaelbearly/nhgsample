@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TaskReassignModalComposition /> Form submissions should successfully call the passed in onSubmit when all validations pass 1`] = `
+Object {
+  "ownerId": "id",
+  "reason": "reason",
+  "taskedAssignedTo": "full",
+}
+`;
+
+exports[`<TaskReassignModalComposition /> should render a notification 1`] = `
+<styled.div>
+  <Styled(styled.h3)>
+    Re-assign task
+  </Styled(styled.h3)>
+  <form
+    onSubmit={[Function]}
+  >
+    <styled.div
+      data-bdd="TaskReassign-error"
+    >
+      <t
+        description="There has been an error processing this request. If the issue persists, contact your IT team"
+        hideCloseButton={true}
+        icon="warning"
+        onCloseNotification={[Function]}
+        show={true}
+      />
+    </styled.div>
+    <Styled(styled.div)>
+      <c
+        htmlFor="assignee"
+        key="label"
+        required={true}
+        showLabel={true}
+      >
+        Reassign to
+      </c>
+      <t
+        data-bdd="TaskReassign-assignee"
+        data-state-key="assignee"
+        error={null}
+        isLoading={false}
+        isPrimaryButtonType={[Function]}
+        isUserDisabled={[Function]}
+        labelText="Reassign to"
+        onSearch={[Function]}
+        onUserSelected={[Function]}
+        placeHolderText="Enter name of housing officer"
+        searchResultsMemberResults={Array []}
+      />
+    </Styled(styled.div)>
+    <Styled(styled.div)>
+      <t
+        data-bdd="TaskReassign-reason"
+        data-state-key="reason"
+        disabled={false}
+        error={null}
+        extendStyle={null}
+        hasError={false}
+        id="reason"
+        isFullWidth={true}
+        labelText="Reason"
+        maxLength={null}
+        onChange={[Function]}
+        required={true}
+        showLabel={true}
+        value=""
+      />
+    </Styled(styled.div)>
+    <styled.div>
+      <WithTheme(Button)
+        buttonType="secondary"
+        data-bdd="TaskReassign-cancel"
+        isFullWidth={true}
+        onClick={[Function]}
+        type="button"
+      >
+        Cancel
+      </WithTheme(Button)>
+      <WithTheme(Button)
+        data-bdd="TaskReassign-submit"
+        isFullWidth={true}
+        onClick={[Function]}
+      >
+        Re-assign task
+      </WithTheme(Button)>
+    </styled.div>
+  </form>
+</styled.div>
+`;
+
+exports[`<TaskReassignModalComposition /> should render the page 1`] = `
+<styled.div>
+  <Styled(styled.h3)>
+    Re-assign task
+  </Styled(styled.h3)>
+  <form
+    onSubmit={[Function]}
+  >
+    <Styled(styled.div)>
+      <c
+        htmlFor="assignee"
+        key="label"
+        required={true}
+        showLabel={true}
+      >
+        Reassign to
+      </c>
+      <t
+        data-bdd="TaskReassign-assignee"
+        data-state-key="assignee"
+        error={null}
+        isLoading={false}
+        isPrimaryButtonType={[Function]}
+        isUserDisabled={[Function]}
+        labelText="Reassign to"
+        onSearch={[Function]}
+        onUserSelected={[Function]}
+        placeHolderText="Enter name of housing officer"
+        searchResultsMemberResults={Array []}
+      />
+    </Styled(styled.div)>
+    <Styled(styled.div)>
+      <t
+        data-bdd="TaskReassign-reason"
+        data-state-key="reason"
+        disabled={false}
+        error={null}
+        extendStyle={null}
+        hasError={false}
+        id="reason"
+        isFullWidth={true}
+        labelText="Reason"
+        maxLength={null}
+        onChange={[Function]}
+        required={true}
+        showLabel={true}
+        value=""
+      />
+    </Styled(styled.div)>
+    <styled.div>
+      <WithTheme(Button)
+        buttonType="secondary"
+        data-bdd="TaskReassign-cancel"
+        isFullWidth={true}
+        onClick={[Function]}
+        type="button"
+      >
+        Cancel
+      </WithTheme(Button)>
+      <WithTheme(Button)
+        data-bdd="TaskReassign-submit"
+        isFullWidth={true}
+        onClick={[Function]}
+      >
+        Re-assign task
+      </WithTheme(Button)>
+    </styled.div>
+  </form>
+</styled.div>
+`;
+
+exports[`<TaskReassignModalComposition /> should render the page when loading 1`] = `
+<styled.div>
+  <Styled(styled.h3)>
+    Re-assign task
+  </Styled(styled.h3)>
+  <form
+    onSubmit={[Function]}
+  >
+    <Styled(styled.div)>
+      <c
+        htmlFor="assignee"
+        key="label"
+        required={true}
+        showLabel={true}
+      >
+        Reassign to
+      </c>
+      <t
+        data-bdd="TaskReassign-assignee"
+        data-state-key="assignee"
+        error={null}
+        isLoading={true}
+        isPrimaryButtonType={[Function]}
+        isUserDisabled={[Function]}
+        labelText="Reassign to"
+        onSearch={[Function]}
+        onUserSelected={[Function]}
+        placeHolderText="Enter name of housing officer"
+        searchResultsMemberResults={Array []}
+      />
+    </Styled(styled.div)>
+    <Styled(styled.div)>
+      <t
+        data-bdd="TaskReassign-reason"
+        data-state-key="reason"
+        disabled={true}
+        error={null}
+        extendStyle={null}
+        hasError={false}
+        id="reason"
+        isFullWidth={true}
+        labelText="Reason"
+        maxLength={null}
+        onChange={[Function]}
+        required={true}
+        showLabel={true}
+        value=""
+      />
+    </Styled(styled.div)>
+    <p
+      isSmall={false}
+    />
+  </form>
+</styled.div>
+`;

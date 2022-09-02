@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TasksSummaryCardsComponent /> renders correctly 1`] = `
+<l
+  items={
+    Array [
+      Object {
+        "assetName": "666 Craven Rd",
+        "dueDate": "2018-08-27T15:08:44+00:00",
+        "id": "foo",
+        "owner": Object {
+          "id": "DEF456",
+          "name": "Jim Bob",
+          "type": "systemusers",
+        },
+        "regardingObjectModel": Object {
+          "id": "bar",
+          "type": "Arrears",
+        },
+        "status": "Open",
+        "tenantName": "Dylan Dog",
+        "title": "this is a title",
+        "type": "manual",
+      },
+      Object {
+        "assetName": "Beverly Hills",
+        "dueDate": "2018-08-27T15:08:44+00:00",
+        "id": "bar",
+        "owner": Object {
+          "id": "ABC123",
+          "name": "Fred Bloggs",
+          "type": "systemusers",
+        },
+        "regardingObjectModel": Object {
+          "id": "foo",
+          "type": "Arrears",
+        },
+        "status": "Open",
+        "tenantName": "Lennox Lewis",
+        "title": "this is a title",
+        "type": "system",
+      },
+    ]
+  }
+  onNextPage={[Function]}
+  pageSize={6}
+  render={[Function]}
+  totalNumberOfItems={2}
+/>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DateTimeContainer /> should render correctly 1`] = `
+<div
+  className="sc-bdVaJa hPftyW"
+/>
+`;
+
+exports[`<WarningContainer /> should render correctly 1`] = `
+<div
+  className="sc-bwzfXH kwlIia"
+/>
+`;

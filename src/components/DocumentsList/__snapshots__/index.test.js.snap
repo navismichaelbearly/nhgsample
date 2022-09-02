@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DocumentsList /> renders correctly 1`] = `
+<div>
+  <Styled(styled.h3)>
+    Documents (3)
+  </Styled(styled.h3)>
+  <styled.div
+    data-bdd="there is no data sorry"
+  >
+    <styled.section>
+      <styled.div>
+        <styled.div>
+          <styled.div
+            width="60%"
+          >
+            FILE NAME
+          </styled.div>
+          <styled.div
+            width="20%"
+          >
+            CREATED BY
+          </styled.div>
+          <styled.div
+            align="right"
+            width="20%"
+          >
+            DATE ADDED
+          </styled.div>
+        </styled.div>
+      </styled.div>
+      <styled.div>
+        <styled.div>
+          <styled.div
+            width="60%"
+          >
+            FILE NAME
+          </styled.div>
+          <styled.div
+            align="right"
+            width="40%"
+          >
+            DATE ADDED
+          </styled.div>
+        </styled.div>
+      </styled.div>
+      <l
+        items={
+          Array [
+            Object {
+              "createdBy": "DynamicsAATest Test",
+              "createdOn": "2018-10-18T13:24:10Z",
+              "name": "usmans_20181018132401.pdn",
+              "uri": "aHR0cDovL2ludGVybmFsLWRldjIubmhpbGwubmV0L3dvcmt3aXNlL2N1c3RvbWVycy9OSEhXVzI0MDMtVGVuYW50LTIvTkhIV1cyNDAzLTkxMDA1MzExNzYwMDItMzExNzYwMDIvRG9jdW1lbnRzL0FycmVhcnMvQ0FTLTE3MzA1LUs1UDNENy9BY3Rpdml0eS91c21hbnNfMjAxODEwMTgxMzI0MDEucGRu0",
+            },
+            Object {
+              "createdBy": "DynamicsAATest Test",
+              "createdOn": "2018-10-22T10:55:44Z",
+              "name": "me_twitter_20181022105539.jpg",
+              "uri": "aHR0cDovL2ludGVybmFsLWRldjIubmhpbGwubmV0L3dvcmt3aXNlL2N1c3RvbWVycy9OSEhXVzI0MDMtVGVuYW50LTIvTkhIV1cyNDAzLTkxMDA1MzExNzYwMDItMzExNzYwMDIvRG9jdW1lbnRzL0FycmVhcnMvQ0FTLTE3MzA1LUs1UDNENy9BY3Rpdml0eS9tZV90d2l0dGVyXzIwMTgxMDIyMTA1NTM5LmpwZw2",
+            },
+            Object {
+              "createdBy": "DynamicsAATest Test",
+              "createdOn": "2018-10-23T10:05:37Z",
+              "name": "km-by-jan-h150_20181023100535.png",
+              "uri": "aHR0cDovL2ludGVybmFsLWRldjIubmhpbGwubmV0L3dvcmt3aXNlL2N1c3RvbWVycy9OSEhXVzI0MDMtVGVuYW50LTIvTkhIV1cyNDAzLTkxMDA1MzExNzYwMDItMzExNzYwMDIvRG9jdW1lbnRzL0FycmVhcnMvQ0FTLTE3MzA1LUs1UDNENy9BY3Rpdml0eS9rbS1ieS1qYW4taDE1MF8yMDE4MTAyMzEwMDUzNS5wbmc1",
+            },
+          ]
+        }
+        pageSize={10}
+        render={[Function]}
+      />
+    </styled.section>
+  </styled.div>
+</div>
+`;
+
+exports[`<DocumentsList /> renders correctly with an empty list 1`] = `
+<div>
+  <Styled(styled.h3)>
+    Documents (0)
+  </Styled(styled.h3)>
+</div>
+`;
+
+exports[`<DocumentsList /> renders correctly with an error 1`] = `
+<div>
+  <Styled(styled.h3)>
+    Documents (3)
+  </Styled(styled.h3)>
+  <styled.div
+    data-bdd="there is no data sorry"
+  >
+    <styled.section>
+      <styled.div>
+        <styled.div>
+          <styled.div
+            width="60%"
+          >
+            FILE NAME
+          </styled.div>
+          <styled.div
+            width="20%"
+          >
+            CREATED BY
+          </styled.div>
+          <styled.div
+            align="right"
+            width="20%"
+          >
+            DATE ADDED
+          </styled.div>
+        </styled.div>
+      </styled.div>
+      <styled.div>
+        <styled.div>
+          <styled.div
+            width="60%"
+          >
+            FILE NAME
+          </styled.div>
+          <styled.div
+            align="right"
+            width="40%"
+          >
+            DATE ADDED
+          </styled.div>
+        </styled.div>
+      </styled.div>
+      <l
+        items={
+          Array [
+            Object {
+              "createdBy": "DynamicsAATest Test",
+              "createdOn": "2018-10-18T13:24:10Z",
+              "name": "usmans_20181018132401.pdn",
+              "uri": "aHR0cDovL2ludGVybmFsLWRldjIubmhpbGwubmV0L3dvcmt3aXNlL2N1c3RvbWVycy9OSEhXVzI0MDMtVGVuYW50LTIvTkhIV1cyNDAzLTkxMDA1MzExNzYwMDItMzExNzYwMDIvRG9jdW1lbnRzL0FycmVhcnMvQ0FTLTE3MzA1LUs1UDNENy9BY3Rpdml0eS91c21hbnNfMjAxODEwMTgxMzI0MDEucGRu0",
+            },
+            Object {
+              "createdBy": "DynamicsAATest Test",
+              "createdOn": "2018-10-22T10:55:44Z",
+              "name": "me_twitter_20181022105539.jpg",
+              "uri": "aHR0cDovL2ludGVybmFsLWRldjIubmhpbGwubmV0L3dvcmt3aXNlL2N1c3RvbWVycy9OSEhXVzI0MDMtVGVuYW50LTIvTkhIV1cyNDAzLTkxMDA1MzExNzYwMDItMzExNzYwMDIvRG9jdW1lbnRzL0FycmVhcnMvQ0FTLTE3MzA1LUs1UDNENy9BY3Rpdml0eS9tZV90d2l0dGVyXzIwMTgxMDIyMTA1NTM5LmpwZw2",
+            },
+            Object {
+              "createdBy": "DynamicsAATest Test",
+              "createdOn": "2018-10-23T10:05:37Z",
+              "name": "km-by-jan-h150_20181023100535.png",
+              "uri": "aHR0cDovL2ludGVybmFsLWRldjIubmhpbGwubmV0L3dvcmt3aXNlL2N1c3RvbWVycy9OSEhXVzI0MDMtVGVuYW50LTIvTkhIV1cyNDAzLTkxMDA1MzExNzYwMDItMzExNzYwMDIvRG9jdW1lbnRzL0FycmVhcnMvQ0FTLTE3MzA1LUs1UDNENy9BY3Rpdml0eS9rbS1ieS1qYW4taDE1MF8yMDE4MTAyMzEwMDUzNS5wbmc1",
+            },
+          ]
+        }
+        pageSize={10}
+        render={[Function]}
+      />
+    </styled.section>
+  </styled.div>
+</div>
+`;

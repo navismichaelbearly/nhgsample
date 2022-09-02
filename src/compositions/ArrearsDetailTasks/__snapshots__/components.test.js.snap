@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ButtonsWrapper /> should render correctly 1`] = `
+<div
+  className="sc-iFMziU DuwSj"
+/>
+`;
+
+exports[`<H3 /> should render correctly 1`] = `
+<styled.h3
+  className="sc-iomxrj ghHOIx"
+/>
+`;
+
+exports[`<Label /> should render correctly 1`] = `
+<div
+  className="sc-fyjhYU jyMJJF"
+/>
+`;
+
+exports[`<OverdueLabel /> should render correctly 1`] = `
+<span
+  className="sc-dvCyap fjclWN"
+/>
+`;
+
+exports[`<Task /> should render correctly 1`] = `
+<div
+  className="sc-fHxwqH iQfjIe"
+/>
+`;
+
+exports[`<TaskBody /> should render correctly 1`] = `
+<div
+  className="sc-cEvuZC hsrIAT"
+/>
+`;
+
+exports[`<TaskDescription /> should render correctly 1`] = `
+<div
+  className="sc-kXeGPI kugJkm"
+/>
+`;
+
+exports[`<TaskLabel /> should render correctly 1`] = `
+<span
+  className="sc-ugnQR bFjMaq"
+/>
+`;
+
+exports[`<TaskLink /> should render correctly 1`] = `
+<WithTheme(Button)
+  className="sc-eTpRJs iAiHqc"
+  theme={
+    Object {
+      "colors": Object {
+        "secondaryLight": "grey",
+        "support": Object {
+          "one": "blue",
+          "six": "yellow",
+          "two": "red",
+        },
+      },
+    }
+  }
+/>
+`;
+
+exports[`<TaskValue /> should render correctly 1`] = `
+<span
+  className="sc-eIHaNI cbsVwa"
+/>
+`;
+
+exports[`<Wrapper /> should render correctly 1`] = `
+<div
+  className="sc-dxZgTM ifviOf"
+/>
+`;

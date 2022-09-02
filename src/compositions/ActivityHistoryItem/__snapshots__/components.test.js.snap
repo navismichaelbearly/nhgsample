@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActivityHistoryItem components should render <ActivityItemWrapper /> correctly 1`] = `
+.c0 {
+  margin: 30px -50px;
+  min-height: 18.75rem;
+}
+
+@media (max-width:767px) {
+  .c0 {
+    margin: 0;
+  }
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`ActivityHistoryItem components should render <CustomerDetailsContainer /> correctly 1`] = `
+.c0 {
+  margin: 0 0 30px 0;
+}
+
+<styled.div
+  className="c0"
+/>
+`;
+
+exports[`ActivityHistoryItem components should render <ErrorMessage /> correctly 1`] = `
+.c0 {
+  margin-bottom: 30px;
+  color: #FF0C00;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`ActivityHistoryItem components should render <LoaderContainer /> correctly 1`] = `
+.c0 {
+  min-height: 18.75rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`ActivityHistoryItem components should render <Wrapper /> correctly 1`] = `
+.c0 {
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+<styled.div
+  className="c0"
+/>
+`;

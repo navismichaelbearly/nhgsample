@@ -1,0 +1,1065 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PauseArrearsCaseComposition /> Form interaction should render the page correctly when a rule has been selected 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Back"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={false}
+      formError=""
+      formName="pauseArrearsCase"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Submit"
+    >
+      <styled.div>
+        <t
+          autocomplete={false}
+          dataBdd="pauseArrearsCase-selectReason"
+          defaultInputValue="A reason"
+          disabled={false}
+          hasError={false}
+          hideLabel={false}
+          inline={false}
+          isFullWidth={true}
+          itemToString={[Function]}
+          items={
+            Array [
+              Object {
+                "id": "abc123",
+                "managerRule": Object {
+                  "endDate": "2019-09-28T13:56:50.951Z",
+                },
+                "myRule": Object {
+                  "endDate": "2019-07-27T13:56:50.951Z",
+                },
+                "title": "A reason",
+              },
+              Object {
+                "id": "def456",
+                "managerRule": Object {
+                  "endDate": "2019-09-28T13:56:50.951Z",
+                },
+                "myRule": Object {
+                  "endDate": "2019-07-27T13:56:50.951Z",
+                },
+                "title": "Another reason",
+              },
+            ]
+          }
+          labelText="Reason for pausing case"
+          onChange={[Function]}
+          placeholder=""
+          required={true}
+        />
+      </styled.div>
+      <div>
+        <styled.label
+          data-bdd="pauseArrearsCase-selectDate-label"
+        >
+          End date
+        </styled.label>
+        <styled.p>
+          <span
+            data-bdd="pauseArrearsCase-selectDate-myDate"
+          >
+            myPause
+          </span>
+          <br />
+          <span
+            data-bdd="pauseArrearsCase-selectDate-managerDate"
+          >
+            managerPause
+          </span>
+        </styled.p>
+        <styled.div
+          data-bdd="pauseArrearsCase-selectDate"
+        >
+          <t
+            disabled={false}
+            hasError={false}
+            hideLabel={false}
+            isFullWidth={true}
+            labelText=""
+            minDate={2018-10-01T00:00:00.000Z}
+            onChange={[Function]}
+            onDateSelected={[Function]}
+            placeholder=""
+            required={true}
+          />
+        </styled.div>
+        <styled.div>
+          <Textarea
+            data-bdd="pauseArrearsCase-furtherDetails"
+            dataBdd=""
+            display="inline-block"
+            hasError={false}
+            height="150px"
+            id="pauseDetails"
+            isFullWidth={true}
+            labelText="Further detail"
+            onChange={[Function]}
+            required={true}
+            width="250px"
+          />
+        </styled.div>
+        <styled.div>
+          <p
+            checked={false}
+            data-bdd="pauseArrearsCase-notifyManager"
+            display="inline-block"
+            error={false}
+            hasError={false}
+            onChange={[Function]}
+            required={false}
+          >
+            notifyManager
+          </p>
+        </styled.div>
+      </div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<PauseArrearsCaseComposition /> should re-enable isManagerNotified checkbox when there is an active pause 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Back"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={true}
+      formError=""
+      formName="pauseArrearsCase"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={
+        <WithTheme(Button)
+          buttonType="tertiary"
+          data-bdd="pauseArrearsCase-cancel"
+          isFullWidth={true}
+          onClick={[Function]}
+          type="button"
+        >
+          Cancel
+        </WithTheme(Button)>
+      }
+      otherActionsLeft={null}
+      submitButtonText="Update"
+    >
+      <styled.div>
+        <t
+          autocomplete={false}
+          dataBdd="pauseArrearsCase-selectReason"
+          defaultInputValue="Another reason"
+          disabled={false}
+          hasError={false}
+          hideLabel={false}
+          inline={false}
+          isFullWidth={true}
+          itemToString={[Function]}
+          items={
+            Array [
+              Object {
+                "id": "abc123",
+                "managerRule": Object {
+                  "endDate": "2019-09-28T13:56:50.951Z",
+                },
+                "myRule": Object {
+                  "endDate": "2019-07-27T13:56:50.951Z",
+                },
+                "title": "A reason",
+              },
+              Object {
+                "id": "def456",
+                "managerRule": Object {
+                  "endDate": "2019-09-28T13:56:50.951Z",
+                },
+                "myRule": Object {
+                  "endDate": "2019-07-27T13:56:50.951Z",
+                },
+                "title": "Another reason",
+              },
+            ]
+          }
+          labelText="Reason for pausing case"
+          onChange={[Function]}
+          placeholder=""
+          required={true}
+        />
+      </styled.div>
+      <div>
+        <styled.label
+          data-bdd="pauseArrearsCase-selectDate-label"
+        >
+          End date
+        </styled.label>
+        <styled.p>
+          <span
+            data-bdd="pauseArrearsCase-selectDate-myDate"
+          >
+            myPause
+          </span>
+          <br />
+          <span
+            data-bdd="pauseArrearsCase-selectDate-managerDate"
+          >
+            managerPause
+          </span>
+        </styled.p>
+        <styled.div
+          data-bdd="pauseArrearsCase-selectDate"
+        >
+          <t
+            defaultDate={2019-07-23T09:44:03.275Z}
+            disabled={false}
+            error=""
+            hasError={false}
+            hideLabel={false}
+            isFullWidth={true}
+            labelText=""
+            minDate={2018-10-01T00:00:00.000Z}
+            onChange={[Function]}
+            onDateSelected={[Function]}
+            placeholder=""
+            required={true}
+          />
+        </styled.div>
+        <styled.div>
+          <styled.label
+            data-bdd="pauseArrearsCase-existingDetails-label"
+          >
+            Further detail
+          </styled.label>
+          <styled.p>
+            <span
+              data-bdd="pauseArrearsCase-existingDetails"
+            >
+              further detail
+            </span>
+          </styled.p>
+        </styled.div>
+        <styled.div>
+          <Textarea
+            data-bdd="pauseArrearsCase-furtherDetails"
+            dataBdd=""
+            display="inline-block"
+            hasError={false}
+            height="150px"
+            id="pauseDetails"
+            isFullWidth={true}
+            labelText="Add further detail"
+            onChange={[Function]}
+            required={true}
+            width="250px"
+          />
+        </styled.div>
+        <styled.div>
+          <p
+            checked={true}
+            data-bdd="pauseArrearsCase-notifyManager"
+            display="inline-block"
+            error=""
+            hasError={false}
+            onChange={[Function]}
+            required={false}
+          >
+            notifyManager
+          </p>
+        </styled.div>
+      </div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<PauseArrearsCaseComposition /> should render the page correctly 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Back"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={false}
+      formError=""
+      formName="pauseArrearsCase"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Submit"
+    >
+      <styled.div>
+        <t
+          autocomplete={false}
+          dataBdd="pauseArrearsCase-selectReason"
+          disabled={false}
+          hasError={false}
+          hideLabel={false}
+          inline={false}
+          isFullWidth={true}
+          itemToString={[Function]}
+          items={Array []}
+          labelText="Reason for pausing case"
+          onChange={[Function]}
+          placeholder=""
+          required={true}
+        />
+      </styled.div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<PauseArrearsCaseComposition /> should render the page correctly when rules are populated 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Back"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={false}
+      formError=""
+      formName="pauseArrearsCase"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Submit"
+    >
+      <styled.div>
+        <t
+          autocomplete={false}
+          dataBdd="pauseArrearsCase-selectReason"
+          disabled={false}
+          hasError={false}
+          hideLabel={false}
+          inline={false}
+          isFullWidth={true}
+          itemToString={[Function]}
+          items={
+            Array [
+              Object {
+                "id": "abc123",
+                "managerRule": Object {
+                  "endDate": "2019-09-28T13:56:50.951Z",
+                },
+                "myRule": Object {
+                  "endDate": "2019-07-27T13:56:50.951Z",
+                },
+                "title": "A reason",
+              },
+              Object {
+                "id": "def456",
+                "managerRule": Object {
+                  "endDate": "2019-09-28T13:56:50.951Z",
+                },
+                "myRule": Object {
+                  "endDate": "2019-07-27T13:56:50.951Z",
+                },
+                "title": "Another reason",
+              },
+            ]
+          }
+          labelText="Reason for pausing case"
+          onChange={[Function]}
+          placeholder=""
+          required={true}
+        />
+      </styled.div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<PauseArrearsCaseComposition /> should render the page correctly when there is an active pause 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Back"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={true}
+      formError=""
+      formName="pauseArrearsCase"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={
+        <WithTheme(Button)
+          buttonType="tertiary"
+          data-bdd="pauseArrearsCase-cancel"
+          isFullWidth={true}
+          onClick={[Function]}
+          type="button"
+        >
+          Cancel
+        </WithTheme(Button)>
+      }
+      otherActionsLeft={null}
+      submitButtonText="Update"
+    >
+      <styled.div>
+        <t
+          autocomplete={false}
+          dataBdd="pauseArrearsCase-selectReason"
+          defaultInputValue="Another reason"
+          disabled={false}
+          hasError={false}
+          hideLabel={false}
+          inline={false}
+          isFullWidth={true}
+          itemToString={[Function]}
+          items={
+            Array [
+              Object {
+                "id": "abc123",
+                "managerRule": Object {
+                  "endDate": "2019-09-28T13:56:50.951Z",
+                },
+                "myRule": Object {
+                  "endDate": "2019-07-27T13:56:50.951Z",
+                },
+                "title": "A reason",
+              },
+              Object {
+                "id": "def456",
+                "managerRule": Object {
+                  "endDate": "2019-09-28T13:56:50.951Z",
+                },
+                "myRule": Object {
+                  "endDate": "2019-07-27T13:56:50.951Z",
+                },
+                "title": "Another reason",
+              },
+            ]
+          }
+          labelText="Reason for pausing case"
+          onChange={[Function]}
+          placeholder=""
+          required={true}
+        />
+      </styled.div>
+      <div>
+        <styled.label
+          data-bdd="pauseArrearsCase-selectDate-label"
+        >
+          End date
+        </styled.label>
+        <styled.p>
+          <span
+            data-bdd="pauseArrearsCase-selectDate-myDate"
+          >
+            myPause
+          </span>
+          <br />
+          <span
+            data-bdd="pauseArrearsCase-selectDate-managerDate"
+          >
+            managerPause
+          </span>
+        </styled.p>
+        <styled.div
+          data-bdd="pauseArrearsCase-selectDate"
+        >
+          <t
+            defaultDate={2019-07-23T09:44:03.275Z}
+            disabled={false}
+            hasError={false}
+            hideLabel={false}
+            isFullWidth={true}
+            labelText=""
+            minDate={2018-10-01T00:00:00.000Z}
+            onChange={[Function]}
+            onDateSelected={[Function]}
+            placeholder=""
+            required={true}
+          />
+        </styled.div>
+        <styled.div>
+          <styled.label
+            data-bdd="pauseArrearsCase-existingDetails-label"
+          >
+            Further detail
+          </styled.label>
+          <styled.p>
+            <span
+              data-bdd="pauseArrearsCase-existingDetails"
+            >
+              further detail
+            </span>
+          </styled.p>
+        </styled.div>
+        <styled.div>
+          <Textarea
+            data-bdd="pauseArrearsCase-furtherDetails"
+            dataBdd=""
+            display="inline-block"
+            hasError={false}
+            height="150px"
+            id="pauseDetails"
+            isFullWidth={true}
+            labelText="Add further detail"
+            onChange={[Function]}
+            required={true}
+            width="250px"
+          />
+        </styled.div>
+        <styled.div>
+          <p
+            checked={true}
+            data-bdd="pauseArrearsCase-notifyManager"
+            display="inline-block"
+            error={false}
+            hasError={false}
+            onChange={[Function]}
+            required={false}
+          >
+            notifyManager
+          </p>
+        </styled.div>
+      </div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<PauseArrearsCaseComposition /> should render the page correctly when there is an active pause after myDate and before managerDate limits 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Back"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={true}
+      formError=""
+      formName="pauseArrearsCase"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={
+        <WithTheme(Button)
+          buttonType="tertiary"
+          data-bdd="pauseArrearsCase-cancel"
+          isFullWidth={true}
+          onClick={[Function]}
+          type="button"
+        >
+          Cancel
+        </WithTheme(Button)>
+      }
+      otherActionsLeft={null}
+      submitButtonText="Update"
+    >
+      <styled.div>
+        <t
+          autocomplete={false}
+          dataBdd="pauseArrearsCase-selectReason"
+          defaultInputValue="Another reason"
+          disabled={false}
+          hasError={false}
+          hideLabel={false}
+          inline={false}
+          isFullWidth={true}
+          itemToString={[Function]}
+          items={
+            Array [
+              Object {
+                "id": "abc123",
+                "managerRule": Object {
+                  "endDate": "2019-09-28T13:56:50.951Z",
+                },
+                "myRule": Object {
+                  "endDate": "2019-07-27T13:56:50.951Z",
+                },
+                "title": "A reason",
+              },
+              Object {
+                "id": "def456",
+                "managerRule": Object {
+                  "endDate": "2019-09-28T13:56:50.951Z",
+                },
+                "myRule": Object {
+                  "endDate": "2019-07-27T13:56:50.951Z",
+                },
+                "title": "Another reason",
+              },
+            ]
+          }
+          labelText="Reason for pausing case"
+          onChange={[Function]}
+          placeholder=""
+          required={true}
+        />
+      </styled.div>
+      <div>
+        <styled.label
+          data-bdd="pauseArrearsCase-selectDate-label"
+        >
+          End date
+        </styled.label>
+        <styled.p>
+          <span
+            data-bdd="pauseArrearsCase-selectDate-myDate"
+          >
+            myPause
+          </span>
+          <br />
+          <span
+            data-bdd="pauseArrearsCase-selectDate-managerDate"
+          >
+            managerPause
+          </span>
+        </styled.p>
+        <styled.div
+          data-bdd="pauseArrearsCase-selectDate"
+        >
+          <t
+            defaultDate={2019-08-01T13:56:50.951Z}
+            disabled={false}
+            hasError={false}
+            hideLabel={false}
+            isFullWidth={true}
+            labelText=""
+            minDate={2018-10-01T00:00:00.000Z}
+            onChange={[Function]}
+            onDateSelected={[Function]}
+            placeholder=""
+            required={true}
+          />
+        </styled.div>
+        <styled.div>
+          <styled.label
+            data-bdd="pauseArrearsCase-existingDetails-label"
+          >
+            Further detail
+          </styled.label>
+          <styled.p>
+            <span
+              data-bdd="pauseArrearsCase-existingDetails"
+            >
+              further detail
+            </span>
+          </styled.p>
+        </styled.div>
+        <styled.div>
+          <Textarea
+            data-bdd="pauseArrearsCase-furtherDetails"
+            dataBdd=""
+            display="inline-block"
+            hasError={false}
+            height="150px"
+            id="pauseDetails"
+            isFullWidth={true}
+            labelText="Add further detail"
+            onChange={[Function]}
+            required={true}
+            width="250px"
+          />
+        </styled.div>
+        <styled.div>
+          <p
+            checked={true}
+            data-bdd="pauseArrearsCase-notifyManager"
+            display="inline-block"
+            error={false}
+            hasError={false}
+            onChange={[Function]}
+            required={false}
+          >
+            notifyManager
+          </p>
+        </styled.div>
+      </div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<PauseArrearsCaseComposition /> should render the page correctly when there is an active pause after myDate and managerDate limits 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Back"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={true}
+      formError=""
+      formName="pauseArrearsCase"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={
+        <WithTheme(Button)
+          buttonType="tertiary"
+          data-bdd="pauseArrearsCase-cancel"
+          isFullWidth={true}
+          onClick={[Function]}
+          type="button"
+        >
+          Cancel
+        </WithTheme(Button)>
+      }
+      otherActionsLeft={null}
+      submitButtonText="Update"
+    >
+      <styled.div>
+        <t
+          autocomplete={false}
+          dataBdd="pauseArrearsCase-selectReason"
+          defaultInputValue="Another reason"
+          disabled={false}
+          hasError={false}
+          hideLabel={false}
+          inline={false}
+          isFullWidth={true}
+          itemToString={[Function]}
+          items={
+            Array [
+              Object {
+                "id": "abc123",
+                "managerRule": Object {
+                  "endDate": "2019-09-28T13:56:50.951Z",
+                },
+                "myRule": Object {
+                  "endDate": "2019-07-27T13:56:50.951Z",
+                },
+                "title": "A reason",
+              },
+              Object {
+                "id": "def456",
+                "managerRule": Object {
+                  "endDate": "2019-09-28T13:56:50.951Z",
+                },
+                "myRule": Object {
+                  "endDate": "2019-07-27T13:56:50.951Z",
+                },
+                "title": "Another reason",
+              },
+            ]
+          }
+          labelText="Reason for pausing case"
+          onChange={[Function]}
+          placeholder=""
+          required={true}
+        />
+      </styled.div>
+      <div>
+        <styled.label
+          data-bdd="pauseArrearsCase-selectDate-label"
+        >
+          End date
+        </styled.label>
+        <styled.p>
+          <span
+            data-bdd="pauseArrearsCase-selectDate-myDate"
+          >
+            myPause
+          </span>
+          <br />
+          <span
+            data-bdd="pauseArrearsCase-selectDate-managerDate"
+          >
+            managerPause
+          </span>
+        </styled.p>
+        <styled.div
+          data-bdd="pauseArrearsCase-selectDate"
+        >
+          <t
+            defaultDate={2019-10-01T13:56:50.951Z}
+            disabled={false}
+            hasError={false}
+            hideLabel={false}
+            isFullWidth={true}
+            labelText=""
+            minDate={2018-10-01T00:00:00.000Z}
+            onChange={[Function]}
+            onDateSelected={[Function]}
+            placeholder=""
+            required={true}
+          />
+        </styled.div>
+        <styled.div>
+          <styled.label
+            data-bdd="pauseArrearsCase-existingDetails-label"
+          >
+            Further detail
+          </styled.label>
+          <styled.p>
+            <span
+              data-bdd="pauseArrearsCase-existingDetails"
+            >
+              further detail
+            </span>
+          </styled.p>
+        </styled.div>
+        <styled.div>
+          <Textarea
+            data-bdd="pauseArrearsCase-furtherDetails"
+            dataBdd=""
+            display="inline-block"
+            hasError={false}
+            height="150px"
+            id="pauseDetails"
+            isFullWidth={true}
+            labelText="Add further detail"
+            onChange={[Function]}
+            required={true}
+            width="250px"
+          />
+        </styled.div>
+        <styled.div>
+          <p
+            checked={true}
+            data-bdd="pauseArrearsCase-notifyManager"
+            display="inline-block"
+            error={false}
+            hasError={false}
+            onChange={[Function]}
+            required={false}
+          >
+            notifyManager
+          </p>
+        </styled.div>
+      </div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<PauseArrearsCaseComposition /> should render the page correctly when there is an active pause and the user makes changes to a different reason so that the activePause.endDate is before myDate 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Back"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={true}
+      formError=""
+      formName="pauseArrearsCase"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={
+        <WithTheme(Button)
+          buttonType="tertiary"
+          data-bdd="pauseArrearsCase-cancel"
+          isFullWidth={true}
+          onClick={[Function]}
+          type="button"
+        >
+          Cancel
+        </WithTheme(Button)>
+      }
+      otherActionsLeft={null}
+      submitButtonText="Update"
+    >
+      <styled.div>
+        <t
+          autocomplete={false}
+          dataBdd="pauseArrearsCase-selectReason"
+          defaultInputValue="New Benefit/UC"
+          disabled={false}
+          error=""
+          hasError={false}
+          hideLabel={false}
+          inline={false}
+          isFullWidth={true}
+          itemToString={[Function]}
+          items={
+            Array [
+              Object {
+                "id": "abc123",
+                "managerRule": Object {
+                  "endDate": "2020-09-28T13:56:50.951Z",
+                },
+                "myRule": Object {
+                  "endDate": "2020-07-27T13:56:50.951Z",
+                },
+                "title": "A reason",
+              },
+              Object {
+                "id": "newbenefituc",
+                "managerRule": Object {
+                  "endDate": "2020-09-28T13:56:50.951Z",
+                },
+                "myRule": Object {
+                  "endDate": "2020-07-27T13:56:50.951Z",
+                },
+                "title": "Another reason",
+              },
+            ]
+          }
+          labelText="Reason for pausing case"
+          onChange={[Function]}
+          placeholder=""
+          required={true}
+        />
+      </styled.div>
+      <div>
+        <styled.label
+          data-bdd="pauseArrearsCase-selectDate-label"
+        >
+          End date
+        </styled.label>
+        <styled.p>
+          <span
+            data-bdd="pauseArrearsCase-selectDate-myDate"
+          >
+            myPause
+          </span>
+          <br />
+          <span
+            data-bdd="pauseArrearsCase-selectDate-managerDate"
+          >
+            managerPause
+          </span>
+        </styled.p>
+        <styled.div
+          data-bdd="pauseArrearsCase-selectDate"
+        >
+          <t
+            defaultDate={2019-07-23T09:44:03.275Z}
+            disabled={false}
+            hasError={false}
+            hideLabel={false}
+            isFullWidth={true}
+            labelText=""
+            minDate={2018-10-01T00:00:00.000Z}
+            onChange={[Function]}
+            onDateSelected={[Function]}
+            placeholder=""
+            required={true}
+          />
+        </styled.div>
+        <styled.div>
+          <styled.label
+            data-bdd="pauseArrearsCase-existingDetails-label"
+          >
+            Further detail
+          </styled.label>
+          <styled.p>
+            <span
+              data-bdd="pauseArrearsCase-existingDetails"
+            >
+              further detail
+            </span>
+          </styled.p>
+        </styled.div>
+        <styled.div>
+          <Textarea
+            data-bdd="pauseArrearsCase-furtherDetails"
+            dataBdd=""
+            display="inline-block"
+            hasError={false}
+            height="150px"
+            id="pauseDetails"
+            isFullWidth={true}
+            labelText="Add further detail"
+            onChange={[Function]}
+            required={true}
+            width="250px"
+          />
+        </styled.div>
+        <styled.div>
+          <p
+            checked={true}
+            data-bdd="pauseArrearsCase-notifyManager"
+            display="inline-block"
+            error={false}
+            hasError={false}
+            onChange={[Function]}
+            required={false}
+          >
+            notifyManager
+          </p>
+        </styled.div>
+      </div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<PauseArrearsCaseComposition /> should render the page correctly while loading 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <p
+    isSmall={false}
+  />
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<PauseArrearsCaseComposition /> should render the page correctly with an error 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="Back"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={false}
+      formError=""
+      formName="pauseArrearsCase"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Submit"
+    >
+      <styled.div>
+        <t
+          autocomplete={false}
+          dataBdd="pauseArrearsCase-selectReason"
+          disabled={false}
+          hasError={false}
+          hideLabel={false}
+          inline={false}
+          isFullWidth={true}
+          itemToString={[Function]}
+          items={Array []}
+          labelText="Reason for pausing case"
+          onChange={[Function]}
+          placeholder=""
+          required={true}
+        />
+      </styled.div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;

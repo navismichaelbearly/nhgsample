@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PaymentPlan /> renders correctly 1`] = `
+<div>
+  <Styled(styled.h3) />
+  <f
+    addExtraTd={false}
+    addExtraTh={true}
+    data={
+      Array [
+        Array [
+          <styled.span>
+            Detail
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-paymentPlan-rasiedBy"
+      >
+            Personal Payment Plan
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Status
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-paymentPlan-with"
+      >
+            Open
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Start date
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-paymentPlan-startDate"
+      >
+            10/08/2018 - 8:52pm
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            End date
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-paymentPlan-endDate"
+      >
+            10/08/2018 - 8:52pm
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Instalment
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-installment"
+      >
+            £10.00 Every 2 Week(s)
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Last modified
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-paymentPlan-created"
+      >
+            10/08/2018 - 8:52pm
+             - 
+            <styled.span>
+                  Last Modified By
+                  : 
+            </styled.span>
+             
+            Test_1 HO
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Details
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-paymentPlan-modified"
+      >
+            alessio test
+      </span>,
+        ],
+      ]
+    }
+    data-bdd="ActivityHistoryItemTable"
+    headerData={null}
+    striped={true}
+    tdWrap={true}
+    topAlign={true}
+  />
+</div>
+`;
+
+exports[`<PaymentPlan /> renders correctly with endDate = null 1`] = `
+<div>
+  <Styled(styled.h3) />
+  <f
+    addExtraTd={false}
+    addExtraTh={true}
+    data={
+      Array [
+        Array [
+          <styled.span>
+            Detail
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-paymentPlan-rasiedBy"
+      >
+            Personal Payment Plan
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Status
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-paymentPlan-with"
+      >
+            Open
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Start date
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-paymentPlan-startDate"
+      >
+            10/08/2018 - 8:52pm
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            End date
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-paymentPlan-endDate"
+      >
+            10/08/2018 - 8:52pm
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Instalment
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-installment"
+      >
+            £10.00 Every 2 Week(s)
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Last modified
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-paymentPlan-created"
+      >
+            10/08/2018 - 8:52pm
+             - 
+            <styled.span>
+                  Last Modified By
+                  : 
+            </styled.span>
+             
+            Test_1 HO
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Details
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-paymentPlan-modified"
+      >
+            alessio test
+      </span>,
+        ],
+      ]
+    }
+    data-bdd="ActivityHistoryItemTable"
+    headerData={null}
+    striped={true}
+    tdWrap={true}
+    topAlign={true}
+  />
+</div>
+`;

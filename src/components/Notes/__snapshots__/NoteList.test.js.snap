@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NoteList /> renders correctly 1`] = `
+<styled.div
+  data-bdd="NoteList"
+>
+  <Styled(styled.h3)>
+    Notes (1)
+  </Styled(styled.h3)>
+  <l
+    items={
+      Array [
+        Object {
+          "caseId": "00000000-0000-0000-0000-000000000000",
+          "created": Object {
+            "by": null,
+            "on": "2018-10-31T12:25:13+00:00",
+          },
+          "id": "e2054c02-08dd-e811-80d2-005056825b41",
+          "modified": Object {
+            "by": null,
+            "on": "2018-10-31T12:25:13+00:00",
+          },
+          "subject": "usman-moses",
+          "text": "This is a test note with attachment :)",
+        },
+      ]
+    }
+    pageSize={5}
+    render={[Function]}
+  />
+</styled.div>
+`;

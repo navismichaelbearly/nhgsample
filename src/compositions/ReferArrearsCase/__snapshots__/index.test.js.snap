@@ -1,0 +1,251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReferArrearsCaseComposition /> should render correctly when loading 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="back"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={false}
+      formError={null}
+      formName="referArrearsCase"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={true}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Refer arrears case"
+    >
+      <styled.div>
+        <styled.label>
+          Refer to
+        </styled.label>
+        <x
+          error=""
+          name="referArrearsCase-referralTeamsGroup"
+          required={true}
+        >
+          <T
+            checked={false}
+            data-bdd="referArrearsCase-referralTeamsGroup-rt-1"
+            disabled={true}
+            display="block"
+            error={false}
+            hasError={false}
+            id="rt-1"
+            key="rt-1"
+            onChange={[Function]}
+          >
+            Benefits advice
+          </T>
+          <T
+            checked={false}
+            data-bdd="referArrearsCase-referralTeamsGroup-rt-2"
+            disabled={true}
+            display="block"
+            error={false}
+            hasError={false}
+            id="rt-2"
+            key="rt-2"
+            onChange={[Function]}
+          >
+            Tenancy support
+          </T>
+        </x>
+      </styled.div>
+      <div
+        className="mb-md-5"
+      >
+        <Textarea
+          data-bdd="referArrearsCase-details"
+          dataBdd=""
+          disabled={true}
+          display="inline-block"
+          error=""
+          hasError={false}
+          height="150px"
+          id="details"
+          isFullWidth={true}
+          labelText="Details"
+          onChange={[Function]}
+          required={true}
+          value=""
+          width="250px"
+        />
+      </div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ReferArrearsCaseComposition /> should render correctly with an error 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="back"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={false}
+      formError="this is an error"
+      formName="referArrearsCase"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Refer arrears case"
+    >
+      <styled.div>
+        <styled.label>
+          Refer to
+        </styled.label>
+        <x
+          error=""
+          name="referArrearsCase-referralTeamsGroup"
+          required={true}
+        >
+          <T
+            checked={false}
+            data-bdd="referArrearsCase-referralTeamsGroup-rt-1"
+            disabled={false}
+            display="block"
+            error={false}
+            hasError={false}
+            id="rt-1"
+            key="rt-1"
+            onChange={[Function]}
+          >
+            Benefits advice
+          </T>
+          <T
+            checked={false}
+            data-bdd="referArrearsCase-referralTeamsGroup-rt-2"
+            disabled={false}
+            display="block"
+            error={false}
+            hasError={false}
+            id="rt-2"
+            key="rt-2"
+            onChange={[Function]}
+          >
+            Tenancy support
+          </T>
+        </x>
+      </styled.div>
+      <div
+        className="mb-md-5"
+      >
+        <Textarea
+          data-bdd="referArrearsCase-details"
+          dataBdd=""
+          disabled={false}
+          display="inline-block"
+          error=""
+          hasError={false}
+          height="150px"
+          id="details"
+          isFullWidth={true}
+          labelText="Details"
+          onChange={[Function]}
+          required={true}
+          value=""
+          width="250px"
+        />
+      </div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ReferArrearsCaseComposition /> should render the page 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="back"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={false}
+      formError={null}
+      formName="referArrearsCase"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Refer arrears case"
+    >
+      <styled.div>
+        <styled.label>
+          Refer to
+        </styled.label>
+        <x
+          error=""
+          name="referArrearsCase-referralTeamsGroup"
+          required={true}
+        >
+          <T
+            checked={false}
+            data-bdd="referArrearsCase-referralTeamsGroup-rt-1"
+            disabled={false}
+            display="block"
+            error={false}
+            hasError={false}
+            id="rt-1"
+            key="rt-1"
+            onChange={[Function]}
+          >
+            Benefits advice
+          </T>
+          <T
+            checked={false}
+            data-bdd="referArrearsCase-referralTeamsGroup-rt-2"
+            disabled={false}
+            display="block"
+            error={false}
+            hasError={false}
+            id="rt-2"
+            key="rt-2"
+            onChange={[Function]}
+          >
+            Tenancy support
+          </T>
+        </x>
+      </styled.div>
+      <div
+        className="mb-md-5"
+      >
+        <Textarea
+          data-bdd="referArrearsCase-details"
+          dataBdd=""
+          disabled={false}
+          display="inline-block"
+          error=""
+          hasError={false}
+          height="150px"
+          id="details"
+          isFullWidth={true}
+          labelText="Details"
+          onChange={[Function]}
+          required={true}
+          value=""
+          width="250px"
+        />
+      </div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<ReferArrearsCaseComposition /> should show details error on submit if validations fail 1`] = `"Please enter some details"`;
+
+exports[`<ReferArrearsCaseComposition /> should show referral team error on submit if validations fail 1`] = `"Please select an option"`;

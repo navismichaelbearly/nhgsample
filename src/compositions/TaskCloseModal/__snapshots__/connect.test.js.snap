@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskCloseModal connector mapStateToProps generates the correct props 1`] = `
+Object {
+  "errorText": Object {
+    "assignee": "Please select an assignee",
+    "formError": "There has been an error processing this request. If the issue persists, contact your IT team",
+    "reason": "Please enter a reason",
+  },
+  "isLoading": false,
+  "labels": Object {
+    "cancelButton": "Cancel",
+    "cancelTaskAction": "Don't Cancel",
+    "reason": "Reason",
+    "userPickerLabel": "Reassign to",
+    "userPickerPlaceholder": "Enter name of housing officer",
+  },
+  "notification": Object {
+    "newOwner": "New owner: {ownerName}",
+    "taskCancel": "Task cancelled",
+    "taskComplete": "Task complete",
+    "taskReassigned": "Task reassigned",
+  },
+  "serverError": "",
+  "taskComplete": "Task complete",
+  "user": Object {
+    "roles": Array [],
+  },
+}
+`;
+
+exports[`TaskCloseModal connector mapStateToProps mergeProps generates the correct props 1`] = `
+Object {
+  "errorText": Object {
+    "assignee": "Please select an assignee",
+    "formError": "There has been an error processing this request. If the issue persists, contact your IT team",
+    "reason": "Please enter a reason",
+  },
+  "isLoading": false,
+  "labels": Object {
+    "cancelButton": "Cancel",
+    "cancelTaskAction": "Don't Cancel",
+    "reason": "Reason",
+    "userPickerLabel": "Reassign to",
+    "userPickerPlaceholder": "Enter name of housing officer",
+  },
+  "onCancel": [Function],
+  "onSubmit": [Function],
+  "onUnmount": [Function],
+  "serverError": "",
+  "taskComplete": "Task complete",
+}
+`;
+
+exports[`TaskCloseModal connector mapStateToProps mergeProps performs the correct actions for onSubmit 1`] = `
+Object {
+  "EntityId": "arrearsId",
+  "EntityType": "Arrears",
+  "Statuses": "Open",
+  "skipFetchRoles": false,
+}
+`;
+
+exports[`TaskCloseModal connector mapStateToProps mergeProps performs the correct actions for onSubmit 2`] = `
+Object {
+  "dataBddPrefix": "closeTask",
+  "icon": "success",
+  "lines": Array [
+    Object {
+      "text": "this is a title 27/08/2018",
+    },
+  ],
+  "notificationType": "confirmation",
+  "title": "Task complete",
+}
+`;

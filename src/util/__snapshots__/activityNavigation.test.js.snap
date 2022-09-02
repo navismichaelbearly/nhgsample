@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`activityNavigation should return 4 methods 1`] = `
+Object {
+  "getNextHistoryId": [Function],
+  "getPreviousHistoryId": [Function],
+  "isFirst": [Function],
+  "isLast": [Function],
+}
+`;

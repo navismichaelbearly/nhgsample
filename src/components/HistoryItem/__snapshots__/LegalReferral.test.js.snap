@@ -1,0 +1,374 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LegalReferral /> renders correctly 1`] = `
+<div>
+  <Styled(styled.h3)>
+    Legal Referral
+  </Styled(styled.h3)>
+  <f
+    addExtraTd={false}
+    addExtraTh={true}
+    data={
+      Array [
+        Array [
+          <styled.span>
+            Referral date
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-legalReferral-date"
+      >
+            10/08/2018 - 8:52pm
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Raised by contact
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-legalReferral-rasiedBy"
+      >
+            CRMAppPool NonProd
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Legal case referral type
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-legalReferral-with"
+      >
+            PRH Legal Referral Form | prh-legal-case-referral
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            string
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-legalReferral-with"
+      >
+            CourtPackRequiresHomApproval
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Owner
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-legalReferral-with"
+      >
+            CRMAppPool NonProd
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Link to Referral
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-legalReferral-with"
+      >
+            this is a link
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Last modified on
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-legalReferral-lastModified"
+      >
+            10/08/2018 - 8:52pm
+            <span
+                  data-bdd="ActivityHistoryItem-legalReferral-by"
+            >
+                   
+                  <styled.span>
+                        by
+                  </styled.span>
+                   
+                  CRMAppPool NonProd
+            </span>
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Status
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-legalReferral-modified"
+      >
+            In Progress
+      </span>,
+        ],
+      ]
+    }
+    data-bdd="ActivityHistoryItemTable"
+    headerData={null}
+    striped={true}
+    tdWrap={true}
+    topAlign={true}
+  />
+</div>
+`;
+
+exports[`<LegalReferral /> renders correctly when complete  1`] = `
+<div>
+  <Styled(styled.h3)>
+    Legal Referral
+  </Styled(styled.h3)>
+  <f
+    addExtraTd={false}
+    addExtraTh={true}
+    data={
+      Array [
+        Array [
+          <styled.span>
+            Referral date
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-legalReferral-date"
+      >
+            10/08/2018 - 8:52pm
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Raised by contact
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-legalReferral-rasiedBy"
+      >
+            CRMAppPool NonProd
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Legal case referral type
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-legalReferral-with"
+      >
+            PRH Legal Referral Form | prh-legal-case-referral
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            string
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-legalReferral-with"
+      >
+            Complete
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Owner
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-legalReferral-with"
+      >
+            CRMAppPool NonProd
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Link to Referral
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-legalReferral-with"
+      >
+            this is a link
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Last modified on
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-legalReferral-lastModified"
+      >
+            10/08/2018 - 8:52pm
+            <span
+                  data-bdd="ActivityHistoryItem-legalReferral-by"
+            >
+                   
+                  <styled.span>
+                        by
+                  </styled.span>
+                   
+                  CRMAppPool NonProd
+            </span>
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Status
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-legalReferral-modified"
+      >
+            In Progress
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Approval on
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-legalReferral-approval"
+      >
+            10/08/2018 - 8:52pm
+            <span
+                  data-bdd="ActivityHistoryItem-legalReferral-approval-by"
+            >
+                   
+                  <styled.span>
+                        by
+                  </styled.span>
+                   
+                  
+            </span>
+      </span>,
+        ],
+      ]
+    }
+    data-bdd="ActivityHistoryItemTable"
+    headerData={null}
+    striped={true}
+    tdWrap={true}
+    topAlign={true}
+  />
+</div>
+`;
+
+exports[`<LegalReferral /> renders correctly when rejected 1`] = `
+<div>
+  <Styled(styled.h3)>
+    Legal Referral
+  </Styled(styled.h3)>
+  <f
+    addExtraTd={false}
+    addExtraTh={true}
+    data={
+      Array [
+        Array [
+          <styled.span>
+            Referral date
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-legalReferral-date"
+      >
+            10/08/2018 - 8:52pm
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Raised by contact
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-legalReferral-rasiedBy"
+      >
+            CRMAppPool NonProd
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Legal case referral type
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-legalReferral-with"
+      >
+            PRH Legal Referral Form | prh-legal-case-referral
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            string
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-legalReferral-with"
+      >
+            HeaderDocRejected
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Owner
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-legalReferral-with"
+      >
+            CRMAppPool NonProd
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Link to Referral
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-legalReferral-with"
+      >
+            this is a link
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Last modified on
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-legalReferral-lastModified"
+      >
+            10/08/2018 - 8:52pm
+            <span
+                  data-bdd="ActivityHistoryItem-legalReferral-by"
+            >
+                   
+                  <styled.span>
+                        by
+                  </styled.span>
+                   
+                  CRMAppPool NonProd
+            </span>
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Status
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-legalReferral-modified"
+      >
+            In Progress
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Rejected on
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-legalReferral-approval"
+      >
+            10/08/2018 - 8:52pm
+            <span
+                  data-bdd="ActivityHistoryItem-legalReferral-approval-by"
+            >
+                   
+                  <styled.span>
+                        by
+                  </styled.span>
+                   
+                  
+            </span>
+      </span>,
+        ],
+      ]
+    }
+    data-bdd="ActivityHistoryItemTable"
+    headerData={null}
+    striped={true}
+    tdWrap={true}
+    topAlign={true}
+  />
+</div>
+`;

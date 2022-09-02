@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TemplateContainer should render correctly 1`] = `
+.c0 {
+  width: auto;
+}
+
+@media (min-width:1001px) {
+  .c0 {
+    width: 50rem;
+  }
+}
+
+<div
+  className="c0"
+/>
+`;

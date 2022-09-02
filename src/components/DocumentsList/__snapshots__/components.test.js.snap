@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DocumentsList components should render <Column /> correctly 1`] = `
+.c0 {
+  width: auto;
+  text-align: left;
+  padding-right: 8px;
+  word-wrap: break-word;
+}
+
+.c0:last-child {
+  padding-right: 0;
+}
+
+@media (max-width:767px) {
+  .c0 {
+    padding-right: 4px;
+  }
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`DocumentsList components should render <Container /> correctly 1`] = `
+.c0 {
+  padding: 25px 28px 0;
+}
+
+@media (max-width:767px) {
+  .c0 {
+    padding: 15px 18px;
+  }
+}
+
+<section
+  className="c0"
+/>
+`;
+
+exports[`DocumentsList components should render <DateField /> correctly 1`] = `
+<div
+  className=""
+/>
+`;
+
+exports[`DocumentsList components should render <DesktopView /> correctly 1`] = `
+.c0 {
+  display: none;
+}
+
+@media (min-width:1001px) {
+  .c0 {
+    display: block;
+  }
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`DocumentsList components should render <ErrorMessage /> correctly 1`] = `
+.c0 {
+  color: #FF0C00;
+  margin-bottom: 50px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`DocumentsList components should render <H3 /> correctly 1`] = `
+.c0 {
+  margin-bottom: 30px;
+}
+
+<styled.h3
+  className="c0"
+/>
+`;
+
+exports[`DocumentsList components should render <Header /> correctly 1`] = `
+.c0 {
+  border-bottom: 1px solid #D9D4D4;
+  color: #4A4A49;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  font-size: 16px;
+  padding: 8px 0;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`DocumentsList components should render <Link /> correctly 1`] = `
+.c0 {
+  font-size: inherit;
+  font-weight: 400;
+  display: inline;
+}
+
+<WithTheme(Button)
+  className="c0"
+/>
+`;
+
+exports[`DocumentsList components should render <MobileAndTabletView /> correctly 1`] = `
+.c0 {
+  display: block;
+}
+
+@media (min-width:1001px) {
+  .c0 {
+    display: none;
+  }
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`DocumentsList components should render <Row /> correctly 1`] = `
+.c0 {
+  border-bottom: 1px solid #D9D4D4;
+  color: #4A4A49;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  font-size: 16px;
+  padding: 8px 0;
+}
+
+<div
+  className="c0"
+/>
+`;

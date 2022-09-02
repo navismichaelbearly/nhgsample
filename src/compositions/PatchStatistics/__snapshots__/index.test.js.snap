@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PatchStatisticsCompositions /> should render the page 1`] = `
+<WithTheme(Card)
+  data-bdd="myPatchStats-container"
+  hasAnimation={false}
+>
+  <styled.h4>
+    My patch stats
+  </styled.h4>
+  <Card.Body
+    items={null}
+    keepInBlock={true}
+  >
+    <WithTheme(styled.section)>
+      <styled.p>
+        Cash value of arrears
+      </styled.p>
+      <styled.p
+        data-bdd="myPatchStats-totalArrears"
+      >
+        £2.00
+      </styled.p>
+      <styled.p
+        data-bdd="myPatchStats-numberOfAccountsInArrears"
+      >
+        Across 1 active Arrears cases
+      </styled.p>
+    </WithTheme(styled.section)>
+    <styled.div />
+    <styled.ul>
+      <li
+        data-bdd="myPatchStats-percentageInArrears"
+      >
+        0% of accounts on your patch have an active Arrears case
+      </li>
+      <li
+        data-bdd="myPatchStats-numberOfNospsToBeServed"
+      >
+        4 NOSPs to be served
+      </li>
+      <li
+        data-bdd="myPatchStats-numberOfLegalReferralsToBeCompleted"
+      >
+        5 legal referrals outstanding
+      </li>
+      <li
+        data-bdd="myPatchStats-numberOfAccountsWithHousingBenefitUniversalCredit"
+      >
+        6 accounts with HB/UC suspended
+      </li>
+      <li
+        data-bdd="myPatchStats-numberOfAppointmentsToBeMadeWithTenants"
+      >
+        7 appointments to be made
+      </li>
+      <li
+        data-bdd="myPatchStats-numberOfLiveReferralsToWellfareAndBenefitsTeam"
+      >
+        8 live referrals to W&B team
+      </li>
+      <li
+        data-bdd="myPatchStats-numberOfOpenArrearsWithTenancySupport"
+      >
+        9 open tenancy support referrals
+      </li>
+    </styled.ul>
+  </Card.Body>
+</WithTheme(Card)>
+`;
+
+exports[`<PatchStatisticsCompositions /> should render the page with the loading indicator 1`] = `
+<p
+  isSmall={false}
+/>
+`;
+
+exports[`<PatchStatisticsCompositions /> should show the correct error when more than are more than one patches 1`] = `
+<WithTheme(styled.section)
+  data-bdd="myPatchStats-error"
+>
+  Patch stats not available when multiple patches selected
+</WithTheme(styled.section)>
+`;
+
+exports[`<PatchStatisticsCompositions /> should show the correct error when there are no patches 1`] = `
+<WithTheme(styled.section)
+  data-bdd="myPatchStats-error"
+>
+  Patch stats not available when no patch added
+</WithTheme(styled.section)>
+`;

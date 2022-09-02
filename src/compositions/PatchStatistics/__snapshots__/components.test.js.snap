@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PatchStatistics components should render <HighlightedAmount /> correctly 1`] = `
+.c0 {
+  font-size: 37px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+<p
+  className="c0"
+/>
+`;
+
+exports[`PatchStatistics components should render <HighlightedSection /> correctly 1`] = `
+<styled.section
+  theme={
+    Object {
+      "colors": Object {
+        "support": Object {
+          "two": "red",
+        },
+      },
+    }
+  }
+/>
+`;
+
+exports[`PatchStatistics components should render <HighlightedTitle /> correctly 1`] = `
+.c0 {
+  font-size: 18px;
+  font-weight: 300;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+<p
+  className="c0"
+/>
+`;
+
+exports[`PatchStatistics components should render <Seperator /> correctly 1`] = `
+.c0 {
+  background-color: #e1e1e1;
+  margin: 20px 0;
+  height: 1px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`PatchStatistics components should render <Seperator /> correctly 2`] = `
+.c0 {
+  background-color: #e1e1e1;
+  margin: 20px 0;
+  height: 1px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`PatchStatistics components should render <StatsContainer /> correctly 1`] = `
+.c0 {
+  line-height: normal;
+  padding-left: 20px;
+}
+
+<ul
+  className="c0"
+/>
+`;
+
+exports[`PatchStatistics components should render <UnderLinedText /> correctly 1`] = `
+.c0 {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+<p
+  className="c0"
+/>
+`;

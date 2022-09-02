@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddNote connector mapStateToProps generates the correct props 1`] = `
+Object {
+  "addInteraction": "add interaction",
+  "addNote": "Add note",
+  "arrearsId": "foo",
+  "attachFile": "Attach documents",
+  "back": "Back",
+  "breadcrumb": Array [
+    Object {
+      "href": "#{Dashboards.Core.CustomerBaseURL}",
+      "id": "breadcrumb-dashboard",
+      "label": "Dashboard",
+    },
+    Object {
+      "id": "breadcrumb-arrearsDashboard",
+      "label": "My arrears",
+      "to": "/",
+    },
+    Object {
+      "label": "Arrears details",
+      "to": "/arrears-details/foo",
+    },
+    Object {
+      "id": "breadcrumb-Add note",
+      "label": "Add note",
+    },
+  ],
+  "error": false,
+  "formError": "There was a problem adding this note, please try again.",
+  "heading": "Add note",
+  "isLoading": false,
+  "note": "Note",
+  "noteError": "Please add a note",
+  "notification": Object {
+    "line1": "Full details can be seen on the Arrears Details page",
+    "title": "Note added",
+  },
+  "redirectToAttachmentsPage": [Function],
+  "redirectToDetailsPage": [Function],
+  "warning": "Don't use this to record communications with customers such as letters, calls or emails. Use",
+}
+`;
+
+exports[`AddNote connector mergeProps generates the correct props 1`] = `
+Object {
+  "addInteraction": "add interaction",
+  "addNote": "Add note",
+  "arrearsId": "foo",
+  "attachFile": "Attach documents",
+  "back": "Back",
+  "bar": "baz",
+  "clearError": [Function],
+  "error": false,
+  "formError": "There was a problem adding this note, please try again.",
+  "isLoading": false,
+  "match": Object {
+    "params": Object {
+      "arrearsId": "foo",
+    },
+  },
+  "note": "Note",
+  "noteError": "Please add a note",
+  "onBack": [Function],
+  "onSubmit": [Function],
+  "pauseId": "abc123",
+  "updatePageHeader": [Function],
+  "warning": "Don't use this to record communications with customers such as letters, calls or emails. Use",
+}
+`;
+
+exports[`AddNote connector mergeProps performs the correct actions for onSubmit 1`] = `
+Object {
+  "dataBddPrefix": "addNote",
+  "icon": "success",
+  "lines": Array [
+    Object {
+      "text": "Full details can be seen on the Arrears Details page",
+    },
+  ],
+  "notificationType": "confirmation",
+  "title": "Note added",
+}
+`;

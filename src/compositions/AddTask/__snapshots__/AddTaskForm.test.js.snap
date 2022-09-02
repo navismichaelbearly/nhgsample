@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddTaskForm /> should render <AddTaskForm /> correctly 1`] = `
+<form
+  data-bdd="addTaskForm"
+  onSubmit={[Function]}
+>
+  <styled.div>
+    <styled.div>
+      <t
+        data-bdd="addTaskForm-title"
+        data-state-key="title"
+        disabled={false}
+        error={null}
+        extendStyle={null}
+        hasError={false}
+        id="title"
+        isFullWidth={true}
+        labelText="Task Title:"
+        maxLength={null}
+        onChange={[Function]}
+        required={true}
+        showLabel={true}
+        value=""
+      />
+    </styled.div>
+    <styled.div>
+      <Textarea
+        data-bdd="addTaskForm-description"
+        dataBdd=""
+        disabled={false}
+        display="inline-block"
+        hasError={false}
+        height="150px"
+        id="description"
+        isFullWidth={true}
+        labelText="Description Title:"
+        onChange={[Function]}
+        required={true}
+        value=""
+        width="250px"
+      />
+    </styled.div>
+    <styled.div
+      data-bdd="addTaskForm-date-parent"
+    >
+      <t
+        data-bdd="addTaskForm-date"
+        disabled={false}
+        hasError={false}
+        hideLabel={false}
+        isFullWidth={false}
+        labelText="Date Title:"
+        onChange={[Function]}
+        onDateSelected={[Function]}
+        placeholder=""
+        required={true}
+      />
+    </styled.div>
+    <styled.div>
+      <styled.label>
+        Task Assigned to: 
+        <styled.span>
+           * 
+        </styled.span>
+        USER_FULL_NAME
+      </styled.label>
+    </styled.div>
+    <styled.div>
+      <p
+        checked={true}
+        data-bdd="addTaskForm-assignToMe"
+        disabled={false}
+        display="inline-block"
+        error={false}
+        hasError={false}
+        onChange={[Function]}
+        required={false}
+      >
+        Assign to me label
+      </p>
+    </styled.div>
+  </styled.div>
+  <T
+    message=""
+  >
+    <WithTheme(Button)
+      buttonType="secondary"
+      data-bdd="addTaskForm-cancel"
+      disabled={false}
+      isFullWidth={true}
+      onClick={[Function]}
+      type="button"
+    >
+      Back Button
+    </WithTheme(Button)>
+    <WithTheme(Button)
+      data-bdd="addTaskForm-submit"
+      disabled={false}
+      isFullWidth={true}
+    >
+      Submit
+    </WithTheme(Button)>
+  </T>
+</form>
+`;
+
+exports[`<AddTaskForm /> should render <AddTaskForm /> correctly when loading=true 1`] = `
+<form
+  data-bdd="addTaskForm"
+  onSubmit={[Function]}
+>
+  <styled.div>
+    <styled.div>
+      <t
+        data-bdd="addTaskForm-title"
+        data-state-key="title"
+        disabled={true}
+        error={null}
+        extendStyle={null}
+        hasError={false}
+        id="title"
+        isFullWidth={true}
+        labelText="Task Title:"
+        maxLength={null}
+        onChange={[Function]}
+        required={true}
+        showLabel={true}
+        value=""
+      />
+    </styled.div>
+    <styled.div>
+      <Textarea
+        data-bdd="addTaskForm-description"
+        dataBdd=""
+        disabled={true}
+        display="inline-block"
+        hasError={false}
+        height="150px"
+        id="description"
+        isFullWidth={true}
+        labelText="Description Title:"
+        onChange={[Function]}
+        required={true}
+        value=""
+        width="250px"
+      />
+    </styled.div>
+    <styled.div
+      data-bdd="addTaskForm-date-parent"
+    >
+      <t
+        data-bdd="addTaskForm-date"
+        disabled={true}
+        hasError={false}
+        hideLabel={false}
+        isFullWidth={false}
+        labelText="Date Title:"
+        onChange={[Function]}
+        onDateSelected={[Function]}
+        placeholder=""
+        required={true}
+      />
+    </styled.div>
+    <styled.div>
+      <styled.label>
+        Task Assigned to: 
+        <styled.span>
+           * 
+        </styled.span>
+        USER_FULL_NAME
+      </styled.label>
+    </styled.div>
+    <styled.div>
+      <p
+        checked={true}
+        data-bdd="addTaskForm-assignToMe"
+        disabled={true}
+        display="inline-block"
+        error={false}
+        hasError={false}
+        onChange={[Function]}
+        required={false}
+      >
+        Assign to me label
+      </p>
+    </styled.div>
+  </styled.div>
+  <p
+    isSmall={false}
+  />
+</form>
+`;

@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TaskCloseModalComposition /> Form submissions should successfully call the passed in onSubmit when all validations pass 1`] = `
+Object {
+  "reason": "reason",
+}
+`;
+
+exports[`<TaskCloseModalComposition /> should render a notification 1`] = `
+<styled.div>
+  <Styled(styled.h3)>
+    Task complete
+  </Styled(styled.h3)>
+  <form
+    onSubmit={[Function]}
+  >
+    <styled.div
+      data-bdd="TaskClose-error"
+    >
+      <t
+        description="There has been an error processing this request. If the issue persists, contact your IT team"
+        hideCloseButton={true}
+        icon="warning"
+        onCloseNotification={[Function]}
+        show={true}
+      />
+    </styled.div>
+    <Styled(styled.div)>
+      <t
+        data-bdd="TaskClose-reason"
+        data-state-key="reason"
+        disabled={false}
+        error={null}
+        extendStyle={null}
+        hasError={false}
+        id="reason"
+        isFullWidth={true}
+        labelText="Reason"
+        maxLength={null}
+        onChange={[Function]}
+        required={true}
+        showLabel={true}
+        value=""
+      />
+    </Styled(styled.div)>
+    <styled.div>
+      <WithTheme(Button)
+        buttonType="secondary"
+        data-bdd="TaskClose-cancel"
+        isFullWidth={true}
+        onClick={[Function]}
+        type="button"
+      >
+        Cancel
+      </WithTheme(Button)>
+      <WithTheme(Button)
+        data-bdd="TaskClose-submit"
+        isFullWidth={true}
+        onClick={[Function]}
+      >
+        Task complete
+      </WithTheme(Button)>
+    </styled.div>
+  </form>
+</styled.div>
+`;
+
+exports[`<TaskCloseModalComposition /> should render the page 1`] = `
+<styled.div>
+  <Styled(styled.h3)>
+    Task complete
+  </Styled(styled.h3)>
+  <form
+    onSubmit={[Function]}
+  >
+    <Styled(styled.div)>
+      <t
+        data-bdd="TaskClose-reason"
+        data-state-key="reason"
+        disabled={false}
+        error={null}
+        extendStyle={null}
+        hasError={false}
+        id="reason"
+        isFullWidth={true}
+        labelText="Reason"
+        maxLength={null}
+        onChange={[Function]}
+        required={true}
+        showLabel={true}
+        value=""
+      />
+    </Styled(styled.div)>
+    <styled.div>
+      <WithTheme(Button)
+        buttonType="secondary"
+        data-bdd="TaskClose-cancel"
+        isFullWidth={true}
+        onClick={[Function]}
+        type="button"
+      >
+        Cancel
+      </WithTheme(Button)>
+      <WithTheme(Button)
+        data-bdd="TaskClose-submit"
+        isFullWidth={true}
+        onClick={[Function]}
+      >
+        Task complete
+      </WithTheme(Button)>
+    </styled.div>
+  </form>
+</styled.div>
+`;
+
+exports[`<TaskCloseModalComposition /> should render the page when loading 1`] = `
+<styled.div>
+  <Styled(styled.h3)>
+    Task complete
+  </Styled(styled.h3)>
+  <form
+    onSubmit={[Function]}
+  >
+    <Styled(styled.div)>
+      <t
+        data-bdd="TaskClose-reason"
+        data-state-key="reason"
+        disabled={false}
+        error={null}
+        extendStyle={null}
+        hasError={false}
+        id="reason"
+        isFullWidth={true}
+        labelText="Reason"
+        maxLength={null}
+        onChange={[Function]}
+        required={true}
+        showLabel={true}
+        value=""
+      />
+    </Styled(styled.div)>
+    <styled.div>
+      <WithTheme(Button)
+        buttonType="secondary"
+        data-bdd="TaskClose-cancel"
+        isFullWidth={true}
+        onClick={[Function]}
+        type="button"
+      >
+        Cancel
+      </WithTheme(Button)>
+      <WithTheme(Button)
+        data-bdd="TaskClose-submit"
+        isFullWidth={true}
+        onClick={[Function]}
+      >
+        Task complete
+      </WithTheme(Button)>
+    </styled.div>
+  </form>
+</styled.div>
+`;

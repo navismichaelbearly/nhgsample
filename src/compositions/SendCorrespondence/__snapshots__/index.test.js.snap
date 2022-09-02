@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SendCorrespondenceCompositions /> Form validations should set the correct error when a template is selected and sending methods are available 1`] = `"Please select a sendingMethod"`;
+
+exports[`<SendCorrespondenceCompositions /> Form validations should set the correct error when recipient is not selected 1`] = `"Please select a recipient"`;
+
+exports[`<SendCorrespondenceCompositions /> Form validations should set the correct error when templates have loaded and one hasnt been selected 1`] = `"Please select a template"`;
+
+exports[`<SendCorrespondenceCompositions /> should call passed in openTemplate when preview template button is clicked 1`] = `
+<PreviewTemplate
+  content={null}
+  dataBddPrefix="sendCorrespondence-template"
+  errorMessage="No template found, please contact your IT help desk"
+  label="Close"
+  onClose={[Function]}
+  type="base64Image"
+/>
+`;
+
+exports[`<SendCorrespondenceCompositions /> should render the page 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <FormWrapper
+      backButtonText="back"
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={false}
+      formError={null}
+      formName="SendCorrespondence"
+      handleBackClick={[Function]}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={false}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="next"
+    >
+      <styled.div>
+        <x
+          labelText="Correspondence recipient"
+          name="recipient"
+          required={true}
+        >
+          <T
+            checked={false}
+            data-bdd="sendCorrespondence-recipient-Customer(s)"
+            data-state-key="recipient"
+            display="block"
+            error={false}
+            hasError={false}
+            id="Customer(s)"
+            key="Customer(s)"
+            onChange={[Function]}
+          >
+            Customer(s)
+          </T>
+          <T
+            checked={false}
+            data-bdd="sendCorrespondence-recipient-Third party"
+            data-state-key="recipient"
+            display="block"
+            error={false}
+            hasError={false}
+            id="Third party"
+            key="Third party"
+            onChange={[Function]}
+          >
+            Third party
+          </T>
+        </x>
+      </styled.div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<SendCorrespondenceCompositions /> should show a list of sending methods the template is set in the state and there are sending methods to show 1`] = `
+Array [
+  <T
+    checked={false}
+    data-bdd="sendCorrespondence-method-Sms"
+    data-state-key="sendingMethod"
+    display="block"
+    error={false}
+    hasError={false}
+    id="Sms"
+    key="Sms"
+    onChange={[Function]}
+>
+    Sms
+</T>,
+  <T
+    checked={false}
+    data-bdd="sendCorrespondence-method-Email"
+    data-state-key="sendingMethod"
+    display="block"
+    error={false}
+    hasError={false}
+    id="Email"
+    key="Email"
+    onChange={[Function]}
+>
+    Email
+</T>,
+]
+`;
+
+exports[`<SendCorrespondenceCompositions /> should show a list of templates when supplied 1`] = `
+Array [
+  <T
+    checked={false}
+    data-bdd="sendCorrespondence-template-Third Party Template"
+    data-state-key="template"
+    display="block"
+    error={false}
+    hasError={false}
+    id="dd1bd4ba-ffbf-e811-80cf-005056825b41"
+    key="dd1bd4ba-ffbf-e811-80cf-005056825b41"
+    onChange={[Function]}
+>
+    Third Party Template
+</T>,
+  <T
+    checked={false}
+    data-bdd="sendCorrespondence-template-Third Party Template - Student Lets"
+    data-state-key="template"
+    display="block"
+    error={false}
+    hasError={false}
+    id="5ea347ea-ffbf-e811-80cf-005056825b41"
+    key="5ea347ea-ffbf-e811-80cf-005056825b41"
+    onChange={[Function]}
+>
+    Third Party Template - Student Lets
+</T>,
+]
+`;
+
+exports[`<SendCorrespondenceCompositions /> should show the preview template button if the template is set in the state 1`] = `
+<Styled(WithTheme(Button))
+  data-bdd="sendCorrespondence-previewLink"
+  isText={true}
+  onClick={[Function]}
+>
+  Preview Third Party Template
+</Styled(WithTheme(Button))>
+`;

@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DraftCorrespondencePreviewDocuments /> should call forcePdfDownload with the correct content when document encoding type is pdf 1`] = `
+Array [
+  "asdasd213123",
+]
+`;
+
+exports[`<DraftCorrespondencePreviewDocuments /> should open the PreviewTemplate with the relevant props when document encoding type is Html 1`] = `
+Array [
+  "asdasd213123",
+  Object {
+    "limitMaxWidth": true,
+    "template": <PreviewTemplate
+      content="<p>html content</p>"
+      dataBddPrefix="draftCorrespondence-template"
+      errorMessage="No template found, please contact your IT help desk"
+      label="Close"
+      onClose={[Function]}
+      type="Html"
+/>,
+  },
+]
+`;
+
+exports[`<DraftCorrespondencePreviewDocuments /> should open the PreviewTemplate with the relevant props when document encoding type is Text 1`] = `
+Array [
+  "asdasd213123",
+  Object {
+    "limitMaxWidth": true,
+    "template": <PreviewTemplate
+      content="asdsad asd"
+      dataBddPrefix="draftCorrespondence-template"
+      errorMessage="No template found, please contact your IT help desk"
+      label="Close"
+      onClose={[Function]}
+      type="text"
+/>,
+  },
+]
+`;
+
+exports[`<DraftCorrespondencePreviewDocuments /> should render a fatal document error for the particular document if errorType is set to FailedFatal 1`] = `
+<Fragment>
+  <styled.h3>
+    Generated Correspondence
+  </styled.h3>
+  <styled.p>
+    You need to view each of the following correspondence previews before proceeding.
+  </styled.p>
+  <p
+    isSmall={false}
+  />
+</Fragment>
+`;
+
+exports[`<DraftCorrespondencePreviewDocuments /> should render a retriable document error for the particular document if errorType is set to FailedRetriable 1`] = `
+<Fragment>
+  <styled.h3>
+    Generated Correspondence
+  </styled.h3>
+  <styled.p>
+    You need to view each of the following correspondence previews before proceeding.
+  </styled.p>
+  <p
+    isSmall={false}
+  />
+</Fragment>
+`;
+
+exports[`<DraftCorrespondencePreviewDocuments /> should render the page with the default props 1`] = `
+<Fragment>
+  <styled.h3>
+    Generated Correspondence
+  </styled.h3>
+  <styled.p>
+    You need to view each of the following correspondence previews before proceeding.
+  </styled.p>
+  <styled.h5>
+    recipient name
+     (
+    Post
+    )
+  </styled.h5>
+  <styled.div>
+    <Styled(WithTheme(Button))
+      data-bdd="-previewLink"
+      data-state-key="previewLink"
+      isText={true}
+      onClick={[Function]}
+    >
+      View preview
+    </Styled(WithTheme(Button))>
+  </styled.div>
+  <styled.h5>
+    recipient name
+     (
+    Sms
+    )
+  </styled.h5>
+  <styled.div>
+    <Styled(WithTheme(Button))
+      data-bdd="-previewLink"
+      data-state-key="previewLink"
+      isText={true}
+      onClick={[Function]}
+    >
+      View preview
+    </Styled(WithTheme(Button))>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`<DraftCorrespondencePreviewDocuments /> should show a Loader when generatePreviewLoading is passed in 1`] = `
+<p
+  isSmall={false}
+/>
+`;
+
+exports[`<DraftCorrespondencePreviewDocuments /> should show a fatal error if there are no docments and there is a fatal error 1`] = `
+<Fragment>
+  <styled.p>
+    Generation failed due to DCRM error. Please contact IT Service Desk
+  </styled.p>
+</Fragment>
+`;
+
+exports[`<DraftCorrespondencePreviewDocuments /> should show a retriable error if there are no docments and there is a retriable error 1`] = `
+<Fragment>
+  <styled.p>
+    Correspondence merge failed. Please retry. If the problem persists please contact IT Service Desk
+  </styled.p>
+</Fragment>
+`;

@@ -1,0 +1,274 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Payment /> renders correctly for a card payment 1`] = `
+<div>
+  <Styled(styled.h3)>
+    heading
+  </Styled(styled.h3)>
+  <f
+    addExtraTd={false}
+    addExtraTh={true}
+    data={
+      Array [
+        Array [
+          <styled.span>
+            paymentMethod
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-payment-paymentMethod"
+      >
+            RecurringCard
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            createdOn
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-payment-createdOn"
+      >
+            27/11/2018 - 11:11am
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            createdBy
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-payment-createdBy"
+      >
+            Bob
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            paymentStatus
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-payment-paymentStatus"
+      >
+            status
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            instalmentAmount
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-payment-paymentAmount"
+      >
+            £100.00
+      </span>,
+        ],
+      ]
+    }
+    data-bdd="ActivityHistoryItemTable"
+    headerData={null}
+    striped={true}
+    tdWrap={true}
+    topAlign={true}
+  />
+</div>
+`;
+
+exports[`<Payment /> renders correctly for a direct debit 1`] = `
+<div>
+  <Styled(styled.h3)>
+    heading
+  </Styled(styled.h3)>
+  <f
+    addExtraTd={false}
+    addExtraTh={true}
+    data={
+      Array [
+        Array [
+          <styled.span>
+            paymentMethod
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-payment-paymentMethod"
+      >
+            DirectDebit
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            createdOn
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-payment-createdOn"
+      >
+            27/11/2018 - 11:11am
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            createdBy
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-payment-createdBy"
+      >
+            Bob
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            paymentStatus
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-payment-paymentStatus"
+      >
+            status
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            instalmentAmount
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-payment-paymentAmount"
+      >
+            £100.00
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            paymentFrequency
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-payment-paymentFrequency"
+      >
+            Fortnightly
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            firstPayment
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-payment-dateOfFirstPayment"
+      >
+            11/12/2018 - 12:00am
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            endDate
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-payment-paymentEndDate"
+      >
+            20/12/2018 - 12:00am
+      </span>,
+        ],
+      ]
+    }
+    data-bdd="ActivityHistoryItemTable"
+    headerData={null}
+    striped={true}
+    tdWrap={true}
+    topAlign={true}
+  />
+</div>
+`;
+
+exports[`<Payment /> renders correctly for a recurring payment 1`] = `
+<div>
+  <Styled(styled.h3)>
+    heading
+  </Styled(styled.h3)>
+  <f
+    addExtraTd={false}
+    addExtraTh={true}
+    data={
+      Array [
+        Array [
+          <styled.span>
+            paymentMethod
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-payment-paymentMethod"
+      >
+            RecurringCard
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            createdOn
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-payment-createdOn"
+      >
+            27/11/2018 - 11:11am
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            createdBy
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-payment-createdBy"
+      >
+            Bob
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            paymentStatus
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-payment-paymentStatus"
+      >
+            status
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            instalmentAmount
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-payment-paymentAmount"
+      >
+            £100.00
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            paymentFrequency
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-payment-paymentFrequency"
+      >
+            HalfYearly
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            firstPayment
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-payment-dateOfFirstPayment"
+      >
+            11/12/2018 - 12:00am
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            endDate
+      </styled.span>,
+          <span
+            data-bdd="ActivityHistoryItem-payment-paymentEndDate"
+      >
+            20/12/2018 - 12:00am
+      </span>,
+        ],
+      ]
+    }
+    data-bdd="ActivityHistoryItemTable"
+    headerData={null}
+    striped={true}
+    tdWrap={true}
+    topAlign={true}
+  />
+</div>
+`;

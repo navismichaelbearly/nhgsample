@@ -1,0 +1,257 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Interaction /> renders correctly 1`] = `
+<div>
+  <Styled(styled.h3)>
+    Type
+  </Styled(styled.h3)>
+  <f
+    addExtraTd={false}
+    addExtraTh={true}
+    data={
+      Array [
+        Array [
+          <styled.span>
+            Interaction with
+      </styled.span>,
+          <styled.span
+            data-bdd="ActivityHistoryItem-interaction-with"
+      >
+            Jim Bob (Outbound)
+      </styled.span>,
+        ],
+        Array [
+          <styled.span>
+            Date/time of interaction
+      </styled.span>,
+          <styled.span
+            data-bdd="ActivityHistoryItem-interaction-date"
+      >
+            10/08/2018 - 8:52pm
+      </styled.span>,
+        ],
+        Array [
+          <styled.span>
+            2018-08-12T20:52:35+00:00
+      </styled.span>,
+          <styled.span
+            data-bdd="ActivityHistoryItem-interaction-created"
+      >
+            10/08/2018 - 8:52pm
+      </styled.span>,
+        ],
+        Array [
+          <styled.span>
+            Last modified
+      </styled.span>,
+          <styled.span
+            data-bdd="ActivityHistoryItem-interaction-modified"
+      >
+            10/08/2018 - 8:52pm
+      </styled.span>,
+        ],
+        Array [
+          <styled.span>
+            Raised by
+      </styled.span>,
+          <styled.span
+            data-bdd="ActivityHistoryItem-interaction-rasiedBy"
+      >
+            Joe Bloggs
+      </styled.span>,
+        ],
+      ]
+    }
+    data-bdd="ActivityHistoryItemTable"
+    headerData={null}
+    striped={true}
+    tdWrap={true}
+    topAlign={true}
+  />
+  <styled.div>
+    <styled.span>
+      Description
+    </styled.span>
+    <br />
+    <styled.span
+      data-bdd="ActivityHistoryItem-interaction-description"
+    >
+      A description
+    </styled.span>
+  </styled.div>
+</div>
+`;
+
+exports[`<Interaction /> renders correctly with an HTML description 1`] = `
+<div>
+  <Styled(styled.h3)>
+    Type
+  </Styled(styled.h3)>
+  <f
+    addExtraTd={false}
+    addExtraTh={true}
+    data={
+      Array [
+        Array [
+          <styled.span>
+            Interaction with
+      </styled.span>,
+          <styled.span
+            data-bdd="ActivityHistoryItem-interaction-with"
+      >
+            Jim Bob (Outbound)
+      </styled.span>,
+        ],
+        Array [
+          <styled.span>
+            Date/time of interaction
+      </styled.span>,
+          <styled.span
+            data-bdd="ActivityHistoryItem-interaction-date"
+      >
+            10/08/2018 - 8:52pm
+      </styled.span>,
+        ],
+        Array [
+          <styled.span>
+            2018-08-12T20:52:35+00:00
+      </styled.span>,
+          <styled.span
+            data-bdd="ActivityHistoryItem-interaction-created"
+      >
+            10/08/2018 - 8:52pm
+      </styled.span>,
+        ],
+        Array [
+          <styled.span>
+            Last modified
+      </styled.span>,
+          <styled.span
+            data-bdd="ActivityHistoryItem-interaction-modified"
+      >
+            10/08/2018 - 8:52pm
+      </styled.span>,
+        ],
+        Array [
+          <styled.span>
+            Raised by
+      </styled.span>,
+          <styled.span
+            data-bdd="ActivityHistoryItem-interaction-rasiedBy"
+      >
+            Joe Bloggs
+      </styled.span>,
+        ],
+      ]
+    }
+    data-bdd="ActivityHistoryItemTable"
+    headerData={null}
+    striped={true}
+    tdWrap={true}
+    topAlign={true}
+  />
+  <styled.div>
+    <styled.span>
+      Description
+    </styled.span>
+    <br />
+    <styled.span
+      data-bdd="ActivityHistoryItem-interaction-description"
+    >
+      <p
+        key="0"
+      >
+        I am 
+        <a
+          href="#"
+          key="1"
+        >
+          HTML
+        </a>
+      </p>
+    </styled.span>
+  </styled.div>
+</div>
+`;
+
+exports[`<Interaction /> renders correctly with incoming true 1`] = `
+<div>
+  <Styled(styled.h3)>
+    Type
+  </Styled(styled.h3)>
+  <f
+    addExtraTd={false}
+    addExtraTh={true}
+    data={
+      Array [
+        Array [
+          <styled.span>
+            Interaction with
+      </styled.span>,
+          <styled.span
+            data-bdd="ActivityHistoryItem-interaction-with"
+      >
+            Fred Bloggs (Inbound)
+      </styled.span>,
+        ],
+        Array [
+          <styled.span>
+            Date/time of interaction
+      </styled.span>,
+          <styled.span
+            data-bdd="ActivityHistoryItem-interaction-date"
+      >
+            10/08/2018 - 8:52pm
+      </styled.span>,
+        ],
+        Array [
+          <styled.span>
+            2018-08-12T20:52:35+00:00
+      </styled.span>,
+          <styled.span
+            data-bdd="ActivityHistoryItem-interaction-created"
+      >
+            10/08/2018 - 8:52pm
+      </styled.span>,
+        ],
+        Array [
+          <styled.span>
+            Last modified
+      </styled.span>,
+          <styled.span
+            data-bdd="ActivityHistoryItem-interaction-modified"
+      >
+            10/08/2018 - 8:52pm
+      </styled.span>,
+        ],
+        Array [
+          <styled.span>
+            Raised by
+      </styled.span>,
+          <styled.span
+            data-bdd="ActivityHistoryItem-interaction-rasiedBy"
+      >
+            Joe Bloggs
+      </styled.span>,
+        ],
+      ]
+    }
+    data-bdd="ActivityHistoryItemTable"
+    headerData={null}
+    striped={true}
+    tdWrap={true}
+    topAlign={true}
+  />
+  <styled.div>
+    <styled.span>
+      Description
+    </styled.span>
+    <br />
+    <styled.span
+      data-bdd="ActivityHistoryItem-interaction-description"
+    >
+      A description
+    </styled.span>
+  </styled.div>
+</div>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PreviewTemplate components should render <AttachmentsWrapper /> correctly 1`] = `
+.c0 {
+  margin-bottom: 30px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`PreviewTemplate components should render <LabelWrapper /> correctly 1`] = `
+.c0 {
+  white-space: nowrap;
+}
+
+<span
+  className="c0"
+/>
+`;

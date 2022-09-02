@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddTask /> should render the page 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <Styled(styled.div)>
+      <Styled(styled.div)>
+        <withRouter(Connect(PropertyInformationComposition)) />
+      </Styled(styled.div)>
+      <styled.div>
+        <AddTaskForm
+          addTask={
+            Object {
+              "addTask": "Add Task",
+              "addTaskButton": "Add Task Button",
+              "assignToMeLabel": "Assign to me label",
+              "backButton": "Back Button",
+              "dateErrorText": "Date error text",
+              "dateLabel": "Date Title:",
+              "descriptionErrorText": "Description error text",
+              "descriptionLabel": "Description Title:",
+              "submitButton": "Submit",
+              "titleErrorText": "Title error text",
+              "titleLabel": "Task Title:",
+              "userPickerLabel": "User Picker label",
+              "userPickerPlaceholder": "User Picker Placeholder",
+            }
+          }
+          arrearsId="ARREARS_ID"
+          cancelText="Cancel Text"
+          clearUserSearch={[Function]}
+          error={false}
+          errorMessage="This is the error message"
+          housingOfficerSearchResults={Array []}
+          loading={false}
+          loggedInUserId="LOGGEDIN_USER_ID"
+          onBack={[Function]}
+          onCancel={[Function]}
+          onDisplayFormError={[Function]}
+          onSearch={[Function]}
+          onSubmit={[Function]}
+          onUnmount={[Function]}
+          removeNotification={[Function]}
+          updatePageHeader={[Function]}
+          userFullName="USER_FULL_NAME"
+          userId="CURRENT_USER_ID"
+        />
+      </styled.div>
+    </Styled(styled.div)>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<AddTask /> should render the page with visible error 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-9"
+  >
+    <Styled(styled.div)>
+      <Styled(styled.div)>
+        <withRouter(Connect(PropertyInformationComposition)) />
+      </Styled(styled.div)>
+      <styled.div>
+        <styled.div
+          data-bdd="AddNote-error"
+        >
+          <t
+            description="This is the error message"
+            hideCloseButton={true}
+            icon="warning"
+            onCloseNotification={[Function]}
+            show={true}
+          />
+        </styled.div>
+        <AddTaskForm
+          addTask={
+            Object {
+              "addTask": "Add Task",
+              "addTaskButton": "Add Task Button",
+              "assignToMeLabel": "Assign to me label",
+              "backButton": "Back Button",
+              "dateErrorText": "Date error text",
+              "dateLabel": "Date Title:",
+              "descriptionErrorText": "Description error text",
+              "descriptionLabel": "Description Title:",
+              "submitButton": "Submit",
+              "titleErrorText": "Title error text",
+              "titleLabel": "Task Title:",
+              "userPickerLabel": "User Picker label",
+              "userPickerPlaceholder": "User Picker Placeholder",
+            }
+          }
+          arrearsId="ARREARS_ID"
+          cancelText="Cancel Text"
+          clearUserSearch={[Function]}
+          error={true}
+          errorMessage="This is the error message"
+          housingOfficerSearchResults={Array []}
+          loading={false}
+          loggedInUserId="LOGGEDIN_USER_ID"
+          onBack={[Function]}
+          onCancel={[Function]}
+          onDisplayFormError={[Function]}
+          onSearch={[Function]}
+          onSubmit={[Function]}
+          onUnmount={[Function]}
+          removeNotification={[Function]}
+          updatePageHeader={[Function]}
+          userFullName="USER_FULL_NAME"
+          userId="CURRENT_USER_ID"
+        />
+      </styled.div>
+    </Styled(styled.div)>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;

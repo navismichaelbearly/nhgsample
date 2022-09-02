@@ -1,0 +1,1231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ArrearsDetails /> renders correctly with minimal props 1`] = `
+<styled.div>
+  <Styled(styled.h3)>
+    Arrears details
+  </Styled(styled.h3)>
+  <f
+    addExtraTd={false}
+    addExtraTh={false}
+    data={
+      Array [
+        Array [
+          <styled.span>
+            Patch owner
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-patchOwner"
+      >
+            Fred
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Arrears status
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-status"
+      >
+            Active
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Workwise reference
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-workwiseReference"
+      >
+            12345
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Length of arrears
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-lengthOfArrears"
+      >
+            5 days (case started on 15/07/2018)
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Payment reference number
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-paymentReferenceNumber"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Collection rate (5W)
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-paymentCollectionRate5w"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Collection rate (4M)
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-paymentCollectionRate4m"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Gross rent
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-grossPayment"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Debit frequency
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-paymentReferenceNumber"
+      />,
+        ],
+        Array [
+          <styled.span />,
+          <span
+            data-bdd="ArrearsDetails-arrearsCurrentBalance"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span
+            isText={true}
+            to="/arrears-details/undefined/payment-plan/create"
+      >
+            Payment plan
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-paymentPlan"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span
+            isText={true}
+            to="/arrears-details/undefined/pause-arrears-case/create"
+      >
+            Pauses
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-pauses"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span
+            isText={true}
+            to="/arrears-details/undefined/pause-arrears-case/create"
+      >
+            Draft pauses
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-draftPauses"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span />,
+          <span
+            data-bdd="ArrearsDetails-linkedCases"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span
+            isText={true}
+            to="/arrears-details/undefined/welfare-reform-details"
+      >
+            Welfare reform
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetail-universal"
+      >
+            <Unknown>
+                  <styled.span>
+                        Universal credit:
+                  </styled.span>
+                   
+                  
+                  <br />
+                  <styled.span>
+                        Benefit cap:
+                  </styled.span>
+                   
+                  
+                  <br />
+                  <styled.span>
+                        Bedroom tax:
+                  </styled.span>
+                   
+                  
+                  <br />
+            </Unknown>
+      </span>,
+        ],
+      ]
+    }
+    data-bdd="ArrearsDetailsTable"
+    headerData={null}
+    striped={true}
+    tdWrap={true}
+    topAlign={true}
+  />
+</styled.div>
+`;
+
+exports[`<ArrearsDetails /> renders correctly with pauseSummary 1`] = `
+<styled.div>
+  <Styled(styled.h3)>
+    Arrears details
+  </Styled(styled.h3)>
+  <f
+    addExtraTd={false}
+    addExtraTh={false}
+    data={
+      Array [
+        Array [
+          <styled.span>
+            Patch owner
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-patchOwner"
+      >
+            Fred
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Arrears status
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-status"
+      >
+            Active
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Workwise reference
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-workwiseReference"
+      >
+            12345
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Length of arrears
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-lengthOfArrears"
+      >
+            5 days (case started on 15/07/2018)
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Payment reference number
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-paymentReferenceNumber"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Collection rate (5W)
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-paymentCollectionRate5w"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Collection rate (4M)
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-paymentCollectionRate4m"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Gross rent
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-grossPayment"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Debit frequency
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-paymentReferenceNumber"
+      />,
+        ],
+        Array [
+          <styled.span />,
+          <span
+            data-bdd="ArrearsDetails-arrearsCurrentBalance"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span
+            isText={true}
+            to="/arrears-details/undefined/payment-plan/create"
+      >
+            Payment plan
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-paymentPlan"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <Styled(WithTheme(Button))
+            isText={true}
+            to="/arrears-details/undefined/pause-arrears-case/create"
+      >
+            Pauses
+      </Styled(WithTheme(Button))>,
+          <span
+            data-bdd="ArrearsDetails-pauses"
+      >
+            <Unknown>
+                  Paused from 15/07/2018 to 23/04/2017
+            </Unknown>
+      </span>,
+        ],
+        Array [
+          <styled.span
+            isText={true}
+            to="/arrears-details/undefined/pause-arrears-case/create"
+      >
+            Draft pauses
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-draftPauses"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span />,
+          <span
+            data-bdd="ArrearsDetails-linkedCases"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span
+            isText={true}
+            to="/arrears-details/undefined/welfare-reform-details"
+      >
+            Welfare reform
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetail-universal"
+      >
+            <Unknown>
+                  <styled.span>
+                        Universal credit:
+                  </styled.span>
+                   
+                  
+                  <br />
+                  <styled.span>
+                        Benefit cap:
+                  </styled.span>
+                   
+                  
+                  <br />
+                  <styled.span>
+                        Bedroom tax:
+                  </styled.span>
+                   
+                  
+                  <br />
+            </Unknown>
+      </span>,
+        ],
+      ]
+    }
+    data-bdd="ArrearsDetailsTable"
+    headerData={null}
+    striped={true}
+    tdWrap={true}
+    topAlign={true}
+  />
+</styled.div>
+`;
+
+exports[`<ArrearsDetails /> renders correctly with paymentPlan 1`] = `
+<styled.div>
+  <Styled(styled.h3)>
+    Arrears details
+  </Styled(styled.h3)>
+  <f
+    addExtraTd={false}
+    addExtraTh={false}
+    data={
+      Array [
+        Array [
+          <styled.span>
+            Patch owner
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-patchOwner"
+      >
+            Fred
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Arrears status
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-status"
+      >
+            Active
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Workwise reference
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-workwiseReference"
+      >
+            12345
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Length of arrears
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-lengthOfArrears"
+      >
+            5 days (case started on 15/07/2018)
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Payment reference number
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-paymentReferenceNumber"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Collection rate (5W)
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-paymentCollectionRate5w"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Collection rate (4M)
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-paymentCollectionRate4m"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Gross rent
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-grossPayment"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Debit frequency
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-paymentReferenceNumber"
+      />,
+        ],
+        Array [
+          <styled.span />,
+          <span
+            data-bdd="ArrearsDetails-arrearsCurrentBalance"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <Styled(WithTheme(Button))
+            isText={true}
+            to="/arrears-details/undefined/payment-plan/create"
+      >
+            Payment plan
+      </Styled(WithTheme(Button))>,
+          <span
+            data-bdd="ArrearsDetails-paymentPlan"
+      >
+            <Unknown>
+                  <styled.span>
+                        Start date:
+                  </styled.span>
+                   
+                  15/07/2018
+                  <br />
+                  <styled.span>
+                        End date:
+                  </styled.span>
+                   
+                  23/04/2017
+                  <br />
+                  <styled.span />
+                   
+                  £50.00 Every 2 Week(s)
+                  <br />
+                  <styled.span>
+                        Type:
+                  </styled.span>
+                   
+                  Foo
+            </Unknown>
+      </span>,
+        ],
+        Array [
+          <styled.span
+            isText={true}
+            to="/arrears-details/undefined/pause-arrears-case/create"
+      >
+            Pauses
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-pauses"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span
+            isText={true}
+            to="/arrears-details/undefined/pause-arrears-case/create"
+      >
+            Draft pauses
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-draftPauses"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span />,
+          <span
+            data-bdd="ArrearsDetails-linkedCases"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span
+            isText={true}
+            to="/arrears-details/undefined/welfare-reform-details"
+      >
+            Welfare reform
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetail-universal"
+      >
+            <Unknown>
+                  <styled.span>
+                        Universal credit:
+                  </styled.span>
+                   
+                  
+                  <br />
+                  <styled.span>
+                        Benefit cap:
+                  </styled.span>
+                   
+                  
+                  <br />
+                  <styled.span>
+                        Bedroom tax:
+                  </styled.span>
+                   
+                  
+                  <br />
+            </Unknown>
+      </span>,
+        ],
+      ]
+    }
+    data-bdd="ArrearsDetailsTable"
+    headerData={null}
+    striped={true}
+    tdWrap={true}
+    topAlign={true}
+  />
+</styled.div>
+`;
+
+exports[`<ArrearsDetails /> renders correctly with referralSummaries 1`] = `
+<styled.div>
+  <Styled(styled.h3)>
+    Arrears details
+  </Styled(styled.h3)>
+  <f
+    addExtraTd={false}
+    addExtraTh={false}
+    data={
+      Array [
+        Array [
+          <styled.span>
+            Patch owner
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-patchOwner"
+      >
+            Fred
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Arrears status
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-status"
+      >
+            Active
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Workwise reference
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-workwiseReference"
+      >
+            12345
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Length of arrears
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-lengthOfArrears"
+      >
+            5 days (case started on 15/07/2018)
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Payment reference number
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-paymentReferenceNumber"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Collection rate (5W)
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-paymentCollectionRate5w"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Collection rate (4M)
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-paymentCollectionRate4m"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Gross rent
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-grossPayment"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Debit frequency
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-paymentReferenceNumber"
+      />,
+        ],
+        Array [
+          <styled.span />,
+          <span
+            data-bdd="ArrearsDetails-arrearsCurrentBalance"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span
+            isText={true}
+            to="/arrears-details/undefined/payment-plan/create"
+      >
+            Payment plan
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-paymentPlan"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span
+            isText={true}
+            to="/arrears-details/undefined/pause-arrears-case/create"
+      >
+            Pauses
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-pauses"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span
+            isText={true}
+            to="/arrears-details/undefined/pause-arrears-case/create"
+      >
+            Draft pauses
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-draftPauses"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span />,
+          <span
+            data-bdd="ArrearsDetails-linkedCases"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span
+            isText={true}
+            to="/arrears-details/undefined/welfare-reform-details"
+      >
+            Welfare reform
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetail-universal"
+      >
+            <Unknown>
+                  <styled.span>
+                        Universal credit:
+                  </styled.span>
+                   
+                  
+                  <br />
+                  <styled.span>
+                        Benefit cap:
+                  </styled.span>
+                   
+                  
+                  <br />
+                  <styled.span>
+                        Bedroom tax:
+                  </styled.span>
+                   
+                  
+                  <br />
+            </Unknown>
+      </span>,
+        ],
+      ]
+    }
+    data-bdd="ArrearsDetailsTable"
+    headerData={null}
+    striped={true}
+    tdWrap={true}
+    topAlign={true}
+  />
+</styled.div>
+`;
+
+exports[`<ArrearsDetails /> renders correctly with welfareReform 1`] = `
+<styled.div>
+  <Styled(styled.h3)>
+    Arrears details
+  </Styled(styled.h3)>
+  <f
+    addExtraTd={false}
+    addExtraTh={false}
+    data={
+      Array [
+        Array [
+          <styled.span>
+            Patch owner
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-patchOwner"
+      >
+            Fred
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Arrears status
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-status"
+      >
+            Active
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Workwise reference
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-workwiseReference"
+      >
+            12345
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Length of arrears
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-lengthOfArrears"
+      >
+            5 days (case started on 15/07/2018)
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Payment reference number
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-paymentReferenceNumber"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Collection rate (5W)
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-paymentCollectionRate5w"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Collection rate (4M)
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-paymentCollectionRate4m"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Gross rent
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-grossPayment"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Debit frequency
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-paymentReferenceNumber"
+      />,
+        ],
+        Array [
+          <styled.span />,
+          <span
+            data-bdd="ArrearsDetails-arrearsCurrentBalance"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span
+            isText={true}
+            to="/arrears-details/undefined/payment-plan/create"
+      >
+            Payment plan
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-paymentPlan"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span
+            isText={true}
+            to="/arrears-details/undefined/pause-arrears-case/create"
+      >
+            Pauses
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-pauses"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span
+            isText={true}
+            to="/arrears-details/undefined/pause-arrears-case/create"
+      >
+            Draft pauses
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-draftPauses"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span />,
+          <span
+            data-bdd="ArrearsDetails-linkedCases"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <Styled(WithTheme(Button))
+            isText={true}
+            to="/arrears-details/undefined/welfare-reform-details"
+      >
+            Welfare reform
+      </Styled(WithTheme(Button))>,
+          <span
+            data-bdd="ArrearsDetail-universal"
+      >
+            <Unknown>
+                  <styled.span>
+                        Universal credit:
+                  </styled.span>
+                   
+                  Yes
+                  <br />
+                  <Unknown>
+                        <Unknown>
+                              <styled.span>
+                                    Claim start date:
+                              </styled.span>
+                               
+                              15/07/2018
+                              <br />
+                        </Unknown>
+                        <Unknown>
+                              <styled.span>
+                                    Payment day:
+                              </styled.span>
+                               
+                              15
+                              <br />
+                        </Unknown>
+                        
+                        
+                  </Unknown>
+                  <styled.span>
+                        Benefit cap:
+                  </styled.span>
+                   
+                  Yes
+                  <br />
+                  <styled.span>
+                        Bedroom tax:
+                  </styled.span>
+                   
+                  Yes
+                  <br />
+            </Unknown>
+      </span>,
+        ],
+      ]
+    }
+    data-bdd="ArrearsDetailsTable"
+    headerData={null}
+    striped={true}
+    tdWrap={true}
+    topAlign={true}
+  />
+</styled.div>
+`;
+
+exports[`<ArrearsDetails /> rent details renders correctly with rent details 1`] = `
+<styled.div>
+  <Styled(styled.h3)>
+    Arrears details
+  </Styled(styled.h3)>
+  <f
+    addExtraTd={false}
+    addExtraTh={false}
+    data={
+      Array [
+        Array [
+          <styled.span>
+            Patch owner
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-patchOwner"
+      >
+            Fred
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Arrears status
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-status"
+      >
+            Active
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Workwise reference
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-workwiseReference"
+      >
+            12345
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Length of arrears
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-lengthOfArrears"
+      >
+            5 days (case started on 15/07/2018)
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Payment reference number
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-paymentReferenceNumber"
+      >
+            12039
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Collection rate (5W)
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-paymentCollectionRate5w"
+      >
+            11%
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Collection rate (4M)
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-paymentCollectionRate4m"
+      >
+            10%
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Gross rent
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-grossPayment"
+      >
+            £123.00
+      </span>,
+        ],
+        Array [
+          <styled.span />,
+          <span
+            data-bdd="ArrearsDetails-charge-undefined"
+      >
+            £5.00
+      </span>,
+        ],
+        Array [
+          <styled.span>
+            Debit frequency
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-paymentReferenceNumber"
+      >
+            Weekly
+      </span>,
+        ],
+        Array [
+          <styled.span />,
+          <span
+            data-bdd="ArrearsDetails-arrearsCurrentBalance"
+      >
+            -£1,230.00
+      </span>,
+        ],
+        Array [
+          <styled.span
+            isText={true}
+            to="/arrears-details/undefined/payment-plan/create"
+      >
+            Payment plan
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-paymentPlan"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span
+            isText={true}
+            to="/arrears-details/undefined/pause-arrears-case/create"
+      >
+            Pauses
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-pauses"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span
+            isText={true}
+            to="/arrears-details/undefined/pause-arrears-case/create"
+      >
+            Draft pauses
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetails-draftPauses"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span />,
+          <span
+            data-bdd="ArrearsDetails-linkedCases"
+      >
+            None
+      </span>,
+        ],
+        Array [
+          <styled.span
+            isText={true}
+            to="/arrears-details/undefined/welfare-reform-details"
+      >
+            Welfare reform
+      </styled.span>,
+          <span
+            data-bdd="ArrearsDetail-universal"
+      >
+            <Unknown>
+                  <styled.span>
+                        Universal credit:
+                  </styled.span>
+                   
+                  
+                  <br />
+                  <styled.span>
+                        Benefit cap:
+                  </styled.span>
+                   
+                  
+                  <br />
+                  <styled.span>
+                        Bedroom tax:
+                  </styled.span>
+                   
+                  
+                  <br />
+            </Unknown>
+      </span>,
+        ],
+      ]
+    }
+    data-bdd="ArrearsDetailsTable"
+    headerData={null}
+    striped={true}
+    tdWrap={true}
+    topAlign={true}
+  />
+</styled.div>
+`;

@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskReassignModal connector mapStateToProps generates the correct props 1`] = `
+Object {
+  "errorText": Object {
+    "assignee": "Please select an assignee",
+    "formError": "There has been an error processing this request. If the issue persists, contact your IT team",
+    "reason": "Please enter a reason",
+  },
+  "isLoading": false,
+  "labels": Object {
+    "cancelButton": "Cancel",
+    "cancelTaskAction": "Don't Cancel",
+    "reason": "Reason",
+    "userPickerLabel": "Reassign to",
+    "userPickerPlaceholder": "Enter name of housing officer",
+  },
+  "notification": Object {
+    "newOwner": "New owner: {ownerName}",
+    "taskCancel": "Task cancelled",
+    "taskComplete": "Task complete",
+    "taskReassigned": "Task reassigned",
+  },
+  "searchResults": Array [
+    Object {
+      "domainName": "NHILL\\\\aoflaherty",
+      "emailAddress": "Aisling.OFlaherty@nhhg.org.uk",
+      "fullname": "Aisling O'Flaherty",
+      "homeTelephoneNumber": "02038150210",
+      "id": "01973660-bd18-e811-80c8-005056825b41",
+      "mobileTelephoneNumber": null,
+      "patchName": "CA814",
+      "team": Object {
+        "id": "17104610-f317-e811-80c8-005056825b41",
+        "name": "PRH",
+      },
+      "title": "Housing Officer",
+      "username": "aoflaherty",
+    },
+    Object {
+      "domainName": "NHILL\\\\afraserbailey",
+      "emailAddress": "Akima.F.Bailey@nhhg.org.uk",
+      "fullname": "Akima Fraser Bailey",
+      "homeTelephoneNumber": "02038150530",
+      "id": "03973660-bd18-e811-80c8-005056825b41",
+      "mobileTelephoneNumber": null,
+      "patchName": null,
+      "team": Object {
+        "id": "17104610-f317-e811-80c8-005056825b41",
+        "name": "PRH",
+      },
+      "title": "Housing Operations Manager",
+      "username": "afraserbailey",
+    },
+    Object {
+      "domainName": "NHILL\\\\apettifor",
+      "emailAddress": "Ayesha.Pettifor@nhhg.org.uk",
+      "fullname": "Ayesha Pettifor",
+      "homeTelephoneNumber": "02038150804",
+      "id": "37973660-bd18-e811-80c8-005056825b41",
+      "mobileTelephoneNumber": null,
+      "patchName": null,
+      "team": Object {
+        "id": "38104610-f317-e811-80c8-005056825b41",
+        "name": "Business Improvement Directorate",
+      },
+      "title": "Team Co-ordinator",
+      "username": "apettifor",
+    },
+  ],
+  "serverError": "",
+  "taskReassign": "Reassign task",
+  "user": Object {
+    "roles": Array [],
+  },
+}
+`;
+
+exports[`TaskReassignModal connector mapStateToProps mergeProps generates the correct props 1`] = `
+Object {
+  "errorText": Object {
+    "assignee": "Please select an assignee",
+    "formError": "There has been an error processing this request. If the issue persists, contact your IT team",
+    "reason": "Please enter a reason",
+  },
+  "isLoading": false,
+  "labels": Object {
+    "cancelButton": "Cancel",
+    "cancelTaskAction": "Don't Cancel",
+    "reason": "Reason",
+    "userPickerLabel": "Reassign to",
+    "userPickerPlaceholder": "Enter name of housing officer",
+  },
+  "onCancel": [Function],
+  "onSubmit": [Function],
+  "onUnmount": [Function],
+  "onUserSearch": [Function],
+  "searchResults": Array [
+    Object {
+      "domainName": "NHILL\\\\aoflaherty",
+      "emailAddress": "Aisling.OFlaherty@nhhg.org.uk",
+      "fullname": "Aisling O'Flaherty",
+      "homeTelephoneNumber": "02038150210",
+      "id": "01973660-bd18-e811-80c8-005056825b41",
+      "mobileTelephoneNumber": null,
+      "patchName": "CA814",
+      "team": Object {
+        "id": "17104610-f317-e811-80c8-005056825b41",
+        "name": "PRH",
+      },
+      "title": "Housing Officer",
+      "username": "aoflaherty",
+    },
+    Object {
+      "domainName": "NHILL\\\\afraserbailey",
+      "emailAddress": "Akima.F.Bailey@nhhg.org.uk",
+      "fullname": "Akima Fraser Bailey",
+      "homeTelephoneNumber": "02038150530",
+      "id": "03973660-bd18-e811-80c8-005056825b41",
+      "mobileTelephoneNumber": null,
+      "patchName": null,
+      "team": Object {
+        "id": "17104610-f317-e811-80c8-005056825b41",
+        "name": "PRH",
+      },
+      "title": "Housing Operations Manager",
+      "username": "afraserbailey",
+    },
+    Object {
+      "domainName": "NHILL\\\\apettifor",
+      "emailAddress": "Ayesha.Pettifor@nhhg.org.uk",
+      "fullname": "Ayesha Pettifor",
+      "homeTelephoneNumber": "02038150804",
+      "id": "37973660-bd18-e811-80c8-005056825b41",
+      "mobileTelephoneNumber": null,
+      "patchName": null,
+      "team": Object {
+        "id": "38104610-f317-e811-80c8-005056825b41",
+        "name": "Business Improvement Directorate",
+      },
+      "title": "Team Co-ordinator",
+      "username": "apettifor",
+    },
+  ],
+  "serverError": "",
+  "taskReassign": "Reassign task",
+}
+`;
+
+exports[`TaskReassignModal connector mapStateToProps mergeProps performs the correct actions for onSubmit 1`] = `
+Object {
+  "EntityId": "arrearsId",
+  "EntityType": "Arrears",
+  "Statuses": "Open",
+  "skipFetchRoles": false,
+}
+`;
+
+exports[`TaskReassignModal connector mapStateToProps mergeProps performs the correct actions for onSubmit 2`] = `
+Object {
+  "dataBddPrefix": "reassignTask",
+  "icon": "success",
+  "lines": Array [
+    Object {
+      "text": "New owner: taskedAssignedTo",
+    },
+  ],
+  "notificationType": "confirmation",
+  "title": "Task reassigned",
+}
+`;

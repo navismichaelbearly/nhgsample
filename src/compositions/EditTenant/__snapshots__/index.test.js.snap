@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditTenantComposition /> renders correctly when loading 1`] = `
+<p
+  isSmall={false}
+/>
+`;
+
+exports[`<EditTenantComposition /> renders correctly with full props 1`] = `
+<t
+  cancelButtonText="cancelButtonText"
+  closeButtonText="closeButtonText"
+  confirmationText="confirmationText"
+  emailAddress="tenant.emailAddress"
+  emailAddressError="emailAddressError"
+  emailAddressId="editContactDetails-emailAddress"
+  emailAddressInvalid={null}
+  emailAddressIsRequired={false}
+  emailAddressLabel="emailAddressLabel"
+  errorText="There was a problem updating your details, please try again."
+  fullName="tenant.fullName"
+  fullNameLabel="fullNameLabel"
+  heading="heading"
+  onCancel={[Function]}
+  onSubmit={[Function]}
+  phoneNumber="tenant.telephoneNumber"
+  phoneNumberError="phoneNumberError"
+  phoneNumberId="editContactDetails-phoneNumber"
+  phoneNumberInvalid={null}
+  phoneNumberIsRequired={false}
+  phoneNumberLabel="phoneNumberLabel"
+  showConfirmation={false}
+  showError={false}
+  subTitle="subheading"
+  updateButtonText="updateButtonText"
+/>
+`;
+
+exports[`<EditTenantComposition /> renders correctly with no email or phone 1`] = `
+<t
+  cancelButtonText="cancelButtonText"
+  closeButtonText="closeButtonText"
+  confirmationText="confirmationText"
+  emailAddress=""
+  emailAddressError="emailAddressError"
+  emailAddressId="editContactDetails-emailAddress"
+  emailAddressInvalid={null}
+  emailAddressIsRequired={false}
+  emailAddressLabel="emailAddressLabel"
+  errorText="There was a problem updating your details, please try again."
+  fullName="tenant.fullName"
+  fullNameLabel="fullNameLabel"
+  heading="heading"
+  onCancel={[Function]}
+  onSubmit={[Function]}
+  phoneNumber=""
+  phoneNumberError="phoneNumberError"
+  phoneNumberId="editContactDetails-phoneNumber"
+  phoneNumberInvalid={null}
+  phoneNumberIsRequired={false}
+  phoneNumberLabel="phoneNumberLabel"
+  showConfirmation={false}
+  showError={false}
+  subTitle="subheading"
+  updateButtonText="updateButtonText"
+/>
+`;

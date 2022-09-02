@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MediaUploader /> should render correctly 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-12"
+  >
+    <FormWrapper
+      backButtonText={null}
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={false}
+      formError={null}
+      formName="mediaUploader"
+      handleBackClick={null}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={true}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Submit"
+    >
+      <p>
+        Hello
+        <br />
+        World
+      </p>
+      <styled.div>
+        <t
+          accept=".doc,.docx,.xls,.xlsx,.ppt,.pptx,.pdf,.txt,.jpg,.png"
+          files={Array []}
+          labelText="Some label text"
+          maxFileSize={20971520}
+          maxFiles={10}
+          multiple={true}
+          onChange={[Function]}
+          onRemove={[Function]}
+          onRetry={[Function]}
+          previewsRenderer={[Function]}
+          removeButtonLabel="Remove"
+          retryButtonLabel="Retry"
+          text="Awesome text"
+          uploadSuccessMessage="Upload successful"
+        />
+      </styled.div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<MediaUploader /> should render correctly with error 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-12"
+  >
+    <FormWrapper
+      backButtonText={null}
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={false}
+      formError={null}
+      formName="mediaUploader"
+      handleBackClick={null}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={true}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Submit"
+    >
+      <p>
+        Hello
+        <br />
+        World
+      </p>
+      <styled.div>
+        <t
+          accept=".doc,.docx,.xls,.xlsx,.ppt,.pptx,.pdf,.txt,.jpg,.png"
+          files={
+            Array [
+              Object {
+                "errorText": null,
+                "hasBeenUploaded": false,
+                "hasUploadError": false,
+                "id": "some-id",
+                "isUploading": false,
+                "src": Object {
+                  "name": "Hello",
+                },
+              },
+            ]
+          }
+          labelText="Some label text"
+          maxFileSize={20971520}
+          maxFiles={10}
+          multiple={true}
+          onChange={[Function]}
+          onRemove={[Function]}
+          onRetry={[Function]}
+          previewsRenderer={[Function]}
+          removeButtonLabel="Remove"
+          retryButtonLabel="Retry"
+          text="Awesome text"
+          uploadSuccessMessage="Upload successful"
+        />
+      </styled.div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;
+
+exports[`<MediaUploader /> should render correctly with files 1`] = `
+<withRouter(Connect(PageContentComposition))>
+  <div
+    className="col-lg-12"
+  >
+    <FormWrapper
+      backButtonText={null}
+      disableBack={false}
+      disablePropertyInformationEditMode={false}
+      disableSubmit={false}
+      formError={null}
+      formName="mediaUploader"
+      handleBackClick={null}
+      handleFormSubmit={[Function]}
+      hidePropertyInformation={true}
+      loading={false}
+      otherActions={null}
+      otherActionsLeft={null}
+      submitButtonText="Submit"
+    >
+      <p>
+        Hello
+        <br />
+        World
+      </p>
+      <styled.div>
+        <t
+          accept=".doc,.docx,.xls,.xlsx,.ppt,.pptx,.pdf,.txt,.jpg,.png"
+          files={
+            Array [
+              Object {
+                "errorText": null,
+                "hasBeenUploaded": false,
+                "hasUploadError": false,
+                "id": "some-id",
+                "isUploading": false,
+                "src": Object {
+                  "name": "Hello",
+                },
+              },
+            ]
+          }
+          labelText="Some label text"
+          maxFileSize={20971520}
+          maxFiles={10}
+          multiple={true}
+          onChange={[Function]}
+          onRemove={[Function]}
+          onRetry={[Function]}
+          previewsRenderer={[Function]}
+          removeButtonLabel="Remove"
+          retryButtonLabel="Retry"
+          text="Awesome text"
+          uploadSuccessMessage="Upload successful"
+        />
+      </styled.div>
+    </FormWrapper>
+  </div>
+</withRouter(Connect(PageContentComposition))>
+`;

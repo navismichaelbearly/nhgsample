@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TenancyTransactions /> renders correctly with full props 1`] = `
+<Fragment>
+  <Styled(styled.h3)>
+    Transaction history (12 months)
+  </Styled(styled.h3)>
+  <styled.div
+    data-bdd="transactionHistory-RENundefined"
+    key="transactionHistory-RENundefined"
+  >
+    <Styled(styled.p)>
+      RENT ACCOUNT
+    </Styled(styled.p)>
+    <d
+      dataBdd="transactionHistoryList"
+      text={
+        Object {
+          "amount": "Amount",
+          "balance": "Balance",
+          "charged": "Charged",
+          "currencySymbol": "£",
+          "description": "Description",
+          "effectiveDate": "Date",
+          "heading": "Transaction history (12 months)",
+          "paidIn": "Paid in",
+        }
+      }
+      transactions={
+        Array [
+          Object {
+            "amount": 173.59,
+            "balanceAtEffectiveDate": 1388.72,
+            "charge": "DEBIT",
+            "creditValue": 0,
+            "debitValue": 173.59,
+            "description": "Weekly Charge",
+            "effectiveDate": "2018-05-28T00:00:00",
+            "subType": "",
+            "type": "DRS",
+          },
+        ]
+      }
+    />
+  </styled.div>
+</Fragment>
+`;

@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LegalActions components should render <Highlight /> correctly 1`] = `
+<styled.span
+  theme={
+    Object {
+      "colors": Object {
+        "support": Object {
+          "two": "red",
+        },
+      },
+    }
+  }
+/>
+`;
+
+exports[`LegalActions components should render <Highlight /> correctly with isExpiring - false 1`] = `
+.c0 {
+  color: inherit;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`LegalActions components should render <Highlight /> correctly with isExpiring - true 1`] = `
+.c0 {
+  color: red;
+  font-weight: 700;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`LegalActions components should render <Label /> correctly 1`] = `
+.c0 {
+  font-weight: 700;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`LegalActions components should render <P /> correctly 1`] = `
+.c0 {
+  margin: 1rem 0;
+}
+
+<styled.p
+  className="c0"
+/>
+`;
+
+exports[`LegalActions components should render <Wrapper /> correctly 1`] = `
+.c0 {
+  margin: 1.5rem 0 1.875rem 0;
+}
+
+<div
+  className="c0"
+/>
+`;

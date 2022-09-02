@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PropertyInformation connector mapStateToProps generates the correct props 1`] = `
+Object {
+  "address": Object {
+    "city": "LONDON",
+    "line1": "246B WESTBOURNE PARK ROAD",
+    "line2": null,
+    "postcode": "W11 1EL",
+  },
+  "arrears": Array [
+    Object {
+      "bar": "baz",
+      "businessUnit": "PRH",
+      "id": "foo",
+      "legalReferralCase": Object {
+        "formName": "Friendly Form Name | legalReferralCaseFormName",
+        "lastSubmissionId": "DEF456",
+      },
+      "nospServeError": false,
+      "tenancyId": "ABC123",
+    },
+  ],
+  "heading": "Property and customer information",
+  "labels": Object {
+    "address": "Address",
+    "cancelButtonText": "Cancel",
+    "closeButtonText": "Close",
+    "coTenant": "(Co tenant)",
+    "confirmationText": "Contact details updated",
+    "editButton": "Edit contact details",
+    "emailAddress": "Email:",
+    "emailAddressLabel": "Email address",
+    "errorText": "There was a problem updating your details, please try again.",
+    "fullNameLabel": "Name",
+    "mainTenant": "(Main tenant)",
+    "notAvailable": "N/A",
+    "phoneNumberLabel": "Contact number",
+    "telephoneNumber": "Phone:",
+    "tenancyType": "Tenancy Type",
+    "updateButtonText": "Update contact details",
+  },
+  "tenancyType": "FIXED TERM TENANCY",
+  "tenants": Array [
+    Object {
+      "contactId": "ABC123",
+      "emailAddress": "joe.bloggs@test.com",
+      "firstName": "Joe",
+      "lastName": "Bloggs",
+      "mobileTelephoneNumber": "0123456789",
+      "partyIdentifier": "31928",
+    },
+    Object {
+      "contactId": "DEF456",
+      "emailAddress": "jane.doe@test.com",
+      "firstName": "Jane",
+      "isVulnerable": true,
+      "lastName": "Doe",
+      "mobileTelephoneNumber": "0987654321",
+      "partyIdentifier": "41527",
+    },
+  ],
+  "vulnerabilityFlagLabel": "Vulnerable",
+}
+`;
+
+exports[`PropertyInformation connector mapStateToProps returns tenancyType: n/a when undefined 1`] = `
+Object {
+  "address": Object {
+    "city": "LONDON",
+    "line1": "246B WESTBOURNE PARK ROAD",
+    "line2": null,
+    "postcode": "W11 1EL",
+  },
+  "arrears": Array [
+    Object {
+      "bar": "baz",
+      "businessUnit": "PRH",
+      "id": "foo",
+      "legalReferralCase": Object {
+        "formName": "Friendly Form Name | legalReferralCaseFormName",
+        "lastSubmissionId": "DEF456",
+      },
+      "nospServeError": false,
+      "tenancyId": "ABC123",
+    },
+  ],
+  "heading": "Property and customer information",
+  "labels": Object {
+    "address": "Address",
+    "cancelButtonText": "Cancel",
+    "closeButtonText": "Close",
+    "coTenant": "(Co tenant)",
+    "confirmationText": "Contact details updated",
+    "editButton": "Edit contact details",
+    "emailAddress": "Email:",
+    "emailAddressLabel": "Email address",
+    "errorText": "There was a problem updating your details, please try again.",
+    "fullNameLabel": "Name",
+    "mainTenant": "(Main tenant)",
+    "notAvailable": "N/A",
+    "phoneNumberLabel": "Contact number",
+    "telephoneNumber": "Phone:",
+    "tenancyType": "Tenancy Type",
+    "updateButtonText": "Update contact details",
+  },
+  "tenancyType": "N/A",
+  "tenants": Array [
+    Object {
+      "contactId": "ABC123",
+      "emailAddress": "joe.bloggs@test.com",
+      "firstName": "Joe",
+      "lastName": "Bloggs",
+      "mobileTelephoneNumber": "0123456789",
+      "partyIdentifier": "31928",
+    },
+    Object {
+      "contactId": "DEF456",
+      "emailAddress": "jane.doe@test.com",
+      "firstName": "Jane",
+      "isVulnerable": true,
+      "lastName": "Doe",
+      "mobileTelephoneNumber": "0987654321",
+      "partyIdentifier": "41527",
+    },
+  ],
+  "vulnerabilityFlagLabel": "Vulnerable",
+}
+`;
+
+exports[`PropertyInformation connector mergeProps generates the correct props 1`] = `
+Object {
+  "address": Object {
+    "city": "LONDON",
+    "line1": "246B WESTBOURNE PARK ROAD",
+    "line2": null,
+    "postcode": "W11 1EL",
+  },
+  "bar": "baz",
+  "getTenantDetails": [Function],
+  "heading": "Property and customer information",
+  "labels": Object {
+    "address": "Address",
+    "cancelButtonText": "Cancel",
+    "closeButtonText": "Close",
+    "coTenant": "(Co tenant)",
+    "confirmationText": "Contact details updated",
+    "editButton": "Edit contact details",
+    "emailAddress": "Email:",
+    "emailAddressLabel": "Email address",
+    "errorText": "There was a problem updating your details, please try again.",
+    "fullNameLabel": "Name",
+    "mainTenant": "(Main tenant)",
+    "notAvailable": "N/A",
+    "phoneNumberLabel": "Contact number",
+    "telephoneNumber": "Phone:",
+    "tenancyType": "Tenancy Type",
+    "updateButtonText": "Update contact details",
+  },
+  "match": Object {
+    "params": Object {
+      "arrearsId": "foo",
+    },
+  },
+  "onEditClick": [Function],
+  "tenancyType": "FIXED TERM TENANCY",
+  "tenants": Array [
+    Object {
+      "editable": true,
+      "emailAddress": "joe.bloggs@test.com",
+      "flags": null,
+      "fullName": "Joe Bloggs",
+      "href": "#{Dashboards.Core.EmployeeBaseURL}/customer/ABC123",
+      "id": "ABC123",
+      "telephoneNumber": "0123456789",
+    },
+    Object {
+      "editable": true,
+      "emailAddress": "jane.doe@test.com",
+      "flags": null,
+      "fullName": "Jane Doe",
+      "href": "#{Dashboards.Core.EmployeeBaseURL}/customer/DEF456",
+      "id": "DEF456",
+      "telephoneNumber": "0987654321",
+    },
+  ],
+  "theme": Object {
+    "colors": Object {
+      "support": Object {
+        "two": "red",
+      },
+    },
+  },
+}
+`;
+
+exports[`PropertyInformation connector mergeProps performs the correct actions for onEditClick 1`] = `
+<EditTenant
+  tenant={
+    Object {
+      "foo": "bar",
+    }
+  }
+/>
+`;

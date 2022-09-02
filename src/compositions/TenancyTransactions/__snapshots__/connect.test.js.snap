@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TenancyTransactions connect mapStateToProps generates the correct props 1`] = `
+Object {
+  "customerAccounts": Array [
+    Object {
+      "currentBalance": -2442.36,
+      "paymentReference": "1234567",
+      "typeCode": "REN",
+      "typeName": "RENT ACCOUNT",
+    },
+    Object {
+      "currentBalance": 53.4,
+      "paymentReference": "7654321",
+      "typeCode": "SUN",
+      "typeName": "SUNDRY ACCOUNT",
+    },
+  ],
+  "partyIdentifier": "31928",
+  "transactionHistoryText": Object {
+    "amount": "Amount",
+    "balance": "Balance",
+    "charged": "Charged",
+    "currencySymbol": "£",
+    "description": "Description",
+    "effectiveDate": "Date",
+    "heading": "Transaction history (12 months)",
+    "paidIn": "Paid in",
+  },
+}
+`;

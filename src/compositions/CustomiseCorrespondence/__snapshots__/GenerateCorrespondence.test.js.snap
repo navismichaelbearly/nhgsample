@@ -1,0 +1,208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GenerateCorrespondence /> on Generate Draft Correspondence should call passed in generateDraft when sendingMethod is email and all validations pass 1`] = `
+Object {
+  "regarding": Object {
+    "id": "arrearId",
+    "type": "Case",
+  },
+  "sendingPreference": "Email",
+  "templateId": "templateId",
+  "templateSubstitionFieldAnswers": Array [],
+  "thirdParty": Object {
+    "emailAddress": "test@email.com",
+  },
+}
+`;
+
+exports[`<GenerateCorrespondence /> on Generate Draft Correspondence should call passed in generateDraft when sendingMethod is letter and all validations pass 1`] = `
+Object {
+  "regarding": Object {
+    "id": "arrearId",
+    "type": "Case",
+  },
+  "sendingPreference": "Letter",
+  "templateId": "templateId",
+  "templateSubstitionFieldAnswers": Array [],
+  "thirdParty": Object {
+    "address": Object {
+      "city": "val",
+      "line1": "val",
+      "line2": "val",
+      "line3": "val",
+      "postCode": "val",
+    },
+  },
+}
+`;
+
+exports[`<GenerateCorrespondence /> on Generate Draft Correspondence should call passed in generateDraft when sendingMethod is sms and all validations pass 1`] = `
+Object {
+  "regarding": Object {
+    "id": "arrearId",
+    "type": "Case",
+  },
+  "sendingPreference": "Sms",
+  "templateId": "templateId",
+  "templateSubstitionFieldAnswers": Array [],
+  "thirdParty": Object {
+    "mobilePhone": "07566767635",
+  },
+}
+`;
+
+exports[`<GenerateCorrespondence /> should call openTemplate with the correct params when view template is clicked on 1`] = `
+Object {
+  "limitMaxWidth": true,
+  "template": <PreviewTemplate
+    content="templatePreviewImage"
+    dataBddPrefix="dataBddPrefix-template"
+    errorMessage="No template found, please contact your IT help desk"
+    label="Close"
+    onClose={[Function]}
+    type="base64Image"
+/>,
+}
+`;
+
+exports[`<GenerateCorrespondence /> should render the page with the default props 1`] = `
+<Fragment>
+  <styled.div>
+    <Styled(WithTheme(Button))
+      data-bdd="dataBddPrefix-previewLink"
+      data-state-key="previewLink"
+      isText={true}
+      onClick={[Function]}
+    >
+      Preview Some template
+    </Styled(WithTheme(Button))>
+  </styled.div>
+  <Styled(styled.h4)>
+    Address
+  </Styled(styled.h4)>
+  <styled.div>
+    <styled.div>
+      <t
+        data-bdd="dataBddPrefix-addressLine1"
+        data-state-key="addressLine1"
+        disabled={false}
+        error={null}
+        extendStyle={null}
+        hasError={false}
+        id="addressLine1"
+        isFullWidth={true}
+        labelText="Line 1"
+        maxLength={null}
+        onChange={[Function]}
+        required={true}
+        showLabel={true}
+        value=""
+      />
+    </styled.div>
+    <styled.div>
+      <t
+        data-bdd="dataBddPrefix-addressLine2"
+        data-state-key="addressLine2"
+        disabled={false}
+        error={null}
+        extendStyle={null}
+        hasError={false}
+        id="addressLine2"
+        isFullWidth={true}
+        labelText="Line 2"
+        maxLength={null}
+        onChange={[Function]}
+        required={false}
+        showLabel={true}
+        value=""
+      />
+    </styled.div>
+    <styled.div>
+      <t
+        data-bdd="dataBddPrefix-addressLine3"
+        data-state-key="addressLine3"
+        disabled={false}
+        error={null}
+        extendStyle={null}
+        hasError={false}
+        id="addressLine3"
+        isFullWidth={true}
+        labelText="Line 3"
+        maxLength={null}
+        onChange={[Function]}
+        required={false}
+        showLabel={true}
+        value=""
+      />
+    </styled.div>
+    <styled.div>
+      <t
+        data-bdd="dataBddPrefix-city"
+        data-state-key="city"
+        disabled={false}
+        error={null}
+        extendStyle={null}
+        hasError={false}
+        id="city"
+        isFullWidth={true}
+        labelText="City"
+        maxLength={null}
+        onChange={[Function]}
+        required={true}
+        showLabel={true}
+        value=""
+      />
+    </styled.div>
+    <styled.div>
+      <t
+        data-bdd="dataBddPrefix-postCode"
+        data-state-key="postCode"
+        disabled={false}
+        error={null}
+        extendStyle={null}
+        hasError={false}
+        id="postCode"
+        isFullWidth={true}
+        labelText="Post code"
+        maxLength={null}
+        onChange={[Function]}
+        required={true}
+        showLabel={true}
+        value=""
+      />
+    </styled.div>
+  </styled.div>
+  <styled.div
+    key="merge1"
+  >
+    <t
+      data-bdd="dataBddPrefix-merge1"
+      data-state-key="merge1"
+      disabled={false}
+      error={null}
+      extendStyle={null}
+      hasError={false}
+      id="merge1"
+      isFullWidth={true}
+      labelText="Label 1"
+      maxLength={null}
+      onChange={[Function]}
+      required={false}
+      showLabel={true}
+      value=""
+    />
+  </styled.div>
+  <styled.div>
+    <Styled(WithTheme(Button))
+      buttonType="primary"
+      data-bdd="dataBddPrefix-generateDraftCorrespondence"
+      data-state-key="generateDraftCorrespondenceButton"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      Generate Draft Correspondance
+    </Styled(WithTheme(Button))>
+  </styled.div>
+</Fragment>
+`;

@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonRow should render correctly 1`] = `
+.c0 > button {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media (min-width:1001px) {
+  .c0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .c0 > button {
+    width: 49%;
+  }
+
+  .c0 > button + button {
+    margin-left: 10%;
+  }
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`ButtonRow should render correctly with isCenter prop 1`] = `
+.c0 {
+  text-align: center;
+}
+
+.c0 > button {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media (min-width:1001px) {
+  .c0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .c0 > button {
+    width: 49%;
+  }
+
+  .c0 > button + button {
+    margin-left: 10%;
+  }
+}
+
+<div
+  className="c0"
+/>
+`;
